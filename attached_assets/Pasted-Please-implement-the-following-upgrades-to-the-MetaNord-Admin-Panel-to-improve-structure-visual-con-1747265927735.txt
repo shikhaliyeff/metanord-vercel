@@ -1,0 +1,71 @@
+Please implement the following upgrades to the MetaNord Admin Panel to improve structure, visual consistency, and user feedback — while keeping the public site unaffected.
+
+---
+
+🔧 1. Sidebar Navigation Restructure
+
+Group and simplify sidebar navigation as follows:
+
+1. **Dashboard**
+
+2. **Content** (Collapsible group)
+   - Pages (merge Hero, Website Pages, and Site Content)
+   - Products
+   - Projects (Featured Projects / Case Studies)
+
+3. **CRM** (Collapsible group)
+   - Leads (combine Contact Inquiries + Quote Requests)
+   - CRM (Client Profiles, pipeline, notes)
+   - Offers
+   - Notifications (CRM-related only)
+   - Analytics
+   - Audit Logs
+
+4. **System**
+   - User Management
+   - (Optional: global settings)
+
+Use collapsible groups with consistent iconography. Goal: minimize clutter and improve functional grouping.
+
+---
+
+🔔 2. Global Notification Bell
+
+Add a bell icon to the top-right corner of the admin interface (header).
+
+Functionality:
+
+- Show unread notification count badge
+- Clicking the bell opens a dropdown showing recent notifications:
+  - Icon, title/message, timestamp
+  - Examples: “New quote request”, “Offer sent”, “Client status updated”
+  - Optional link to related CRM item
+- Actions:
+  - ✅ Mark as read
+  - ❌ Dismiss
+- Store read/unread status locally
+- Notification sources: CRM activity (new leads, offers, status changes, tasks)
+
+---
+
+🌒 3. Unified and Isolated Dark Mode (Admin Panel Only)
+
+- Refactor dark mode to use a clean, unified **dark-gray theme** (no pure black)
+  - Suggested base: `#1E1E1E` to `#2A2A2A`, Tailwind’s `gray-800` / `gray-900`
+  - Apply consistently to backgrounds, cards, sidebars, buttons, dropdowns
+  - Ensure text remains readable (light gray or white with contrast)
+  - Avoid mixing `#000` and `#333` together
+
+✅ **Important:**  
+Dark Mode should only apply to the **admin panel**, not to the public website or the preview site view.  
+Make sure there is **clear separation of styling scopes** — the public site must remain light regardless of admin theme.
+
+---
+
+📎 Notes:
+
+- Preserve all multilingual logic and layout consistency
+- Dark Mode toggle can be remembered via localStorage
+- Keep public site preview clean and unaffected
+
+Let me know once complete or if you need visual references or preferred Tailwind color codes.

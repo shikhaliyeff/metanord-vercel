@@ -1,0 +1,40 @@
+I have reviewed the Chinese version of the MetaNord website on mobile, and it is still missing multiple translations or using incorrect ones. Despite previous updates, nothing changed on the actual pages. Please address the following critical issues immediately:
+
+1. HOMEPAGE (`/`)
+- Section: “Ready to Start Your Project?” — NOT translated.
+- Button: “Browse Product Catalog” — NOT translated.
+- Bullets under the quote section — NOT translated.
+- CTA area before “Our Projects” — Partially translated, needs full Chinese translation.
+
+2. CONTACT PAGE (`/contact`)
+- Title: “Reach Out” — NOT translated.
+- Section: “Contact Information”, including “Company”, “Registry Code”, “Address”, “Phone” — still in English.
+
+3. PROJECTS PAGE (`/projects`)
+- Title: “Featured Projects” — NOT translated.
+- Subtitle: “Discover our past and ongoing projects...” — NOT translated.
+- Filter buttons: “All Projects”, “Infrastructure”, “Commercial” — NOT translated.
+- Empty state: “No projects found”, “Try a different filter category”, “View All Projects” — NOT translated.
+
+4. ABOUT PAGE (`/about`)
+- Numbers section: “15+ European Countries”, “200+ Product Types”, “10+ Specialized knowledge...” — all still in English.
+- Section titles: “Our Story”, “Our Vision” — NOT translated.
+- Sustainability cards: All English text — NOT translated.
+
+5. SERVICES SECTION (Homepage)
+- Descriptions under services: “Technical Consulting”, “Product specifications”, “Regulatory compliance guidance”, “Cost optimization strategies” — NOT translated.
+
+6. GENERAL UI
+- Several CTA buttons and labels throughout the site (in modals, footers, forms) are still NOT translated.
+
+ADDITIONAL:
+- On mobile, the **image slider/hero carousel** is outdated and still uses the old design. Please update the mobile slider to match the modern version used in desktop view — same behavior, responsiveness, and visuals.
+
+IMPORTANT:
+- Do NOT mark this task as completed unless:
+  → ALL above text blocks are translated into zh-CN
+  → ALL sections are visible and working correctly in mobile view
+  → Homepage, Projects, Contact, About pages are fully updated
+  → Image slider is replaced on mobile view
+
+After applying the changes, please send updated screenshots for confirmation.

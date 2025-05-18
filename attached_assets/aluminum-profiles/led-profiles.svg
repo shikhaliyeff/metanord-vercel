@@ -1,0 +1,37 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f0f0f0"/>
+  
+  <!-- LED Channel Profiles -->
+  <rect x="100" y="100" width="300" height="40" rx="5" fill="#A9A9A9"/>
+  <rect x="110" y="100" width="280" height="20" rx="0" fill="#D3D3D3"/>
+  
+  <!-- LED Strip -->
+  <rect x="120" y="105" width="260" height="10" rx="0" fill="#FFEA00" opacity="0.8">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite" />
+  </rect>
+  
+  <!-- Light Diffusion -->
+  <rect x="100" y="90" width="300" height="10" rx="2" fill="#F5F5F5" opacity="0.7"/>
+  <path d="M100,100 L400,100" stroke="#E0E0E0" stroke-width="1"/>
+  
+  <!-- Light Rays -->
+  <path d="M150,90 L130,60" stroke="#FFEA00" stroke-width="1" opacity="0.3">
+    <animate attributeName="opacity" values="0.2;0.4;0.2" dur="1.5s" repeatCount="indefinite" />
+  </path>
+  <path d="M200,90 L200,60" stroke="#FFEA00" stroke-width="1" opacity="0.3">
+    <animate attributeName="opacity" values="0.2;0.4;0.2" dur="1.7s" repeatCount="indefinite" />
+  </path>
+  <path d="M250,90 L250,60" stroke="#FFEA00" stroke-width="1" opacity="0.3">
+    <animate attributeName="opacity" values="0.2;0.4;0.2" dur="1.6s" repeatCount="indefinite" />
+  </path>
+  <path d="M300,90 L300,60" stroke="#FFEA00" stroke-width="1" opacity="0.3">
+    <animate attributeName="opacity" values="0.2;0.4;0.2" dur="1.8s" repeatCount="indefinite" />
+  </path>
+  <path d="M350,90 L370,60" stroke="#FFEA00" stroke-width="1" opacity="0.3">
+    <animate attributeName="opacity" values="0.2;0.4;0.2" dur="1.5s" repeatCount="indefinite" />
+  </path>
+  
+  <text x="250" y="200" font-family="Arial" font-size="16" text-anchor="middle" fill="#444">LED Aluminum Profiles</text>
+  <text x="250" y="225" font-family="Arial" font-size="12" text-anchor="middle" fill="#777">Optimized for LED strip mounting &amp; heat dissipation</text>
+  <text x="250" y="245" font-family="Arial" font-size="12" text-anchor="middle" fill="#777">With diffusers for even light distribution</text>
+</svg>

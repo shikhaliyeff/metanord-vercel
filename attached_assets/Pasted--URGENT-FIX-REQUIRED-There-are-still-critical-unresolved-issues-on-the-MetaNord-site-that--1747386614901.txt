@@ -1,0 +1,48 @@
+‼️ URGENT FIX REQUIRED ‼️
+
+There are still **critical unresolved issues** on the MetaNord site that must be fixed completely and carefully, without introducing syntax or runtime errors. Please complete all the following tasks **in full**, double-check your changes, and do NOT stop after partial fixes.
+
+🛠️ 1. PRODUCTS PAGE NOT LOADING
+The `/products` page currently **fails to load completely** in **all languages**. This is a critical issue. Fix whatever is causing this rendering failure — whether it’s missing data, broken imports, or improper conditional logic.
+
+💥 This MUST be fixed so the Products page loads normally on all locales (EN, ZH-CN, etc.), showing all products correctly.
+
+🎯 2. HEADER & SUBMENU STYLING
+The dropdown (submenu) hover area is currently **too large and overlaps the UI** awkwardly. Fix this by making the submenu background:
+- Smaller and tighter around the text
+- Properly aligned with the menu
+- Use a clean modern hover effect (same underline effect as the main menu items)
+
+🧱 3. REMOVE DROP SHADOW/BORDER GLOW ON SUBMENUS
+Completely remove any unwanted white border or drop shadow on submenu hover boxes. They look out of place and create visual clutter.
+
+🌐 4. ABOUT SECTION HEADING – FIX DISPLAY
+On the Chinese homepage, the heading currently says:
+关于 <span class="text-primary">MetaNord</span>
+
+vbnet
+Copy
+Edit
+which incorrectly renders HTML. Fix this so it displays cleanly with "MetaNord" in blue color as in English, but without exposing raw `<span>` tags.
+
+✅ 5. ENSURE TRANSLATIONS ARE CONSISTENT
+Several parts of the site still show:
+- `[object Object]` (fix your translation key references)
+- Duplicate words like “我们的产品 我们的” in the Products title
+- Missing translations in sections like Services, About, Contact, Product Descriptions
+
+Please go page-by-page, language-by-language (especially Chinese), and fix every single piece that is still untranslated or broken.
+
+🧪 6. TEST CAREFULLY AFTER FIXING
+After making these changes, switch between languages and **fully test**:
+- Homepage
+- About
+- Products
+- Services
+- Contact
+- All submenus
+Make sure everything displays correctly and nothing is broken. Do not mark this as done unless all is fixed.
+
+🔁 Do not stop early — keep iterating until all critical issues above are truly resolved.
+
+Thank you!

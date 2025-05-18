@@ -1,0 +1,22 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f0f0f0"/>
+  
+  <!-- T-Slot Profiles -->
+  <rect x="120" y="80" width="60" height="60" fill="#A9A9A9"/>
+  <rect x="130" y="70" width="40" height="80" fill="#A9A9A9"/>
+  <path d="M120,110 L180,110 M150,80 L150,140" stroke="#626262" stroke-width="2"/>
+  
+  <rect x="220" y="80" width="60" height="60" fill="#A9A9A9"/>
+  <rect x="230" y="70" width="40" height="80" fill="#A9A9A9"/>
+  <path d="M220,110 L280,110 M250,80 L250,140" stroke="#626262" stroke-width="2"/>
+  <path d="M220,95 L280,95 M220,125 L280,125" stroke="#626262" stroke-width="2"/>
+  
+  <rect x="320" y="80" width="60" height="60" fill="#A9A9A9"/>
+  <path d="M320,110 L380,110 M350,80 L350,140" stroke="#626262" stroke-width="2"/>
+  <path d="M335,80 L335,140 M365,80 L365,140" stroke="#626262" stroke-width="2"/>
+  <path d="M320,95 L380,95 M320,125 L380,125" stroke="#626262" stroke-width="2"/>
+  
+  <text x="250" y="200" font-family="Arial" font-size="16" text-anchor="middle" fill="#444">Machine Building Aluminum Profiles</text>
+  <text x="250" y="225" font-family="Arial" font-size="12" text-anchor="middle" fill="#777">T-slot profiles for industrial applications</text>
+  <text x="250" y="245" font-family="Arial" font-size="12" text-anchor="middle" fill="#777">Precision engineered with modular connections</text>
+</svg>

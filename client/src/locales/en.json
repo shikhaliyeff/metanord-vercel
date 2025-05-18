@@ -1,0 +1,798 @@
+{
+  "common": {
+    "close": "Close",
+    "submitting": "Submitting...",
+    "cancel": "Cancel",
+    "learnMore": "Learn More",
+    "viewDetails": "View Details"
+  },
+  "navigation": {
+    "home": "Home",
+    "products": "Products",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "language": "Language",
+    "search": "Search",
+    "menu": "Menu"
+  },
+  "search": {
+    "placeholder": "Search products...",
+    "refineSearch": "Refine your search...",
+    "recentSearches": "Recent Searches",
+    "searchResults": "Search Results",
+    "noResults": "No matching products found",
+    "resultsFor": "Search results for",
+    "filterByCategory": "Filter by category:",
+    "clearFilters": "Clear filters",
+    "foundResults": "Found {{count}} result",
+    "foundResults_plural": "Found {{count}} results",
+    "inCategory": "in category",
+    "noResultsFound": "No products found matching your search",
+    "tryDifferentTerms": "Try searching with different terms or browse our product categories",
+    "browseAllProducts": "Browse all products"
+  },
+  "header": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Products",
+    "services": "Services",
+    "contact": "Contact",
+    "documents": "Documents",
+    "requestQuote": "Request Quote",
+    "getPrice": "Request Quote",
+    "contactUs": "Contact Us",
+    "solutions": "Solutions",
+    "company": "Company",
+    "projects": "Featured Projects",
+    "featuredProjects": "Featured Projects"
+  },
+  "productDetail": {
+    "loading": "Loading product information...",
+    "interested": "Interested in this product?",
+    "contactMessage": "Contact our team to discuss your specific requirements and learn how we can supply this product for your project.",
+    "documentTitle": "Product Documents",
+    "downloadCatalog": "Download Catalog",
+    "downloadDatasheet": "Download Datasheet",
+    "downloadDocuments": "Product Documents",
+    "noDocuments": "No documents available for this product"
+  },
+  "quoteRequest": {
+    "title": "Request a Quote",
+    "description": "Fill out the form below to request a quotation for this product.",
+    "success": {
+      "title": "Quote Request Submitted",
+      "description": "We'll get back to you with a quotation soon."
+    },
+    "error": {
+      "title": "Submission Failed",
+      "generic": "Failed to submit quote request. Please try again."
+    },
+    "form": {
+      "name": "Your Name",
+      "namePlaceholder": "Enter your full name",
+      "email": "Email Address",
+      "emailPlaceholder": "Enter your email",
+      "company": "Company Name",
+      "companyPlaceholder": "Enter your company name",
+      "phone": "Phone Number",
+      "phonePlaceholder": "Enter your phone number",
+      "product": "Product",
+      "quantity": "Quantity",
+      "quantityPlaceholder": "Enter quantity needed",
+      "comments": "Additional Comments",
+      "commentsPlaceholder": "Enter any specific requirements or questions",
+      "submit": "Request Quote"
+    }
+  },
+  "language": {
+    "en": "English",
+    "et": "Estonian",
+    "ru": "Russian",
+    "lv": "Latvian",
+    "lt": "Lithuanian",
+    "pl": "Polish",
+    "zh-CN": "Chinese (Simplified)"
+  },
+  "documents": {
+    "metaTitle": "Documents & Resources - MetaNord",
+    "metaDescription": "Download MetaNord's brochures, technical datasheets, certificates, and presentations. Access official documentation for our products and services.",
+    "pageTitle": "Documents & Resources",
+    "pageDescription": "Access and download our product brochures, technical specifications, certificates, and company presentations.",
+    "searchPlaceholder": "Search documents...",
+    "filterAll": "All",
+    "filterBrochures": "Brochures",
+    "filterDatasheets": "Datasheets",
+    "filterCertificates": "Certificates",
+    "filterPresentations": "Presentations",
+    "noDocumentsFound": "No documents found",
+    "tryDifferentSearch": "Try a different search term or category",
+    "resetFilters": "Reset filters",
+    "download": "Download",
+    "downloads": "{{count}} download",
+    "downloads_plural": "{{count}} downloads",
+    "filters": "Filters",
+    "filterOptions": "Filter Options",
+    "filterDescription": "Use the options below to filter documents",
+    "filterByLanguage": "Filter by Language",
+    "filterByType": "Filter by Document Type",
+    "filterByCategory": "Filter by Category",
+    "filterByProductCategory": "Filter by Product Category",
+    "applyFilters": "Apply Filters",
+    "allLanguages": "All Languages",
+    "allTypes": "All Types",
+    "allCategories": "All Categories",
+    "allProductCategories": "All Product Categories",
+    "noDocuments": "No documents found",
+    "tryChangingFilters": "Try changing your filter settings",
+    "all": "All Documents",
+    "types": {
+      "brochure": "Brochure",
+      "datasheet": "Datasheet",
+      "catalog": "Catalog",
+      "certificate": "Certificate",
+      "manual": "Manual",
+      "presentation": "Presentation",
+      "technical": "Technical",
+      "quality": "Quality",
+      "specification": "Specification",
+      "instructions": "Instructions"
+    },
+    "category": {
+      "brochure": "Brochure",
+      "datasheet": "Datasheet",
+      "certificate": "Certificate",
+      "presentation": "Presentation",
+      "manual": "Manual",
+      "quality": "Quality",
+      "technical": "Technical",
+      "reference": "Reference",
+      "product": "Product",
+      "marketing": "Marketing",
+      "legal": "Legal",
+      "general": "General",
+      "installation": "Installation",
+      "maintenance": "Maintenance",
+      "software": "Software",
+      "catalog": "Catalog",
+      "others": "Others"
+    },
+    "others": "Other Documents"
+  },
+  "home": {
+    "metaTitle": "MetaNord - Premium Aluminum Profiles & Infrastructure Products for European & International Markets",
+    "metaDescription": "MetaNord OÜ specializes in premium aluminum profiles and infrastructure products for European and international markets. High-quality solutions for construction, utilities, and industrial sectors.",
+    "keywords": "aluminum profiles, infrastructure products, construction materials, industrial solutions, MetaNord, European suppliers"
+  },
+  "products": {
+    "title": "Our",
+    "titleHighlight": "Catalog",
+    "need_assistance": "Need Assistance With Your Project?",
+    "contact_subtext": "Get in touch for custom solutions and personalized quotes for your infrastructure needs",
+    "categories": {
+      "manholes": "Manholes",
+      "pipes": "Pipes",
+      "rainwater": "Rainwater Grills",
+      "fittings": "Fittings",
+      "polyethylene": "Polyethylene",
+      "castIron": "Cast Iron",
+      "cast_iron": "Cast Iron",
+      "cast-iron": "Cast Iron",
+      "Cast-iron": "Cast Iron",
+      "Cast Iron": "Cast Iron",
+      "steel": "Steel",
+      "aluminum": "Aluminum",
+      "valves": "Valves",
+      "fire-protection": "Fire Protection",
+      "fire_protection": "Fire Protection",
+      "urbanInfrastructure": "Urban Infrastructure",
+      "aluminum_products": "Aluminum Products",
+      "infrastructure_products": "Infrastructure Products"
+    },
+    "steel": {
+      "hsawPipes": {
+        "title": "HSAW Steel Pipes",
+        "description": "Helical submerged arc welded steel pipes for water transmission with excellent pressure resistance."
+      },
+      "oilGasPipes": {
+        "title": "Oil & Gas Pipes",
+        "description": "High-grade steel pipes for oil and gas transportation with specialized coatings and stringent quality testing."
+      },
+      "pilePipes": {
+        "title": "Pile Pipes",
+        "description": "Structural steel pipes for deep foundations with high load capacity and various end configurations."
+      }
+    },
+    "castIron": {
+      "manholeCovers": {
+        "title": "Manhole Covers",
+        "description": "Heavy-duty ductile cast iron manhole covers with high load capacity for various urban applications."
+      },
+      "rainwaterGrills": {
+        "title": "Rainwater Grills",
+        "description": "Heavy-duty cast iron drainage grills with optimized water intake capacity for urban drainage systems."
+      },
+      "fireHydrants": {
+        "title": "Fire Hydrants",
+        "description": "Frost-resistant cast iron fire hydrants with self-draining capability for municipal fire protection."
+      },
+      "gateValves": {
+        "title": "Gate Valves",
+        "description": "Cast iron gate valves with resilient seated design providing full-bore flow and low pressure drop."
+      }
+    },
+    "subtitle": "High-quality infrastructure and construction products for European markets",
+    "metaDescription": "Explore our comprehensive range of high-quality infrastructure and construction products. We offer cast iron manholes, HDPE pipes, and more for European markets.",
+    "featuredTitle": "Featured Products",
+    "infrastructureTitle": "Infrastructure Solutions",
+    "infrastructureDescription": "Comprehensive range of infrastructure products designed for durability and compliance with European standards. Our solutions support construction, utilities, and urban development projects.",
+    "infrastructureImageAlt": "Infrastructure products for urban development",
+    "catalogTitle": "Product Catalog",
+    "quickPreview": "Quick Preview",
+    "products.quickPreview": "Quick Preview",
+    "features": "Features",
+    "applications": "Applications",
+    "specifications": "Specifications",
+    "description": "Product Specification",
+    "filters": {
+      "all": "All Products",
+      "aluminum": "Aluminum",
+      "polyethylene": "Polyethylene",
+      "steel": "Steel",
+      "cast_iron": "Cast Iron"
+    },
+    "search_placeholder": "Search products...",
+    "no_results": "No products found for the selected category or search.",
+    "try_different": "Please try a different search term or category.",
+    "view_all": "View All Products",
+    "learnMore": "Learn More",
+    "aluminum": {
+      "structuralProfiles": {
+        "title": "Standard Profiles",
+        "description": "Versatile aluminum profiles for various construction, engineering, and design applications with diverse shapes and sizes."
+      },
+      "architecturalProfiles": {
+        "title": "Machine Building Profiles",
+        "description": "Specialized aluminum profiles for industrial equipment and machinery construction with emphasis on precision and durability."
+      },
+      "industrialProfiles": {
+        "title": "LED Profiles",
+        "description": "Specialized aluminum profiles for LED lighting installations with optimized heat dissipation and light diffusion."
+      },
+      "customExtrusions": {
+        "title": "Special Profiles",
+        "description": "Custom-engineered aluminum profiles for specialized applications with unique geometry and performance properties."
+      }
+    },
+    "polyethylene": {
+      "hdpePipes": {
+        "title": "HDPE Pipes",
+        "description": "High-density polyethylene pipes with excellent chemical resistance for water, gas, and sewage systems."
+      },
+      "doubleCorrugatedPipes": {
+        "title": "Double-Wall Corrugated Pipes",
+        "description": "Double-wall HDPE pipes with smooth interior and corrugated exterior for drainage and sewage systems."
+      },
+      "reinforcedPipes": {
+        "title": "Steel-Reinforced PE Pipes",
+        "description": "Steel-reinforced polyethylene pipes for extreme load applications with superior structural integrity."
+      },
+      "tripleWallPipes": {
+        "title": "Triple-Wall Pipes",
+        "description": "Advanced triple-wall polyethylene pipes designed for critical infrastructure with exceptional strength."
+      },
+      "elbowFittings": {
+        "title": "Elbow Fittings",
+        "description": "Polyethylene elbow fittings for direction changes in pipeline systems with precise engineering."
+      },
+      "teeFittings": {
+        "title": "Tee Fittings",
+        "description": "Polyethylene tee fittings for branch connections with optimal flow distribution and minimal pressure loss."
+      }
+    },
+    "qualityAssurance": "Quality Assurance",
+    "qualityImageAlt": "Quality assurance testing of industrial products",
+    "qualityText1": "All our products undergo rigorous quality checks to ensure they meet European standards for durability, safety, and performance.",
+    "qualityText2": "We collaborate with certified manufacturers who maintain strict quality control systems and provide comprehensive documentation for each product.",
+    "qualityText3": "Our commitment to quality extends beyond products to our services, ensuring timely delivery and professional support for all your infrastructure needs.",
+    "viewDetails": "View Details",
+    "filter": {
+      "all": "All Products",
+      "aluminum": "Aluminum",
+      "polyethylene": "Polyethylene",
+      "steel": "Steel",
+      "castIron": "Cast Iron",
+      "urbanInfrastructure": "Urban Infrastructure",
+      "fittings": "Fittings",
+      "rainwater": "Rainwater Solutions"
+    },
+    "standard-profiles": {
+      "title": "Standard Aluminum Profiles",
+      "description": "High-quality aluminum profiles for structural, architectural, and industrial applications."
+    },
+    "machine-building-profiles": {
+      "title": "Machine Building Profiles",
+      "description": "Specialized aluminum profiles designed for machine building and automation."
+    },
+    "led-profiles": {
+      "title": "LED Profiles",
+      "description": "Aluminum profiles for LED lighting with integrated light diffusion options."
+    },
+    "special-profiles": {
+      "title": "Special Profiles",
+      "description": "Custom aluminum profiles for special projects and specific needs."
+    },
+    "hdpe-pipes": {
+      "title": "HDPE Pipes",
+      "description": "High-density polyethylene pipes for water supply, sewage, and gas distribution."
+    },
+    "double-corrugated-pipes": {
+      "title": "Double Corrugated Pipes",
+      "description": "Double-wall corrugated polyethylene pipes for drainage and sewage systems."
+    },
+    "reinforced-corrugated-pipes": {
+      "title": "Reinforced Corrugated Pipes",
+      "description": "Extra-strength corrugated pipes with enhanced load-bearing capacity."
+    },
+    "hsaw-pipes": {
+      "title": "HSAW Steel Pipes",
+      "description": "Helical submerged arc welded steel pipes for various infrastructure applications."
+    },
+    "oil-gas-pipes": {
+      "title": "Oil & Gas Pipes",
+      "description": "High-pressure steel pipes designed specifically for oil and gas transportation."
+    },
+    "manhole-covers": {
+      "title": "Manhole Covers",
+      "description": "Cast iron manhole covers in various load classes."
+    },
+    "drainage-grates": {
+      "title": "Drainage Grates",
+      "description": "Cast iron drainage grates for efficient water removal."
+    },
+    "elbow-fitting": {
+      "title": "90° Elbow Fitting",
+      "description": "90° elbow fitting for polyethylene piping systems."
+    },
+    "elbow-45-fitting": {
+      "title": "45° Elbow Fitting",
+      "description": "45° elbow fitting for polyethylene piping systems."
+    },
+    "tee-fitting": {
+      "title": "Tee Fitting",
+      "description": "T-shaped fitting for polyethylene piping systems."
+    },
+    "flange-adapter": {
+      "title": "Flange Adapter",
+      "description": "Flange adapter for polyethylene piping systems."
+    },
+    "gate-valve": {
+      "title": "Gate Valve",
+      "description": "Cast iron gate valve for water systems."
+    },
+    "butterfly-valve": {
+      "title": "Butterfly Valve",
+      "description": "Cast iron butterfly valve for various applications."
+    },
+    "ground-fire-hydrant": {
+      "title": "Ground Fire Hydrant",
+      "description": "Ground fire hydrant for emergency water access."
+    },
+    "drainage-channel": {
+      "title": "Drainage Channel",
+      "description": "High-resistance drainage channel for stormwater collection."
+    },
+    "rainwater-grill-d400-standard": {
+      "title": "D400 Rainwater Grill",
+      "description": "Standard D400 load class rainwater grill for roads."
+    },
+    "rainwater-grill-d400-type2": {
+      "title": "D400 Type 2 Rainwater Grill",
+      "description": "Enhanced D400 load class rainwater grill for heavy traffic areas."
+    },
+    "rainwater-grill-meria": {
+      "title": "Meria Rainwater Grill",
+      "description": "Specialized Meria design rainwater grill for urban applications."
+    },
+    "rainwater-grill-f900": {
+      "title": "F900 Rainwater Grill",
+      "description": "F900 extremely heavy-duty rainwater grill for industrial applications."
+    },
+    "waste-box": {
+      "title": "Waste Collection Box",
+      "description": "Urban waste collection solution for public spaces."
+    }
+  },
+  "hero": {
+    "title": "We Move Materials.",
+    "title_highlight": "You Build the Future.",
+    "subtitle": "Aluminum profiles and urban infrastructure products from trusted manufacturers",
+    "cta": "Explore Products",
+    "learnMore": "Learn More",
+    "globalShipping": "International Shipping Available",
+    "productTitle": "Premium Products",
+    "productSubtitle": "High-quality infrastructure solutions",
+    "tagline": "Engineering a Stronger Tomorrow"
+  },
+  "features": {
+    "title": "Why Choose Us",
+    "subtitle": "Our dedication to excellence sets us apart in delivering superior products and exceptional service across Europe",
+    "quality": {
+      "title": "Premium Quality",
+      "description": "We offer high-quality products from trusted manufacturers that undergo rigorous quality control."
+    },
+    "competitive": {
+      "title": "Competitive Pricing",
+      "description": "Our direct relationships with manufacturers allow us to offer competitive prices without compromising quality."
+    },
+    "reliability": {
+      "title": "Reliability",
+      "description": "Consistent supply schedule and reliable product availability ensure timely implementation of your projects."
+    },
+    "expertise": {
+      "title": "Technical Expertise",
+      "description": "Our expert team will help you select the right products for your specific needs."
+    }
+  },
+  "about": {
+    "metaTitle": "About Us - MetaNord | Premium Industrial Solutions for European & International Markets",
+    "metaDescription": "Learn about MetaNord OÜ, an Estonia-based global trading and distribution company specializing in aluminum profiles and infrastructure products for European and international markets.",
+    "productHighlight": "Quality Infrastructure",
+    "productHighlightDesc": "European-standard components for lasting infrastructure solutions",
+    "browseProducts": "Browse Products",
+    "title": "About Us",
+    "subtitle": "Your Trusted Partner for Quality Infrastructure",
+    "description": "MetaNord OÜ is an Estonia-based trading and distribution company specializing in aluminum profiles and infrastructure products for European and international markets.",
+    "product1": "Aluminum Profiles",
+    "product2": "Infrastructure Products",
+    "product3": "Steel Pipes & Fittings",
+    "product4": "Cast Iron Solutions",
+    "product_categories": "Product Categories",
+    "countries": "European Countries",
+    "products": "Product Types",
+    "imageAlt": "MetaNord industrial infrastructure solutions",
+    "quality": {
+      "title": "Engineering Excellence",
+      "text": "Crafted for Professionals"
+    },
+    "vision": {
+      "title": "Our Vision",
+      "text": "Engineering sustainable infrastructure solutions for tomorrow's world"
+    },
+    "experience": {
+      "title": "Industry Experience",
+      "text": "Specialized knowledge in construction materials and infrastructure components",
+      "years": "10+"
+    },
+    "markets": {
+      "title": "European Markets",
+      "text": "Distribution network covering key markets in Northern and Eastern Europe"
+    },
+    "sustainability": {
+      "title": "Sustainability",
+      "text": "Commitment to environmentally responsible material sourcing and operations"
+    },
+    "story": {
+      "title": "Our Story",
+      "paragraph1": "Founded with a vision to supply high-quality industrial products to European and international markets, MetaNord OÜ has established itself as a reliable partner for businesses across various industries. Being based in Estonia, we leverage our strategic location to efficiently serve customers throughout Europe and beyond.",
+      "paragraph2": "Our team consists of professionals with extensive experience in industrial product supply, quality control, and international logistics. This expertise allows us to deliver superior quality products that meet the specific needs of our diverse customer base.",
+      "paragraph3": "As we grow, our commitment to quality, competitive pricing, and exceptional service remains unwavering. We continually expand our product range and enhance our capabilities to better serve our customers' evolving needs."
+    },
+    "mission": {
+      "title": "Our Mission and Values",
+      "subtitle": "At MetaNord, we are committed to providing premium quality products backed by exceptional service. Our values guide everything we do:"
+    },
+    "values": {
+      "quality": {
+        "title": "Quality First",
+        "description": "We never compromise on the quality of our products. Every item in our catalog undergoes rigorous quality control to meet the highest industry standards."
+      },
+      "customer": {
+        "title": "Customer-Centric Approach",
+        "description": "We place our customers at the center of all our actions. Understanding and fulfilling their unique requirements is our top priority."
+      },
+      "sustainability": {
+        "title": "Sustainability",
+        "description": "We are committed to implementing sustainable business practices and environmentally responsible operations throughout our supply chain."
+      }
+    },
+    "partners": {
+      "title": "Our Global Partners",
+      "subtitle": "We collaborate with trusted manufacturers and suppliers from around the world to bring you the best products at competitive prices:",
+      "partner1": "European Aluminum Group",
+      "partner2": "Global Infrastructure Solutions",
+      "partner3": "Nordic Industrial Systems"
+    }
+  },
+  "services": {
+    "title": "Our",
+    "titleHighlight": "Services",
+    "subtitle": "Comprehensive solutions for your infrastructure and construction needs",
+    "metaTitle": "MetaNord Services - Logistics, Consulting, and Custom Solutions",
+    "metaDescription": "MetaNord offers comprehensive services including logistics, technical consulting, custom solutions, customer support, and procurement services for all your infrastructure needs.",
+    "overview": {
+      "title": "How We Can Help You",
+      "description": "We offer a range of professional services to support your projects from planning to completion"
+    },
+    "process": {
+      "title": "Our Service Process",
+      "steps": [
+        {
+          "title": "Initial Consultation",
+          "description": "We begin with a thorough discussion of your project needs and requirements"
+        },
+        {
+          "title": "Solution Design",
+          "description": "Our experts develop a customized plan tailored to your specific project"
+        },
+        {
+          "title": "Product Selection",
+          "description": "We help you select the right products from our extensive catalog"
+        },
+        {
+          "title": "Implementation Support",
+          "description": "Technical assistance during the implementation phase of your project"
+        },
+        {
+          "title": "Follow-up Service",
+          "description": "Ongoing support to ensure optimal performance of installed products"
+        }
+      ]
+    },
+    "additionalTitle": "Additional Services",
+    "logistics": {
+      "title": "Logistics & Supply Chain",
+      "description": "Efficient logistics solutions tailored to your project requirements",
+      "features": [
+        "Direct delivery to construction sites",
+        "Inventory management and warehousing",
+        "Just-in-time delivery options"
+      ]
+    },
+    "consulting": {
+      "title": "Technical Consulting",
+      "description": "Expert advice on product selection and implementation",
+      "features": [
+        "Product specifications and compatibility",
+        "Regulatory compliance guidance",
+        "Cost optimization strategies"
+      ]
+    },
+    "custom": {
+      "title": "Custom Solutions",
+      "description": "Tailored products to meet your specific project requirements",
+      "features": [
+        "Custom dimensions and specifications",
+        "Special coatings and treatments",
+        "Integration with existing systems"
+      ]
+    },
+    "support": {
+      "title": "Customer Support",
+      "description": "Dedicated assistance for all your inquiries and needs",
+      "features": [
+        "Multilingual technical support",
+        "Fast response times",
+        "Comprehensive documentation"
+      ]
+    },
+    "procurement": {
+      "title": "Procurement Services",
+      "description": "Simplified purchasing process for all your infrastructure needs",
+      "features": [
+        "Bulk order discounts",
+        "Project-based pricing",
+        "Streamlined approval process"
+      ]
+    }
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "See how our products have been used in successful projects across Europe",
+    "office": "Modern Office Complex",
+    "officeDesc": "Premium aluminum profiles and glass solutions for a sustainable commercial building in Tallinn",
+    "commercial": "Commercial",
+    "pipeline": "Water Supply Network",
+    "pipelineDesc": "Complete infrastructure solution including pipes, manholes, and valves for a municipal water system",
+    "infrastructure": "Infrastructure",
+    "industrial": "Industrial",
+    "residential": "Residential",
+    "viewProject": "View Project",
+    "metaTitle": "Featured Projects - MetaNord",
+    "metaDescription": "Explore MetaNord's featured infrastructure and construction projects across the Baltic region.",
+    "pageTitle": "Featured Projects",
+    "pageDescription": "Discover our past and ongoing projects across the Baltic region, featuring the highest quality materials and engineering solutions.",
+    "featuredProjects": "Featured Projects",
+    "totalProjects": "Showing {{count}} projects",
+    "filterAll": "All Projects",
+    "filterInfrastructure": "Infrastructure",
+    "filterCommercial": "Commercial",
+    "filterIndustrial": "Industrial",
+    "filterResidential": "Residential",
+    "noProjectsFound": "No projects found",
+    "tryDifferentFilter": "Try a different filter category",
+    "viewAllProjects": "View All Projects",
+    "backToProjects": "Back to Featured Projects",
+    "projectNotFound": "Project Not Found",
+    "projectNotFoundDescription": "The project you're looking for could not be found. It may have been removed or you might have followed an incorrect link.",
+    "projectDetails": "Project Details",
+    "projectYear": "Year",
+    "location": "Location",
+    "projectTags": "Tags",
+    "projectImages": "Project Images",
+    "shareProject": "Share Project",
+    "downloadBrochure": "Download Brochure",
+    "relatedProducts": "Related Products"
+  },
+  "cta": {
+    "title": "Ready to Start Your Project?",
+    "subtitle": "Contact us today to discuss your infrastructure needs and get customized solutions tailored to your specific requirements.",
+    "contact": "Contact Us",
+    "catalog": "Browse Product Catalog",
+    "badge": "Request a quote today",
+    "feature1": "Expert consultation for your project needs",
+    "feature2": "Competitive pricing and timely delivery",
+    "feature3": "High-quality products with European standards",
+    "contactTitle": "Get a Personalized Quote",
+    "contactDesc": "Connect with our team to discuss your specific project requirements and timeline."
+  },
+  "contact": {
+    "title": "Contact",
+    "titleHighlight": "Us",
+    "subtitle": "We're here to answer your questions and provide the solutions you need",
+    "reachOut": "Reach Out",
+    "info": {
+      "title": "Contact Information",
+      "subtitle": "Reach out to us through any of these channels",
+      "company": "MetaNord OÜ",
+      "registry": "Registry Code: 17235227",
+      "address": "Tornimäe tn 5, 10145 Tallinn, Estonia",
+      "phone": "+372 5771 3442",
+      "email": "info@metanord.eu",
+      "website": "www.metanord.eu"
+    },
+    "location": "Our Location",
+    "headers": {
+      "company": "Company",
+      "registry": "Registry Code",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "website": "Website"
+    },
+    "form": {
+      "submit": "Submit",
+      "name": "Your Name",
+      "namePlaceholder": "Enter your name",
+      "email": "Email Address",
+      "emailPlaceholder": "Enter your email address",
+      "company": "Company",
+      "companyPlaceholder": "Enter your company name (optional)",
+      "subject": "Subject",
+      "selectOption": "Select an option",
+      "productInfo": "Product Information",
+      "requestQuote": "Request Quote",
+      "technicalSupport": "Technical Support",
+      "other": "Other",
+      "message": "Your Message",
+      "messagePlaceholder": "Write your message here..."
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Find answers to our most common questions",
+      "q1": {
+        "question": "What types of aluminum profiles do you offer?",
+        "answer": "We offer a wide range of aluminum profiles including standard structural profiles, machine-building profiles, LED profiles, and custom solutions. Our catalog includes various shapes, sizes, and finishes suitable for different applications in construction, engineering, and design."
+      },
+      "q2": {
+        "question": "Do you provide international shipping?",
+        "answer": "Yes, we provide international shipping to most countries. Shipping costs and delivery times vary based on destination and order size. Please contact our sales team for specific shipping information for your region."
+      },
+      "q3": {
+        "question": "Can I request custom specifications for products?",
+        "answer": "Absolutely. We specialize in custom solutions and can adapt products to meet your specific project requirements. Please provide detailed specifications when requesting a quote, and our engineers will work with you to deliver exactly what you need."
+      },
+      "q4": {
+        "question": "How can I get technical support for your products?",
+        "answer": "Our technical support team is available to assist with product selection, installation advice, and troubleshooting. You can reach them via email at support@metanord.eu or by phone during business hours. We also provide comprehensive documentation for all our products."
+      }
+    }
+  },
+  "footer": {
+    "description": "MetaNord OÜ specializes in premium aluminum profiles and infrastructure products for European and international markets.",
+    "newsletter": {
+      "title": "Newsletter",
+      "subtitle": "Subscribe to receive updates about our new products and special offers.",
+      "placeholder": "Your email address",
+      "button": "Subscribe"
+    },
+    "links": {
+      "title": "Quick Links",
+      "home": "Home",
+      "about": "About Us",
+      "products": "Products",
+      "services": "Services",
+      "documents": "Documents",
+      "contact": "Contact",
+      "projects": "Featured Projects"
+    },
+    "resources": {
+      "title": "Resources",
+      "documents": "Documents",
+      "certifications": "Certifications",
+      "faq": "FAQ",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use"
+    },
+    "products": {
+      "title": "Products",
+      "aluminum": "Aluminum Products",
+      "castIron": "Cast Iron Products",
+      "polyethylene": "Polyethylene Products",
+      "steel": "Steel Products",
+      "infrastructure": "Infrastructure Products"
+    },
+    "legal": {
+      "copyright": "All rights reserved.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Shipping Info"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "description": "Find answers to common questions about our products, services, and business operations. If you don't see your question answered here, please contact us directly.",
+    "metaTitle": "Frequently Asked Questions | MetaNord",
+    "metaDescription": "Find answers to common questions about MetaNord's products, services, delivery terms, and technical support. Get the information you need for your infrastructure projects.",
+    "items": {
+      "0": {
+        "question": "What types of products does MetaNord supply?",
+        "answer": "MetaNord specializes in distributing aluminum profiles, polyethylene pipes, steel components, and other infrastructure materials sourced from trusted global manufacturers."
+      },
+      "1": {
+        "question": "Do you offer custom manufacturing or tailored solutions?",
+        "answer": "Yes. We can provide custom dimensions, finishes, or specifications based on project needs. Please contact our sales team for customized quotations and engineering review."
+      },
+      "2": {
+        "question": "What are your delivery times and terms?",
+        "answer": "Delivery times depend on product type and quantity. Standard items are typically delivered within 7-14 business days across Europe. We also support express shipping upon request."
+      },
+      "3": {
+        "question": "Can you deliver outside the European Union?",
+        "answer": "Yes, we support international shipping to a wide range of markets, including non-EU countries. Please contact us with your location and required materials for a logistics assessment."
+      },
+      "4": {
+        "question": "Do you provide product certificates and technical documentation?",
+        "answer": "Absolutely. Most products come with EN standard certificates and detailed technical data sheets, available on the Documents page or on individual product pages."
+      },
+      "5": {
+        "question": "How can I request a price quotation?",
+        "answer": "You can request a price quotation through the contact form on our website, by emailing info@metanord.eu, or by calling +372 5771 3442. Please specify the required products, quantities, and delivery location."
+      },
+      "6": {
+        "question": "What quality assurance does MetaNord provide?",
+        "answer": "All our products undergo rigorous quality checks to ensure they meet European standards for durability, safety, and performance. We partner with certified manufacturers who maintain strict quality control systems."
+      }
+    }
+  },
+  "productCategories": {
+    "manholes": "Manholes",
+    "pipes": "Pipes",
+    "rainwater": "Rainwater Grills",
+    "fittings": "Fittings",
+    "polyethylene": "Polyethylene",
+    "castIron": "Cast Iron",
+    "cast_iron": "Cast Iron",
+    "cast-iron": "Cast Iron",
+    "Cast-iron": "Cast Iron",
+    "Cast Iron": "Cast Iron",
+    "steel": "Steel",
+    "aluminum": "Aluminum",
+    "valves": "Valves",
+    "fire-protection": "Fire Protection",
+    "fire_protection": "Fire Protection",
+    "urbanInfrastructure": "Urban Infrastructure",
+    "aluminum_products": "Aluminum Products",
+    "infrastructure_products": "Infrastructure Products"
+  }
+}

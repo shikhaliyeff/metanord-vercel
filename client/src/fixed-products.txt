@@ -1,0 +1,33 @@
+// EMERGENCY MOBILE FIX CODE
+// Use this snippet to replace the loading section in Products.tsx:
+
+// Add at the top level of your component:
+const onMobileDevice = isMobileDevice() || isLowPerformanceDevice();
+const [isPageLoaded, setIsPageLoaded] = useState(onMobileDevice);
+const [isFirstLoad, setIsFirstLoad] = useState(!onMobileDevice);
+
+// Replace the useEffect for loading check:
+useEffect(() => {
+  const emergencyLoadingFix = () => {
+    const isMobile = isMobileDevice() || isLowPerformanceDevice();
+    
+    // CRITICAL: Set page to loaded state immediately for mobile
+    if (isMobile) {
+      console.log("🔥 EMERGENCY MOBILE FIX: Forcing immediate display");
+      // Show content immediately on mobile without any delay
+      setIsPageLoaded(true);
+      setIsFirstLoad(false);
+      
+      // Ensure focused products are loaded even before API responses
+      setTimeout(() => {
+        forceUpdate({});
+      }, 10);
+    } else {
+      // Much shorter delay on desktop
+      setTimeout(() => setIsPageLoaded(true), 300);
+    }
+  };
+  
+  // Execute immediately
+  emergencyLoadingFix();
+}, []);

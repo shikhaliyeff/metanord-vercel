@@ -1,0 +1,706 @@
+import { ProductCard } from "@/components/ui/product-card";
+import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
+import { translateProductCategory } from "@/i18n";
+import { getProductDetails, sanitizeSpecifications } from "@/data/product-data";
+
+// Import assets from attached_assets folder
+import hdpePipes from "@assets/HDPE pipes (PE pipes) .png";
+import doubleCorrugatedPipes from "@assets/Double corrugated pipes .png";
+import steelReinforcedPipe from "@assets/Steel reinforced corrugated polyethilene pipe.png";
+import elbow90 from "@assets/Elbow 90° (Injection) fitting .png";
+import elbow45 from "@assets/Elbow 45° (Injection) fitting .png";
+import equalTee from "@assets/Equal TEE 90° (Injection) fitting .png";
+
+import hsawPilesWater from "@assets/Helical Submerged Arc Welded (HSAW) Pipes For Water Purpose.png";
+import steelPipesOilGas from "@assets/Steel Pipes For Oil and Gas Purpose .png";
+import hsawPilesPurpose from "@assets/Helical Submerged Arc Welded (HSAW) Pipes For Pile Purpose.png";
+
+import manholeD400K from "@assets/Manhole cover D400(K) .png";
+import rainwaterGrillD400 from "@assets/Rainwater grill D400 1 .png";
+import groundFireHydrant from "@assets/Ground fire hydrant .png";
+import gateValve from "@assets/Gate valve cast iron DN50-500, PN10-16 .png";
+
+export function ProductsSection() {
+  const { t, i18n } = useTranslation();
+  
+  // We're using images from the attached_assets folder for all products
+  const aluminumProducts = [
+    {
+      id: "structural-profiles",
+      image: hsawPilesWater, // Using this as a placeholder for aluminum products
+      title: t("products.aluminum.structuralProfiles.title", "Structural Profiles"),
+      description: t("products.aluminum.structuralProfiles.description", "High-strength aluminum profiles for construction frameworks, ideal for modern building projects."),
+      category: translateProductCategory("aluminum"),
+      link: "/product?id=structural-profiles",
+      features: [
+        "High tensile strength",
+        "Excellent load-bearing capacity",
+        "Corrosion resistant",
+        "Lightweight compared to steel alternatives",
+        "Various finishing options available"
+      ],
+      applications: [
+        "Commercial building frames",
+        "Residential construction",
+        "Industrial facilities",
+        "Infrastructure projects",
+        "Support structures"
+      ],
+      specifications: {
+        "Material": "High-grade aluminum alloys",
+        "Alloy Types": "6000 series (6061, 6063, 6082)",
+        "Finishing": "Mill finish, anodized, or powder coated",
+        "Length": "Standard 6m or custom cut",
+        "Design": "According to EN standards"
+      }
+    },
+    {
+      id: "architectural-profiles",
+      image: hsawPilesPurpose, // Using this as a placeholder for aluminum products
+      title: t("products.aluminum.architecturalProfiles.title", "Architectural Profiles"),
+      description: t("products.aluminum.architecturalProfiles.description", "Aesthetic aluminum solutions for facades, windows, and doors with superior finish quality."),
+      category: translateProductCategory("aluminum"),
+      link: "/product?id=architectural-profiles",
+      features: [
+        "Aesthetically pleasing designs",
+        "Excellent surface finish quality",
+        "Wide range of anodizing options",
+        "Thermal break systems available",
+        "Custom color options"
+      ],
+      applications: [
+        "Building facades",
+        "Window and door systems",
+        "Curtain walls",
+        "Skylights and atriums",
+        "Interior design elements"
+      ],
+      specifications: {
+        "Material": "Premium aluminum alloys",
+        "Alloy Types": "6000 series (6063-T6)",
+        "Finishing": "Anodized or powder coated",
+        "Thermal Performance": "Thermal break options available",
+        "Compliance": "Meets international building codes"
+      }
+    },
+    {
+      id: "industrial-profiles",
+      image: steelPipesOilGas, // Using this as a placeholder for aluminum products
+      title: t("products.aluminum.industrialProfiles.title", "Industrial Profiles"),
+      description: t("products.aluminum.industrialProfiles.description", "Heavy-duty aluminum profiles designed for industrial applications, machinery frames, and equipment."),
+      category: translateProductCategory("aluminum"),
+      link: "/products#aluminum",
+      features: [
+        "Heavy-duty construction",
+        "High tolerance precision",
+        "Excellent mechanical properties",
+        "Resistance to industrial environments",
+        "Modular system compatibility"
+      ],
+      applications: [
+        "Machinery frames",
+        "Automation systems",
+        "Production lines",
+        "Material handling equipment",
+        "Industrial workstations"
+      ],
+      specifications: {
+        "Material": "Industrial-grade aluminum alloys",
+        "Alloy Types": "6000 and 7000 series",
+        "Profile Types": "T-slot, machine building, automation",
+        "Tolerance": "High precision machining",
+        "Compatibility": "With standard industrial fastening systems"
+      }
+    },
+    {
+      id: "custom-extrusions",
+      image: doubleCorrugatedPipes, // Using this as a placeholder for aluminum products
+      title: t("products.aluminum.customExtrusions.title", "Custom Extrusions"),
+      description: t("products.aluminum.customExtrusions.description", "Tailored aluminum profiles manufactured to exact specifications for specialized applications."),
+      category: t("products.categories.aluminum", "Aluminum"),
+      link: "/products#aluminum",
+      features: [
+        "Tailored to exact requirements",
+        "Complex cross-section capability",
+        "Optimized for specific applications",
+        "Wide range of alloys available",
+        "Specialized surface treatments possible"
+      ],
+      applications: [
+        "Specialized industry solutions",
+        "OEM components",
+        "Automotive applications",
+        "Marine industry",
+        "Aerospace components"
+      ],
+      specifications: {
+        "Material": "Customer-specified aluminum alloys",
+        "Design Services": "Engineering support available",
+        "Minimum Order": "Varies by complexity",
+        "Tolerances": "According to customer specifications",
+        "Certification": "Material and quality certifications available"
+      }
+    }
+  ];
+
+  // Polyethylene Products with actual images
+  const polyethyleneProducts = [
+    {
+      id: "hdpe-pipes",
+      image: hdpePipes,
+      title: t("products.polyethylene.hdpePipes.title", "HDPE Pipes"),
+      description: t("products.polyethylene.hdpePipes.description", "High-density polyethylene pipes for water supply, gas, and sewage systems with excellent durability."),
+      category: translateProductCategory("polyethylene"),
+      link: "/products#polyethylene",
+      features: [
+        "Excellent chemical resistance",
+        "Long service life (50+ years)",
+        "High pressure rating",
+        "Flexible and lightweight",
+        "Corrosion and rot resistant"
+      ],
+      applications: [
+        "Potable water distribution",
+        "Gas supply systems",
+        "Industrial fluid transport",
+        "Wastewater systems",
+        "Irrigation networks"
+      ],
+      specifications: {
+        "Material": "High-density polyethylene PE100",
+        "Pressure Rating": "PN10, PN16, PN25",
+        "Diameter Range": "20mm to 1200mm",
+        "Standard Length": "6m or 12m (coils available for smaller diameters)",
+        "Connection": "Butt fusion, electrofusion, or mechanical fittings"
+      }
+    },
+    {
+      id: "double-corrugated-pipes",
+      image: doubleCorrugatedPipes,
+      title: t("products.polyethylene.doubleCorrugatedPipes.title", "Double-Wall Corrugated Pipes"),
+      description: t("products.polyethylene.doubleCorrugatedPipes.description", "Double-wall HDPE pipes with smooth interior and corrugated exterior for drainage and sewage systems."),
+      category: translateProductCategory("polyethylene"),
+      link: "/products#polyethylene",
+      features: [
+        "Double wall construction for strength",
+        "High ring stiffness",
+        "Excellent flow characteristics",
+        "Lightweight and easy to install",
+        "Chemical and abrasion resistant"
+      ],
+      applications: [
+        "Stormwater drainage",
+        "Gravity sewers",
+        "Highway drainage systems",
+        "Land drainage",
+        "Cable protection"
+      ],
+      specifications: {
+        "Material": "High-density polyethylene",
+        "Ring Stiffness": "SN4, SN8, SN16",
+        "Diameter Range": "100mm to 1200mm",
+        "Wall Type": "Double-wall (smooth interior, corrugated exterior)",
+        "Connection": "Bell and spigot with rubber seal"
+      }
+    },
+    {
+      id: "reinforced-corrugated-pipes",
+      image: steelReinforcedPipe,
+      title: t("products.polyethylene.reinforcedPipes.title", "Steel-Reinforced PE Pipes"),
+      description: t("products.polyethylene.reinforcedPipes.description", "Steel-reinforced polyethylene pipes for extreme load applications with superior structural integrity."),
+      category: t("products.categories.polyethylene"),
+      link: "/products#polyethylene",
+      features: [
+        "Steel reinforcement for exceptional strength",
+        "Very high load-bearing capacity",
+        "Excellent resistance to deformation",
+        "Suitable for high traffic areas",
+        "Long service life in demanding conditions"
+      ],
+      applications: [
+        "Railway infrastructure",
+        "Highway culverts",
+        "Heavy traffic areas",
+        "Deep burial installations",
+        "High groundwater table areas"
+      ],
+      specifications: {
+        "Material": "HDPE with steel reinforcement",
+        "Ring Stiffness": "SN16, SN24, SN32",
+        "Diameter Range": "300mm to 2000mm",
+        "Steel Type": "Galvanized steel reinforcement",
+        "Installation Depth": "Up to 15m depending on conditions"
+      }
+    },
+    {
+      id: "triple-wall-pipes",
+      image: elbow90,
+      title: t("products.polyethylene.tripleWallPipes.title", "Triple-Wall Pipes"),
+      description: t("products.polyethylene.tripleWallPipes.description", "Advanced triple-wall polyethylene pipes designed for critical infrastructure with exceptional strength."),
+      category: translateProductCategory("polyethylene"),
+      link: "/products#polyethylene",
+      features: [
+        "Triple-wall construction for extreme strength",
+        "Very high ring stiffness",
+        "Superior impact resistance",
+        "Exceptional load distribution",
+        "Designed for critical infrastructure"
+      ],
+      applications: [
+        "Critical infrastructure",
+        "Extreme load conditions",
+        "Major highway culverts",
+        "Airport infrastructure",
+        "Industrial loading areas"
+      ],
+      specifications: {
+        "Material": "Advanced polymer composition",
+        "Ring Stiffness": "SN24, SN32, SN40",
+        "Diameter Range": "300mm to 1200mm",
+        "Wall Structure": "Triple-wall technology",
+        "Design Life": "100+ years under normal conditions"
+      }
+    },
+    {
+      id: "elbow-fittings",
+      image: elbow45,
+      title: t("products.polyethylene.elbowFittings.title", "Elbow Fittings"),
+      description: t("products.polyethylene.elbowFittings.description", "Polyethylene elbow fittings for direction changes in pipeline systems with precise engineering."),
+      category: translateProductCategory("polyethylene"),
+      link: "/products#polyethylene",
+      features: [
+        "Precision-engineered angles",
+        "Seamless integration with pipe systems",
+        "Same material properties as main pipes",
+        "Available in various angles",
+        "Compatible with all connection methods"
+      ],
+      applications: [
+        "Direction changes in pipeline systems",
+        "Water distribution networks",
+        "Gas distribution systems",
+        "Sewage systems",
+        "Industrial fluid transport"
+      ],
+      specifications: {
+        "Material": "PE100 high-density polyethylene",
+        "Angles Available": "45°, 90°, and custom",
+        "Diameter Range": "20mm to 800mm",
+        "Pressure Rating": "Matches connected piping",
+        "Connection": "Butt fusion, electrofusion, or flanged"
+      }
+    },
+    {
+      id: "tee-fittings",
+      image: equalTee,
+      title: t("products.polyethylene.teeFittings.title", "Tee Fittings"),
+      description: t("products.polyethylene.teeFittings.description", "Polyethylene tee fittings for branch connections with optimal flow distribution and minimal pressure loss."),
+      category: translateProductCategory("polyethylene"),
+      link: "/products#polyethylene",
+      features: [
+        "Equal or reducing configurations",
+        "Optimal flow distribution",
+        "Minimized pressure loss",
+        "Precision manufacturing",
+        "High structural integrity"
+      ],
+      applications: [
+        "Pipeline branch connections",
+        "Water distribution networks",
+        "Irrigation systems",
+        "Industrial processes",
+        "Municipal infrastructure"
+      ],
+      specifications: {
+        "Material": "PE100 high-density polyethylene",
+        "Types": "Equal or reducing",
+        "Diameter Range": "20mm to 630mm",
+        "Pressure Rating": "PN10, PN16, PN25",
+        "Manufacturing": "Injection molded or fabricated for larger sizes"
+      }
+    }
+  ];
+  
+  // Steel Products with actual images
+  const steelProducts = [
+    {
+      id: "hsaw-pipes",
+      image: hsawPilesWater,
+      title: t("products.steel.hsawPipes.title", "HSAW Steel Pipes"),
+      description: t("products.steel.hsawPipes.description", "Helical submerged arc welded steel pipes for water transmission with excellent pressure resistance."),
+      category: translateProductCategory("steel"),
+      link: "/products#steel",
+      features: [
+        "Excellent strength-to-weight ratio",
+        "High pressure resistance",
+        "Superior weld integrity",
+        "Factory applied protective coatings",
+        "Long-span capability"
+      ],
+      applications: [
+        "Water transmission pipelines",
+        "Industrial water systems",
+        "Municipal infrastructure",
+        "Irrigation main lines",
+        "Hydropower penstocks"
+      ],
+      specifications: {
+        "Material": "Carbon steel (S275-S355)",
+        "Diameter Range": "400mm to 3000mm",
+        "Wall Thickness": "5mm to 25mm",
+        "Coating": "Epoxy, polyethylene, or cement mortar lined",
+        "Standard": "EN 10224, AWWA C200"
+      }
+    },
+    {
+      id: "oil-gas-pipes",
+      image: steelPipesOilGas,
+      title: t("products.steel.oilGasPipes.title", "Oil & Gas Pipes"),
+      description: t("products.steel.oilGasPipes.description", "High-grade steel pipes for oil and gas transportation with specialized coatings and stringent quality testing."),
+      category: translateProductCategory("steel"),
+      link: "/products#steel",
+      features: [
+        "High-pressure rated",
+        "Corrosion resistant coatings",
+        "Specialized steel grades",
+        "Stringent quality testing",
+        "Certified for hydrocarbon transport"
+      ],
+      applications: [
+        "Oil transportation",
+        "Natural gas pipelines",
+        "Refinery infrastructure",
+        "Offshore platforms",
+        "Terminal connections"
+      ],
+      specifications: {
+        "Material": "API 5L Grade X42-X70",
+        "Diameter Range": "100mm to 1200mm",
+        "Wall Thickness": "6mm to 20mm",
+        "Coating": "FBE, 3LPE, 3LPP",
+        "Testing": "Hydrostatic, ultrasonic, X-ray"
+      }
+    },
+    {
+      id: "pile-pipes",
+      image: hsawPilesPurpose,
+      title: t("products.steel.pilePipes.title", "Pile Pipes"),
+      description: t("products.steel.pilePipes.description", "Structural steel pipes for deep foundations with high load capacity and various end configurations."),
+      category: translateProductCategory("steel"),
+      link: "/products#steel",
+      features: [
+        "Extremely high load capacity",
+        "Suitable for deep foundations",
+        "Various end configurations",
+        "Marine-grade options available",
+        "Designed for pile driving"
+      ],
+      applications: [
+        "Bridge foundations",
+        "High-rise buildings",
+        "Marine structures",
+        "Retaining walls",
+        "Industrial foundations"
+      ],
+      specifications: {
+        "Material": "Structural carbon steel",
+        "Diameter Range": "300mm to 2000mm",
+        "Wall Thickness": "8mm to 25mm",
+        "Length": "Up to 30m (custom lengths available)",
+        "End Design": "Plain, beveled, or reinforced"
+      }
+    }
+  ];
+  
+  // Cast Iron Products with actual images
+  const castIronProducts = [
+    {
+      id: "manhole-covers",
+      image: manholeD400K,
+      title: t("products.castIron.manholeCovers.title", "Manhole Covers"),
+      description: t("products.castIron.manholeCovers.description", "Heavy-duty ductile cast iron manhole covers with high load capacity for various urban applications."),
+      category: translateProductCategory("castIron"),
+      link: "/products#cast-iron",
+      features: [
+        "High load capacity classifications",
+        "Durable ductile cast iron construction",
+        "Various opening configurations",
+        "Anti-slip surface patterns",
+        "Lockable options available"
+      ],
+      applications: [
+        "Urban roadways",
+        "Pedestrian areas",
+        "Industrial facilities",
+        "Parking areas",
+        "Utility access points"
+      ],
+      specifications: {
+        "Material": "Ductile cast iron (GGG-50)",
+        "Load Class": "B125, C250, D400, E600, F900",
+        "Diameter": "600mm to 900mm standard",
+        "Coating": "Bitumen painted or epoxy coated",
+        "Standards": "EN 124, DIN 1229"
+      }
+    },
+    {
+      id: "rainwater-grills",
+      image: rainwaterGrillD400,
+      title: t("products.castIron.rainwaterGrills.title", "Rainwater Grills"),
+      description: t("products.castIron.rainwaterGrills.description", "Heavy-duty cast iron drainage grills with optimized water intake capacity for urban drainage systems."),
+      category: translateProductCategory("castIron"),
+      link: "/products#cast-iron",
+      features: [
+        "High water intake capacity",
+        "Heavy-duty construction",
+        "Various grid designs",
+        "Optimized hydraulic efficiency",
+        "Compatible with standard drainage systems"
+      ],
+      applications: [
+        "Urban drainage systems",
+        "Highway drainage",
+        "Parking areas",
+        "Industrial facilities",
+        "Urban squares"
+      ],
+      specifications: {
+        "Material": "Ductile cast iron (GGG-50)",
+        "Load Class": "C250, D400, E600",
+        "Dimensions": "Various sizes from 300×300mm to 500×500mm",
+        "Water Intake": "Optimized grate design for maximum flow",
+        "Installation": "Compatible with standard drainage chambers"
+      }
+    },
+    {
+      id: "fire-hydrants",
+      image: groundFireHydrant,
+      title: t("products.castIron.fireHydrants.title", "Fire Hydrants"),
+      description: t("products.castIron.fireHydrants.description", "Frost-resistant cast iron fire hydrants with self-draining capability for municipal fire protection."),
+      category: translateProductCategory("castIron"),
+      link: "/products#cast-iron",
+      features: [
+        "Easy access for firefighting equipment",
+        "Frost-resistant design",
+        "Self-draining capability",
+        "Automatic shut-off valve",
+        "Tamper-resistant construction"
+      ],
+      applications: [
+        "Municipal fire protection",
+        "Industrial facilities",
+        "Commercial areas",
+        "Residential developments",
+        "Critical infrastructure"
+      ],
+      specifications: {
+        "Material": "Ductile cast iron body",
+        "Inlet Connection": "DN80, DN100",
+        "Working Pressure": "PN10, PN16",
+        "Outlet Connections": "Standard local firefighting connections",
+        "Standards": "EN 14384, DIN 3222"
+      }
+    },
+    {
+      id: "gate-valves",
+      image: gateValve,
+      title: t("products.castIron.gateValves.title", "Gate Valves"),
+      description: t("products.castIron.gateValves.description", "Cast iron gate valves with resilient seated design providing full-bore flow and low pressure drop."),
+      category: translateProductCategory("castIron"),
+      link: "/products#cast-iron",
+      features: [
+        "Full-bore flow when open",
+        "Low pressure drop",
+        "Resilient seated design",
+        "Epoxy coating for corrosion protection",
+        "Extended service life"
+      ],
+      applications: [
+        "Water distribution networks",
+        "Industrial fluid control",
+        "Wastewater treatment plants",
+        "Irrigation systems",
+        "Municipal infrastructure"
+      ],
+      specifications: {
+        "Material": "Ductile cast iron body",
+        "Sizes": "DN50 to DN600",
+        "Pressure Rating": "PN10, PN16, PN25",
+        "Stem": "Non-rising stem design",
+        "Operation": "Handwheel or gear operated"
+      }
+    }
+  ];
+  
+  // Infrastructure Products (Combined for display)
+  const infrastructureProducts = [
+    ...polyethyleneProducts.slice(0, 3),
+    ...steelProducts.slice(0, 2), 
+    ...castIronProducts.slice(0, 1)
+  ];
+
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.2
+      }
+    }
+  };
+
+  const itemVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.5 }
+    }
+  };
+
+  return (
+    <section id="products" className="py-20 bg-white">
+      <div className="container mx-auto px-4">
+        <div className="text-center mb-16">
+          <motion.h2 
+            className="text-3xl md:text-4xl font-inter font-bold mb-4"
+            initial={{ opacity: 0, y: -20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+          >
+            {t("products.title", "Our Products")}
+          </motion.h2>
+          <motion.p 
+            className="text-lg text-neutral-dark max-w-3xl mx-auto font-roboto"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+          >
+            {t("products.description", "MetaNord OÜ offers a wide range of high-quality infrastructure and industrial products sourced from European manufacturers, meeting the highest industry standards.")}
+          </motion.p>
+        </div>
+        
+        <div className="mb-16">
+          <motion.h3 
+            className="text-2xl font-inter font-bold mb-8 flex items-center"
+            initial={{ opacity: 0, x: -20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+          >
+            <span className="bg-primary h-8 w-2 mr-3 inline-block"></span>
+            {translateProductCategory("aluminum_products")}
+          </motion.h3>
+          
+          <motion.div 
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+            variants={containerVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+          >
+            {aluminumProducts.map((product, index) => {
+              // Get translated product details when available
+              const translatedProduct = product.id ? 
+                getProductDetails(product.id, i18n.language) || product : 
+                product;
+              
+              // Ensure we have all required fields with proper fallbacks
+              const safeProduct = {
+                ...product,
+                ...translatedProduct,
+                id: translatedProduct.id || product.id,
+                title: translatedProduct.title || product.title,
+                description: translatedProduct.description || product.description,
+                image: translatedProduct.image || product.image,
+                category: translatedProduct.category || product.category,
+                features: translatedProduct.features || product.features || [],
+                applications: translatedProduct.applications || product.applications || [],
+                specifications: translatedProduct.specifications || product.specifications || {},
+                link: translatedProduct.link || product.link
+              };
+                
+              return (
+                <motion.div key={index} variants={itemVariants}>
+                  <ProductCard
+                    id={safeProduct.id}
+                    image={safeProduct.image}
+                    title={safeProduct.title}
+                    description={safeProduct.description}
+                    category={safeProduct.category}
+                    link={safeProduct.link}
+                    features={safeProduct.features}
+                    applications={safeProduct.applications}
+                    specifications={safeProduct.specifications}
+                  />
+                </motion.div>
+              );
+            })}
+          </motion.div>
+        </div>
+        
+        <div>
+          <motion.h3 
+            className="text-2xl font-inter font-bold mb-8 flex items-center"
+            initial={{ opacity: 0, x: -20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+          >
+            <span className="bg-accent h-8 w-2 mr-3 inline-block"></span>
+            {translateProductCategory("infrastructure_products")}
+          </motion.h3>
+          
+          <motion.div 
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+            variants={containerVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+          >
+            {infrastructureProducts.map((product, index) => {
+              // Get translated product details when available
+              const translatedProduct = product.id ? 
+                getProductDetails(product.id, i18n.language) || product : 
+                product;
+              
+              // Ensure we have all required fields with proper fallbacks
+              const safeProduct = {
+                ...product,
+                ...translatedProduct,
+                id: translatedProduct.id || product.id,
+                title: translatedProduct.title || product.title,
+                description: translatedProduct.description || product.description,
+                image: translatedProduct.image || product.image,
+                category: translatedProduct.category || product.category,
+                features: translatedProduct.features || product.features || [],
+                applications: translatedProduct.applications || product.applications || [],
+                specifications: translatedProduct.specifications || product.specifications || {},
+                link: translatedProduct.link || product.link
+              };
+                
+              return (
+                <motion.div key={index} variants={itemVariants}>
+                  <ProductCard
+                    id={safeProduct.id}
+                    image={safeProduct.image}
+                    title={safeProduct.title}
+                    description={safeProduct.description}
+                    category={safeProduct.category}
+                    link={safeProduct.link}
+                    features={safeProduct.features}
+                    applications={safeProduct.applications}
+                    specifications={safeProduct.specifications}
+                  />
+                </motion.div>
+              );
+            })}
+          </motion.div>
+        </div>
+      </div>
+    </section>
+  );
+}

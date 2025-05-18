@@ -1,0 +1,67 @@
+/**
+ * Final Dropdown Underline Fix for MetaNord
+ * 
+ * This CSS completely removes all red underlines from dropdown menu items
+ * by directly targeting the specific elements causing the issue.
+ */
+
+/* Universal rule to disable all red underlines */
+[data-radix-dropdown-menu-content] *,
+[data-radix-navigation-menu-content] *,
+.dropdown-menu *,
+.submenu *,
+.popover-content *,
+[role="menu"] *,
+[role="menuitem"],
+.navigation-menu-content * {
+  border-bottom: none !important;
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+/* Enforce the blue-orange gradient for all menu item hovers */
+[data-radix-dropdown-menu-content] *::after,
+[data-radix-navigation-menu-content] *::after,
+.dropdown-menu *::after,
+.submenu *::after,
+.popover-content *::after,
+[role="menu"] *::after,
+[role="menuitem"]::after {
+  background: linear-gradient(to right, #0959AB, #FE9158) !important;
+  background-color: transparent !important;
+  background-image: linear-gradient(to right, #0959AB, #FE9158) !important;
+  border: none !important;
+  border-color: transparent !important;
+}
+
+/* Force override any inline styles */
+*[style*="border-bottom-color: red"],
+*[style*="border-bottom-color:#ff0000"],
+*[style*="border-bottom-color: #ff0000"],
+*[style*="text-decoration-color: red"],
+*[style*="text-decoration-color:#ff0000"],
+*[style*="text-decoration-color: #ff0000"] {
+  border-bottom-color: transparent !important;
+  text-decoration-color: transparent !important;
+  border-bottom: none !important;
+  text-decoration: none !important;
+}
+
+/* Apply correct hover color */
+[data-radix-dropdown-menu-content] *:hover,
+[data-radix-navigation-menu-content] *:hover,
+.dropdown-menu *:hover,
+.submenu *:hover,
+.popover-content *:hover,
+[role="menu"] *:hover,
+[role="menuitem"]:hover {
+  color: #FE9158 !important;
+}
+
+/* Special override for any problematic elements */
+.radix-dropdown-menu-content *,
+.navigation-menu-content *,
+div[data-radix-popper-content-wrapper] * {
+  border-bottom: none !important;
+  border-color: transparent !important;
+}

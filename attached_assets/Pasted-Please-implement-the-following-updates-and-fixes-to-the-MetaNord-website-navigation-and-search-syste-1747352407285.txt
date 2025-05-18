@@ -1,0 +1,57 @@
+Please implement the following updates and fixes to the MetaNord website navigation and search system to improve UX, accessibility, and visual consistency:
+
+---
+
+### 1. Language Selector Simplification
+
+- Remove the language code or label (e.g., "EN", "RU", etc.) from the language selector in the header.
+- Display only the flag icon of the currently selected language.
+- Maintain the existing dropdown switcher on click.
+- Ensure alignment and spacing remain consistent across desktop and mobile.
+
+---
+
+### 2. Enable Submenu Dropdowns on Hover (Desktop)
+
+- Change dropdown behavior for “Solutions” and “Company” menu items:
+  - On **desktop**, submenus should open on hover (no click required).
+  - Apply smooth fade or slide animation.
+  - Use ~200ms delay on hover-out to allow natural cursor movement.
+  - On **mobile**, keep current click/tap behavior.
+- Ensure this interaction works across Chrome, Safari, and Firefox.
+
+---
+
+### 3. Fix Submenu Readability (Hover Style)
+
+- Currently, when hovering over submenu items, the text becomes hard to read due to poor color contrast (e.g., green background with light text).
+- Please update submenu styling for proper visual contrast:
+  - Use a **light background** (`#fff` or similar)
+  - Use **dark or brand-color text**
+  - Apply soft accent only to the active or hovered item (e.g., `hover:text-accent`, `hover:bg-gray-100`)
+- Make sure all hover states remain consistent with the site's design system.
+
+---
+
+### 4. Fix Scrolling Issue While Dropdown Is Open
+
+- Currently, when a dropdown menu is open, the page cannot be scrolled vertically.
+- Fix this so that users can freely scroll the page even when hovering over or interacting with the dropdown.
+
+---
+
+### 5. Fix Header Search Dropdown Layout Bug
+
+- When clicking the search icon, the dropdown displaying results has a rendering issue:
+  - Images or content previews in the dropdown are **cut off or cropped**.
+- Please fix the layout so that:
+  - All images and text in the search suggestions are fully visible
+  - The container adjusts dynamically (auto-height or scrollable if needed)
+  - The dropdown is aligned properly with padding and spacing
+  - The layout remains clean and responsive across all screen sizes
+
+---
+
+Test all of the above changes on desktop and mobile breakpoints, and make sure the visual styling matches the existing MetaNord design system (typography, colors, spacing, icon style, shadows).
+
+Please provide a preview for review before publishing the changes.

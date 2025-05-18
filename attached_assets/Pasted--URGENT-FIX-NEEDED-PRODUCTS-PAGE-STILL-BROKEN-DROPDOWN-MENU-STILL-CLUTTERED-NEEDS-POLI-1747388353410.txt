@@ -1,0 +1,63 @@
+⚠️ URGENT FIX NEEDED – PRODUCTS PAGE STILL BROKEN ⚠️  
+🔁 DROPDOWN MENU STILL CLUTTERED – NEEDS POLISH  
+
+Please stop applying partial fixes and fully investigate the following:
+
+---
+
+❗️1. PRODUCTS PAGE – COMPLETELY BLANK  
+The /products page **still does not load**.  
+Not in Chinese, not in English, not in any language.  
+
+👉 The homepage renders products correctly, so the data source is working.  
+This means the issue lies in the `/products` page's **render logic**, not the data itself.
+
+Please:
+
+- Deeply trace the `ProductsPage` or its component render logic  
+- Confirm product `map()` logic works with `i18n`  
+- Verify fallback/default locale behavior  
+- Look for failed `useEffect` or `data fetching` conditions  
+- Add logging or debugging if necessary  
+- Check layout/components wrappers — maybe rendering is blocked silently  
+
+✅ This is a **critical site function**. No further edits should be made until this is resolved.
+
+---
+
+🎯 2. DROPDOWN MENU – STILL UGLY  
+
+The submenu now renders with white background (good), but:
+- The vertical padding is excessive  
+- There’s too much space between lines  
+- Text alignment and spacing look unbalanced  
+- Menu overlaps other elements awkwardly  
+
+Please:
+
+- Reduce `padding` and `margin` on submenu items  
+- Adjust `line-height` and spacing for tighter, cleaner look  
+- Add a **subtle shadow** (`box-shadow`) and rounded corners (`border-radius`)  
+- Make it visually consistent with the main menu  
+- Keep hover underline effect matching the main nav links  
+
+🎨 Design should be elegant, compact, and modern — not oversized or blocky.
+
+---
+
+📋 3. GLOBAL CHECKLIST BEFORE CLOSING  
+Before marking this resolved, please verify:  
+- `/products` page fully loads and displays product cards  
+- All language versions work  
+- Dropdown menus are polished and minimalistic  
+- No layout shift or element overflow on any screen size  
+- Product data renders in all locales  
+- No more `[object Object]` or untranslated UI strings  
+- Menu and submenu are pixel-perfect aligned with brand aesthetic
+
+---
+
+🚨 This is a business-critical issue.  
+Please proceed slowly and validate each fix carefully before moving to the next.
+
+Thanks.

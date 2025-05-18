@@ -1,0 +1,75 @@
+Please optimize the MetaNord website for SEO, trust-building, and marketing readiness by implementing the following features:
+
+---
+
+🔍 1. SEO Meta Tag Optimization (per page)
+
+- Ensure that each major page (`/`, `/products`, `/projects`, `/contact`) includes:
+  - Unique and relevant `<title>` tags
+  - Descriptive `<meta name="description">` tags
+  - `<link rel="canonical">` tags to avoid duplicates
+  - Proper `<meta name="robots" content="index, follow">` where applicable
+  - `og:title`, `og:description`, `og:image`, `og:url` for social previews
+
+Make sure these are dynamic if multilingual versions exist.
+
+---
+
+🧩 2. Structured Data (Schema.org with JSON-LD)
+
+Implement structured data tags to improve SEO visibility in search engines.
+
+- Use JSON-LD format in `<head>` of each page
+- Implement the following types:
+  - `Organization` (MetaNord company info)
+  - `Product` (on product pages, with name, brand, material, availability)
+  - `BreadcrumbList` (for navigation structure)
+  - `WebPage` or `WebSite` for general metadata
+
+Ensure the data matches visible content and multilingual context where appropriate.
+
+---
+
+📄 3. Downloadable Documents Section
+
+Add a new section called **Downloads** or **Documents & Certifications**, accessible from the footer or top nav.
+
+- Include downloadable PDF files:
+  - Company presentation / overview
+  - Product brochures
+  - ISO/CE certificates
+  - Technical datasheets
+
+Allow these documents to be uploaded via the admin panel if possible.
+
+---
+
+📈 4. Google Tag Manager Integration (GTM)
+
+- Add GTM container code in the site `<head>` and `<body>` as required
+- Allow dynamic insertion of tags via GTM for future analytics or advertising
+
+---
+
+🎯 5. Analytics Event Tracking
+
+Implement basic conversion/event tracking support:
+
+- Trigger events for:
+  - Quote form submissions
+  - Contact form submissions
+  - Clicks on primary CTA buttons
+  - Downloads from the Documents section
+
+These can use `dataLayer.push()` for GTM or native tracking hooks.
+
+---
+
+✅ Final Notes:
+
+- Ensure all implementations are compatible with multilingual support
+- Do not break the visual layout or structure of the site
+- Confirm when each section is complete
+- Validate all SEO enhancements using tools like Google Rich Results Test or Lighthouse if possible
+
+Let me know when the marketing and SEO optimization is complete and tested.

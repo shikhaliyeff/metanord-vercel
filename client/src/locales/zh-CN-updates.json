@@ -1,0 +1,80 @@
+{
+  "homePage": {
+    "ourProducts": "我们的产品",
+    "productTitle": "产品规格",
+    "understandingMaterial": "了解我们如何为您提供基础设施项目提供高品质材料",
+    "aluminumProfiles": "铝型材",
+    "infrastructureProducts": "基础设施产品",
+    "readyToStart": "准备开始您的项目？",
+    "contactUsToday": "立即联系我们，讨论您的基础设施需求，获得定制解决方案，满足您的特定要求。",
+    "expertConsultation": "项目需求专业咨询",
+    "competitivePricing": "有竞争力的价格和及时交付",
+    "highQualityProducts": "具有欧洲标准的高品质产品",
+    "getPersonalizedQuote": "获取个性化报价",
+    "connectWithTeam": "与我们的团队联系，讨论您的具体项目需求和时间线。",
+    "browseProductCatalog": "浏览产品目录"
+  },
+  "projects": {
+    "ourProjects": "我们的项目",
+    "exploreSuccessful": "探索我们成功完成的基础设施项目",
+    "commercial": "商业",
+    "modernOfficeComplex": "现代办公楼",
+    "premiumAluminum": "为塔林一座可持续商业建筑提供优质铝型材和玻璃解决方案",
+    "infrastructure": "基础设施",
+    "waterSupplyNetwork": "供水网络",
+    "completeInfrastructure": "为市政供水系统提供包括管道、检查井和阀门在内的完整基础设施解决方案"
+  },
+  "aboutUs": {
+    "ourVision": "我们的愿景",
+    "engineeringSustainable": "为明天的世界设计可持续的基础设施解决方案",
+    "industryExperience": "行业经验",
+    "specializedKnowledge": "在建筑材料和基础设施组件方面的专业知识",
+    "sustainability": "可持续性",
+    "commitmentToEnvironment": "对环保材料采购和运营的承诺",
+    "europeanMarkets": "欧洲市场",
+    "distributionNetwork": "覆盖北欧和东欧关键市场的配送网络",
+    "qualityAssurance": "质量保证",
+    "allProductsMeet": "我们所有的产品都满足严格的欧洲质量标准，在制造过程中进行严格的质量测试。",
+    "customerCentric": "以客户为中心的方法",
+    "placeCustomers": "我们将客户置于所有行动的中心。理解并满足他们的独特需求是我们的首要任务。",
+    "sustainability2": "可持续性",
+    "strivingToProvide": "我们致力于提供环保材料，减少环境影响，支持可持续发展。",
+    "companyProfile": "公司简介",
+    "foundedWithVision": "MetaNord OÜ 成立于一个愿景，为欧洲和国际市场提供高质量的工业产品。公司位于爱沙尼亚，利用其战略位置高效地为整个欧洲及其他地区的客户提供服务。",
+    "teamConsistsOf": "我们的团队由具有丰富工业产品供应、质量控制和国际物流经验的专业人士组成。这种专业知识使我们能够提供满足多元化客户群体特定需求的优质产品。",
+    "asWeGrow": "随着我们的成长，我们对质量、具有竞争力的价格和卓越服务的承诺始终如一。我们不断扩展产品范围并提升能力，以更好地满足客户不断变化的需求。"
+  },
+  "services": {
+    "howWeHelp": "我们如何帮助您",
+    "weOfferRange": "我们提供一系列专业服务，从规划到完成，支持您的项目",
+    "productSpecs": "产品规格和兼容性",
+    "regulatoryCompliance": "法规合规指南",
+    "costOptimization": "成本优化策略",
+    "directSupplyFactory": "直接连接至建筑工地",
+    "inventoryManagement": "库存管理和仓储",
+    "justInTimeDelivery": "及时交付服务",
+    "productConfig": "产品规格定制",
+    "specialProjectSolutions": "特殊项目解决方案",
+    "technicalDesignSupport": "技术设计支持"
+  },
+  "contactForm": {
+    "yourName": "输入您的名称",
+    "yourEmail": "输入您的电子邮箱地址",
+    "yourCompany": "输入您的公司名称（可选）",
+    "selectTopic": "选择一个选项",
+    "enterMessage": "输入您的信息",
+    "submit": "提交"
+  },
+  "readyToStart": {
+    "title": "准备开始您的项目？",
+    "subtitle": "联系我们今天讨论您的基础设施需求，获得定制解决方案，满足您的特定要求。",
+    "cta": "请求报价",
+    "browseProducts": "浏览产品目录"
+  },
+  "companyInfo": {
+    "ourValues": "我们的价值观",
+    "committedTo": "在MetaNord，我们致力于提供由卓越服务支持的优质产品。我们的价值观指导着我们所做的一切：",
+    "productQuality": "产品质量",
+    "allProducts": "我们提供所有产品均符合欧洲质量标准，在制造过程中进行严格的质量测试。"
+  }
+}

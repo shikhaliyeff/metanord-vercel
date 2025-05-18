@@ -1,0 +1,219 @@
+{
+  "home": {
+    "whyChooseUs": {
+      "title": "为什么选择",
+      "titleHighlight": "我们",
+      "subtitle": "我们对卓越的追求使我们在提供高品质产品和卓越服务方面脱颖而出",
+      "reasons": {
+        "quality": {
+          "title": "优质品质",
+          "description": "我们提供来自信赖制造商的高品质产品，这些产品经过严格的质量控制。"
+        },
+        "expertise": {
+          "title": "行业专长",
+          "description": "我们的团队拥有在基础设施材料领域的深厚专业知识和经验。"
+        },
+        "solutions": {
+          "title": "定制解决方案",
+          "description": "我们根据您的具体项目需求定制解决方案。"
+        },
+        "support": {
+          "title": "全面支持",
+          "description": "我们在项目的每个阶段提供专业技术支持。"
+        }
+      }
+    },
+    "hero": {
+      "title": "可持续工程解决方案",
+      "subtitle": "为新时代基础设施提供创新材料",
+      "cta": "了解我们的产品",
+      "contact": "联系我们"
+    },
+    "aboutSection": {
+      "title": "关于",
+      "titleHighlight": "我们",
+      "subtitle": "MetaNord是一家专业的工程解决方案公司，致力于为全球客户提供高质量的基础设施材料。",
+      "text": "我们专注于提供创新、可持续的工程材料，包括铝型材、聚乙烯管道、钢铁组件和城市基础设施元素。凭借深厚的行业专业知识和对质量的承诺，我们的产品广泛用于工业、商业和市政项目。",
+      "readMore": "了解更多"
+    },
+    "featuredProducts": {
+      "title": "特色",
+      "titleHighlight": "产品",
+      "subtitle": "探索我们多样化的高质量基础设施材料",
+      "viewAll": "查看所有产品"
+    },
+    "partner1": "欧洲铝业集团",
+    "partner2": "全球基础设施解决方案",
+    "partner3": "北欧工业系统",
+    "qualityTitle": "优质品质",
+    "qualityText": "我们提供来自信赖制造商的高品质产品，这些产品经过严格的质量控制。",
+    "pricingTitle": "具竞争力的价格",
+    "pricingText": "我们与制造商的直接关系使我们能够提供有竞争力的价格，而不影响质量。",
+    "reliabilityTitle": "可靠性",
+    "reliabilityText": "一致的供应计划和可靠的产品可用性确保您的项目及时实施。",
+    "expertiseTitle": "技术专长",
+    "expertiseText": "我们的专家团队将帮助您为您的特定需求选择合适的产品。"
+  },
+  "about": {
+    "hero": {
+      "title": "关于我们",
+      "subtitle": "了解MetaNord的历史和使命"
+    },
+    "overview": {
+      "title": "企业概览",
+      "titleHighlight": "概览",
+      "description": "MetaNord成立于2018年，是一家总部位于爱沙尼亚塔林的基础设施材料专业公司。我们在欧洲和亚洲拥有庞大的供应商网络，专门提供高质量的铝型材、聚乙烯管道、钢铁组件和城市基础设施元素。"
+    },
+    "mission": {
+      "title": "我们的使命",
+      "titleHighlight": "使命",
+      "description": "我们的使命是为全球工程项目提供可持续、创新的基础设施解决方案，通过高质量产品和卓越服务支持建设更美好的未来。"
+    },
+    "values": {
+      "title": "核心价值观",
+      "titleHighlight": "价值观",
+      "description": "我们的业务建立在以下坚实的价值观基础上：",
+      "valuesList": {
+        "quality": {
+          "title": "质量",
+          "description": "我们坚持产品和服务的卓越标准"
+        },
+        "integrity": {
+          "title": "诚信",
+          "description": "我们以诚实、透明和道德的方式开展业务"
+        },
+        "innovation": {
+          "title": "创新",
+          "description": "我们不断寻求改进和创新的方法"
+        },
+        "sustainability": {
+          "title": "可持续性",
+          "description": "我们致力于环保和可持续实践"
+        }
+      }
+    },
+    "team": {
+      "title": "我们的团队",
+      "titleHighlight": "团队",
+      "description": "MetaNord的团队由工程、物流和材料科学领域的专业人士组成，共同致力于为我们的客户提供卓越的服务和产品。"
+    },
+    "certifications": {
+      "title": "认证和标准",
+      "titleHighlight": "认证",
+      "description": "我们所有的产品均符合严格的欧洲和国际标准，确保您获得最高质量和安全性："
+    }
+  },
+  "services": {
+    "title": "我们的服务",
+    "titleHighlight": "服务",
+    "metaTitle": "MetaNord服务 - 物流、咨询和定制解决方案",
+    "metaDescription": "MetaNord提供全面服务，包括物流、技术咨询、定制解决方案、客户支持和采购服务，满足您所有基础设施需求。",
+    "hero": {
+      "title": "我们的服务",
+      "subtitle": "全面解决方案"
+    },
+    "overview": {
+      "title": "我们如何帮助您",
+      "description": "我们提供一系列专业服务，从规划到完成，支持您的项目"
+    },
+    "process": {
+      "title": "我们的服务流程",
+      "steps": [
+        {
+          "title": "初步咨询",
+          "description": "我们从详细讨论您的项目需求和要求开始"
+        },
+        {
+          "title": "解决方案设计",
+          "description": "我们的专家根据您的具体项目开发定制计划"
+        },
+        {
+          "title": "产品选择",
+          "description": "我们帮助您从我们广泛的产品目录中选择合适的产品"
+        },
+        {
+          "title": "实施支持",
+          "description": "在项目实施阶段提供技术支持"
+        },
+        {
+          "title": "后续服务",
+          "description": "持续支持以确保安装产品的最佳性能"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "company": "公司",
+    "companyAbout": "关于我们",
+    "companyServices": "服务",
+    "companyProjects": "项目",
+    "companyDocuments": "文档",
+    "companyCareers": "职业发展",
+    "products": "产品",
+    "productsAluminum": "铝型材",
+    "productsPolyethylene": "聚乙烯管道",
+    "productsSteel": "钢铁组件",
+    "productsCastIron": "铸铁产品",
+    "resources": "资源",
+    "resourcesDocuments": "技术文档",
+    "resourcesBlog": "博客",
+    "resourcesFAQ": "常见问题",
+    "contact": "联系我们",
+    "contactAddress": "塔尔图大道 67a, 10134 塔林, 爱沙尼亚",
+    "contactPhone": "+372 5771 3442",
+    "contactEmail": "info@metanord.eu",
+    "newsletter": "订阅我们的通讯",
+    "newsletterDesc": "获取最新的产品更新和行业新闻。",
+    "subscribeBtn": "订阅",
+    "emailPlaceholder": "您的电子邮箱地址",
+    "copyright": "© 2025 MetaNord OÜ. 保留所有权利。",
+    "privacyPolicy": "隐私政策",
+    "termsOfService": "服务条款",
+    "cookiePolicy": "Cookie政策"
+  },
+  "projects": {
+    "title": "我们的项目",
+    "titleHighlight": "项目",
+    "subtitle": "探索我们最近完成的基础设施项目",
+    "metaTitle": "MetaNord项目案例研究",
+    "metaDescription": "了解MetaNord如何在各种基础设施项目中帮助客户实现工程目标。浏览我们的项目案例和成功案例。",
+    "viewProject": "查看项目",
+    "location": "位置",
+    "sector": "行业",
+    "year": "年份",
+    "challenge": "挑战",
+    "solution": "解决方案",
+    "results": "结果",
+    "contactCta": "有类似项目？与我们的团队讨论您的需求。",
+    "contactBtn": "联系我们"
+  },
+  "documents": {
+    "title": "文档",
+    "metaTitle": "MetaNord - 技术文档和认证",
+    "metaDescription": "访问MetaNord产品的完整技术规格、认证和使用指南。",
+    "hero": {
+      "title": "技术文档",
+      "subtitle": "访问产品规格和认证"
+    },
+    "overview": {
+      "title": "可用文档",
+      "titleHighlight": "文档",
+      "description": "我们为我们的产品线提供全面的技术文档，帮助您做出明智的决策并确保合规性。"
+    },
+    "catalog": {
+      "title": "产品目录",
+      "description": "我们完整的产品目录，包含详细规格和应用建议"
+    }
+  },
+  "contact": {
+    "form": {
+      "namePlaceholder": "输入您的姓名",
+      "emailPlaceholder": "输入您的电子邮箱地址",
+      "companyPlaceholder": "输入您的公司名称（可选）",
+      "phonePlaceholder": "输入您的电话号码（可选）",
+      "subjectPlaceholder": "选择一个选项",
+      "messagePlaceholder": "输入您的信息",
+      "submitButton": "发送信息"
+    }
+  }
+}

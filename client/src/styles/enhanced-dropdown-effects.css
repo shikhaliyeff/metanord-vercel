@@ -1,0 +1,111 @@
+/**
+ * Enhanced Dropdown Menu Hover Effects
+ * 
+ * This CSS ensures consistent underline effects in dropdown menus across all browsers
+ * and makes sure submenus have the same styling as top-level menu items.
+ */
+
+/* Universal selector for all dropdown menu items */
+[data-radix-dropdown-menu-content] *[role="menuitem"],
+[data-radix-dropdown-menu-content] a,
+.dropdown-menu [role="menuitem"],
+.dropdown-menu a,
+.dropdown-submenu-item,
+[data-state="open"] .dropdown-submenu a,
+.nav-dropdown-menu-item {
+  position: relative !important;
+  transition: color 0.25s ease !important;
+  text-decoration: none !important;
+}
+
+/* Create base underline styling that's initially hidden */
+[data-radix-dropdown-menu-content] *[role="menuitem"]::after,
+[data-radix-dropdown-menu-content] a::after,
+.dropdown-menu [role="menuitem"]::after,
+.dropdown-menu a::after,
+.dropdown-submenu-item::after,
+[data-state="open"] .dropdown-submenu a::after,
+.nav-dropdown-menu-item::after {
+  content: '' !important;
+  position: absolute !important;
+  width: 100% !important;
+  transform: scaleX(0) !important;
+  height: 2px !important;
+  bottom: -2px !important;
+  left: 0 !important;
+  background-color: var(--color-primary, #3b82f6) !important;
+  transform-origin: bottom right !important;
+  transition: transform 0.25s ease-out !important;
+  pointer-events: none !important;
+}
+
+/* Show underline on hover */
+[data-radix-dropdown-menu-content] *[role="menuitem"]:hover::after,
+[data-radix-dropdown-menu-content] a:hover::after,
+.dropdown-menu [role="menuitem"]:hover::after,
+.dropdown-menu a:hover::after,
+.dropdown-submenu-item:hover::after,
+[data-state="open"] .dropdown-submenu a:hover::after,
+.nav-dropdown-menu-item:hover::after {
+  transform: scaleX(1) !important;
+  transform-origin: bottom left !important;
+}
+
+/* Force hover styles for Radix UI submenu items */
+[data-radix-dropdown-menu-content] [data-radix-menu-item]:hover,
+[data-radix-dropdown-menu-sub-content] [data-radix-menu-item]:hover {
+  text-decoration: none !important;
+  color: var(--color-primary, #3b82f6) !important;
+}
+
+/* Make sure menu items have proper spacing */
+[data-radix-dropdown-menu-content] [data-radix-menu-item],
+[data-radix-dropdown-menu-sub-content] [data-radix-menu-item],
+.dropdown-menu-item,
+.dropdown-submenu-item {
+  padding: 0.5rem 1rem !important;
+  cursor: pointer !important;
+}
+
+/* Ensure all hover effects work in Safari and Firefox */
+@media screen and (min-width: 768px) {
+  .menu-item::after,
+  .dropdown-menu-item::after,
+  .submenu-item::after {
+    content: '' !important;
+    position: absolute !important;
+    width: 100% !important;
+    transform: scaleX(0) !important;
+    height: 2px !important; 
+    bottom: -2px !important;
+    left: 0 !important;
+    background-color: var(--color-primary, #3b82f6) !important;
+    transform-origin: bottom right !important;
+    transition: transform 0.25s ease-out !important;
+  }
+
+  .menu-item:hover::after,
+  .dropdown-menu-item:hover::after,
+  .submenu-item:hover::after {
+    transform: scaleX(1) !important;
+    transform-origin: bottom left !important;
+  }
+}
+
+/* High specificity rules to ensure they work everywhere */
+html body .dropdown-menu a:hover,
+html body .dropdown-submenu a:hover,
+html body .dropdown-menu [role="menuitem"]:hover,
+html body [data-radix-menu-content] a:hover,
+html body [data-radix-dropdown-menu-content] [role="menuitem"]:hover {
+  text-decoration: none !important;
+  color: var(--color-primary, #3b82f6) !important;
+}
+
+/* Ensure active state is styled correctly */
+.dropdown-menu-item[data-active="true"],
+.submenu-item[data-active="true"],
+.dropdown-menu [role="menuitem"][data-active="true"] {
+  background-color: rgba(59, 130, 246, 0.1) !important;
+  color: var(--color-primary, #3b82f6) !important;
+}

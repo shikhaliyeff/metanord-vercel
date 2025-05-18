@@ -1,0 +1,14 @@
+{
+  "products": {
+    "castIron": {
+      "drainageGrates": {
+        "title": "Drainage Grates",
+        "description": "Cast iron drainage grates for stormwater collection systems, designed for varying traffic loads and flow capacities."
+      }
+    }
+  },
+  "header": {
+    "getPrice": "Get Price",
+    "requestCallback": "Request Callback"
+  }
+}

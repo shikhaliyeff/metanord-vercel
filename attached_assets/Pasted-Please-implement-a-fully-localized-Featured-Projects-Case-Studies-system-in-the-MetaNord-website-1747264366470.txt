@@ -1,0 +1,86 @@
+Please implement a fully localized “Featured Projects” (Case Studies) system in the MetaNord website and admin panel.
+
+---
+
+📁 1. Admin Panel – Featured Projects (inside “Site Content” tab)
+
+- In the existing “Site Content” tab, add a collapsible section titled **“Featured Projects”**
+- Allow the admin to:
+  - View, create, and edit project entries
+  - Each project should support the following fields:
+    - Title (multilingual)
+    - Year
+    - Location (City, Country)
+    - Short summary (multilingual)
+    - Full description (multilingual)
+    - Product tags or categories
+    - Image gallery (upload or link)
+    - Visibility toggle (published/unpublished)
+- Store this in `projects.json`, using the same multilingual structure as `hero.json` or `content.json`
+- Example:
+```json
+{
+  "title": {
+    "en": "Tallinn Business Tower",
+    "ru": "Бизнес-центр в Таллине",
+    "et": "Tallinna ärikeskus",
+    "lv": "Tallinas biznesa tornis",
+    "lt": "Talino verslo bokštas",
+    "pl": "Wieża Biznesowa w Tallinie"
+  }
+}
+🌐 2. Public Page /projects
+
+Create a fully localized page at /projects
+
+Automatically detect or allow switching between 6 languages:
+
+English (EN), Russian (RU), Estonian (ET), Latvian (LV), Lithuanian (LT), Polish (PL)
+
+Show all published projects as cards:
+
+Thumbnail
+
+Localized title, summary, year, location
+
+Button: “View Project” (also localized)
+
+Clicking a project leads to a localized detail view:
+
+Full description
+
+Gallery
+
+Tags or products used
+
+All content in the correct selected language
+
+🔗 3. Link Homepage “View Project” Buttons
+
+On the homepage, in the Featured Projects section:
+
+Each “View Project” button should link directly to the corresponding localized project page
+
+Maintain correct language context when navigating from homepage → project
+
+📦 4. Pre-Fill Sample Projects
+
+Create and insert 4–5 sample case studies using realistic MetaNord business content
+
+Localize all content (titles, summaries, descriptions) into all 6 supported languages
+
+Use royalty-free or placeholder images relevant to aluminum profiles, façades, and lighting
+
+Tag products used, assign location and year
+
+Mark all demo projects as “Published”
+
+🧩 Notes:
+
+Do not create a new main tab — keep this under “Site Content”
+
+Use existing translation switching logic used for Hero and other sections
+
+Ensure /projects and individual project pages correctly reflect the selected language
+
+Ensure fallback to English if translation is missing

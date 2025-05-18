@@ -1,0 +1,77 @@
+
+/* Comprehensive dropdown item hover effects for all menu variants */
+.dropdown-item:hover,
+.dropdown-content button:hover,
+.dropdown-menu-content [data-radix-menu-item]:hover,
+.dropdown-menu-item:hover,
+.dropdown-submenu-item:hover,
+[role="menuitem"]:hover,
+[data-radix-dropdown-menu-content] [role="menuitem"]:hover,
+[data-radix-dropdown-menu-content] div[role="button"]:hover,
+.dropdown-menu [role="menuitem"]:hover,
+.dropdown-menu [role="menuitem"]:hover span,
+.dropdown-menu a:hover,
+.dropdown-menu button:hover,
+.navigation-dropdown-content div:hover,
+[data-state="open"] li:hover,
+.dropdown-content li:hover,
+[data-radix-menu-content] div:hover,
+[data-radix-menu-content] a:hover,
+.radix-dropdown-content-item:hover {
+  text-decoration: underline !important;
+  cursor: pointer;
+}
+
+/* Ensure menu items inside specific layouts get styling */
+header nav [role="menuitem"]:hover,
+header nav [role="menuitem"] a:hover,
+header [role="menu"] [role="menuitem"]:hover {
+  text-decoration: underline !important;
+}
+
+/* Ensure link-styled elements in dropdown menus get the hover effect */
+.dropdown-menu [role="menuitem"] a:hover,
+.dropdown-menu [role="menuitem"] span:hover,
+[data-radix-dropdown-menu-content] a:hover,
+[data-radix-dropdown-menu-content] span:hover {
+  text-decoration: underline !important;
+}
+
+/* Performance optimizations for language switching */
+html.lang-transition * {
+  transition: none !important;
+}
+
+/* Optimize FAQ layout for all languages */
+.faq-page-active .accordion-item {
+  background-color: white !important;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.faq-page-active .accordion-trigger {
+  padding: 1rem 1.25rem;
+  background-color: white !important;
+  color: #333 !important;
+}
+
+.faq-page-active .accordion-content {
+  padding: 1rem 1.5rem;
+  background-color: white !important;
+  color: #333 !important;
+  line-height: 1.6;
+}
+
+/* Special styles for Chinese FAQ */
+html[lang="zh-CN"] .faq-page-active .accordion-trigger span {
+  letter-spacing: 0.025em;
+  word-spacing: 0.05em;
+  word-break: break-word;
+  white-space: normal;
+  line-height: 1.5;
+}
+
+html[lang="zh-CN"] .faq-page-active .accordion-content {
+  font-size: 16px;
+}

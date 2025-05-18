@@ -1,0 +1,805 @@
+{
+  "common": {
+    "close": "Sulge",
+    "learnMore": "Loe rohkem",
+    "submitting": "Saatmine...",
+    "cancel": "Tühista"
+  },
+  "navigation": {
+    "home": "Avaleht",
+    "products": "Tooted",
+    "services": "Teenused",
+    "about": "Meist",
+    "contact": "Kontakt",
+    "language": "Keel",
+    "search": "Otsing",
+    "menu": "Menüü"
+  },
+  "search": {
+    "placeholder": "Otsi tooteid...",
+    "refineSearch": "Täpsusta otsingut...",
+    "recentSearches": "Hiljutised otsingud",
+    "searchResults": "Otsingutulemused",
+    "noResults": "Sobivaid tooteid ei leitud",
+    "resultsFor": "Otsingutulemused päringule",
+    "filterByCategory": "Filtreeri kategooria järgi:",
+    "clearFilters": "Tühista filtrid",
+    "foundResults": "Leitud {{count}} tulemus",
+    "foundResults_plural": "Leitud {{count}} tulemust",
+    "inCategory": "kategoorias",
+    "noResultsFound": "Sinu otsingule vastavaid tooteid ei leitud",
+    "tryDifferentTerms": "Proovi otsida teiste märksõnadega või sirvi tootekategooriaid",
+    "browseAllProducts": "Sirvi kõiki tooteid",
+    "tryDifferent": "Try different search terms or browse categories"
+  },
+  "header": {
+    "home": "Avaleht",
+    "about": "Meist",
+    "products": "Tooted",
+    "services": "Teenused",
+    "contact": "Kontakt",
+    "documents": "Dokumendid",
+    "requestQuote": "Küsi pakkumist",
+    "getPrice": "Küsi pakkumist",
+    "requestCallback": "Telli tagasihelist",
+    "contactUs": "Võta meiega ühendust",
+    "solutions": "Lahendused",
+    "company": "Ettevõte",
+    "featuredProjects": "Valitud Projektid",
+    "projects": "Featured Projects"
+  },
+  "productDetail": {
+    "loading": "Toote info laadimine...",
+    "interested": "Kas olete sellest tootest huvitatud?",
+    "contactMessage": "Võtke ühendust meie meeskonnaga, et arutada oma konkreetseid vajadusi ja saada teada, kuidas saame seda toodet teie projekti jaoks tarnida.",
+    "documentTitle": "Toote dokumendid",
+    "downloadCatalog": "Lae alla kataloog",
+    "downloadDatasheet": "Lae alla tehniline leht",
+    "downloadDocuments": "Toote dokumendid",
+    "noDocuments": "Selle toote jaoks pole dokumente saadaval"
+  },
+  "documents": {
+    "metaTitle": "Dokumendid ja ressursid - MetaNord",
+    "metaDescription": "Laadige alla MetaNordi brošüürid, tehnilised andmelehed, sertifikaadid ja esitlused. Juurdepääs meie toodete ja teenuste ametlikule dokumentatsioonile.",
+    "pageTitle": "Dokumendid ja ressursid",
+    "pageDescription": "Juurdepääs ja meie tooteteabe brošüüride, tehniliste spetsifikatsioonide, sertifikaatide ja ettevõtte esitluste allalaadimine.",
+    "searchPlaceholder": "Otsi dokumente...",
+    "filterAll": "Kõik",
+    "filterBrochures": "Brošüürid",
+    "filterDatasheets": "Tehnilised andmed",
+    "filterCertificates": "Sertifikaadid",
+    "filterPresentations": "Esitlused",
+    "noDocumentsFound": "Dokumente ei leitud",
+    "tryDifferentSearch": "Proovige teistsugust otsingut või kategooriat",
+    "resetFilters": "Lähtesta filtrid",
+    "download": "Lae alla",
+    "downloads": "{{count}} allalaadimine",
+    "downloads_plural": "{{count}} allalaadimist",
+    "filters": "Filtrid",
+    "filterOptions": "Filtreerimise valikud",
+    "filterDescription": "Kasutage allolevaid valikuid dokumentide filtreerimiseks",
+    "filterByLanguage": "Filtreeri keele järgi",
+    "filterByType": "Filtreeri dokumendi tüübi järgi",
+    "filterByCategory": "Filtreeri kategooria järgi",
+    "filterByProductCategory": "Filtreeri tootekategooria järgi",
+    "applyFilters": "Rakenda filtrid",
+    "allLanguages": "Kõik keeled",
+    "allTypes": "Kõik tüübid",
+    "allCategories": "Kõik kategooriad",
+    "allProductCategories": "Kõik tootekategooriad",
+    "noDocuments": "Dokumente ei leitud",
+    "tryChangingFilters": "Proovige muuta filtri seadeid",
+    "all": "Kõik dokumendid",
+    "types": {
+      "brochure": "Brošüür",
+      "datasheet": "Tehniline andmeleht",
+      "catalog": "Kataloog",
+      "certificate": "Sertifikaat",
+      "manual": "Kasutusjuhend",
+      "presentation": "Esitlus",
+      "technical": "Tehniline",
+      "quality": "Kvaliteet",
+      "specification": "Spetsifikatsioon",
+      "instructions": "Juhised"
+    },
+    "category": {
+      "brochure": "Brošüür",
+      "datasheet": "Tehniline andmeleht",
+      "certificate": "Sertifikaat",
+      "presentation": "Esitlus",
+      "manual": "Kasutusjuhend",
+      "quality": "Kvaliteet",
+      "technical": "Tehniline",
+      "reference": "Teatmik",
+      "product": "Toode",
+      "marketing": "Turundus",
+      "legal": "Juriidiline",
+      "general": "Üldine",
+      "installation": "Paigaldus",
+      "maintenance": "Hooldus",
+      "software": "Tarkvara",
+      "catalog": "Kataloog",
+      "others": "Muud"
+    },
+    "others": "Muud dokumendid"
+  },
+  "quoteRequest": {
+    "title": "Küsi hinnapakkumist",
+    "description": "Täitke allolev vorm, et küsida hinnapakkumist selle toote jaoks.",
+    "success": {
+      "title": "Päring edastatud",
+      "description": "Võtame teiega peagi ühendust hinnapakkumisega."
+    },
+    "error": {
+      "title": "Saatmisviga",
+      "generic": "Päringu saatmine ebaõnnestus. Palun proovige uuesti."
+    },
+    "form": {
+      "name": "Teie nimi",
+      "namePlaceholder": "Sisestage oma täisnimi",
+      "email": "E-post",
+      "emailPlaceholder": "Sisestage oma e-posti aadress",
+      "company": "Ettevõtte nimi",
+      "companyPlaceholder": "Sisestage oma ettevõtte nimi",
+      "phone": "Telefoninumber",
+      "phonePlaceholder": "Sisestage oma telefoninumber",
+      "product": "Toode",
+      "quantity": "Kogus",
+      "quantityPlaceholder": "Täpsustage vajalik kogus",
+      "comments": "Lisamärkused",
+      "commentsPlaceholder": "Sisestage täiendavad nõuded või küsimused",
+      "submit": "Saada hinnapäring"
+    }
+  },
+  "language": {
+    "en": "Inglise",
+    "et": "Eesti",
+    "ru": "Vene",
+    "lv": "Läti",
+    "lt": "Leedu",
+    "pl": "Poola"
+  },
+  "home": {
+    "metaTitle": "MetaNord - Premium alumiiniumprofiilid ja infrastruktuuri tooted Euroopa ja rahvusvahelistele turgudele",
+    "metaDescription": "MetaNord OÜ on spetsialiseerunud premium alumiiniumprofiilide ja infrastruktuuritoodete pakkumisele Euroopa ja rahvusvahelistele turgudele. Kvaliteetsed lahendused ehitus-, kommunaal- ja tööstussektoritele.",
+    "keywords": "aluminum profiles, infrastructure products, construction materials, industrial solutions, MetaNord, European suppliers"
+  },
+  "hero": {
+    "title": "Meie toome materjalid.",
+    "title_highlight": "Teie ehitate tulevikku.",
+    "subtitle": "Alumiiniumprofiilid ja linnakeskkonna infrastruktuuritooted usaldusväärsetelt tootjatelt",
+    "cta": "Uuri tooteid",
+    "learnMore": "Loe rohkem",
+    "globalShipping": "Rahvusvaheline transport saadaval",
+    "productTitle": "Premium tooted",
+    "productSubtitle": "Kõrgekvaliteedilised infrastruktuuri lahendused",
+    "tagline": "Ehitame tugevamat homset"
+  },
+  "features": {
+    "title": "Miks valida meid",
+    "subtitle": "Meie pühendumus tipptasemele eristab meid kvaliteetsete toodete ja erakordse teeninduse pakkumisel kogu Euroopas",
+    "quality": {
+      "title": "Premium kvaliteet",
+      "description": "Pakume kõrgekvaliteetseid tooteid usaldusväärsetelt tootjatelt, mis läbivad range kvaliteedikontrolli."
+    },
+    "competitive": {
+      "title": "Konkurentsivõimelised hinnad",
+      "description": "Meie otsesuhted tootjatega võimaldavad meil pakkuda konkurentsivõimelisi hindu kvaliteeti ohverdamata."
+    },
+    "reliability": {
+      "title": "Usaldusväärsus",
+      "description": "Järjepidev tarnegraafik ja usaldusväärne toodete kättesaadavus tagavad teie projektide õigeaegse teostuse."
+    },
+    "expertise": {
+      "title": "Tehniline kompetents",
+      "description": "Meie ekspertide meeskond aitab teil valida teie konkreetsetele vajadustele sobivad tooted."
+    }
+  },
+  "about": {
+    "metaTitle": "Meist - MetaNord | Premium tööstuslikud lahendused Euroopa ja rahvusvahelistele turgudele",
+    "metaDescription": "Õppige tundma MetaNord OÜ-d, Eestis asuvat globaalset kaubandus- ja edasimüügiettevõtet, mis on spetsialiseerunud alumiiniumprofiilide ja infrastruktuuritoodete pakkumisele Euroopa ja rahvusvahelistele turgudele.",
+    "title": "Meist",
+    "titleHighlight": "Oluline",
+    "subtitle": "Teie usaldusväärne partner kvaliteetse infrastruktuuri valdkonnas",
+    "description": "MetaNord OÜ on Eestis asuv kaubandus- ja edasimüügiettevõte, mis on spetsialiseerunud alumiiniumprofiilide ja infrastruktuuritoodete pakkumisele Euroopa ja rahvusvahelistele turgudele.",
+    "product1": "Alumiiniumprofiilid",
+    "product2": "Infrastruktuuritooted",
+    "product3": "Terastorud ja -liitmikud",
+    "product4": "Malmlahendused",
+    "product_categories": "Tootekategooriad",
+    "countries": "Euroopa Riigid",
+    "products": "Toote tüübid",
+    "productHighlight": "Kvaliteetne infrastruktuur",
+    "productHighlightDesc": "Euroopa standardi komponendid pikaajalisteks infrastruktuurilahendusteks",
+    "browseProducts": "Sirvi tooteid",
+    "imageAlt": "MetaNord ladu alumiiniumprofiilide ja infrastruktuuritoodetega",
+    "quality": {
+      "title": "Inseneriväärtus",
+      "text": "Loodud professionaalidele"
+    },
+    "experience": {
+      "title": "Tööstuskogemus",
+      "text": "Spetsialiseeritud teadmised ehitusmaterjalide ja infrastruktuurikomponentide kohta"
+    },
+    "vision": {
+      "title": "Meie Visioon",
+      "text": "Jätkusuutlike infrastruktuuri lahenduste loomine homse maailma jaoks"
+    },
+    "markets": {
+      "title": "Euroopa Turud",
+      "text": "Jaotusvõrk, mis katab peamisi turge Põhja- ja Ida-Euroopas"
+    },
+    "sustainability": {
+      "title": "Jätkusuutlikkus",
+      "text": "Pühendumine keskkonnasäästlikule materjalide hankimisele ja tegevusele"
+    },
+    "story": {
+      "title": "Meie lugu",
+      "paragraph1": "MetaNord OÜ loodi eesmärgiga tarnida kvaliteetseid tööstustooteid Euroopa ja rahvusvahelistele turgudele ning on tänaseks saanud usaldusväärseks partneriks ettevõtetele paljudes erinevates tööstusharudes. Olles asutatud Eestis, kasutame oma strateegilist asukohta, et teenindada tõhusalt kliente kogu Euroopas ja kaugemal.",
+      "paragraph2": "Meie meeskond koosneb professionaalidest, kellel on laialdased kogemused tööstustoodete tarnimises, kvaliteedi kontrollis ning rahvusvahelises logistikas. See kogemus võimaldab meil pakkuda kõrgeimat kvaliteeti, mis vastab meie mitmekülgse kliendibaasi spetsiifilistele vajadustele.",
+      "paragraph3": "Kasvades ja arenedes püsib meie pühendumus kvaliteedile, konkurentsivõimelistele hindadele ja erakordsele teenindusele muutumatuna. Laiendame pidevalt oma tootevalikut ja täiustame oma võimekust, et paremini rahuldada oma klientide muutuvaid vajadusi."
+    },
+    "mission": {
+      "title": "Meie missioon ja väärtused",
+      "subtitle": "MetaNordis oleme pühendunud premium kvaliteediga toodete pakkumisele, mida toetab erakordne teenindus. Meie väärtused juhivad kõike, mida teeme:"
+    },
+    "values": {
+      "quality": {
+        "title": "Kvaliteet esmatähtsana",
+        "description": "Me ei tee kunagi järeleandmisi oma toodete kvaliteedi osas. Iga meie kataloogis olev toode läbib range kvaliteedikontrolli, et vastata kõrgeimatele tööstusharu standarditele."
+      },
+      "customer": {
+        "title": "Kliendikeskne lähenemine",
+        "description": "Asetame oma kliendid kõigi meie tegevuste keskmesse. Nende ainulaadsete nõudmiste mõistmine ja täitmine on meie peamine prioriteet."
+      },
+      "sustainability": {
+        "title": "Jätkusuutlikkus",
+        "description": "Oleme pühendunud jätkusuutlike äritavade ja keskkonnasõbralike tegevuste rakendamisele kogu meie tarneahelas."
+      }
+    },
+    "partners": {
+      "title": "Meie globaalsed partnerid",
+      "subtitle": "Teeme koostööd usaldusväärsete tootjate ja tarnijatega kogu maailmast, et tuua teieni parimad tooted konkurentsivõimeliste hindadega:",
+      "partner1": "Euroopa Alumiiniumigrupp",
+      "partner2": "Globaalsed infrastruktuurilahendused",
+      "partner3": "Põhjamaade tööstussüsteemid"
+    },
+    "faq": {
+      "title": "Korduma Kippuvad Küsimused",
+      "subtitle": "Leia kiired vastused levinud küsimustele meie toodete ja teenuste kohta",
+      "description": "Leia vastuseid levinud küsimustele meie toodete, teenuste ja äritegevuse kohta. Kui te ei leia oma küsimusele vastust, võtke meiega otse ühendust.",
+      "metaTitle": "KKK | MetaNord",
+      "metaDescription": "Leia vastuseid levinud küsimustele MetaNordi toodete, teenuste, tarnetingimuste ja tehnilise toe kohta.",
+      "contactCallout": "Kas teil on veel küsimusi? Oleme teile abiks.",
+      "contactUs": "Võtke meiega ühendust",
+      "contactText": "Kui teil on täiendavaid küsimusi või vajate lisateavet, võtke julgelt ühendust meie meeskonnaga",
+      "items": [
+        {
+          "question": "Milliseid tooteid MetaNord pakub?",
+          "answer": "MetaNord on spetsialiseerunud alumiiniumprofiilide, polüetüleenist torude, terasdetailide ja muude infrastruktuuri materjalide turustamisele, mis on hangitud usaldusväärsetelt ülemaailmsetelt tootjatelt."
+        },
+        {
+          "question": "Kas te pakute kohandatud tootmist või kohandatud lahendusi?",
+          "answer": "Jah. Saame projekti vajadustest lähtuvalt pakkuda kohandatud mõõtmeid, viimistlust või spetsifikatsioone. Palun võtke kohandatud hinnapakkumiste ja tehnilise ülevaatuse saamiseks ühendust meie müügimeeskonnaga."
+        },
+        {
+          "question": "Millised on teie tarneajad ja tingimused?",
+          "answer": "Tarneajad sõltuvad toote tüübist ja kogusest. Standardsed tooted tarnitakse tavaliselt Euroopas 7-14 tööpäeva jooksul. Toetame ka kiirtarnet soovi korral."
+        },
+        {
+          "question": "Kas saate tarnida väljaspool Euroopa Liitu?",
+          "answer": "Jah, toetame rahvusvahelist tarnimist paljudele turgudele, sealhulgas EL-i mittekuuluvad riigid. Palun võtke meiega ühendust, teatades oma asukoha ja vajalikud materjalid logistiliseks hindamiseks."
+        },
+        {
+          "question": "Kas te pakute tootesertifikaate ja tehnilist dokumentatsiooni?",
+          "answer": "Kindlasti. Enamikule toodetele on kaasas EN-standardi sertifikaadid ja üksikasjalikud tehnilised andmelehed, mis on saadaval Dokumentide lehel või individuaalsetel tootelehekülgedel."
+        },
+        {
+          "question": "Kuidas saab hinnapakkumist küsida?",
+          "answer": "Võite taotleda hinnapakkumist meie veebilehel oleva kontaktivormi kaudu, saates e-kirja aadressile info@metanord.eu või helistades numbril +372 5771 3442. Andke meile teada vajalikud tooted, kogused ja tarnekoht."
+        },
+        {
+          "question": "Millist kvaliteedigarantiid MetaNord pakub?",
+          "answer": "Kõik meie tooted läbivad põhjalikud kvaliteedikontrollid, et need vastaksid Euroopa standarditele vastupidavuse, ohutuse ja jõudluse osas. Teeme koostööd sertifitseeritud tootjatega, kes järgivad rangeid kvaliteedikontrolli süsteeme."
+        }
+      ],
+      "q3": {
+        "question": "Kas ma saan tellida kohandatud tooteid?",
+        "answer": "Absoluutselt! Me oleme spetsialiseerunud kohandatud lahenduste pakkumisele, et vastata konkreetsetele projekti nõuetele. Võtke ühendust meie meeskonnaga oma spetsifikatsioonidega ja teeme koostööd oma tootmispartneritega, et luua tooteid, mis vastavad teie vajadustele."
+      },
+      "q4": {
+        "question": "Milliseid makseviise te aktsepteerite?",
+        "answer": "Aktsepteerime erinevaid makseviise, sealhulgas pangaülekandeid, krediitkaarte ja ostutellimusi established äriklientidele. Maksetingimusi võib arutada lähtuvalt tellimuse suurusest ja ärisuhtest."
+      }
+    }
+  },
+  "services": {
+    "title": "Meie",
+    "titleHighlight": "Teenused",
+    "subtitle": "Terviklikud lahendused teie infrastruktuuri ja ehitusvajadusteks",
+    "metaTitle": "MetaNord teenused - logistika, konsultatsioonid ja kohandatud lahendused",
+    "metaDescription": "MetaNord pakub terviklikke teenuseid, sealhulgas logistikat, tehnilist nõustamist, kohandatud lahendusi, kliendituge ja hanke-teenuseid kõigi teie infrastruktuuri vajaduste jaoks.",
+    "overview": {
+      "title": "Kuidas me saame teid aidata",
+      "description": "Pakume mitmeid professionaalseid teenuseid teie projektide toetamiseks planeerimisest lõpuni"
+    },
+    "process": {
+      "title": "Meie teenuste protsess",
+      "steps": [
+        {
+          "title": "Esialgne konsultatsioon",
+          "description": "Alustame teie projekti vajaduste ja nõuete põhjaliku aruteluga"
+        },
+        {
+          "title": "Lahenduse disain",
+          "description": "Meie eksperdid töötavad välja teie konkreetsele projektile kohandatud plaani"
+        },
+        {
+          "title": "Toodete valik",
+          "description": "Aitame teil valida õiged tooted meie ulatuslikust kataloogist"
+        },
+        {
+          "title": "Juurutamise tugi",
+          "description": "Tehniline abi teie projekti juurutamisfaasis"
+        },
+        {
+          "title": "Järelteenindus",
+          "description": "Pidev tugi, et tagada paigaldatud toodete optimaalne toimivus"
+        }
+      ]
+    },
+    "additionalTitle": "Lisateenused",
+    "logistics": {
+      "title": "Logistika ja tarneahel",
+      "description": "Tõhusad logistikalahendused, mis on kohandatud teie projekti vajadustele",
+      "features": [
+        "Otsetarnimine ehitusplatsidele",
+        "Laovarude haldamine ja ladustamine",
+        "Täppisajastatud tarne võimalused"
+      ]
+    },
+    "consulting": {
+      "title": "Tehniline konsultatsioon",
+      "description": "Ekspertide nõuanded toodete valikul ja rakendamisel",
+      "features": [
+        "Toodete spetsifikatsioonid ja ühilduvus",
+        "Regulatiivne vastavusjuhendamine",
+        "Kulude optimeerimise strateegiad"
+      ]
+    },
+    "custom": {
+      "title": "Kohandatud lahendused",
+      "description": "Teie projekti spetsiifilistele nõuetele vastavad tooted",
+      "features": [
+        "Kohandatud mõõtmed ja spetsifikatsioonid",
+        "Erikatted ja -töötlused",
+        "Integreerimine olemasolevate süsteemidega"
+      ]
+    },
+    "support": {
+      "title": "Klienditugi",
+      "description": "Pühendatud abi kõigi teie päringute ja vajaduste jaoks",
+      "features": [
+        "Mitmekeelne tehniline tugi",
+        "Kiired vastamisajad",
+        "Põhjalik dokumentatsioon"
+      ]
+    },
+    "procurement": {
+      "title": "Hanke teenused",
+      "description": "Lihtsustatud ostuprotsess kõigi teie infrastruktuuri vajaduste jaoks",
+      "features": [
+        "Hulgiostude allahindlused",
+        "Projektipõhine hinnakujundus",
+        "Optimeeritud kinnitusprotsess"
+      ]
+    }
+  },
+  "projects": {
+    "title": "Olulised projektid",
+    "subtitle": "Vaadake, kuidas meie tooteid on kasutatud edukates projektides üle Euroopa",
+    "office": "Kaasaegne bürookompleks",
+    "officeDesc": "Premium alumiiniumprofiilid ja klaaslahendused jätkusuutlikule ärihoonele Tallinnas",
+    "commercial": "Äri",
+    "pipeline": "Veevarustuse võrgustik",
+    "pipelineDesc": "Terviklik infrastruktuurilahendus, mis hõlmab torusid, kanalisatsioonikaevusid ja klappe munitsipaalsele veesüsteemile",
+    "infrastructure": "Infrastruktuur"
+  },
+  "cta": {
+    "title": "Valmis oma projektiga alustama?",
+    "subtitle": "Võtke meiega täna ühendust, et arutada oma infrastruktuuri vajadusi ja saada kohandatud lahendusi, mis on kohandatud teie spetsiifilistele nõuetele.",
+    "contact": "Võtke ühendust",
+    "catalog": "Sirvige tootekatalogi",
+    "badge": "Küsige hinnapakkumist juba täna",
+    "feature1": "Ekspertide konsultatsioon teie projekti vajadustele",
+    "feature2": "Konkurentsivõimelised hinnad ja õigeaegne tarne",
+    "feature3": "Kõrgekvaliteetsed tooted Euroopa standardite järgi",
+    "contactTitle": "Saage personaalne hinnapakkumine",
+    "contactDesc": "Ühendage meie meeskonnaga, et arutada oma projekti konkreetseid nõudeid ja ajakava."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "titleHighlight": "meiega",
+    "subtitle": "Oleme siin, et vastata teie küsimustele ja pakkuda vajalikke lahendusi",
+    "form": {
+      "submit": "Saada",
+      "name": "Teie nimi",
+      "email": "E-posti aadress",
+      "company": "Ettevõte (valikuline)",
+      "phone": "Telefon",
+      "message": "Sõnum",
+      "required": "Nõutav",
+      "success": "Teie sõnum on edukalt saadetud!",
+      "error": "Vabandust, teie sõnumi saatmisel ilmnes viga."
+    },
+    "info": {
+      "title": "Kontaktandmed",
+      "subtitle": "Võtke meiega ühendust mis tahes kanali kaudu",
+      "company": "MetaNord OÜ",
+      "registry": "Registrikood: 17235227",
+      "address": "Tornimäe tn 5, 10145 Tallinn, Eesti",
+      "phone": "+372 5771 3442",
+      "email": "info@metanord.eu",
+      "website": "www.metanord.eu"
+    },
+    "location": "Meie asukoht",
+    "viewOnMaps": "Vaata kaardil",
+    "faq": {
+      "title": "Korduma Kippuvad Küsimused",
+      "subtitle": "Leia vastused meie kõige sagedamini esitatavatele küsimustele",
+      "q1": {
+        "question": "Milliseid alumiiniumprofiile te pakute?",
+        "answer": "Pakume laia valikut alumiiniumprofiile, sealhulgas standardseid struktuuriprofiile, masinaehitusprofiile, LED-profiile ja kohandatud lahendusi. Meie kataloog sisaldab erinevaid kujusid, suurusi ja viimistlusi, mis sobivad erinevateks rakendusteks ehituses, inseneritöös ja disainis."
+      },
+      "q2": {
+        "question": "Kas te pakute rahvusvahelist tarnet?",
+        "answer": "Jah, pakume rahvusvahelist tarnet enamikesse riikidesse. Tarnekulud ja tarneajad varieeruvad sõltuvalt sihtkohast ja tellimuse suurusest. Palun võtke ühendust meie müügimeeskonnaga konkreetse tarneinfo saamiseks teie piirkonna kohta."
+      },
+      "q3": {
+        "question": "Kas ma saan tellida kohandatud spetsifikatsioonidega tooteid?",
+        "answer": "Kindlasti. Oleme spetsialiseerunud kohandatud lahendustele ja saame kohandada tooteid vastavalt teie projekti spetsiifilistele nõuetele. Palun esitage hinnapäringul üksikasjalikud spetsifikatsioonid ja meie insenerid töötavad teiega koos, et pakkuda täpselt seda, mida vajate."
+      },
+      "q4": {
+        "question": "Kuidas saan teie toodetele tehnilist tuge?",
+        "answer": "Meie tehnilise toe meeskond on valmis aitama toodete valikul, paigaldusnõuannete ja tõrkeotsingu küsimustes. Saate nendega ühendust võtta e-posti teel aadressil support@metanord.eu või telefoni teel tööajal. Pakume ka põhjalikke dokumentatsioone kõigile meie toodetele."
+      }
+    }
+  },
+  "products": {
+    "title": "Meie tootevalik",
+    "titleHighlight": "Kataloog",
+    "need_assistance": "Vajate abi oma projektiga?",
+    "contact_subtext": "Võtke meiega ühendust kohandatud lahenduste ja isikupärastatud hinnapakkumiste saamiseks oma infrastruktuuri vajaduste jaoks",
+    "quick_preview": "Kiire ülevaade",
+    "features": "Omadused",
+    "application": "Kasutusala",
+    "specification": "Tehnilised andmed",
+    "categories": {
+      "all": "Kõik tooted",
+      "aluminum": "Alumiinium",
+      "polyethylene": "Polüetüleen",
+      "steel": "Teras",
+      "castIron": "Malm",
+      "cast_iron": "Malm",
+      "cast-iron": "Malm",
+      "cast iron": "Malm",
+      "urban_infrastructure": "Linnainfrastruktuur",
+      "urbanInfrastructure": "Linnainfrastruktuur",
+      "urban": "Linnainfrastruktuur",
+      "urban infrastructure": "Linnainfrastruktuur",
+      "manholes": "Kanalisatsiooniluugid",
+      "pipes": "Torud",
+      "rainwater": "Vihmaveerennid",
+      "fittings": "Liitmikud",
+      "valves": "Klapid",
+      "fire-protection": "Tulekaitsevarustus",
+      "fire_protection": "Tulekaitsevarustus",
+      "aluminum_products": "Alumiiniumtooted",
+      "infrastructure_products": "Infrastruktuuritooted",
+      "Urban Infrastructure": "Linnainfrastruktuur",
+      "Cast Iron": "Malm",
+      "Aluminum": "Alumiinium",
+      "Steel": "Teras",
+      "Polyethylene": "Polüetüleen",
+      "Fittings": "Liitmikud ja Ühendused"
+    },
+    "steel": {
+      "hsawPipes": {
+        "title": "HSAW terastorud",
+        "description": "Spiraalkeevitusega terastorud vee transpordiks suurepärase rõhukindlusega."
+      },
+      "oilGasPipes": {
+        "title": "Nafta ja gaasi torud",
+        "description": "Kõrgekvaliteedilised terastorud nafta ja gaasi transpordiks spetsiaalsete katetega ja rangete kvaliteedikontrollidega."
+      },
+      "pilePipes": {
+        "title": "Vaiatotrude",
+        "description": "Konstruktsioonilised terastorud süvavundamentidele kõrge kandevõimega ja erinevate otsaliitmike konfiguratsioonidega."
+      }
+    },
+    "castIron": {
+      "manholeCovers": {
+        "title": "Kanalisatsioonikaevude kaaned",
+        "description": "Tugevad malmist kanalisatsioonikaevude kaaned kõrge kandevõimega erinevateks linnarakendusteks."
+      },
+      "drainageGrates": {
+        "title": "Drenaažirestid",
+        "description": "Malmist drenaažirestid sademevee kogumissüsteemidele, mis on projekteeritud erinevate liikluskoormuste ja vooluhulkade jaoks."
+      },
+      "rainwaterGrills": {
+        "title": "Vihmavee restid",
+        "description": "Vastupidavad malmist drenaažirestid optimeeritud vee läbilaskevõimega linna drenaažisüsteemidele."
+      },
+      "fireHydrants": {
+        "title": "Tuletõrjehüdrandid",
+        "description": "Külmakindlad malmist tuletõrjehüdrandid iseeneslikult tühjeneva võimekusega munitsipaalse tuletõrjekaitse jaoks."
+      },
+      "gateValves": {
+        "title": "Siibrid",
+        "description": "Malmist siibrid elastse istmega disainiga, tagades täieliku voolu ja madala rõhulanguse."
+      }
+    },
+    "metaTitle": "Tooted - MetaNord",
+    "metaDescription": "Meie tootevalik sisaldab mitmesuguseid alumiiniumiprofiile, malmtooteid, polüetüleenitorusid ja terastooteid. Kõik meie tooted vastavad kõrgeimatele Euroopa standarditele.",
+    "subtitle": "Kvaliteetsed infrastruktuuritooted Euroopa projektidele",
+    "filters": {
+      "title": "Filtrid",
+      "reset": "Lähtesta",
+      "apply": "Rakenda"
+    },
+    "aluminum": {
+      "structuralProfiles": {
+        "title": "Standardsed profiilid",
+        "description": "Mitmekülgsed alumiiniumprofiilid ehituse, tehnika ja disaini jaoks erinevate kujude ja suurustega."
+      },
+      "architecturalProfiles": {
+        "title": "Masinaehituse profiilid",
+        "description": "Spetsialiseeritud alumiiniumprofiilid tööstusseadmete ja -masinate ehitamiseks, rõhutades täpsust ja tugevust."
+      },
+      "industrialProfiles": {
+        "title": "LED profiilid",
+        "description": "Spetsialiseeritud alumiiniumprofiilid LED-valgustuse jaoks optimeeritud soojusjuhtivuse ja difusiooniga."
+      },
+      "customExtrusions": {
+        "title": "Eriprofiilid",
+        "description": "Kohandatud alumiiniumprofiilid spetsialiseeritud rakendusteks ainulaadse geomeetria ja jõudlusomadustega."
+      }
+    },
+    "polyethylene": {
+      "hdpePipes": {
+        "title": "HDPE torud",
+        "description": "Kõrgtihedusega polüetüleentorud suurepärase keemilise vastupidavusega vee-, gaasi- ja kanalisatsioonisüsteemidele."
+      },
+      "doubleCorrugatedPipes": {
+        "title": "Kahekihilised gofreeritud torud",
+        "description": "Kahekihilised HDPE torud sileda sisepinna ja gofreeritud välispinnaga drenaaži- ja kanalisatsioonisüsteemidele."
+      },
+      "reinforcedPipes": {
+        "title": "Terasega tugevdatud PE torud",
+        "description": "Terasega tugevdatud polüetüleentorud äärmuslikeks koormusteks suurepärase struktuurse terviklikkusega."
+      },
+      "tripleWallPipes": {
+        "title": "Kolmekihilised torud",
+        "description": "Täiustatud kolmekihilised polüetüleentorud, mis on loodud kriitilise infrastruktuuri jaoks erakordse tugevusega."
+      },
+      "elbowFittings": {
+        "title": "Põlveliitmikud",
+        "description": "Polüetüleenist põlveliitmikud suunamuutusteks torustikusüsteemides täpse insenertehnilise lahendusega."
+      },
+      "teeFittings": {
+        "title": "T-liitmikud",
+        "description": "Polüetüleenist T-liitmikud hargnemisühendustele optimaalse voolujaotumusega ja minimaalse rõhulangusega."
+      }
+    },
+    "qualityAssurance": "Kvaliteedikontroll",
+    "qualityImageAlt": "Tööstustoodete kvaliteedikontroll",
+    "qualityText1": "Kõik meie tooted läbivad ranged kvaliteedikontrollid, et tagada vastavus Euroopa vastupidavuse, ohutuse ja jõudluse standarditele.",
+    "qualityText2": "Teeme koostööd sertifitseeritud tootjatega, kes säilitavad rangeid kvaliteedikontrolli süsteeme ja pakuvad igale tootele põhjalikku dokumentatsiooni.",
+    "qualityText3": "Meie pühendumine kvaliteedile ulatub kaugemale toodetest ning hõlmab ka meie teenuseid, tagades õigeaegse tarne ja professionaalse toe kõigile teie infrastruktuurivajadustele.",
+    "quickPreview": "Kiire ülevaade",
+    "products.quickPreview": "Kiire ülevaade",
+    "viewDetails": "Vaata lähemalt",
+    "viewProject": "Vaata projekti",
+    "filter": {
+      "all": "Kõik tooted",
+      "aluminum": "Alumiinium",
+      "polyethylene": "Polüetüleen",
+      "steel": "Teras",
+      "castIron": "Malm",
+      "urbanInfrastructure": "Linnainfrastruktuur",
+      "fittings": "Liitmikud",
+      "rainwater": "Vihmaveeärastuslahendused"
+    },
+    "standard-profiles": {
+      "title": "Standardsed Alumiiniumprofiilid",
+      "description": "Kõrgekvaliteedilised alumiiniumprofiilid ehituslikeks, arhitektuurilisteks ja tööstuslikeks rakendusteks."
+    },
+    "machine-building-profiles": {
+      "title": "Masinaehitusprofiilid",
+      "description": "Spetsiaalsed alumiiniumprofiilid, mis on mõeldud masinaehituseks ja automatiseerimiseks."
+    },
+    "led-profiles": {
+      "title": "LED Profiilid",
+      "description": "Alumiiniumprofiilid LED-valgustusele integreeritud valguse hajutamise võimalustega."
+    },
+    "special-profiles": {
+      "title": "Eriprofiilid",
+      "description": "Kohandatud alumiiniumprofiilid eriprojektidele ja spetsiifilistele vajadustele."
+    },
+    "hdpe-pipes": {
+      "title": "HDPE Torud",
+      "description": "Kõrgtihedusega polüetüleentorud veevarustuseks, kanalisatsiooniks ja gaasijaotuseks."
+    },
+    "double-corrugated-pipes": {
+      "title": "Kahekordse Seinaga Gofreeritud Torud",
+      "description": "Kahekordse seinaga gofreeritud polüetüleentorud drenaaži- ja kanalisatsioonisüsteemideks."
+    },
+    "reinforced-corrugated-pipes": {
+      "title": "Tugevdatud Gofreeritud Torud",
+      "description": "Eriti tugevad gofreeritud torud suurema kandevõimega."
+    },
+    "hsaw-pipes": {
+      "title": "HSAW Terastorud",
+      "description": "Spiraalselt sukeldatud kaarkeevitatud terastorud erinevateks infrastruktuuri rakendusteks."
+    },
+    "oil-gas-pipes": {
+      "title": "Nafta ja Gaasi Torud",
+      "description": "Kõrgsurve terastorud, mis on spetsiaalselt loodud nafta ja gaasi transportimiseks."
+    },
+    "manhole-covers": {
+      "title": "Kanalisatsioonikaevude kaaned",
+      "description": "Malmikaaned kanalisatsioonikaevudele erinevates koormusklassides"
+    },
+    "drainage-grates": {
+      "title": "Drenaaživõred",
+      "description": "Malmist drenaaživõred tõhusaks vee ärajuhtimiseks"
+    },
+    "elbow-fitting": {
+      "title": "90° põlv",
+      "description": "90° põlv polüetüleenist torusüsteemidele"
+    },
+    "elbow-45-fitting": {
+      "title": "45° põlv",
+      "description": "45° põlv polüetüleenist torusüsteemidele"
+    },
+    "tee-fitting": {
+      "title": "T-liitmik",
+      "description": "T-liitmik polüetüleenist torusüsteemidele"
+    },
+    "flange-adapter": {
+      "title": "Äärikadapter",
+      "description": "Äärikadapter polüetüleenist torusüsteemidele"
+    },
+    "gate-valve": {
+      "title": "Siibriventii",
+      "description": "Malmist siibriventii veesüsteemidele"
+    },
+    "drainage-channel": {
+      "title": "Drenaaž kanal",
+      "description": "Kõrge vastupidavusega drenaaž kanal vihmavee kogumiseks"
+    },
+    "butterfly-valve": {
+      "title": "Libliklapp",
+      "description": "Malmist libliklapp erinevateks rakendusteks"
+    },
+    "ground-fire-hydrant": {
+      "title": "Maapealne tuletõrjehüdrant",
+      "description": "Maapealne tuletõrjehüdrant hädaolukorra veevarustuseks"
+    },
+    "rainwater-grill-d400-standard": {
+      "title": "D400 vihmatratt",
+      "description": "Standardne D400 koormusklassi vihmatratt teedele"
+    },
+    "rainwater-grill-d400-type2": {
+      "title": "D400 tüüp 2 vihmatratt",
+      "description": "Täiustatud D400 koormusklassi vihmatratt suure liiklusega aladele"
+    },
+    "rainwater-grill-meria": {
+      "title": "Meria vihmatratt",
+      "description": "Spetsiaalne Meria disainiga vihmatratt linnarakendusteks"
+    },
+    "rainwater-grill-f900": {
+      "title": "F900 vihmatratt",
+      "description": "F900 eriti tugev vihmatratt tööstusrakendusteks"
+    },
+    "waste-box": {
+      "title": "Jäätmekogumiskast",
+      "description": "Linnajäätmete kogumislahendus avalikele ruumidele"
+    }
+  },
+  "footer": {
+    "description": "MetaNord OÜ on spetsialiseerunud premium alumiiniumprofiilidele ja infrastruktuuritoodetele Euroopa ja rahvusvahelistele turgudele.",
+    "newsletter": {
+      "title": "Uudiskiri",
+      "subtitle": "Telli uudiskiri, et saada uudiseid meie uute toodete ja eripakkumiste kohta.",
+      "placeholder": "Sinu e-posti aadress",
+      "button": "Telli"
+    },
+    "links": {
+      "title": "Kiirlingid",
+      "home": "Avaleht",
+      "about": "Meist",
+      "products": "Tooted",
+      "services": "Teenused",
+      "documents": "Dokumendid",
+      "contact": "Kontakt",
+      "projects": "Valitud Projektid"
+    },
+    "products": {
+      "title": "Tooted",
+      "aluminum": "Alumiiniumtooted",
+      "castIron": "Malmtooted",
+      "polyethylene": "Polüetüleentooted",
+      "steel": "Terastooted",
+      "infrastructure": "Infrastruktuuritooted"
+    },
+    "legal": {
+      "copyright": "Kõik õigused kaitstud.",
+      "privacy": "Privaatsuspoliitika",
+      "terms": "Kasutustingimused",
+      "cookies": "Tarnetingimused"
+    },
+    "resources": {
+      "title": "Ressursid",
+      "documents": "Dokumendid",
+      "certifications": "Sertifikaadid",
+      "faq": "KKK",
+      "privacy": "Privaatsuspoliitika",
+      "terms": "Kasutustingimused"
+    }
+  },
+  "productDetails": {
+    "oil-gas-pipes": {
+      "title": "Terastorud nafta ja gaasi jaoks",
+      "description": "Kõrgekvaliteetsed terastorud nafta ja maagaasi transpordiks, spetsiaalse korrosioonivastase kattega ja rangete kvaliteedistandarditega."
+    },
+    "hsaw-pipes": {
+      "title": "Spiraalkeevitusega torud",
+      "description": "Spiraalkeevitusega terastorud veevarustuse, gaasijuhtme ja ehituse infrastruktuuri jaoks."
+    },
+    "rainwater-grill-d400-type2": {
+      "title": "Vihmavee rest D400 tüüp 2",
+      "description": "Kõrgekvaliteetne malmist vihmavee rest, mis on loodud linnatänavatele ja raskeveokite liiklusele optimaalse vee äravoolu tagamiseks."
+    }
+  },
+  "faq": {
+    "title": "Korduma Kippuvad Küsimused",
+    "subtitle": "Kiired vastused levinud küsimustele meie toodete ja teenuste kohta",
+    "description": "Leia vastused levinud küsimustele meie toodete, teenuste ja äritegevuse kohta. Kui sa ei leia oma küsimusele vastust, võta meiega otse ühendust.",
+    "metaTitle": "Korduma Kippuvad Küsimused | MetaNord",
+    "metaDescription": "Leia vastuseid MetaNordi toodete, teenuste, tarnetingimuste ja tehnilise toe kohta. Saa vajalik teave oma infrastruktuuriprojektide jaoks.",
+    "contactCallout": "Kas sul on veel küsimusi? Oleme siin, et aidata.",
+    "contactUs": "Võta meiega ühendust",
+    "contactText": "Kui sul on täiendavaid küsimusi või vajad üksikasjalikumat teavet, võta julgelt ühendust meie meeskonnaga",
+    "items": [
+      {
+        "question": "Milliseid tooteid MetaNord tarnib?",
+        "answer": "MetaNord on spetsialiseerunud alumiiniumprofiilide, polüetüleenist torude, terasdetailide ja muude infrastruktuuri materjalide levitamisele, mis on hangitud usaldusväärsetelt globaalsetelt tootjatelt."
+      },
+      {
+        "question": "Kas te pakute kohandatud tootmist või kohandatud lahendusi?",
+        "answer": "Jah. Saame pakkuda kohandatud mõõtmeid, viimistlust või spetsifikatsioone vastavalt projekti vajadustele. Palun võtke ühendust meie müügimeeskonnaga kohandatud hinnapakkumiste ja tehnilise ülevaate saamiseks."
+      },
+      {
+        "question": "Millised on teie tarneajad ja tingimused?",
+        "answer": "Tarneajad sõltuvad toote tüübist ja kogusest. Standardsed tooted tarnitakse tavaliselt 7-14 tööpäeva jooksul üle kogu Euroopa. Toetame ka ekspressi saatmist soovi korral."
+      },
+      {
+        "question": "Kas saate tarnida väljaspool Euroopa Liitu?",
+        "answer": "Jah, toetame rahvusvahelist tarnimist laiale turule, sealhulgas EL-i välised riigid. Palun võtke meiega ühendust oma asukoha ja vajalike materjalidega logistiliseks hindamiseks."
+      },
+      {
+        "question": "Kas te pakute tootesertifikaate ja tehnilist dokumentatsiooni?",
+        "answer": "Kindlasti. Enamik tooteid tuleb koos EN-standardi sertifikaatide ja üksikasjalike tehniliste andmelehtedega, mis on saadaval Dokumentide lehel või üksikutel tootelehekülgedel."
+      },
+      {
+        "question": "Kuidas saan taotleda hinnapakkumist?",
+        "answer": "Saate taotleda hinnapakkumist meie veebisaidil oleva kontaktivormi kaudu, saates e-kirja aadressile info@metanord.eu või helistades numbril +372 5771 3442. Palun täpsustage vajalikud tooted, kogused ja tarnekoht."
+      },
+      {
+        "question": "Millist kvaliteedigarantiid pakub MetaNord?",
+        "answer": "Kõik meie tooted läbivad ranged kvaliteedikontrollid, et tagada vastavus Euroopa standarditele vastupidavuse, ohutuse ja jõudluse osas. Teeme koostööd sertifitseeritud tootjatega, kes järgivad rangeid kvaliteedikontrolli süsteeme."
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Prompt Copier</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    textarea {
+      width: 100%;
+      height: 600px;
+      padding: 15px;
+      font-size: 14px;
+      line-height: 1.5;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      resize: none;
+    }
+    button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      font-size: 16px;
+      background: #0077cc;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #005fa3;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Reply to AI Agent Prompt</h2>
+
+  <textarea id="promptText" readonly>
+There are multiple critical bugs and UI/UX issues, especially in the mobile version. Please fix them all immediately and permanently — this is very urgent. Here is a clear list of issues:
+
+1. Products Page (Mobile) — Critical
+- The Products page does not load in any language on mobile devices.
+- When it does load partially, “Quick View” and “View Details” popups appear in broken or random locations.
+- Product data still loads incorrectly in certain languages (e.g. Chinese, Polish, Lithuanian).
+- Make the entire product page fully functional and responsive on mobile, with stable translations and layout.
+
+2. Translation and Data Issues
+- On the /services page in Chinese, the header shows {{services}} instead of a proper translation.
+- FAQ page on Chinese version shows English content and broken layout.
+- Ensure ALL dynamic content is translated properly in ALL 6 languages (especially Chinese).
+- Fix missing translations in product cards, buttons, and descriptions.
+
+3. Mobile Navigation & Menu
+- When switching from Chinese to another language, the site freezes for a few seconds. Fix this performance bug.
+- Product or any internal page opens at the bottom (footer) instead of the top. Fix scroll-to-top on route change.
+- In mobile menu and dropdowns, remove icons next to submenu items (this affects design clarity).
+- Ensure dropdown menus are visually compact and minimal — match the desktop version’s recent improvements.
+
+4. Visual Bugs
+- Some popup windows (Quick View, Product Details) overlay incorrectly on mobile. They should center properly and stay within viewport.
+- The FAQ page shows black gradients covering text — completely breaks usability.
+- On some pages, elements overlap (e.g. floating buttons over text or image).
+
+Your task:
+- Carefully re-check each language, each view (mobile + desktop), and each product/page.
+- Follow the same logic you applied earlier to fix the desktop version’s product page — apply this to mobile and localized versions.
+- Optimize all UI components for performance, scrolling, and language switching.
+- Test everything thoroughly and confirm 100% functionality and clean design across all breakpoints and locales.
+  </textarea>
+
+  <button onclick="copyPrompt()">Скопировать</button>
+
+  <script>
+    function copyPrompt() {
+      const promptText = document.getElementById("promptText");
+      promptText.select();
+      promptText.setSelectionRange(0, 99999); // For mobile
+      document.execCommand("copy");
+      alert("Промпт скопирован!");
+    }
+  </script>
+
+</body>
+</html>

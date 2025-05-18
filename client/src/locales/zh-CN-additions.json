@@ -1,0 +1,33 @@
+{
+  "products": {
+    "qualityAssurance": "质量保证",
+    "qualityImageAlt": "工业产品质量保证测试",
+    "qualityText1": "我们所有的产品都经过严格的质量检查，确保它们符合欧洲关于耐用性、安全性和性能的标准。",
+    "qualityText2": "我们与维持严格质量控制系统的认证制造商合作，并为每个产品提供全面的文档。",
+    "qualityText3": "我们对质量的承诺不仅限于产品，还包括我们的服务，确保及时交付和专业支持，满足您所有的基础设施需求。"
+  },
+  "about": {
+    "quality": {
+      "title": "质量保证",
+      "text": "我们所有产品都满足最严格的欧洲质量标准，每一步都经过全面测试和质量控制。"
+    },
+    "values": {
+      "quality": {
+        "title": "产品质量",
+        "description": "我们确保所有产品符合最高的欧洲质量标准，在每个阶段都进行严格的测试和质量控制。"
+      }
+    }
+  },
+  "services": {
+    "ourServiceProcess": "我们的服务流程",
+    "processTitle": "服务流程"
+  },
+  "categories": {
+    "aluminum": "铝制品",
+    "polyethylene": "聚乙烯制品",
+    "steel": "钢铁产品",
+    "cast-iron": "铸铁产品",
+    "fittings": "管道配件",
+    "urban-infrastructure": "城市基础设施"
+  }
+}

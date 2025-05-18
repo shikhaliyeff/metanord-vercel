@@ -1,0 +1,71 @@
+Subject: Thank you for contacting MetaNord
+
+Message:
+Thank you for your message.
+We’ve received your inquiry and will get back to you shortly.
+If it’s urgent, contact us directly at info@metanord.eu.
+
+— The MetaNord Team
+
+yaml
+Copy
+Edit
+- Use a secure and Replit-compatible email method (EmailJS, nodemailer via SMTP, or webhook)
+
+---
+
+📥 5. Request a Quote Form
+
+- Add a “Request Quote” button to product pages or product cards
+- The form should collect: name, company, phone, product name (pre-filled), quantity, and optional comment
+- On submit:
+  - Save data to a new “Quote Requests” section in the admin
+  - Forward it to info@metanord.eu
+  - Send thank-you auto-reply to the user (same method as contact form)
+
+---
+
+📄 6. SEO Settings Editor
+
+- Create a new admin section for managing SEO meta tags
+- Allow editing per page:
+  - title
+  - meta description
+  - og:title, og:description, og:image
+  - hreflang (if possible)
+- Store values in a structured `seo.json` file
+- Inject this content into `<head>` of each page dynamically via JavaScript
+
+---
+
+🕒 7. Content Versioning (History)
+
+- Implement auto-save or versioning for all major content JSON files
+- When content is saved, store a backup with timestamp (e.g., `/history/hero_2024-05-14.json`)
+- Allow the admin to view and restore previous versions from the dashboard
+
+---
+
+📎 8. Downloadable PDF Catalog
+
+- Add a “Download Catalog” block on homepage or a dedicated `/catalog` page
+- Allow uploading multiple language versions (PDFs)
+- Show download buttons with language flags or labels
+- Manage catalog files via admin dashboard (optional)
+
+---
+
+📶 9. Uptime Monitoring Endpoint
+
+- Add a `/health` or `/ping` endpoint that returns `200 OK` to be used with UptimeRobot or similar
+- Let me monitor availability externally
+
+---
+
+🔒 10. General Requirements
+
+- Use existing authentication and styling
+- Reuse component structure already built
+- All new features should integrate seamlessly with current admin console
+
+Let me know if you need email settings or sample data to continue.

@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "name": "John Smith",
+    "email": "john.smith@example.com",
+    "company": "Construction Solutions Ltd",
+    "phone": "+1234567890",
+    "subject": "Aluminum Profile Inquiry",
+    "message": "We're interested in your aluminum profiles for a large construction project. Could you please send us detailed specifications and pricing information?",
+    "inquiryType": "product_info",
+    "status": "new",
+    "archived": false,
+    "createdAt": "2023-11-01T10:30:00.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Maria Garcia",
+    "email": "maria.garcia@example.com",
+    "company": "Urban Development Inc",
+    "phone": "+0987654321",
+    "subject": "Cast Iron Products",
+    "message": "I'm looking for information about your cast iron manhole covers. Do you have options for heavy-duty applications?",
+    "inquiryType": "product_info",
+    "status": "in_progress",
+    "archived": false,
+    "createdAt": "2023-11-05T14:45:00.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Alexander Weber",
+    "email": "a.weber@example.com",
+    "company": "German Infrastructure GmbH",
+    "phone": "+49123456789",
+    "subject": "Distributor Inquiry",
+    "message": "We're interested in becoming a distributor for your products in Germany. Could we schedule a call to discuss partnership possibilities?",
+    "inquiryType": "partnership",
+    "status": "new",
+    "archived": false,
+    "createdAt": "2023-11-10T09:15:00.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Elena Petrova",
+    "email": "elena.p@example.com",
+    "company": "Moscow Building Systems",
+    "phone": "+7123456789",
+    "subject": "HDPE Pipes Inquiry",
+    "message": "We need information about your HDPE pipes for a water management project. What are your specifications and delivery timelines to Russia?",
+    "inquiryType": "product_info",
+    "status": "closed",
+    "archived": true,
+    "createdAt": "2023-10-15T11:20:00.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Anders Johansson",
+    "email": "anders.j@example.com",
+    "company": "Nordic Construction AB",
+    "phone": "+46123456789",
+    "subject": "Technical Specifications",
+    "message": "Could you provide technical specifications for your aluminum LED profiles? We're working on a sustainable building project in Stockholm.",
+    "inquiryType": "technical",
+    "status": "in_progress",
+    "archived": false,
+    "createdAt": "2023-11-12T13:10:00.000Z"
+  },
+  {
+    "id": 6,
+    "name": "Sophia Nowak",
+    "email": "s.nowak@example.com",
+    "company": "Warsaw Infrastructure",
+    "phone": "+48123456789",
+    "subject": "Large Order Inquiry",
+    "message": "We're planning a major infrastructure project and are interested in your cast iron products. Can you handle large volume orders with custom specifications?",
+    "inquiryType": "quote",
+    "status": "new",
+    "archived": false,
+    "createdAt": "2023-11-15T08:30:00.000Z"
+  }
+]

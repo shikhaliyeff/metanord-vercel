@@ -1,0 +1,43 @@
+Please complete a full and final localization audit for the Simplified Chinese (zh-CN) language version of the MetaNord website, including both static and dynamic content. Despite previous attempts, there are still major English sections remaining across the site.
+
+Please do the following:
+
+1. Perform a deep scan across all pages (public + admin if applicable) and identify any of the following:
+	•	Raw English text
+	•	Untranslated product names or descriptions
+	•	Missing localized i18n keys (fallbacks or missing entries)
+	•	Mixed-language blocks (e.g. Chinese + English combined)
+
+2. Fully translate the following high-priority sections which are still not localized:
+	•	“About Us” section on homepage and /about page
+	•	“Why Choose Us” section
+	•	Full /products page and all individual product cards (name + description)
+	•	Full /services page including:
+	•	Service blocks (titles + descriptions)
+	•	Icons
+	•	“Our Service Process” (step titles + descriptions)
+	•	Contact form at bottom of homepage
+	•	Full /contact page
+	•	All filter buttons and categories on /projects and /documents
+	•	Section titles like:
+	•	“Customer-Centric Approach”
+	•	“Our Story”
+	•	“Industry Experience”
+	•	“Sustainability”
+	•	“Procurement Services”
+	•	“Additional Services”
+	•	Buttons like “Learn More”, “View Details”, “Request Quote”, “Browse Product Catalog”
+
+3. Validate the following technical actions:
+	•	Check if zh-CN keys are properly linked in i18n config
+	•	Ensure all translations exist in zh-CN.json or nested locale files
+	•	Verify translations render correctly and immediately after switching to Chinese
+	•	No layout or design is broken after the translation
+
+4. Optional (nice-to-have):
+	•	If translations are dynamically injected (CMS or DB), ensure fallback logic uses correct zh-CN content
+	•	Ensure SEO meta tags and page titles are also localized for zh-CN
+
+5. Once complete:
+	•	Confirm and list all updated sections
+	•	Share a quick audit summary showing any parts that could not be localized (if any)

@@ -1,0 +1,62 @@
+/**
+ * Submenu hover effect fixes
+ * 
+ * This CSS ensures that submenu items have the same hover underline effect as main navigation items
+ * by using more specific selectors to override any conflicting styles.
+ */
+
+/* Ensure submenu items get the proper hover styling */
+.submenu-item,
+.dropdown-submenu-item,
+[data-state="open"] .dropdown-submenu a,
+.dropdown-submenu li {
+  position: relative !important;
+  overflow: visible !important;
+}
+
+/* Highly specific selectors to ensure submenu underlines work */
+.submenu-item::after,
+.dropdown-submenu-item::after,
+[data-state="open"] .dropdown-submenu a::after,
+.dropdown-submenu li::after,
+.dropdown-menu [role="menuitem"]::after {
+  content: '' !important;
+  position: absolute !important;
+  width: 100% !important;
+  transform: scaleX(0) !important;
+  height: 2px !important;
+  bottom: -1px !important;
+  left: 0 !important;
+  background-color: var(--color-primary, #3b82f6) !important;
+  background-image: linear-gradient(to right, var(--color-primary, #3b82f6), var(--color-accent, #ec4899)) !important;
+  transform-origin: bottom right !important;
+  transition: transform 0.25s ease-out !important;
+  pointer-events: none !important;
+}
+
+/* Show the underline on hover with high specificity selectors */
+.submenu-item:hover::after,
+.dropdown-submenu-item:hover::after,
+[data-state="open"] .dropdown-submenu a:hover::after,
+.dropdown-submenu li:hover::after,
+.dropdown-menu [role="menuitem"]:hover::after {
+  transform: scaleX(1) !important;
+  transform-origin: bottom left !important;
+}
+
+/* Override any conflicting hover styles */
+.submenu-item:hover,
+.dropdown-submenu-item:hover,
+.dropdown-menu li:hover,
+[data-state="open"] .dropdown-submenu a:hover,
+.dropdown-menu [role="menuitem"]:hover {
+  color: var(--color-accent, #ec4899) !important;
+  text-decoration: none !important;
+}
+
+/* Consistent styling for dropdown menu group hover states */
+.submenu-item .group:hover span,
+.dropdown-submenu-item .group:hover span,
+.dropdown-menu li .group:hover span {
+  color: var(--color-accent, #ec4899) !important;
+}

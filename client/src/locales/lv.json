@@ -1,0 +1,750 @@
+{
+  "common": {
+    "close": "Aizvērt"
+  },
+  "navigation": {
+    "home": "Sākums",
+    "products": "Produkti",
+    "services": "Pakalpojumi",
+    "about": "Par mums",
+    "contact": "Kontakti",
+    "language": "Valoda",
+    "search": "Meklēt",
+    "menu": "Izvēlne"
+  },
+  "search": {
+    "placeholder": "Meklēt produktus...",
+    "refineSearch": "Precizējiet meklēšanu...",
+    "recentSearches": "Nesenie meklējumi",
+    "searchResults": "Meklēšanas rezultāti",
+    "noResults": "Nav atrasti atbilstoši produkti",
+    "resultsFor": "Meklēšanas rezultāti",
+    "filterByCategory": "Filtrēt pēc kategorijas:",
+    "clearFilters": "Notīrīt filtrus",
+    "foundResults": "Atrasts {{count}} rezultāts",
+    "foundResults_plural": "Atrasti {{count}} rezultāti",
+    "inCategory": "kategorijā",
+    "noResultsFound": "Nav atrasti produkti, kas atbilst jūsu meklējumam",
+    "tryDifferentTerms": "Mēģiniet meklēt ar citiem vārdiem vai pārlūkot produktu kategorijas",
+    "browseAllProducts": "Pārlūkot visus produktus",
+    "tryDifferent": "Try different search terms or browse categories"
+  },
+  "header": {
+    "home": "Sākums",
+    "about": "Par mums",
+    "products": "Produkti",
+    "services": "Pakalpojumi",
+    "contact": "Kontakti",
+    "requestQuote": "Pieprasīt cenu",
+    "getPrice": "Pieprasīt cenu",
+    "requestCallback": "Pieprasīt zvanu",
+    "solutions": "Risinājumi",
+    "company": "Uzņēmums",
+    "featuredProjects": "Izceltie Projekti",
+    "projects": "Featured Projects"
+  },
+  "language": {
+    "en": "Angļu",
+    "et": "Igauņu",
+    "ru": "Krievu",
+    "lv": "Latviešu",
+    "lt": "Lietuviešu",
+    "pl": "Poļu"
+  },
+  "productDetail": {
+    "loading": "Produkta informācijas ielāde...",
+    "interested": "Vai jūs interesē šis produkts?",
+    "contactMessage": "Sazinieties ar mūsu komandu, lai apspriestu jūsu konkrētās prasības un uzzinātu, kā mēs varam piegādāt šo produktu jūsu projektam.",
+    "documentTitle": "Produkta dokumenti",
+    "downloadCatalog": "Lejupielādēt katalogu",
+    "downloadDatasheet": "Lejupielādēt specifikāciju",
+    "downloadDocuments": "Produkta dokumenti",
+    "noDocuments": "Šim produktam nav pieejamu dokumentu"
+  },
+  "documents": {
+    "metaTitle": "Dokumenti un resursi - MetaNord",
+    "metaDescription": "Lejupielādējiet MetaNord brošūras, tehniskās specifikācijas, sertifikātus un prezentācijas. Piekļūstiet oficiālajai dokumentācijai par mūsu produktiem un pakalpojumiem.",
+    "pageTitle": "Dokumenti un resursi",
+    "pageDescription": "Piekļūstiet un lejupielādējiet mūsu produktu brošūras, tehniskās specifikācijas, sertifikātus un uzņēmuma prezentācijas.",
+    "searchPlaceholder": "Meklēt dokumentus...",
+    "filterAll": "Visi",
+    "filterBrochures": "Brošūras",
+    "filterDatasheets": "Tehniskie dati",
+    "filterCertificates": "Sertifikāti",
+    "filterPresentations": "Prezentācijas",
+    "noDocumentsFound": "Dokumenti nav atrasti",
+    "tryDifferentSearch": "Mēģiniet citu meklēšanas terminu vai kategoriju",
+    "resetFilters": "Atiestatīt filtrus",
+    "download": "Lejupielādēt",
+    "downloads": "{{count}} lejupielāde",
+    "downloads_plural": "{{count}} lejupielādes",
+    "filters": "Filtri",
+    "filterOptions": "Filtra opcijas",
+    "filterDescription": "Izmantojiet zemāk esošās opcijas, lai filtrētu dokumentus",
+    "filterByLanguage": "Filtrēt pēc valodas",
+    "filterByType": "Filtrēt pēc dokumenta veida",
+    "filterByCategory": "Filtrēt pēc kategorijas",
+    "filterByProductCategory": "Filtrēt pēc produktu kategorijas",
+    "applyFilters": "Pielietot filtrus",
+    "allLanguages": "Visas valodas",
+    "allTypes": "Visi veidi",
+    "allCategories": "Visas kategorijas",
+    "allProductCategories": "Visas produktu kategorijas",
+    "noDocuments": "Dokumenti nav atrasti",
+    "tryChangingFilters": "Mēģiniet mainīt filtra iestatījumus",
+    "all": "Visi dokumenti",
+    "types": {
+      "brochure": "Brošūra",
+      "datasheet": "Tehniskā informācija",
+      "catalog": "Katalogs",
+      "certificate": "Sertifikāts",
+      "manual": "Rokasgrāmata",
+      "presentation": "Prezentācija",
+      "technical": "Tehniskā dokumentācija",
+      "quality": "Kvalitāte",
+      "specification": "Specifikācija",
+      "instructions": "Instrukcijas"
+    },
+    "category": {
+      "brochure": "Brošūra",
+      "datasheet": "Tehniskā informācija",
+      "certificate": "Sertifikāts",
+      "presentation": "Prezentācija",
+      "manual": "Rokasgrāmata",
+      "quality": "Kvalitāte",
+      "technical": "Tehniskā dokumentācija",
+      "reference": "Uzziņu materiāls",
+      "product": "Produkts",
+      "marketing": "Mārketings",
+      "legal": "Juridiskais",
+      "general": "Vispārīgais",
+      "installation": "Uzstādīšana",
+      "maintenance": "Apkope",
+      "software": "Programmatūra",
+      "catalog": "Katalogs",
+      "others": "Citi"
+    },
+    "others": "Citi dokumenti"
+  },
+  "home": {
+    "metaTitle": "MetaNord - Premium alumīnija profili un infrastruktūras produkti Eiropas un starptautiskajiem tirgiem",
+    "metaDescription": "MetaNord OÜ specializējas premium alumīnija profilos un infrastruktūras produktos Eiropas un starptautiskajiem tirgiem. Augstas kvalitātes risinājumi būvniecības, komunālo pakalpojumu un rūpniecības nozarēm.",
+    "keywords": "aluminum profiles, infrastructure products, construction materials, industrial solutions, MetaNord, European suppliers"
+  },
+  "hero": {
+    "title": "Mēs piegādājam materiālus.",
+    "title_highlight": "Jūs veidojat nākotni.",
+    "subtitle": "Alumīnija profili un pilsētvides infrastruktūras produkti no uzticamiem ražotājiem",
+    "cta": "Izpētīt produktus",
+    "learnMore": "Uzzināt vairāk",
+    "globalShipping": "Pieejama starptautiska piegāde",
+    "productTitle": "Premium produkti",
+    "productSubtitle": "Augstas kvalitātes infrastruktūras risinājumi",
+    "tagline": "Inženierzinātnes stiprākai nākotnei"
+  },
+  "features": {
+    "title": "Kāpēc Izvēlēties Mūs",
+    "subtitle": "Mūsu uzticība izcilībai izceļ mūs augstākās kvalitātes produktu piegādē un izcila pakalpojuma sniegšanā visā Eiropā",
+    "quality": {
+      "title": "Augstākā Kvalitāte",
+      "description": "Mēs piedāvājam augstas kvalitātes produktus no uzticamiem ražotājiem, kas iziet stingru kvalitātes kontroli."
+    },
+    "competitive": {
+      "title": "Konkurētspējīgas Cenas",
+      "description": "Mūsu tiešās attiecības ar ražotājiem ļauj mums piedāvāt konkurētspējīgas cenas, neuzupurējot kvalitāti."
+    },
+    "reliability": {
+      "title": "Uzticamība",
+      "description": "Konsekvents piegādes grafiks un uzticama produktu pieejamība nodrošina jūsu projektu savlaicīgu īstenošanu."
+    },
+    "expertise": {
+      "title": "Tehniskā Speciālista Kompetence",
+      "description": "Mūsu ekspertu komanda palīdzēs jums izvēlēties piemērotus produktus jūsu specifiskajām vajadzībām."
+    }
+  },
+  "services": {
+    "title": "Mūsu",
+    "titleHighlight": "Pakalpojumi",
+    "subtitle": "Visaptveroši risinājumi jūsu infrastruktūras un būvniecības vajadzībām",
+    "metaTitle": "MetaNord pakalpojumi - loģistika, konsultācijas un pielāgoti risinājumi",
+    "metaDescription": "MetaNord piedāvā visaptverošus pakalpojumus, tostarp loģistiku, tehniskās konsultācijas, pielāgotus risinājumus, klientu atbalstu un iepirkumu pakalpojumus visām jūsu infrastruktūras vajadzībām.",
+    "overview": {
+      "title": "Kā mēs varam jums palīdzēt",
+      "description": "Mēs piedāvājam virkni profesionālu pakalpojumu, lai atbalstītu jūsu projektus no plānošanas līdz pabeigšanai"
+    },
+    "process": {
+      "title": "Mūsu pakalpojumu process",
+      "steps": [
+        {
+          "title": "Sākotnējā konsultācija",
+          "description": "Mēs sākam ar rūpīgu jūsu projekta vajadzību un prasību apspriešanu"
+        },
+        {
+          "title": "Risinājuma izstrāde",
+          "description": "Mūsu eksperti izstrādā pielāgotu plānu, kas atbilst jūsu konkrētajam projektam"
+        },
+        {
+          "title": "Produktu atlase",
+          "description": "Mēs palīdzam jums izvēlēties pareizos produktus no mūsu plašā kataloga"
+        },
+        {
+          "title": "Ieviešanas atbalsts",
+          "description": "Tehniskā palīdzība jūsu projekta ieviešanas posmā"
+        },
+        {
+          "title": "Turpmākais serviss",
+          "description": "Nepārtraukts atbalsts, lai nodrošinātu uzstādīto produktu optimālu darbību"
+        }
+      ]
+    },
+    "additionalTitle": "Papildu pakalpojumi",
+    "logistics": {
+      "title": "Loģistika un piegādes ķēde",
+      "description": "Efektīvi loģistikas risinājumi, pielāgoti jūsu projekta prasībām",
+      "features": [
+        "Tieša piegāde uz būvlaukumiem",
+        "Krājumu pārvaldība un noliktavu pakalpojumi",
+        "Precīza laika piegādes iespējas"
+      ]
+    },
+    "consulting": {
+      "title": "Tehniskās konsultācijas",
+      "description": "Ekspertu padomi par produktu izvēli un ieviešanu",
+      "features": [
+        "Produktu specifikācijas un savietojamība",
+        "Normatīvo prasību ievērošanas vadlīnijas",
+        "Izmaksu optimizācijas stratēģijas"
+      ]
+    },
+    "custom": {
+      "title": "Pielāgoti risinājumi",
+      "description": "Pielāgoti produkti, lai apmierinātu jūsu konkrētā projekta prasības",
+      "features": [
+        "Pielāgoti izmēri un specifikācijas",
+        "Speciāli pārklājumi un apstrādes",
+        "Integrācija ar esošajām sistēmām"
+      ]
+    },
+    "support": {
+      "title": "Klientu atbalsts",
+      "description": "Īpaši veltīta palīdzība visiem jūsu jautājumiem un vajadzībām",
+      "features": [
+        "Daudzvalodu tehniskais atbalsts",
+        "Ātri reaģēšanas laiki",
+        "Visaptveroša dokumentācija"
+      ]
+    },
+    "procurement": {
+      "title": "Iepirkumu pakalpojumi",
+      "description": "Vienkāršots iepirkuma process visām jūsu infrastruktūras vajadzībām",
+      "features": [
+        "Liela apjoma pasūtījumu atlaides",
+        "Uz projektu balstīta cenu noteikšana",
+        "Optimizēts apstiprināšanas process"
+      ]
+    }
+  },
+  "projects": {
+    "title": "Nozīmīgākie projekti",
+    "subtitle": "Apskatiet, kā mūsu produkti tiek izmantoti veiksmīgos projektos visā Eiropā",
+    "office": "Moderns biroju komplekss",
+    "officeDesc": "Premium alumīnija profili un stikla risinājumi ilgtspējīgai komerciālai ēkai Tallinā",
+    "commercial": "Komerciāls",
+    "pipeline": "Ūdens apgādes tīkls",
+    "pipelineDesc": "Pilnīgs infrastruktūras risinājums, ietverot caurules, akas un vārstus pašvaldības ūdens sistēmai",
+    "infrastructure": "Infrastruktūra",
+    "viewProject": "Skatīt projektu"
+  },
+  "about": {
+    "metaTitle": "Par mums - MetaNord | Premium industriālie risinājumi Eiropas un starptautiskajiem tirgiem",
+    "metaDescription": "Uzziniet par MetaNord OÜ, Igaunijā bāzētu globālu tirdzniecības un izplatīšanas uzņēmumu, kas specializējas alumīnija profilos un infrastruktūras produktos Eiropas un starptautiskajiem tirgiem.",
+    "title": "Par mums",
+    "titleHighlight": "Mums",
+    "subtitle": "Jūsu uzticamais partneris kvalitatīvai infrastruktūrai",
+    "description": "MetaNord OÜ ir Igaunijā bāzēts tirdzniecības un izplatīšanas uzņēmums, kas specializējas alumīnija profilos un infrastruktūras produktos Eiropas un starptautiskajiem tirgiem.",
+    "product1": "Alumīnija profili",
+    "product2": "Infrastruktūras produkti",
+    "product3": "Tērauda caurules un savienojumi",
+    "product4": "Čuguna izstrādājumu risinājumi",
+    "product_categories": "Produktu kategorijas",
+    "countries": "Eiropas valstis",
+    "products": "Produktu veidi",
+    "productHighlight": "Kvalitatīva infrastruktūra",
+    "productHighlightDesc": "Eiropas standarta komponenti ilgtermiņa infrastruktūras risinājumiem",
+    "browseProducts": "Pārlūkot produktus",
+    "imageAlt": "MetaNord noliktava ar alumīnija profiliem un infrastruktūras produktiem",
+    "quality": {
+      "title": "Inženiertehniskā izcilība",
+      "text": "Radīts profesionāļiem",
+      "assurance": "Kvalitātes Nodrošināšana"
+    },
+    "experience": {
+      "years": "10+ gadu",
+      "text": "pieredze"
+    },
+    "story": {
+      "title": "Mūsu stāsts",
+      "paragraph1": "Dibināts ar vīziju piegādāt augstas kvalitātes rūpnieciskos produktus Eiropas un starptautiskajiem tirgiem, MetaNord OÜ ir nostiprinājis sevi kā uzticamu partneri uzņēmumiem dažādās nozarēs. Bāzējoties Igaunijā, mēs izmantojam mūsu stratēģisko atrašanās vietu, lai efektīvi apkalpotu klientus visā Eiropā un ārpus tās.",
+      "paragraph2": "Mūsu komanda sastāv no profesionāļiem ar plašu pieredzi rūpniecisko produktu piegādē, kvalitātes kontrolē un starptautiskajā loģistikā. Šī pieredze ļauj mums piegādāt augstākās kvalitātes produktus, kas atbilst mūsu daudzveidīgās klientu bāzes specifiskajām vajadzībām.",
+      "paragraph3": "Mums attīstoties, mūsu apņemšanās nodrošināt kvalitāti, konkurētspējīgas cenas un izcilu servisu paliek nemainīga. Mēs nepārtraukti paplašinām mūsu produktu klāstu un uzlabojam mūsu spējas, lai labāk apmierinātu mūsu klientu mainīgās vajadzības."
+    },
+    "mission": {
+      "title": "Mūsu misija un vērtības",
+      "subtitle": "MetaNord mēs esam apņēmušies nodrošināt augstākās kvalitātes produktus, ko atbalsta izcils serviss. Mūsu vērtības vada visu, ko mēs darām:"
+    },
+    "values": {
+      "quality": {
+        "title": "Kvalitāte pirmajā vietā",
+        "description": "Mēs nekad neapdraudam mūsu produktu kvalitāti. Katrs priekšmets mūsu katalogā iziet stingru kvalitātes kontroli, lai atbilstu augstākajiem nozares standartiem."
+      },
+      "customer": {
+        "title": "Uz klientu orientēta pieeja",
+        "description": "Mēs liekam mūsu klientus visu mūsu darbību centrā. Viņu unikālo prasību izpratne un apmierināšana ir mūsu galvenā prioritāte."
+      },
+      "sustainability": {
+        "title": "Ilgtspēja",
+        "description": "Mēs esam apņēmušies īstenot ilgtspējīgas biznesa prakses un videi draudzīgas darbības visā mūsu piegādes ķēdē."
+      }
+    },
+    "partners": {
+      "title": "Mūsu globālie partneri",
+      "subtitle": "Mēs sadarbojamies ar uzticamiem ražotājiem un piegādātājiem no visas pasaules, lai nodrošinātu jums labākos produktus par konkurētspējīgām cenām:",
+      "partner1": "Eiropas Alumīnija Grupa",
+      "partner2": "Globālie Infrastruktūras Risinājumi",
+      "partner3": "Ziemeļvalstu Industriālās Sistēmas"
+    },
+    "faq": {
+      "title": "Biežāk Uzdotie Jautājumi",
+      "subtitle": "Atrodiet ātras atbildes uz biežāk uzdotajiem jautājumiem par mūsu produktiem un pakalpojumiem",
+      "q1": {
+        "question": "Kādus alumīnija profilu veidus jūs piedāvājat?",
+        "answer": "Mēs piedāvājam plašu alumīnija profilu klāstu, tostarp standarta strukturālos profilus, mašīnbūves profilus, LED profilus un pielāgotus risinājumus. Mūsu katalogā ir dažādas formas, izmēri un apdares, kas piemērotas dažādiem pielietojumiem būvniecībā, inženierzinātnēs un dizainā."
+      },
+      "q2": {
+        "question": "Vai jūs nodrošināt starptautisku piegādi?",
+        "answer": "Jā, mēs nodrošinām starptautisku piegādi uz lielāko daļu Eiropas valstu un ārpus tām. Piegādes izmaksas un piegādes laiki atšķiras atkarībā no galamērķa un pasūtījuma lieluma. Sazinieties ar mums, lai iegūtu konkrētu informāciju par piegādi jūsu atrašanās vietā."
+      },
+      "q3": {
+        "question": "Vai es varu pieprasīt pielāgotus produktus?",
+        "answer": "Protams! Mēs specializējamies pielāgotu risinājumu nodrošināšanā, lai apmierinātu konkrētas projekta prasības. Sazinieties ar mūsu komandu, norādot savas specifikācijas, un mēs sadarbosimies ar mūsu ražošanas partneriem, lai izveidotu jūsu vajadzībām pielāgotus produktus."
+      },
+      "q4": {
+        "question": "Kādus maksājumu veidus jūs pieņemat?",
+        "answer": "Mēs pieņemam dažādus maksājumu veidus, tostarp bankas pārskaitījumus, kredītkartes un pirkuma pasūtījumus nodibinātiem biznesa klientiem. Par maksājuma nosacījumiem var apspriesties atkarībā no pasūtījuma lieluma un biznesa attiecībām."
+      }
+    }
+  },
+  "cta": {
+    "title": "Gatavi uzsākt projektu?",
+    "subtitle": "Sazinieties ar mums šodien, lai apspriestu jūsu infrastruktūras vajadzības un saņemtu pielāgotus risinājumus atbilstoši jūsu prasībām",
+    "contact": "Sazināties ar mums",
+    "catalog": "Pārlūkot produktu katalogu",
+    "badge": "Pieprasiet piedāvājumu jau šodien",
+    "feature1": "Ekspertu konsultācijas jūsu projekta vajadzībām",
+    "feature2": "Konkurētspējīgas cenas un savlaicīga piegāde",
+    "feature3": "Augstas kvalitātes produkti atbilstoši Eiropas standartiem",
+    "contactTitle": "Saņemiet personalizētu piedāvājumu",
+    "contactDesc": "Sazinieties ar mūsu komandu, lai pārrunātu jūsu konkrētās projekta prasības un termiņus"
+  },
+  "contact": {
+    "title": "Kontakti",
+    "titleHighlight": "mums",
+    "subtitle": "Mēs esam šeit, lai atbildētu uz jūsu jautājumiem un nodrošinātu nepieciešamos risinājumus",
+    "reachOut": "Sazināties ar mums",
+    "form": {
+      "submit": "Iesniegt",
+      "name": "Jūsu vārds",
+      "email": "E-pasta adrese",
+      "company": "Uzņēmums",
+      "subject": "Tēma",
+      "selectOption": "Izvēlieties opciju",
+      "productInfo": "Produktu informācija",
+      "requestQuote": "Pieprasīt cenu",
+      "technicalSupport": "Tehniskais atbalsts",
+      "other": "Cits",
+      "message": "Jūsu ziņojums"
+    },
+    "info": {
+      "title": "Kontaktinformācija",
+      "subtitle": "Sazinieties ar mums, izmantojot jebkuru no šiem kanāliem",
+      "company": "MetaNord OÜ",
+      "registry": "Reģistrācijas numurs: 17235227",
+      "address": "Tornimäe tn 5, 10145 Tallina, Igaunija",
+      "phone": "+372 5771 3442",
+      "email": "info@metanord.eu",
+      "website": "www.metanord.eu"
+    },
+    "location": "Mūsu atrašanās vieta",
+    "viewOnMaps": "Skatīt kartē",
+    "faq": {
+      "title": "Biežāk Uzdotie Jautājumi",
+      "subtitle": "Atrodiet atbildes uz mūsu visbiežāk uzdotajiem jautājumiem",
+      "q1": {
+        "question": "Kādus alumīnija profilu veidus jūs piedāvājat?",
+        "answer": "Mēs piedāvājam plašu alumīnija profilu klāstu, ieskaitot standarta strukturālos profilus, mašīnbūves profilus, LED profilus un pielāgotus risinājumus. Mūsu katalogā ir iekļautas dažādas formas, izmēri un apdares, kas piemērotas dažādiem pielietojumiem būvniecībā, inženierijā un dizainā."
+      },
+      "q2": {
+        "question": "Vai jūs nodrošināt starptautisko piegādi?",
+        "answer": "Jā, mēs nodrošinām starptautisko piegādi uz vairākumu valstu. Piegādes izmaksas un piegādes laiks atšķiras atkarībā no galamērķa un pasūtījuma apjoma. Lūdzu, sazinieties ar mūsu pārdošanas komandu, lai iegūtu konkrētu informāciju par piegādi jūsu reģionā."
+      },
+      "q3": {
+        "question": "Vai es varu pieprasīt pielāgotas specifikācijas produktiem?",
+        "answer": "Noteikti. Mēs specializējamies pielāgotos risinājumos un varam pielāgot produktus, lai tie atbilstu jūsu specifiskajām projekta prasībām. Lūdzu, norādiet detalizētas specifikācijas, pieprasot cenu piedāvājumu, un mūsu inženieri strādās ar jums, lai nodrošinātu tieši to, kas jums nepieciešams."
+      },
+      "q4": {
+        "question": "Kā es varu saņemt tehnisko atbalstu jūsu produktiem?",
+        "answer": "Mūsu tehniskā atbalsta komanda ir pieejama, lai palīdzētu ar produktu izvēli, uzstādīšanas padomiem un problēmu novēršanu. Jūs varat sazināties ar viņiem pa e-pastu support@metanord.eu vai pa tālruni darba laikā. Mēs arī nodrošinām visaptverošu dokumentāciju visiem mūsu produktiem."
+      }
+    }
+  },
+  "products": {
+    "title": "Mūsu",
+    "titleHighlight": "Katalogs",
+    "need_assistance": "Vai jums nepieciešama palīdzība ar jūsu projektu?",
+    "contact_subtext": "Sazinieties ar mums, lai iegūtu pielāgotus risinājumus un individuālus piedāvājumus jūsu infrastruktūras vajadzībām",
+    "categories": {
+      "manholes": "Akas",
+      "pipes": "Caurules",
+      "rainwater": "Lietus ūdens režģi",
+      "fittings": "Savienojumi",
+      "polyethylene": "Polietilēns",
+      "castIron": "Čuguns",
+      "cast_iron": "Čuguns",
+      "cast-iron": "Čuguns",
+      "steel": "Tērauds",
+      "aluminum": "Alumīnijs",
+      "valves": "Vārsti",
+      "fire-protection": "Ugunsdzēsība",
+      "fire_protection": "Ugunsdzēsība",
+      "urbanInfrastructure": "Pilsētas infrastruktūra",
+      "urban_infrastructure": "Pilsētas Infrastruktūra",
+      "urban": "Pilsētas Infrastruktūra",
+      "urban infrastructure": "Pilsētas Infrastruktūra",
+      "aluminum_products": "Alumīnija Produkti",
+      "infrastructure_products": "Infrastruktūras Produkti",
+      "Urban Infrastructure": "Pilsētas Infrastruktūra",
+      "Cast Iron": "Čuguns",
+      "cast iron": "Čuguns",
+      "Aluminum": "Alumīnijs",
+      "Steel": "Tērauds",
+      "Polyethylene": "Polietilēns",
+      "Fittings": "Savienojumi & Savienotāji"
+    },
+    "steel": {
+      "hsawPipes": {
+        "title": "HSAW tērauda caurules",
+        "description": "Spirālveidā metinātas tērauda caurules ūdens pārvadei ar izcilu spiediena izturību."
+      },
+      "oilGasPipes": {
+        "title": "Naftas un gāzes caurules",
+        "description": "Augstas kvalitātes tērauda caurules naftas un gāzes transportēšanai ar specializētiem pārklājumiem un stingru kvalitātes kontroli."
+      },
+      "pilePipes": {
+        "title": "Pāļu caurules",
+        "description": "Strukturālās tērauda caurules dziļajiem pamatiem ar augstu slodzes kapacitāti un dažādām galu konfigurācijām."
+      }
+    },
+    "castIron": {
+      "manholeCovers": {
+        "title": "Aku vāki",
+        "description": "Izturīgi čuguna aku vāki ar augstu slodzes izturību dažādiem pilsētvides pielietojumiem."
+      },
+      "drainageGrates": {
+        "title": "Drenāžas Restes",
+        "description": "Čuguna drenāžas restes lietus ūdens savākšanas sistēmām, kas projektētas dažādām satiksmes slodzēm un caurplūdes kapacitātēm."
+      },
+      "rainwaterGrills": {
+        "title": "Lietus ūdens režģi",
+        "description": "Izturīgi čuguna drenāžas režģi ar optimizētu ūdens uzņemšanas jaudu pilsētas drenāžas sistēmām."
+      },
+      "fireHydrants": {
+        "title": "Ugunsdzēsības hidranti",
+        "description": "Sala izturīgi čuguna ugunsdzēsības hidranti ar pašdrenāžas spēju pašvaldību ugunsdzēsības aizsardzībai."
+      },
+      "gateValves": {
+        "title": "Aizbīdņi",
+        "description": "Čuguna aizbīdņi ar elastīgu blīvējumu, nodrošinot pilnīgu plūsmu un zemu spiediena kritumu."
+      }
+    },
+    "subtitle": "Augstas kvalitātes infrastruktūras un būvniecības produkti Eiropas tirgiem",
+    "metaDescription": "Izpētiet mūsu plašo augstas kvalitātes infrastruktūras un būvniecības produktu klāstu. Mēs piedāvājam čuguna akas, HDPE caurules un citus produktus Eiropas tirgiem.",
+    "featuredTitle": "Izceltie Produkti",
+    "infrastructureTitle": "Infrastruktūras Risinājumi",
+    "infrastructureDescription": "Plašs infrastruktūras produktu klāsts, kas izstrādāts ilgizturībai un atbilstībai Eiropas standartiem. Mūsu risinājumi atbalsta būvniecības, komunālo pakalpojumu un pilsētu attīstības projektus.",
+    "infrastructureImageAlt": "Infrastruktūras produkti pilsētvides attīstībai",
+    "catalogTitle": "Produktu Katalogs",
+    "quickPreview": "Ātrais pārskats",
+    "products.quickPreview": "Ātrais pārskats",
+    "features": "Iezīmes",
+    "applications": "Pielietojumi",
+    "specifications": "Specifikācijas",
+    "description": "Produkta specifikācija",
+    "filters": {
+      "all": "Visi Produkti"
+    },
+    "aluminum": {
+      "structuralProfiles": {
+        "title": "Standarta profili",
+        "description": "Universāli alumīnija profili dažādiem pielietojumiem būvniecībā, inženierzinātnēs un dizainā ar dažādiem izmēriem un formām."
+      },
+      "architecturalProfiles": {
+        "title": "Mašīnbūves profili",
+        "description": "Specializēti alumīnija profili rūpniecisko iekārtu un aprīkojuma būvniecībai ar uzsvaru uz precizitāti un izturību."
+      },
+      "industrialProfiles": {
+        "title": "LED profili",
+        "description": "Specializēti alumīnija profili LED apgaismojuma instalācijām ar optimizētu siltuma izvadi un gaismas izkliedēšanu."
+      },
+      "customExtrusions": {
+        "title": "Speciālie profili",
+        "description": "Pēc pasūtījuma izstrādāti alumīnija profili specializētiem pielietojumiem ar unikālu ģeometriju un veiktspējas īpašībām."
+      }
+    },
+    "polyethylene": {
+      "hdpePipes": {
+        "title": "HDPE caurules",
+        "description": "Augstas blīvuma polietilēna caurules ar izcilu ķīmisko izturību ūdens, gāzes un kanalizācijas sistēmām."
+      },
+      "doubleCorrugatedPipes": {
+        "title": "Dubultsienu gofrētās caurules",
+        "description": "Dubultsienu HDPE caurules ar gludu iekšpusi un gofrētu ārpusi drenāžas un kanalizācijas sistēmām."
+      },
+      "reinforcedPipes": {
+        "title": "Ar tēraudu pastiprinātas PE caurules",
+        "description": "Ar tēraudu pastiprinātas polietilēna caurules ekstremālām slodzēm ar izcilu strukturālo integritāti."
+      },
+      "tripleWallPipes": {
+        "title": "Trīssienu caurules",
+        "description": "Modernas trīssienu polietilēna caurules, kas paredzētas kritiskai infrastruktūrai ar izcilu izturību."
+      },
+      "elbowFittings": {
+        "title": "Līkumu savienojumi",
+        "description": "Polietilēna līkuma savienojumi virzienu maiņai cauruļvadu sistēmās ar precīzu inženiertehnisko izpildījumu."
+      },
+      "teeFittings": {
+        "title": "T-veida savienojumi",
+        "description": "Polietilēna T-veida savienojumi atzarojumiem ar optimālu plūsmas sadalījumu un minimālu spiediena zudumu."
+      }
+    },
+    "qualityAssurance": "Kvalitātes Nodrošināšana",
+    "qualityImageAlt": "Rūpniecisko produktu kvalitātes pārbaude",
+    "qualityText1": "Visi mūsu produkti iziet stingras kvalitātes pārbaudes, lai nodrošinātu atbilstību Eiropas izturības, drošības un veiktspējas standartiem.",
+    "qualityText2": "Mēs sadarbojamies ar sertificētiem ražotājiem, kuri uztur stingras kvalitātes kontroles sistēmas un nodrošina visaptverošu dokumentāciju katram produktam.",
+    "qualityText3": "Mūsu apņemšanās kvalitātes jomā pārsniedz produktus un attiecas arī uz mūsu pakalpojumiem, nodrošinot savlaicīgu piegādi un profesionālu atbalstu visām jūsu infrastruktūras vajadzībām.",
+    "viewDetails": "Skatīt sīkāk",
+    "filter": {
+      "all": "Visi produkti",
+      "aluminum": "Alumīnijs",
+      "polyethylene": "Polietilēns",
+      "steel": "Tērauds",
+      "castIron": "Čuguns",
+      "urbanInfrastructure": "Pilsētas infrastruktūra",
+      "fittings": "Savienojumi",
+      "rainwater": "Lietus ūdens risinājumi"
+    },
+    "standard-profiles": {
+      "title": "Standarta Alumīnija Profili",
+      "description": "Augstas kvalitātes alumīnija profili strukturāliem, arhitektoniskiem un rūpnieciskiem pielietojumiem."
+    },
+    "machine-building-profiles": {
+      "title": "Mašīnbūves Profili",
+      "description": "Specializēti alumīnija profili, kas paredzēti mašīnbūvei un automatizācijai."
+    },
+    "led-profiles": {
+      "title": "LED Profili",
+      "description": "Alumīnija profili LED apgaismojumam ar integrētām gaismas difūzijas iespējām."
+    },
+    "special-profiles": {
+      "title": "Speciālie Profili",
+      "description": "Pielāgoti alumīnija profili īpašiem projektiem un specifiskām vajadzībām."
+    },
+    "hdpe-pipes": {
+      "title": "HDPE Caurules",
+      "description": "Augstas blīvuma polietilēna caurules ūdens apgādei, kanalizācijai un gāzes sadalei."
+    },
+    "double-corrugated-pipes": {
+      "title": "Dubultsienu Gofrētās Caurules",
+      "description": "Dubultsienu gofrētās polietilēna caurules drenāžas un kanalizācijas sistēmām."
+    },
+    "reinforced-corrugated-pipes": {
+      "title": "Pastiprinātas Gofrētās Caurules",
+      "description": "Īpaši izturīgas gofrētās caurules ar uzlabotu nestspēju."
+    },
+    "hsaw-pipes": {
+      "title": "HSAW Tērauda Caurules",
+      "description": "Spirāliski iegremdētas loka metinātas tērauda caurules dažādiem infrastruktūras pielietojumiem."
+    },
+    "oil-gas-pipes": {
+      "title": "Naftas un Gāzes Caurules",
+      "description": "Augstspiediena tērauda caurules, kas īpaši izstrādātas naftas un gāzes transportēšanai."
+    },
+    "manhole-covers": {
+      "title": "Kanalizācijas lūkas",
+      "description": "Čuguna kanalizācijas lūkas dažādās slodzes klasēs"
+    },
+    "drainage-grates": {
+      "title": "Drenāžas restes",
+      "description": "Čuguna drenāžas restes efektīvai ūdens novadīšanai"
+    },
+    "elbow-fitting": {
+      "title": "90° līkuma savienojums",
+      "description": "90° līkuma savienojums polietilēna cauruļu sistēmām"
+    },
+    "elbow-45-fitting": {
+      "title": "45° līkuma savienojums",
+      "description": "45° līkuma savienojums polietilēna cauruļu sistēmām"
+    },
+    "tee-fitting": {
+      "title": "T-veida savienojums",
+      "description": "T-veida savienojums polietilēna cauruļu sistēmām"
+    },
+    "flange-adapter": {
+      "title": "Atloka adapteris",
+      "description": "Atloka adapteris polietilēna cauruļu sistēmām"
+    },
+    "gate-valve": {
+      "title": "Aizbīdnis",
+      "description": "Čuguna aizbīdnis ūdens sistēmām"
+    },
+    "drainage-channel": {
+      "title": "Drenāžas kanāls",
+      "description": "Augsti izturīgs drenāžas kanāls lietus ūdens savākšanai"
+    },
+    "butterfly-valve": {
+      "title": "Tauriņvārsts",
+      "description": "Čuguna tauriņvārsts dažādiem pielietojumiem"
+    },
+    "ground-fire-hydrant": {
+      "title": "Virszemes ugunsdzēsības hidrants",
+      "description": "Virszemes ugunsdzēsības hidrants ārkārtas ūdens piekļuvei"
+    },
+    "rainwater-grill-d400-standard": {
+      "title": "D400 lietus ūdens reste",
+      "description": "Standarta D400 slodzes klases lietus ūdens reste ceļiem"
+    },
+    "rainwater-grill-d400-type2": {
+      "title": "D400 2. tipa lietus ūdens reste",
+      "description": "Uzlabota D400 slodzes klases lietus ūdens reste intensīvas satiksmes zonām"
+    },
+    "rainwater-grill-meria": {
+      "title": "Meria lietus ūdens reste",
+      "description": "Specializēta Meria dizaina lietus ūdens reste pilsētvides pielietojumiem"
+    },
+    "rainwater-grill-f900": {
+      "title": "F900 lietus ūdens reste",
+      "description": "F900 īpaši izturīga lietus ūdens reste rūpnieciskajiem pielietojumiem"
+    },
+    "waste-box": {
+      "title": "Atkritumu savākšanas kaste",
+      "description": "Pilsētas atkritumu savākšanas risinājums sabiedriskām vietām"
+    }
+  },
+  "footer": {
+    "description": "MetaNord OÜ ir Igaunijas tirdzniecības un izplatīšanas uzņēmums, kas specializējas augstas kvalitātes alumīnija profilos un infrastruktūras produktos Eiropas tirgiem.",
+    "newsletter": {
+      "title": "Jaunumu vēstkopa",
+      "subtitle": "Abonējiet, lai saņemtu jaunumus par mūsu jaunajiem produktiem un īpašajiem piedāvājumiem.",
+      "placeholder": "Jūsu e-pasta adrese",
+      "button": "Abonēt"
+    },
+    "links": {
+      "title": "Ātras saites",
+      "home": "Sākums",
+      "about": "Par mums",
+      "products": "Produkti",
+      "services": "Pakalpojumi",
+      "contact": "Kontakti",
+      "projects": "Izceltie Projekti"
+    },
+    "products": {
+      "title": "Produkti",
+      "aluminum": "Alumīnija produkti",
+      "castIron": "Čuguna produkti",
+      "polyethylene": "Polietilēna produkti",
+      "steel": "Tērauda produkti",
+      "infrastructure": "Infrastruktūras produkti"
+    },
+    "legal": {
+      "copyright": "Visas tiesības aizsargātas.",
+      "privacy": "Privātuma politika",
+      "terms": "Lietošanas noteikumi",
+      "cookies": "Piegādes informācija"
+    },
+    "resources": {
+      "title": "Resursi",
+      "documents": "Dokumenti",
+      "certifications": "Sertifikāti",
+      "faq": "BUJ",
+      "privacy": "Privātuma politika",
+      "terms": "Lietošanas noteikumi"
+    }
+  },
+  "faq": {
+    "title": "Biežāk Uzdotie Jautājumi",
+    "subtitle": "Ātras atbildes uz bieži uzdotiem jautājumiem par mūsu produktiem un pakalpojumiem",
+    "description": "Atrodiet atbildes uz biežāk uzdotajiem jautājumiem par mūsu produktiem, pakalpojumiem un uzņēmējdarbību. Ja neatrodat atbildi uz savu jautājumu, lūdzu, sazinieties ar mums tieši.",
+    "metaTitle": "Biežāk Uzdotie Jautājumi | MetaNord",
+    "metaDescription": "Atrodiet atbildes uz biežāk uzdotajiem jautājumiem par MetaNord produktiem, pakalpojumiem, piegādes nosacījumiem un tehnisko atbalstu. Iegūstiet nepieciešamo informāciju jūsu infrastruktūras projektiem.",
+    "contactCallout": "Vēl ir jautājumi? Mēs esam šeit, lai palīdzētu.",
+    "contactUs": "Sazinieties ar mums",
+    "contactText": "Ja jums ir citi jautājumi vai vajadzīga detalizētāka informācija, droši sazinieties ar mūsu komandu",
+    "items": [
+      {
+        "question": "Kāda veida produktus piegādā MetaNord?",
+        "answer": "MetaNord specializējas alumīnija profilu, polietilēna cauruļu, tērauda komponentu un citu infrastruktūras materiālu izplatīšanā, kas iegūti no uzticamiem globāliem ražotājiem."
+      },
+      {
+        "question": "Vai jūs piedāvājat pielāgotu ražošanu vai individuālus risinājumus?",
+        "answer": "Jā. Mēs varam nodrošināt pielāgotus izmērus, apdari vai specifikācijas, pamatojoties uz projekta vajadzībām. Lūdzu, sazinieties ar mūsu pārdošanas komandu, lai saņemtu pielāgotus piedāvājumus un inženiertehnisko pārskatu."
+      },
+      {
+        "question": "Kādi ir jūsu piegādes laiki un piegādes noteikumi?",
+        "answer": "Piegādes laiki ir atkarīgi no produkta veida un daudzuma. Standarta preces parasti tiek piegādātas 7-14 darba dienu laikā visā Eiropā. Mēs arī atbalstām ekspress piegādi pēc pieprasījuma."
+      },
+      {
+        "question": "Vai jūs varat piegādāt ārpus Eiropas Savienības?",
+        "answer": "Jā, mēs atbalstām starptautiskus sūtījumus uz plašu tirgu klāstu, ieskaitot valstis, kas nav ES dalībvalstis. Lūdzu, sazinieties ar mums ar jūsu atrašanās vietu un nepieciešamajiem materiāliem loģistikas novērtējumam."
+      },
+      {
+        "question": "Vai jūs nodrošināt produktu sertifikātus un tehnisko dokumentāciju?",
+        "answer": "Noteikti. Lielākā daļa produktu tiek piegādāti ar EN standarta sertifikātiem un detalizētām tehniskajām datu lapām, kas pieejamas Dokumentu lapā vai atsevišķās produktu lapās."
+      },
+      {
+        "question": "Kā es varu pieprasīt cenu piedāvājumu?",
+        "answer": "Jūs varat pieprasīt cenu piedāvājumu, izmantojot kontaktformu mūsu vietnē, nosūtot e-pastu uz info@metanord.eu vai zvanot uz +372 5771 3442. Lūdzu, norādiet nepieciešamos produktus, daudzumu un piegādes vietu."
+      },
+      {
+        "question": "Kādu kvalitātes garantiju sniedz MetaNord?",
+        "answer": "Visi mūsu produkti tiek pakļauti stingrām kvalitātes pārbaudēm, lai nodrošinātu, ka tie atbilst Eiropas standartiem attiecībā uz izturību, drošību un veiktspēju. Mēs sadarbojamies ar sertificētiem ražotājiem, kas uztur stingras kvalitātes kontroles sistēmas."
+      }
+    ]
+  },
+  "productCategories": {
+    "manholes": "Akas",
+    "pipes": "Caurules",
+    "rainwater": "Lietus ūdens režģi",
+    "fittings": "Savienojumi",
+    "polyethylene": "Polietilēns",
+    "castIron": "Čuguns",
+    "cast_iron": "Čuguns",
+    "cast-iron": "Čuguns",
+    "steel": "Tērauds",
+    "aluminum": "Alumīnijs",
+    "valves": "Vārsti",
+    "fire-protection": "Ugunsdzēsība",
+    "fire_protection": "Ugunsdzēsība",
+    "urbanInfrastructure": "Pilsētas infrastruktūra",
+    "urban_infrastructure": "Pilsētas Infrastruktūra",
+    "urban": "Pilsētas Infrastruktūra",
+    "urban infrastructure": "Pilsētas Infrastruktūra",
+    "aluminum_products": "Alumīnija Produkti",
+    "infrastructure_products": "Infrastruktūras Produkti",
+    "Urban Infrastructure": "Pilsētas Infrastruktūra",
+    "Cast Iron": "Čuguns",
+    "cast iron": "Čuguns",
+    "Aluminum": "Alumīnijs",
+    "Steel": "Tērauds",
+    "Polyethylene": "Polietilēns",
+    "Fittings": "Savienojumi & Savienotāji"
+  }
+}

@@ -1,0 +1,294 @@
+# Copyright (C) 2023 MetaNord
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: MetaNord 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/metanord\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-05-12T12:00:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: metanord\n"
+
+#. Theme Name of the theme
+msgid "MetaNord"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "https://metanord.eu"
+msgstr ""
+
+#. Description of the theme
+msgid "A modern, Nordic-inspired WordPress theme for MetaNord OÜ, focusing on industrial infrastructure products with advanced multilingual and ecommerce capabilities. Features a responsive design, integrated product catalog, and comprehensive internationalization support."
+msgstr ""
+
+#. Author of the theme
+msgid "MetaNord"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://metanord.eu"
+msgstr ""
+
+#: 404.php:18
+msgid "404"
+msgstr ""
+
+#: 404.php:19
+msgid "Page Not Found"
+msgstr ""
+
+#: 404.php:20
+msgid "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable."
+msgstr ""
+
+#: 404.php:23
+msgid "Back to Homepage"
+msgstr ""
+
+#: comments.php:35
+#, php-format
+msgid "One comment on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: comments.php:41
+#, php-format
+msgid "%1$s comments on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:85
+msgid "Write a Comment"
+msgstr ""
+
+#: footer.php:50
+msgid "All rights reserved."
+msgstr ""
+
+#: functions.php:58
+msgid "Primary"
+msgstr ""
+
+#: functions.php:59
+msgid "Footer"
+msgstr ""
+
+#: functions.php:60
+msgid "Social"
+msgstr ""
+
+#: functions.php:119
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:121
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:129
+msgid "Footer Widget Area 1"
+msgstr ""
+
+#: functions.php:131
+#: functions.php:141
+#: functions.php:151
+#: functions.php:161
+msgid "Add footer widgets here."
+msgstr ""
+
+#: functions.php:139
+msgid "Footer Widget Area 2"
+msgstr ""
+
+#: functions.php:149
+msgid "Footer Widget Area 3"
+msgstr ""
+
+#: functions.php:159
+msgid "Footer Widget Area 4"
+msgstr ""
+
+#: functions.php:170
+msgid "Back to top"
+msgstr ""
+
+#: functions.php:171
+msgid "Expand menu"
+msgstr ""
+
+#: functions.php:172
+msgid "Collapse menu"
+msgstr ""
+
+#: header.php:26
+msgid "Skip to content"
+msgstr ""
+
+#: inc/acf-settings.php:21
+#: inc/acf-settings.php:22
+msgid "Theme Settings"
+msgstr ""
+
+#: inc/acf-settings.php:32
+msgid "General Settings"
+msgstr ""
+
+#: inc/acf-settings.php:33
+msgid "General"
+msgstr ""
+
+#: inc/acf-settings.php:38
+msgid "Company Information"
+msgstr ""
+
+#: inc/acf-settings.php:39
+msgid "Company Info"
+msgstr ""
+
+#: inc/acf-settings.php:44
+msgid "Social Media Links"
+msgstr ""
+
+#: inc/acf-settings.php:45
+msgid "Social Media"
+msgstr ""
+
+#: inc/acf-settings.php:50
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/acf-settings.php:51
+msgid "Footer"
+msgstr ""
+
+#: inc/acf-settings.php:58
+#: inc/acf-settings.php:59
+msgid "Shop Settings"
+msgstr ""
+
+#: inc/acf-settings.php:102
+msgid "MetaNord Hero"
+msgstr ""
+
+#: inc/acf-settings.php:103
+msgid "A custom hero section block."
+msgstr ""
+
+#: inc/acf-settings.php:117
+msgid "MetaNord Product Categories"
+msgstr ""
+
+#: inc/acf-settings.php:118
+msgid "A block for displaying product categories."
+msgstr ""
+
+#: inc/acf-settings.php:129
+msgid "MetaNord CTA"
+msgstr ""
+
+#: inc/acf-settings.php:130
+msgid "A call to action block."
+msgstr ""
+
+#: inc/acf-settings.php:150
+msgid "MetaNord Blocks"
+msgstr ""
+
+#: inc/template-tags.php:63
+#, php-format
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-tags.php:80
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: inc/template-tags.php:98
+#, php-format
+msgid "Filed under %s"
+msgstr ""
+
+#: inc/template-tags.php:108
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:111
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:121
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:138
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: page-templates/page-products.php:70
+#: page-templates/page-products.php:115
+msgid "Our Products"
+msgstr ""
+
+#: page-templates/page-products.php:95
+#: page-templates/page-products.php:136
+msgid "View Products"
+msgstr ""
+
+#: search.php:21
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:41
+msgid "No results found"
+msgstr ""
+
+#: search.php:42
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: searchform.php:14
+msgid "Search"
+msgstr ""
+
+#: searchform.php:12
+msgid "Search for:"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:24
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:45
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:24
+#: template-parts/content.php:52
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content.php:40
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""

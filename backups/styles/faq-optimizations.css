@@ -1,0 +1,99 @@
+/* Enhanced FAQ styling optimizations for all languages */
+
+/* Base styles for all languages */
+.faq-page-active .accordion-item,
+.contact-faq .accordion-item {
+  background-color: white !important;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.2s ease;
+}
+
+.faq-page-active .accordion-item:hover,
+.contact-faq .accordion-item:hover {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.faq-page-active .accordion-trigger,
+.contact-faq .accordion-trigger {
+  padding: 1.25rem 1.5rem;
+  background-color: white !important;
+  color: #333 !important;
+  font-weight: 500;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-page-active .accordion-content,
+.contact-faq .accordion-content {
+  padding: 1rem 1.5rem 1.5rem;
+  background-color: white !important;
+  color: #333 !important;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+/* Language-specific optimizations */
+
+/* Chinese optimizations */
+html[lang="zh-CN"] .faq-page-active .accordion-trigger span,
+html[lang="zh-CN"] .contact-faq .accordion-trigger span {
+  letter-spacing: 0.025em;
+  word-spacing: 0.05em;
+  word-break: break-word;
+  white-space: normal;
+  line-height: 1.5;
+  font-size: 1.125rem;
+}
+
+html[lang="zh-CN"] .faq-page-active .accordion-content,
+html[lang="zh-CN"] .contact-faq .accordion-content {
+  font-size: 1rem;
+  line-height: 1.7;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+}
+
+/* Russian optimizations */
+html[lang="ru"] .faq-page-active .accordion-trigger span,
+html[lang="ru"] .contact-faq .accordion-trigger span {
+  font-size: 1.0625rem;
+  line-height: 1.4;
+}
+
+/* Estonian optimizations */
+html[lang="et"] .faq-page-active .accordion-trigger span,
+html[lang="et"] .contact-faq .accordion-trigger span {
+  word-spacing: 0.03em;
+}
+
+/* Polish optimizations */
+html[lang="pl"] .faq-page-active .accordion-trigger span,
+html[lang="pl"] .contact-faq .accordion-trigger span {
+  font-size: 1.0625rem;
+}
+
+/* Mobile optimizations for all languages */
+@media (max-width: 768px) {
+  .faq-page-active .accordion-trigger,
+  .contact-faq .accordion-trigger {
+    padding: 1rem 1.25rem;
+    font-size: 0.9375rem;
+  }
+  
+  .faq-page-active .accordion-content,
+  .contact-faq .accordion-content {
+    padding: 0.875rem 1.25rem 1.25rem;
+    font-size: 0.9375rem;
+  }
+  
+  html[lang="zh-CN"] .faq-page-active .accordion-trigger span,
+  html[lang="zh-CN"] .contact-faq .accordion-trigger span {
+    font-size: 1rem;
+  }
+}

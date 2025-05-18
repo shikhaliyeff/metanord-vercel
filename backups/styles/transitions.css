@@ -1,0 +1,74 @@
+/**
+ * Transitions and animations for language switching and page changes
+ * Prevents flashing and improves perceived performance during transitions
+ */
+
+/* Page transition - subtle fade for better UX */
+.page-transition-enter {
+  opacity: 0;
+}
+.page-transition-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in-out;
+}
+.page-transition-exit {
+  opacity: 1;
+}
+.page-transition-exit-active {
+  opacity: 0;
+  transition: opacity 300ms ease-in-out;
+}
+
+/* Language transition - extra styles to help reduce flash when content changes */
+html.lang-transition * {
+  transition-duration: 0ms !important; /* Disable transitions temporarily */
+}
+
+html.lang-transition {
+  /* Visual indicator of language transition */
+  opacity: 0.95;
+  transition: opacity 300ms ease;
+}
+
+/* Minimize layout shift during transitions */
+.no-layout-shift {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+  will-change: transform;
+}
+
+/* Spinner animation for loading states */
+@keyframes spinner {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loading-spinner {
+  width: 30px;
+  height: 30px;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  border-top: 3px solid #0077BB;
+  border-radius: 50%;
+  animation: spinner 1s linear infinite;
+}
+
+/* Mobile-specific optimizations */
+@media (max-width: 768px) {
+  /* Reduce animation intensity on mobile for better performance */
+  .page-transition-enter-active,
+  .page-transition-exit-active {
+    transition-duration: 200ms;
+  }
+  
+  /* Make tap targets more visible on mobile */
+  .tap-highlight {
+    -webkit-tap-highlight-color: rgba(0, 119, 187, 0.1);
+  }
+  
+  /* Prevent mobile scroll issues */
+  html.lang-transition,
+  html.page-changing {
+    overflow-y: hidden !important;
+  }
+}

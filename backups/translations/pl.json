@@ -1,0 +1,784 @@
+{
+  "common": {
+    "close": "Zamknij",
+    "learnMore": "Dowiedz się więcej",
+    "submitting": "Wysyłanie...",
+    "cancel": "Anuluj",
+    "viewDetails": "Zobacz szczegóły",
+    "requestQuote": "Poproś o wycenę",
+    "downloadCatalog": "Pobierz katalog"
+  },
+  "navigation": {
+    "home": "Strona główna",
+    "products": "Produkty",
+    "services": "Usługi",
+    "about": "O nas",
+    "contact": "Kontakt",
+    "language": "Język",
+    "search": "Szukaj",
+    "menu": "Menu"
+  },
+  "search": {
+    "placeholder": "Szukaj produktów...",
+    "refineSearch": "Doprecyzuj wyszukiwanie...",
+    "recentSearches": "Ostatnie wyszukiwania",
+    "searchResults": "Wyniki wyszukiwania",
+    "noResults": "Nie znaleziono pasujących produktów",
+    "resultsFor": "Wyniki wyszukiwania dla",
+    "filterByCategory": "Filtruj według kategorii:",
+    "clearFilters": "Wyczyść filtry",
+    "foundResults": "Znaleziono {{count}} wynik",
+    "foundResults_plural": "Znaleziono {{count}} wyniki",
+    "inCategory": "w kategorii",
+    "noResultsFound": "Nie znaleziono produktów pasujących do wyszukiwania",
+    "tryDifferentTerms": "Spróbuj wyszukać inne hasła lub przeglądaj nasze kategorie produktów",
+    "browseAllProducts": "Przeglądaj wszystkie produkty",
+    "tryDifferent": "Spróbuj wyszukać inne hasła lub przeglądaj kategorie"
+  },
+  "header": {
+    "home": "Strona główna",
+    "about": "O nas",
+    "products": "Produkty",
+    "services": "Usługi",
+    "contact": "Kontakt",
+    "requestQuote": "Zapytaj o cenę",
+    "getPrice": "Zapytaj o cenę",
+    "requestCallback": "Zamów rozmowę",
+    "solutions": "Rozwiązania",
+    "company": "Firma",
+    "featuredProjects": "Ważne Projekty",
+    "projects": "Featured Projects"
+  },
+  "language": {
+    "en": "Angielski",
+    "et": "Estoński",
+    "ru": "Rosyjski",
+    "lv": "Łotewski",
+    "lt": "Litewski",
+    "pl": "Polski",
+    "zh-CN": "Chiński (uproszczony)"
+  },
+  "home": {
+    "metaTitle": "MetaNord - Wysokiej jakości profile aluminiowe i produkty infrastrukturalne dla rynków europejskich i międzynarodowych",
+    "metaDescription": "MetaNord OÜ specjalizuje się w profilach aluminiowych premium i produktach infrastrukturalnych dla rynków europejskich i międzynarodowych. Wysokiej jakości rozwiązania dla sektorów budowlanych, użyteczności publicznej i przemysłowych.",
+    "keywords": "profile aluminiowe, produkty infrastrukturalne, materiały budowlane, rozwiązania przemysłowe, MetaNord, dostawcy europejscy"
+  },
+  "hero": {
+    "title": "My dostarczamy materiały.",
+    "title_highlight": "Ty budujesz przyszłość.",
+    "subtitle": "Profile aluminiowe i produkty infrastruktury miejskiej od zaufanych producentów",
+    "cta": "Przeglądaj produkty",
+    "learnMore": "Więcej informacji",
+    "globalShipping": "Dostępna wysyłka międzynarodowa",
+    "productTitle": "Produkty premium",
+    "productSubtitle": "Wysokiej jakości rozwiązania infrastrukturalne",
+    "tagline": "Inżynieria dla silniejszego jutra"
+  },
+  "features": {
+    "title": "Dlaczego Warto Nas Wybrać",
+    "subtitle": "Nasze zaangażowanie w doskonałość wyróżnia nas w dostarczaniu produktów najwyższej jakości i zapewnianiu wyjątkowej obsługi w całej Europie",
+    "quality": {
+      "title": "Najwyższa Jakość",
+      "description": "Oferujemy produkty wysokiej jakości od zaufanych producentów, które przechodzą rygorystyczną kontrolę jakości."
+    },
+    "competitive": {
+      "title": "Konkurencyjne Ceny",
+      "description": "Nasze bezpośrednie relacje z producentami pozwalają nam oferować konkurencyjne ceny bez uszczerbku na jakości."
+    },
+    "reliability": {
+      "title": "Niezawodność",
+      "description": "Spójny harmonogram dostaw i niezawodna dostępność produktów zapewniają terminową realizację projektów."
+    },
+    "expertise": {
+      "title": "Wiedza Techniczna",
+      "description": "Nasz zespół ekspertów pomoże dobrać odpowiednie produkty do konkretnych potrzeb."
+    }
+  },
+  "services": {
+    "title": "Nasze",
+    "titleHighlight": "Usługi",
+    "subtitle": "Kompleksowe rozwiązania dla potrzeb infrastrukturalnych i budowlanych",
+    "metaTitle": "Usługi MetaNord - logistyka, doradztwo i niestandardowe rozwiązania",
+    "metaDescription": "MetaNord oferuje kompleksowe usługi, w tym logistykę, doradztwo techniczne, niestandardowe rozwiązania, obsługę klienta i usługi zamówień dla wszystkich potrzeb infrastrukturalnych.",
+    "overview": {
+      "title": "Jak możemy Ci pomóc",
+      "description": "Oferujemy szereg profesjonalnych usług wspierających Twoje projekty od planowania do realizacji"
+    },
+    "process": {
+      "title": "Nasz proces obsługi",
+      "steps": [
+        {
+          "title": "Wstępna konsultacja",
+          "description": "Zaczynamy od dokładnego omówienia potrzeb i wymagań Twojego projektu"
+        },
+        {
+          "title": "Projektowanie rozwiązania",
+          "description": "Nasi eksperci opracowują dostosowany plan dopasowany do Twojego konkretnego projektu"
+        },
+        {
+          "title": "Wybór produktów",
+          "description": "Pomagamy wybrać odpowiednie produkty z naszego obszernego katalogu"
+        },
+        {
+          "title": "Wsparcie wdrożeniowe",
+          "description": "Pomoc techniczna podczas fazy wdrażania projektu"
+        },
+        {
+          "title": "Obsługa posprzedażowa",
+          "description": "Ciągłe wsparcie zapewniające optymalne działanie zainstalowanych produktów"
+        }
+      ]
+    },
+    "additionalTitle": "Dodatkowe usługi",
+    "logistics": {
+      "title": "Logistyka i łańcuch dostaw",
+      "description": "Efektywne rozwiązania logistyczne dostosowane do wymagań Twojego projektu",
+      "features": [
+        "Bezpośrednia dostawa na place budowy",
+        "Zarządzanie zapasami i magazynowanie",
+        "Opcje dostaw just-in-time"
+      ]
+    },
+    "consulting": {
+      "title": "Doradztwo techniczne",
+      "description": "Ekspertowa porada w zakresie wyboru i wdrażania produktów",
+      "features": [
+        "Specyfikacje produktów i kompatybilność",
+        "Wskazówki dotyczące zgodności z przepisami",
+        "Strategie optymalizacji kosztów"
+      ]
+    },
+    "custom": {
+      "title": "Rozwiązania niestandardowe",
+      "description": "Produkty dostosowane do konkretnych wymagań Twojego projektu",
+      "features": [
+        "Niestandardowe wymiary i specyfikacje",
+        "Specjalne powłoki i obróbki",
+        "Integracja z istniejącymi systemami"
+      ]
+    },
+    "support": {
+      "title": "Obsługa klienta",
+      "description": "Dedykowana pomoc dla wszystkich zapytań i potrzeb",
+      "features": [
+        "Wielojęzyczne wsparcie techniczne",
+        "Szybki czas reakcji",
+        "Kompleksowa dokumentacja"
+      ]
+    },
+    "procurement": {
+      "title": "Usługi zakupowe",
+      "description": "Uproszczony proces zakupowy dla wszystkich potrzeb infrastrukturalnych",
+      "features": [
+        "Rabaty na zamówienia hurtowe",
+        "Wycena oparta na projektach",
+        "Usprawniony proces zatwierdzania"
+      ]
+    }
+  },
+  "about": {
+    "title": "O nas",
+    "subtitle": "Twój zaufany partner w infrastrukturze wysokiej jakości",
+    "description": "MetaNord OÜ to estońska firma handlowo-dystrybucyjna specjalizująca się w profilach aluminiowych i produktach infrastrukturalnych dla rynków europejskich i międzynarodowych.",
+    "product1": "Profile Aluminiowe",
+    "product2": "Produkty Infrastrukturalne",
+    "productHighlight": "Infrastruktura Najwyższej Jakości",
+    "productHighlightDesc": "Komponenty o standardzie europejskim dla trwałych rozwiązań infrastrukturalnych",
+    "browseProducts": "Przeglądaj produkty",
+    "imageAlt": "Magazyn MetaNord z profilami aluminiowymi i produktami infrastrukturalnymi",
+    "quality": {
+      "title": "Doskonałość inżynieryjna",
+      "text": "Stworzone dla profesjonalistów"
+    },
+    "experience": {
+      "years": "10+ lat",
+      "text": "doświadczenia"
+    },
+    "faq": {
+      "title": "Często Zadawane Pytania",
+      "subtitle": "Znajdź szybkie odpowiedzi na powszechne pytania dotyczące naszych produktów i usług",
+      "description": "Znajdź odpowiedzi na pytania dotyczące naszych produktów, usług i działalności biznesowej.",
+      "metaTitle": "Często Zadawane Pytania | MetaNord",
+      "metaDescription": "Znajdź odpowiedzi na najczęściej zadawane pytania dotyczące produktów MetaNord, warunków dostawy i wsparcia technicznego.",
+      "contactCallout": "Masz więcej pytań? Jesteśmy tutaj, aby pomóc.",
+      "contactUs": "Skontaktuj się z nami",
+      "contactText": "Jeśli masz inne pytania lub potrzebujesz dodatkowych informacji, skontaktuj się z naszym zespołem",
+      "items": [
+        {
+          "question": "Jakie rodzaje produktów oferuje MetaNord?",
+          "answer": "MetaNord specjalizuje się w dystrybucji profili aluminiowych, rur polietylenowych, komponentów stalowych i innych materiałów infrastrukturalnych od zaufanych producentów. Nasz asortyment obejmuje standardowe profile aluminiowe, profile LED, systemy rurociągowe, włazy i kratki ściekowe oraz różne złączki."
+        },
+        {
+          "question": "Czy oferujecie produkcję na zamówienie lub niestandardowe rozwiązania?",
+          "answer": "Tak. Możemy dostarczyć produkty o niestandardowych wymiarach, wykończeniu lub specyfikacjach, które odpowiadają wymaganiom Twojego projektu. Skontaktuj się z naszym zespołem sprzedaży, aby uzyskać spersonalizowaną wycenę i przegląd techniczny."
+        },
+        {
+          "question": "Jakie są terminy i warunki dostawy?",
+          "answer": "Terminy dostawy zależą od typu i ilości produktów. Standardowe produkty są zwykle dostarczane w ciągu 7-14 dni roboczych w Europie. Oferujemy również usługi ekspresowej dostawy i możemy dostosować harmonogram wysyłki do Twoich potrzeb."
+        },
+        {
+          "question": "Czy możecie realizować dostawy poza UE?",
+          "answer": "Tak, wspieramy międzynarodowe dostawy na szeroki zakres rynków, w tym kraje poza UE. Prosimy o podanie informacji o Twojej lokalizacji i wymaganych materiałach, a my przeprowadzimy ocenę logistyczną."
+        },
+        {
+          "question": "Czy dostarczacie certyfikaty produktów i dokumentację techniczną?",
+          "answer": "Zdecydowanie tak. Większość naszych produktów jest dostarczana z certyfikatami zgodności z normami EN i szczegółowymi specyfikacjami technicznymi, które są dostępne na stronie dokumentacji lub na poszczególnych stronach produktów."
+        },
+        {
+          "question": "Jakie metody płatności akceptujecie?",
+          "answer": "Akceptujemy różne metody płatności, w tym przelewy bankowe, karty kredytowe i zamówienia dla stałych klientów biznesowych. Warunki płatności mogą być omawiane w zależności od wielkości zamówienia i relacji biznesowych."
+        },
+        {
+          "question": "Jaką gwarancję jakości zapewnia MetaNord?",
+          "answer": "Wszystkie nasze produkty pochodzą od renomowanych producentów i spełniają rygorystyczne standardy jakości. Zapewniamy gwarancję na nasze produkty, która różni się w zależności od typu produktu. Szczegółowe informacje są dostępne w momencie zakupu lub od naszego zespołu obsługi klienta."
+        }
+      ]
+    }
+  },
+  "projects": {
+    "title": "Wyróżnione Projekty",
+    "subtitle": "Zobacz, jak nasze produkty zostały wykorzystane w udanych projektach w całej Europie",
+    "office": "Nowoczesny Kompleks Biurowy",
+    "officeDesc": "Premium profile aluminiowe i rozwiązania szklane dla zrównoważonego budynku komercyjnego w Tallinie",
+    "commercial": "Komercyjny",
+    "pipeline": "Sieć Wodociągowa",
+    "pipelineDesc": "Kompletne rozwiązanie infrastrukturalne obejmujące rury, studzienki i zawory dla systemu wodociągowego gminy",
+    "infrastructure": "Infrastruktura",
+    "viewProject": "Zobacz Projekt"
+  },
+  "cta": {
+    "title": "Gotowy do rozpoczęcia projektu?",
+    "subtitle": "Skontaktuj się z nami już dziś, aby omówić swoje potrzeby infrastrukturalne i otrzymać dostosowane rozwiązania dopasowane do Twoich specyficznych wymagań.",
+    "contact": "Skontaktuj się",
+    "catalog": "Przeglądaj katalog produktów",
+    "badge": "Poproś o wycenę już dziś",
+    "feature1": "Profesjonalna konsultacja dla potrzeb Twojego projektu",
+    "feature2": "Konkurencyjne ceny i terminowa dostawa",
+    "feature3": "Wysokiej jakości produkty zgodne ze standardami europejskimi",
+    "contactTitle": "Otrzymaj spersonalizowaną wycenę",
+    "contactDesc": "Połącz się z naszym zespołem, aby omówić konkretne wymagania i harmonogram projektu."
+  },
+  "products.categories.aluminum": "Aluminium",
+  "products.categories.polyethylene": "Polietylen",
+  "products.categories.steel": "Stal",
+  "products.categories.castIron": "Żeliwo",
+  "products.categories.cast-iron": "Żeliwo",
+  "products.categories.urban_infrastructure": "Infrastruktura miejska",
+  "products.categories.aluminum_products": "Produkty aluminiowe",
+  "products.categories.infrastructure_products": "Produkty infrastrukturalne",
+  "products.filter.all": "Wszystkie produkty",
+  "products.filter.aluminum": "Aluminium",
+  "products.filter.polyethylene": "Polietylen",
+  "products.filter.steel": "Stal",
+  "products.filter.castIron": "Żeliwo",
+  "contact": {
+    "metaTitle": "Kontakt - MetaNord",
+    "metaDescription": "Skontaktuj się z MetaNord w sprawie wysokiej jakości aluminiowych profili i produktów infrastrukturalnych. Nasz zespół specjalistów jest gotowy pomóc w każdym aspekcie Twojego projektu.",
+    "hero": {
+      "title": "Skontaktuj się z nami",
+      "subtitle": "Jesteśmy tutaj, aby pomóc",
+      "description": "Skontaktuj się z nami w sprawie wszelkich zapytań dotyczących produktów, cen lub potrzeb związanych z projektem. Nasz zespół z przyjemnością Ci pomoże."
+    },
+    "form": {
+      "title": "Wyślij nam wiadomość",
+      "subtitle": "Wypełnij poniższy formularz, a skontaktujemy się z Tobą tak szybko, jak to możliwe",
+      "name": "Imię i nazwisko",
+      "email": "Adres e-mail",
+      "company": "Firma (opcjonalnie)",
+      "subject": "Temat",
+      "inquiryType": "Rodzaj zapytania",
+      "submit": "Wyślij wiadomość",
+      "sending": "Wysyłanie...",
+      "selectOption": "Wybierz opcję",
+      "productInfo": "Informacje o produkcie",
+      "requestQuote": "Prośba o wycenę",
+      "technicalSupport": "Wsparcie techniczne",
+      "other": "Inne",
+      "message": "Twoja wiadomość",
+      "namePlaceholder": "Wprowadź swoje imię i nazwisko",
+      "emailPlaceholder": "Wprowadź swój adres e-mail",
+      "companyPlaceholder": "Wprowadź nazwę swojej firmy (opcjonalnie)",
+      "subjectPlaceholder": "Wybierz opcję",
+      "messagePlaceholder": "Wprowadź swoją wiadomość tutaj...",
+      "success": "Twoja wiadomość została pomyślnie wysłana!",
+      "error": "Przepraszamy, wystąpił błąd podczas wysyłania wiadomości."
+    },
+    "info": {
+      "title": "Informacje kontaktowe",
+      "subtitle": "Skontaktuj się z nami za pomocą dowolnego z tych kanałów",
+      "company": "MetaNord OÜ",
+      "registry": "Numer rejestracyjny: 17235227",
+      "address": "Tornimäe tn 5, 10145 Tallinn, Estonia",
+      "phone": "+372 5771 3442",
+      "email": "info@metanord.eu",
+      "website": "www.metanord.eu"
+    },
+    "location": "Nasza lokalizacja",
+    "faq": {
+      "title": "Często Zadawane Pytania",
+      "subtitle": "Znajdź odpowiedzi na nasze najczęściej zadawane pytania",
+      "q1": {
+        "question": "Jakie rodzaje profili aluminiowych oferujecie?",
+        "answer": "Oferujemy szeroki zakres profili aluminiowych, w tym standardowe profile konstrukcyjne, profile do budowy maszyn, profile LED oraz rozwiązania niestandardowe. Nasz katalog obejmuje różne kształty, rozmiary i wykończenia odpowiednie do różnych zastosowań w budownictwie, inżynierii i projektowaniu."
+      },
+      "q2": {
+        "question": "Czy zapewniacie międzynarodową wysyłkę?",
+        "answer": "Tak, zapewniamy międzynarodową wysyłkę do większości krajów. Koszty wysyłki i czasy dostawy różnią się w zależności od miejsca docelowego i wielkości zamówienia. Prosimy o kontakt z naszym zespołem sprzedaży w celu uzyskania szczegółowych informacji o wysyłce do Twojego regionu."
+      },
+      "q3": {
+        "question": "Czy mogę zamówić produkty o niestandardowych specyfikacjach?",
+        "answer": "Absolutnie. Specjalizujemy się w rozwiązaniach niestandardowych i możemy dostosować produkty do konkretnych wymagań Twojego projektu. Prosimy o podanie szczegółowych specyfikacji podczas prośby o wycenę, a nasi inżynierowie będą współpracować z Tobą, aby dostarczyć dokładnie to, czego potrzebujesz."
+      },
+      "q4": {
+        "question": "Jak mogę uzyskać wsparcie techniczne dla Waszych produktów?",
+        "answer": "Nasz zespół wsparcia technicznego jest dostępny, aby pomóc w wyborze produktów, doradzić w zakresie instalacji i rozwiązać problemy. Możesz skontaktować się z nimi przez e-mail pod adresem support@metanord.eu lub telefonicznie w godzinach pracy. Zapewniamy również kompleksową dokumentację dla wszystkich naszych produktów."
+      }
+    }
+  },
+  "products": {
+    "title": "Nasze Produkty",
+    "titleHighlight": "Katalog",
+    "subtitle": "Wysokiej jakości produkty infrastrukturalne i budowlane dla rynków europejskich",
+    "loading": "Ładowanie produktów...",
+    "metaTitle": "Produkty - MetaNord",
+    "metaDescription": "Przeglądaj naszą szeroką gamę wysokiej jakości produktów infrastrukturalnych i budowlanych. Oferujemy żeliwne włazy kanalizacyjne, rury HDPE i inne produkty dla rynków europejskich.",
+    "filter": {
+      "all": "Wszystkie produkty",
+      "aluminum": "Aluminium",
+      "polyethylene": "Polietylen",
+      "steel": "Stal",
+      "castIron": "Żeliwo",
+      "urbanInfrastructure": "Infrastruktura miejska",
+      "fittings": "Złączki",
+      "rainwater": "Rozwiązania do wody deszczowej"
+    },
+    "quickPreview": "Szybki Podgląd",
+    "specifications": "Specyfikacje",
+    "features": "Funkcje",
+    "applications": "Zastosowania",
+    "need_assistance": "Potrzebujesz pomocy przy swoim projekcie?",
+    "contact_subtext": "Skontaktuj się z nami, aby uzyskać niestandardowe rozwiązania i spersonalizowane wyceny dla potrzeb infrastrukturalnych",
+    "need_assistance_with_project": "Potrzebujesz pomocy przy swoim projekcie?",
+    "standard-profiles": {
+      "title": "Standardowe Profile Aluminiowe",
+      "description": "Wysokiej jakości profile aluminiowe do zastosowań konstrukcyjnych, architektonicznych i przemysłowych."
+    },
+    "machine-building-profiles": {
+      "title": "Profile do Budowy Maszyn",
+      "description": "Specjalistyczne profile aluminiowe zaprojektowane do budowy maszyn i automatyzacji."
+    },
+    "led-profiles": {
+      "title": "Profile LED",
+      "description": "Profile aluminiowe do oświetlenia LED z zintegrowanymi opcjami dyfuzji światła."
+    },
+    "special-profiles": {
+      "title": "Profile Specjalne",
+      "description": "Niestandardowe profile aluminiowe do specjalnych projektów i specyficznych potrzeb."
+    },
+    "hdpe-pipes": {
+      "title": "Rury HDPE",
+      "description": "Rury z polietylenu o wysokiej gęstości do zaopatrzenia w wodę, kanalizacji i dystrybucji gazu."
+    },
+    "double-corrugated-pipes": {
+      "title": "Rury Karbowane Dwuścienne",
+      "description": "Dwuścienne rury karbowane z polietylenu do systemów drenażowych i kanalizacyjnych."
+    },
+    "reinforced-corrugated-pipes": {
+      "title": "Wzmocnione Rury Karbowane",
+      "description": "Rury karbowane o zwiększonej wytrzymałości i poprawionej nośności."
+    },
+    "hsaw-pipes": {
+      "title": "Rury Stalowe HSAW",
+      "description": "Spiralnie spawane rury stalowe do różnych zastosowań infrastrukturalnych."
+    },
+    "oil-gas-pipes": {
+      "title": "Rury do Ropy i Gazu",
+      "description": "Rury stalowe wysokociśnieniowe zaprojektowane specjalnie do transportu ropy i gazu."
+    },
+    "manhole-covers": {
+      "title": "Włazy studzienek",
+      "description": "Żeliwne włazy studzienek kanalizacyjnych w różnych klasach obciążenia"
+    },
+    "drainage-grates": {
+      "title": "Kraty ściekowe",
+      "description": "Żeliwne kraty ściekowe zapewniające efektywne odprowadzanie wody"
+    },
+    "featuredTitle": "Polecane Produkty",
+    "infrastructureTitle": "Rozwiązania Infrastrukturalne",
+    "infrastructureDescription": "Kompleksowa gama produktów infrastrukturalnych zaprojektowanych z myślą o trwałości i zgodności z normami europejskimi. Nasze rozwiązania wspierają projekty budowlane, komunalne i rozwoju miejskiego.",
+    "infrastructureImageAlt": "Produkty infrastrukturalne do rozwoju miejskiego",
+    "catalogTitle": "Katalog Produktów",
+    "products.quickPreview": "Szybki Podgląd",
+    "description": "Specyfikacja Produktu",
+    "filters": {
+      "all": "Wszystkie Produkty"
+    },
+    "categories": {
+      "manholes": "Włazy",
+      "pipes": "Rury",
+      "rainwater": "Kraty deszczowe",
+      "fittings": "Złączki",
+      "polyethylene": "Polietylen",
+      "castIron": "Żeliwo",
+      "cast_iron": "Żeliwo",
+      "cast-iron": "Żeliwo",
+      "steel": "Stal",
+      "aluminum": "Aluminium",
+      "valves": "Zawory",
+      "fire-protection": "Ochrona Przeciwpożarowa",
+      "fire_protection": "Ochrona Przeciwpożarowa",
+      "urbanInfrastructure": "Infrastruktura miejska",
+      "urban_infrastructure": "Infrastruktura Miejska",
+      "urban": "Infrastruktura Miejska",
+      "aluminum_products": "Produkty Aluminiowe",
+      "infrastructure_products": "Produkty Infrastrukturalne",
+      "Urban Infrastructure": "Infrastruktura Miejska",
+      "Cast Iron": "Żeliwo",
+      "Aluminum": "Aluminium",
+      "Steel": "Stal",
+      "Polyethylene": "Polietylen",
+      "Fittings": "Złączki i Łączniki"
+    },
+    "navbar": {
+      "structural": "Profile Konstrukcyjne",
+      "architectural": "Profile Architektoniczne",
+      "industrial": "Profile Przemysłowe",
+      "custom": "Profile Na Zamówienie",
+      "hdpe": "Rury HDPE (PE100)",
+      "corrugated": "Dwuścienne Rury Karbowane",
+      "steel": "Rury Wzmocnione Stalą",
+      "manhole": "Włazy Kanalizacyjne",
+      "rainwater": "Kratki Ściekowe",
+      "hydrant": "Hydranty Przeciwpożarowe"
+    },
+    "aluminum": {
+      "structuralProfiles": {
+        "title": "Profile Standardowe",
+        "description": "Uniwersalne profile aluminiowe do różnorodnych zastosowań w budownictwie, inżynierii i wzornictwie o różnych kształtach i rozmiarach."
+      },
+      "architecturalProfiles": {
+        "title": "Profile Maszynowe",
+        "description": "Specjalistyczne profile aluminiowe do budowy urządzeń przemysłowych i maszyn, z naciskiem na precyzję i wytrzymałość."
+      },
+      "industrialProfiles": {
+        "title": "Profile LED",
+        "description": "Specjalistyczne profile aluminiowe do instalacji oświetleniowych LED z optymalizacją odprowadzania ciepła i rozpraszania światła."
+      },
+      "customExtrusions": {
+        "title": "Profile Specjalne",
+        "description": "Profile aluminiowe wykonane na zamówienie do zastosowań specjalistycznych o unikalnej geometrii i właściwościach użytkowych."
+      }
+    },
+    "polyethylene": {
+      "hdpePipes": {
+        "title": "Rury HDPE (PE100)",
+        "description": "Rury z polietylenu o wysokiej gęstości o doskonałej odporności chemicznej do systemów wodnych, gazowych i ściekowych."
+      },
+      "doubleWallPipes": {
+        "title": "Rury Dwuścienne",
+        "description": "Dwuścienne rury karbowane do systemów drenażowych i kanalizacyjnych o wysokiej sztywności obwodowej."
+      },
+      "steelReinforcedPipes": {
+        "title": "Rury Wzmocnione Stalą",
+        "description": "Karbowane rury wzmocnione stalą do zastosowań o dużym obciążeniu w infrastrukturze drogowej i kolejowej."
+      },
+      "doubleCorrugatedPipes": {
+        "title": "Rury Dwuścienne Karbowane",
+        "description": "Dwuścienne rury HDPE z gładkim wnętrzem i karbowaną powierzchnią zewnętrzną do systemów odwadniających i kanalizacyjnych."
+      },
+      "reinforcedCorrugatedPipes": {
+        "title": "Rury Karbowane Wzmacniane Stalą",
+        "description": "Rury polietylenowe karbowane wzmacniane stalą do zastosowań przy dużych obciążeniach w infrastrukturze drogowej i kolejowej."
+      },
+      "reinforcedPipes": {
+        "title": "Rury PE Wzmocnione Stalą",
+        "description": "Rury polietylenowe wzmocnione stalą do zastosowań przy ekstremalnych obciążeniach o doskonałej integralności strukturalnej."
+      },
+      "tripleWallPipes": {
+        "title": "Rury Trójwarstwowe",
+        "description": "Zaawansowane trójwarstwowe rury polietylenowe zaprojektowane dla infrastruktury krytycznej o wyjątkowej wytrzymałości."
+      },
+      "elbowFittings": {
+        "title": "Kolanka",
+        "description": "Kształtki kolanowe z polietylenu do zmiany kierunków w systemach rurociągowych z precyzyjnym wykonaniem inżynieryjnym."
+      },
+      "teeFittings": {
+        "title": "Trójniki",
+        "description": "Kształtki trójnikowe z polietylenu do połączeń rozgałęziających z optymalnym przepływem i minimalnym spadkiem ciśnienia."
+      }
+    },
+    "steel": {
+      "hsawPipes": {
+        "title": "Rury HSAW",
+        "description": "Spiralnie spawane rury stalowe do transportu wody, doskonała odporność na ciśnienie."
+      },
+      "oilGasPipes": {
+        "title": "Rury do Ropy i Gazu",
+        "description": "Wysokiej jakości rury stalowe do transportu ropy i gazu ze specjalnymi powłokami i rygorystyczną kontrolą jakości."
+      },
+      "pilePipes": {
+        "title": "Rury Palowe",
+        "description": "Konstrukcyjne rury stalowe do fundamentów głębokich o dużej nośności i różnych konfiguracjach złączy końcowych."
+      }
+    },
+    "castIron": {
+      "manholeCovers": {
+        "title": "Włazy Kanalizacyjne",
+        "description": "Wytrzymałe żeliwne włazy kanalizacyjne o wysokiej nośności do różnych zastosowań miejskich."
+      },
+      "drainageGrates": {
+        "title": "Kraty Odwadniające",
+        "description": "Żeliwne kraty odwadniające do systemów zbierania wód opadowych, zaprojektowane dla różnych obciążeń ruchem i przepustowości."
+      },
+      "rainwaterGrills": {
+        "title": "Kratki Ściekowe",
+        "description": "Trwałe żeliwne kratki odwadniające z zoptymalizowanym przepływem wody dla miejskich systemów odwadniających."
+      },
+      "fireHydrants": {
+        "title": "Hydranty Przeciwpożarowe",
+        "description": "Mrozoodporne żeliwne hydranty przeciwpożarowe z funkcją samoopróżniania dla miejskiej ochrony przeciwpożarowej."
+      },
+      "gateValves": {
+        "title": "Zasuwy",
+        "description": "Żeliwne zasuwy z elastycznym siedziskiem, zapewniające pełny przepływ i niski spadek ciśnienia."
+      }
+    },
+    "qualityAssurance": "Zapewnienie Jakości",
+    "qualityImageAlt": "Kontrola jakości produktów przemysłowych",
+    "qualityText1": "Wszystkie nasze produkty przechodzą rygorystyczne kontrole jakości, aby zapewnić ich zgodność z europejskimi normami trwałości, bezpieczeństwa i wydajności.",
+    "qualityText2": "Współpracujemy z certyfikowanymi producentami, którzy utrzymują rygorystyczne systemy kontroli jakości i dostarczają kompleksową dokumentację dla każdego produktu.",
+    "qualityText3": "Nasze zaangażowanie w jakość wykracza poza same produkty, obejmując również nasze usługi, zapewniając terminową dostawę i profesjonalne wsparcie dla wszystkich potrzeb infrastrukturalnych.",
+    "viewDetails": "Zobacz szczegóły",
+    "elbow-fitting": {
+      "title": "Kolano 90°",
+      "description": "Kolano 90° do systemów rurowych z polietylenu"
+    },
+    "elbow-45-fitting": {
+      "title": "Kolano 45°",
+      "description": "Kolano 45° do systemów rurowych z polietylenu"
+    },
+    "tee-fitting": {
+      "title": "Trójnik",
+      "description": "Trójnik do systemów rurowych z polietylenu"
+    },
+    "flange-adapter": {
+      "title": "Adapter kołnierzowy",
+      "description": "Adapter kołnierzowy do systemów rurowych z polietylenu"
+    },
+    "gate-valve": {
+      "title": "Zasuwa",
+      "description": "Żeliwna zasuwa do systemów wodnych"
+    },
+    "drainage-channel": {
+      "title": "Kanał odwadniający",
+      "description": "Wysoko wytrzymały kanał odwadniający do zbierania wód opadowych"
+    },
+    "butterfly-valve": {
+      "title": "Zawór motylkowy",
+      "description": "Żeliwny zawór motylkowy do różnych zastosowań"
+    },
+    "ground-fire-hydrant": {
+      "title": "Naziemny hydrant przeciwpożarowy",
+      "description": "Naziemny hydrant przeciwpożarowy do awaryjnego dostępu do wody"
+    },
+    "rainwater-grill-d400-standard": {
+      "title": "Krata deszczowa D400",
+      "description": "Standardowa krata deszczowa klasy obciążenia D400 do dróg"
+    },
+    "rainwater-grill-d400-type2": {
+      "title": "Krata deszczowa D400 typu 2",
+      "description": "Ulepszona krata deszczowa klasy obciążenia D400 do obszarów o dużym natężeniu ruchu"
+    },
+    "rainwater-grill-meria": {
+      "title": "Krata deszczowa Meria",
+      "description": "Specjalistyczna krata deszczowa o konstrukcji Meria do zastosowań miejskich"
+    },
+    "rainwater-grill-f900": {
+      "title": "Krata deszczowa F900",
+      "description": "Krata deszczowa F900 o wyjątkowo dużej wytrzymałości do zastosowań przemysłowych"
+    },
+    "waste-box": {
+      "title": "Pojemnik na odpady",
+      "description": "Miejskie rozwiązanie do zbierania odpadów w przestrzeniach publicznych"
+    }
+  },
+  "footer": {
+    "description": "MetaNord OÜ specjalizuje się w premium profilach aluminiowych i produktach infrastrukturalnych dla rynków europejskich i międzynarodowych.",
+    "newsletter": {
+      "title": "Newsletter",
+      "subtitle": "Zapisz się, aby otrzymywać wiadomości o naszych nowych produktach i ofertach specjalnych.",
+      "placeholder": "Twój adres e-mail",
+      "button": "Subskrybuj"
+    },
+    "links": {
+      "title": "Szybkie linki",
+      "home": "Strona główna",
+      "about": "O nas",
+      "products": "Produkty",
+      "services": "Usługi",
+      "contact": "Kontakt",
+      "projects": "Ważne Projekty"
+    },
+    "products": {
+      "title": "Produkty",
+      "aluminum": "Produkty Aluminiowe",
+      "castIron": "Produkty Żeliwne",
+      "polyethylene": "Produkty Polietylenowe",
+      "steel": "Produkty Stalowe",
+      "infrastructure": "Produkty Infrastrukturalne"
+    },
+    "legal": {
+      "copyright": "Wszelkie prawa zastrzeżone.",
+      "privacy": "Polityka prywatności",
+      "terms": "Warunki korzystania",
+      "cookies": "Warunki dostawy"
+    },
+    "resources": {
+      "title": "Zasoby",
+      "documents": "Dokumenty",
+      "certifications": "Certyfikaty",
+      "faq": "FAQ",
+      "privacy": "Polityka prywatności",
+      "terms": "Warunki korzystania"
+    },
+    "contact": {
+      "title": "Dane kontaktowe",
+      "email": "E-mail",
+      "phone": "Telefon",
+      "address": "Adres"
+    }
+  },
+  "productDetail": {
+    "loading": "Ładowanie informacji o produkcie...",
+    "description": "Specyfikacja Produktu",
+    "features": "Główne Cechy",
+    "applications": "Zastosowania",
+    "specifications": "Specyfikacje Techniczne",
+    "interested": "Czy jesteś zainteresowany tym produktem?",
+    "contactMessage": "Skontaktuj się z naszym zespołem, aby omówić swoje specyficzne wymagania i dowiedzieć się, jak możemy dostarczyć ten produkt do Twojego projektu.",
+    "documentTitle": "Dokumenty produktu",
+    "downloadCatalog": "Pobierz katalog",
+    "downloadDatasheet": "Pobierz specyfikację",
+    "downloadDocuments": "Dokumenty produktu",
+    "noDocuments": "Brak dostępnych dokumentów dla tego produktu"
+  },
+  "documents": {
+    "metaTitle": "Dokumenty i zasoby - MetaNord",
+    "metaDescription": "Pobierz broszury, specyfikacje techniczne, certyfikaty i prezentacje MetaNord. Dostęp do oficjalnej dokumentacji naszych produktów i usług.",
+    "pageTitle": "Dokumenty i zasoby",
+    "pageDescription": "Uzyskaj dostęp i pobierz nasze broszury produktowe, specyfikacje techniczne, certyfikaty i prezentacje firmowe.",
+    "searchPlaceholder": "Szukaj dokumentów...",
+    "filterAll": "Wszystkie",
+    "filterBrochures": "Broszury",
+    "filterDatasheets": "Karty danych",
+    "filterCertificates": "Certyfikaty",
+    "filterPresentations": "Prezentacje",
+    "noDocumentsFound": "Nie znaleziono dokumentów",
+    "tryDifferentSearch": "Spróbuj innego terminu wyszukiwania lub kategorii",
+    "resetFilters": "Resetuj filtry",
+    "download": "Pobierz",
+    "downloads": "{{count}} pobranie",
+    "downloads_plural": "{{count}} pobrań",
+    "filters": "Filtry",
+    "filterOptions": "Opcje filtrowania",
+    "filterDescription": "Użyj poniższych opcji do filtrowania dokumentów",
+    "filterByLanguage": "Filtruj według języka",
+    "filterByType": "Filtruj według typu dokumentu",
+    "filterByCategory": "Filtruj według kategorii",
+    "filterByProductCategory": "Filtruj według kategorii produktu",
+    "applyFilters": "Zastosuj filtry",
+    "allLanguages": "Wszystkie języki",
+    "allTypes": "Wszystkie typy",
+    "allCategories": "Wszystkie kategorie",
+    "allProductCategories": "Wszystkie kategorie produktów",
+    "noDocuments": "Nie znaleziono dokumentów",
+    "tryChangingFilters": "Spróbuj zmienić ustawienia filtrów",
+    "all": "Wszystkie dokumenty",
+    "types": {
+      "brochure": "Broszura",
+      "datasheet": "Karta danych",
+      "catalog": "Katalog",
+      "certificate": "Certyfikat",
+      "manual": "Instrukcja",
+      "presentation": "Prezentacja",
+      "technical": "Dokumentacja techniczna",
+      "quality": "Jakość",
+      "specification": "Specyfikacja",
+      "instructions": "Instrukcje"
+    },
+    "category": {
+      "brochure": "Broszura",
+      "datasheet": "Karta danych",
+      "certificate": "Certyfikat",
+      "presentation": "Prezentacja",
+      "manual": "Instrukcja",
+      "quality": "Jakość",
+      "technical": "Dokumentacja techniczna",
+      "reference": "Materiał referencyjny",
+      "product": "Produkt",
+      "marketing": "Marketing",
+      "legal": "Prawny",
+      "general": "Ogólny",
+      "installation": "Instalacja",
+      "maintenance": "Konserwacja",
+      "software": "Oprogramowanie",
+      "catalog": "Katalog",
+      "others": "Inne"
+    },
+    "others": "Inne dokumenty"
+  },
+  "productDetails": {
+    "oil-gas-pipes": {
+      "title": "Rury stalowe do przemysłu naftowego i gazowego",
+      "description": "Wysokiej jakości rury stalowe z powłoką antykorozyjną przeznaczone do transportu ropy naftowej i gazu ziemnego, spełniające surowe normy jakościowe."
+    },
+    "hsaw-pipes": {
+      "title": "Rury spiralnie spawane",
+      "description": "Spiralnie spawane rury stalowe do zastosowań w wodociągach, gazociągach i infrastrukturze budowlanej."
+    },
+    "rainwater-grill-d400-type2": {
+      "title": "Kratka ściekowa D400 typ 2",
+      "description": "Wysokiej jakości żeliwna kratka ściekowa zaprojektowana do dróg miejskich i ruchu ciężkich pojazdów, zapewniająca optymalny odpływ wody."
+    }
+  },
+  "faq": {
+    "title": "Często Zadawane Pytania",
+    "subtitle": "Szybkie odpowiedzi na najczęściej zadawane pytania dotyczące naszych produktów i usług",
+    "description": "Znajdź odpowiedzi na często zadawane pytania dotyczące naszych produktów, usług i działalności biznesowej. Jeśli nie widzisz odpowiedzi na swoje pytanie, skontaktuj się z nami bezpośrednio.",
+    "metaTitle": "Często Zadawane Pytania | MetaNord",
+    "metaDescription": "Znajdź odpowiedzi na często zadawane pytania dotyczące produktów, usług, warunków dostawy i wsparcia technicznego MetaNord. Uzyskaj informacje niezbędne dla Twoich projektów infrastrukturalnych.",
+    "contactCallout": "Masz więcej pytań? Jesteśmy tutaj, aby pomóc.",
+    "contactUs": "Skontaktuj się z nami",
+    "contactText": "Jeśli masz dodatkowe pytania lub potrzebujesz bardziej szczegółowych informacji, śmiało skontaktuj się z naszym zespołem",
+    "items": [
+      {
+        "question": "Jakie rodzaje produktów dostarcza MetaNord?",
+        "answer": "MetaNord specjalizuje się w dystrybucji profili aluminiowych, rur polietylenowych, komponentów stalowych i innych materiałów infrastrukturalnych pozyskiwanych od zaufanych globalnych producentów."
+      },
+      {
+        "question": "Czy oferujecie niestandardową produkcję lub dostosowane rozwiązania?",
+        "answer": "Tak. Możemy dostarczyć niestandardowe wymiary, wykończenia lub specyfikacje w oparciu o potrzeby projektu. Prosimy o kontakt z naszym zespołem sprzedaży, aby uzyskać dostosowane wyceny i ocenę inżynieryjną."
+      },
+      {
+        "question": "Jakie są Wasze terminy i warunki dostawy?",
+        "answer": "Terminy dostaw zależą od rodzaju i ilości produktów. Standardowe przedmioty są zazwyczaj dostarczane w ciągu 7-14 dni roboczych w całej Europie. Wspieramy również ekspresowe wysyłki na żądanie."
+      },
+      {
+        "question": "Czy możecie dostarczać poza Unię Europejską?",
+        "answer": "Tak, wspieramy międzynarodowe wysyłki do szerokiego zakresu rynków, w tym krajów spoza UE. Prosimy o kontakt z podaniem swojej lokalizacji i wymaganych materiałów do oceny logistycznej."
+      },
+      {
+        "question": "Czy dostarczacie certyfikaty produktów i dokumentację techniczną?",
+        "answer": "Absolutnie. Większość produktów jest dostarczana z certyfikatami zgodności z normami EN i szczegółowymi kartami danych technicznych, dostępnymi na stronie Dokumenty lub na poszczególnych stronach produktów."
+      },
+      {
+        "question": "Jak mogę poprosić o ofertę cenową?",
+        "answer": "Możesz poprosić o ofertę cenową poprzez formularz kontaktowy na naszej stronie, wysyłając e-mail na adres info@metanord.eu lub dzwoniąc pod numer +372 5771 3442. Prosimy o podanie wymaganych produktów, ilości i miejsca dostawy."
+      },
+      {
+        "question": "Jaką gwarancję jakości oferuje MetaNord?",
+        "answer": "Wszystkie nasze produkty przechodzą rygorystyczne kontrole jakości, aby zapewnić, że spełniają europejskie standardy dotyczące trwałości, bezpieczeństwa i wydajności. Współpracujemy z certyfikowanymi producentami, którzy utrzymują rygorystyczne systemy kontroli jakości."
+      }
+    ]
+  }
+}

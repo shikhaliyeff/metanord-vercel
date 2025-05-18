@@ -1,0 +1,193 @@
+/**
+ * MetaNord Consolidated Styles
+ * 
+ * This file merges multiple CSS fixes and styling optimizations
+ * into a single, clean implementation that eliminates redundancies
+ * and conflicts between different style files.
+ */
+
+/* ===== DROPDOWN MENU STYLING ===== */
+/* 
+ * This section consolidates all dropdown-related styling from:
+ * - dropdown-menu-fix.css
+ * - enhanced-dropdown-effects.css
+ * - metanord-dropdown-fix.css
+ * - unified-dropdown-styles.css
+ * - submenu-hover-fix.css
+ * - final-underline-fix.css
+ * - remove-all-underlines.css
+ */
+
+/* Base styles for all dropdown menus */
+[data-radix-dropdown-menu-content] *,
+.dropdown-menu *,
+.navigation-menu-content *,
+[role="menu"] *,
+[role="menuitem"],
+.submenu * {
+  /* Prevent any underline styling by default */
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+/* Ensure dropdown items have proper spacing and transitions */
+[data-radix-dropdown-menu-content] *[role="menuitem"],
+[data-radix-dropdown-menu-content] a,
+.dropdown-menu [role="menuitem"],
+.dropdown-menu a,
+.submenu a,
+.submenu [role="menuitem"],
+.dropdown-item {
+  position: relative !important;
+  transition: color 0.2s ease !important;
+  padding: 0.5rem 1rem !important;
+  border-radius: 0.25rem !important;
+}
+
+/* Hover state for dropdown items - changed text color only, no underlines */
+[data-radix-dropdown-menu-content] *[role="menuitem"]:hover,
+[data-radix-dropdown-menu-content] a:hover,
+.dropdown-menu [role="menuitem"]:hover,
+.dropdown-menu a:hover,
+.submenu a:hover,
+.submenu [role="menuitem"]:hover,
+.dropdown-item:hover {
+  color: #FE9158 !important; /* Brand accent color */
+  background-color: rgba(9, 89, 171, 0.05) !important; /* Light blue background */
+}
+
+/* Active/selected state for dropdown items */
+[data-radix-dropdown-menu-content] *[role="menuitem"][data-active="true"],
+[data-radix-dropdown-menu-content] a[data-active="true"],
+.dropdown-menu [role="menuitem"][data-active="true"],
+.dropdown-menu a[data-active="true"],
+.submenu a[data-active="true"],
+.submenu [role="menuitem"][data-active="true"],
+.dropdown-item[data-active="true"] {
+  color: #FE9158 !important;
+  background-color: rgba(9, 89, 171, 0.1) !important;
+}
+
+/* Ensure dropdown positioning and appearance */
+.dropdown-content,
+[data-radix-dropdown-menu-content],
+[data-radix-popper-content-wrapper] {
+  z-index: 50 !important;
+  background-color: white !important;
+  border-radius: 0.375rem !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+  overflow: hidden !important;
+}
+
+/* ===== LANGUAGE OPTIMIZATION STYLES ===== */
+/* 
+ * This section consolidates all language-related styling from:
+ * - language-optimizations.css
+ */
+
+/* Optimize language selector appearance */
+.language-selector {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.language-selector-dropdown {
+  min-width: 160px;
+}
+
+/* Language flag styles */
+.language-flag {
+  margin-right: 0.5rem;
+  height: 1rem;
+  width: auto;
+  border-radius: 2px;
+}
+
+/* Optimize RTL language support */
+[dir="rtl"] {
+  text-align: right;
+}
+
+/* Fade transition for language changes */
+.language-transition-enter {
+  opacity: 0;
+}
+
+.language-transition-enter-active {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+
+.language-transition-exit {
+  opacity: 1;
+}
+
+.language-transition-exit-active {
+  opacity: 0;
+  transition: opacity 300ms;
+}
+
+/* ===== GENERAL OPTIMIZATION STYLES ===== */
+/* 
+ * This section includes general optimizations from:
+ * - optimizations.css
+ * - transitions.css
+ */
+
+/* General page transitions */
+.page-transition-enter {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.page-transition-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.page-transition-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.page-transition-exit-active {
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 300ms, transform 300ms;
+}
+
+/* Image loading optimizations */
+.image-loading {
+  opacity: 0;
+  transition: opacity 300ms ease-in-out;
+}
+
+.image-loaded {
+  opacity: 1;
+}
+
+/* Optimized content visibility for large lists */
+.optimize-visibility {
+  content-visibility: auto;
+}
+
+/* ===== RESPONSIVE DESIGN OPTIMIZATIONS ===== */
+/* Additional optimizations for responsive layouts */
+
+@media (max-width: 768px) {
+  /* More compact dropdown items on mobile */
+  [data-radix-dropdown-menu-content] *[role="menuitem"],
+  [data-radix-dropdown-menu-content] a,
+  .dropdown-menu [role="menuitem"],
+  .dropdown-menu a {
+    padding: 0.75rem 1rem !important;
+  }
+  
+  /* Better touch targets on mobile */
+  .mobile-touch-target {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}

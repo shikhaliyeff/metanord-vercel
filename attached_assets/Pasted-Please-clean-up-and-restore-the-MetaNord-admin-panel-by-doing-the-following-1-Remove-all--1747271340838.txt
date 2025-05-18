@@ -1,0 +1,75 @@
+Please clean up and restore the MetaNord admin panel by doing the following:
+
+---
+
+🔧 1. Remove all unused or placeholder tabs that are not part of MetaNord’s actual workflow.
+
+This includes:
+- Settings
+- Media
+- Navigation
+- Team (if present and not functional)
+- Any tab currently showing “This feature is under development” with no implemented functionality
+
+The “Navigation” tab was likely added as boilerplate. MetaNord uses a fixed navigation structure in the frontend, so this section should be removed entirely.
+
+---
+
+🎨 2. Repurpose the “Themes” tab (or rename it to “Templates”) to function as a reusable layout library for future pages.
+
+This section should:
+
+- Present 3–5 ready-made visual templates styled according to MetaNord’s design system
+- Each template must include:
+   - Template name
+   - Visual preview
+   - “Use This Template” button
+
+Initial templates should include:
+- Hero with headline, subtitle, background image, and 2 CTA buttons
+- Product highlight block with icons and description
+- Gallery layout for project showcases
+- Grid of partner or client logos
+- Contact form with embedded map
+- Split layout for “Why MetaNord” section
+
+These templates will be used later for building new landing pages or content sections. They must match MetaNord’s visual branding.
+
+---
+
+🔁 3. Fully restore all previously working editors and reconnect them to their actual data.
+
+Restore and reactivate:
+
+- Hero Section Editor (with multilingual support + live preview)
+- Pages / Content Blocks Editor
+- Products Editor (with drag-and-drop image upload, import/export)
+- Featured Projects Editor (with multilingual inputs and status control)
+- CRM: Leads, Client Profiles, Offers
+- Contact Inquiries with SendGrid email and auto-reply system
+- PDF Offer Generator
+- Analytics and Audit Logs
+- Global Notification Bell with dropdown and mark-as-read
+
+Reconnect editors to their respective files:
+- `hero.json`, `content.json`, `products.json`, `projects.json`, etc.
+
+Ensure all real content is displayed. Remove all placeholder messages like “Feature is under development”.
+
+---
+
+✅ Final Review Checklist (Do Not Skip)
+
+Before proceeding, please:
+
+1. Re-analyze all previous instructions related to admin structure, templates, and data connections.
+2. Double-check that nothing has been skipped or left incomplete.
+3. Confirm that:
+   - All tabs are functional
+   - Only required sections are visible
+   - All content is correctly loaded from files
+   - Templates are usable
+4. Fix any broken or missing parts.
+5. Only move forward when this entire restoration is complete and confirmed.
+
+Let me know when everything is fully restored and operational.

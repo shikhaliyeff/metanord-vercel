@@ -1,0 +1,14 @@
+{
+  "products": {
+    "filter": {
+      "all": "All Products",
+      "aluminum": "Aluminum",
+      "polyethylene": "Polyethylene",
+      "steel": "Steel",
+      "castIron": "Cast Iron"
+    }
+  },
+  "common": {
+    "learnMore": "Learn More"
+  }
+}

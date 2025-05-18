@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Test Customer",
+    "email": "test@example.com",
+    "subject": "Product Information Request",
+    "message": "I would like to know more about your aluminum profiles. Do you ship to Finland?",
+    "status": "new",
+    "archived": false,
+    "company": "Test Company Ltd",
+    "inquiryType": "product",
+    "id": 1,
+    "createdAt": "2025-05-15T17:45:12.951Z"
+  }
+]

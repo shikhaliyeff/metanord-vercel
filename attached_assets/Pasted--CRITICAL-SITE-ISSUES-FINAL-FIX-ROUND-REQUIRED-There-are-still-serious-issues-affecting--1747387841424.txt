@@ -1,0 +1,55 @@
+⚠️ CRITICAL SITE ISSUES — FINAL FIX ROUND REQUIRED ⚠️
+
+There are still **serious issues** affecting the MetaNord site — especially on the Products page and dropdown menus. Please investigate and **fully fix** the following:
+
+---
+
+🔍 1. PRODUCTS PAGE NOT DISPLAYING
+The `/products` route **still does not show any products** in **any language**. However, the product cards do render correctly on the homepage.
+
+✅ This means:
+- The product data exists and loads properly elsewhere
+- The problem is **specific to how the products are rendered on the full /products page**
+
+🔧 Please deeply investigate the logic used on the Products page:
+- Check the useEffect or rendering logic
+- Check if language-specific keys (e.g., `zh-CN`) are breaking rendering
+- Confirm that product filtering or category matching isn’t causing 0 results
+- Make sure fallback/defaults are correctly implemented
+
+✅ This page must load product cards correctly and fully in all languages.
+
+---
+
+🎨 2. DROPDOWN MENU VISUAL FIX
+Right now the dropdown (submenu) still looks **unbalanced and awkward**. The font gets lost over some page sections, especially when scrolling.
+
+🔧 Please apply the following minimal design fix:
+- Add a **subtle white background** (with light transparency, e.g. `rgba(255,255,255,0.9)`)
+- Remove or minimize the padding and margin to make it tight and elegant
+- Keep the hover underline effect consistent with the main nav items
+- Make sure the submenu looks clean and readable on all scroll positions
+
+This needs to be polished and visually consistent with the site’s design.
+
+---
+
+🧠 3. FINAL REVIEW & RENDER AUDIT
+Please carefully go through all site pages:
+- Homepage
+- Products
+- About
+- Services
+- Contact
+
+And confirm:
+- Translations are properly rendered (no `[object Object]`, double words, raw tags)
+- Components appear on screen (no blank pages)
+- Submenus work as expected
+- Products load across languages
+
+Do **not** mark this as resolved until the above issues are 100% fixed.
+
+🙏 This is a final and critical polish step. Please proceed carefully and test your changes thoroughly.
+
+Thank you!

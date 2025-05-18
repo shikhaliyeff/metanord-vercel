@@ -1,0 +1,56 @@
+Please create a dedicated FAQ page for the MetaNord website using the following enhanced B2B-style questions and answers.
+
+1. Create a new page at /faq
+2. Use the following content (EN version) as the primary source:
+
+---
+Q: What types of products does MetaNord supply?  
+A: MetaNord specializes in the distribution of aluminum profiles, polyethylene pipes, steel components, and other infrastructure materials sourced from trusted global manufacturers.
+
+Q: Do you offer custom manufacturing or tailored solutions?  
+A: Yes. We can facilitate custom dimensions, finishes, or specifications based on project needs. Please contact our sales team for tailored quotations and engineering review.
+
+Q: What are your lead times and delivery terms?  
+A: Lead times depend on product type and quantity. Standard items are typically delivered within 7–14 business days across Europe. We also support express shipping upon request.
+
+Q: Can you deliver outside the European Union?  
+A: Yes, we support international shipping to a wide range of markets, including non-EU countries. Please contact us with your location and required materials for a logistics assessment.
+
+Q: Do you provide product certifications and technical documentation?  
+A: Absolutely. Most products come with EN-standard certificates and detailed technical datasheets, available on the Documents page or on individual product pages.
+
+Q: How can I request a quotation?  
+A: Use the “Request Quote” button on any product page or at the top right of the website. Our team will get back to you within 1 business day.
+
+Q: Do you offer volume pricing or B2B account options?  
+A: Yes. We offer competitive pricing for bulk orders and long-term partnerships. B2B customers may qualify for negotiated rates and account management services.
+
+Q: Can you assist with logistics or unloading?  
+A: We provide end-to-end logistics, including transport coordination and, in certain regions, unloading support. Let us know your delivery site conditions and preferences.
+
+Q: How do I get technical support or speak with an expert?  
+A: You can contact our team via the form on the Contact page or email us at info@metanord.eu. For complex projects, we offer engineering consultations.
+
+Q: What payment methods do you accept?  
+A: We accept bank transfers (SEPA/international) and offer invoicing for corporate clients.
+---
+
+3. Translate the full FAQ page into all 6 supported languages:
+   - English
+   - Estonian
+   - Russian
+   - Latvian
+   - Lithuanian
+   - Polish
+
+4. Connect the page to the language switcher so each version routes correctly.
+
+5. Add the FAQ page under the “Resources” dropdown in the top navigation.
+
+6. Use an accordion/toggle UI for displaying questions and answers.
+
+7. Ensure the page is fully responsive and mobile-optimized.
+
+8. Add meta title: “Frequently Asked Questions | MetaNord” and localized equivalents.
+
+Let me preview the final version in English before publishing translations.

@@ -1,0 +1,55 @@
+Please update the site at https://meta-nord-trade-shikhaliyeff.replit.app/ according to the following requirements:
+
+1. **Sticky Navbar**  
+   - Make the header/navbar stick to the top of the viewport on scroll.
+   - Ensure menu links and logo remain visible and clickable at all times.
+
+2. **Anchor Links & CTAs**  
+   - Convert all menu items and “Learn More” buttons to jump to in-page anchors.
+   - Add prominent CTA buttons (“Get Price”, “Download Price List”) in the hero and product sections.
+
+3. **Color Palette & Typography**  
+   - Define and apply a consistent primary (branded blue) and secondary (dark gray) palette.
+   - Use no more than two fonts: one for headings (bold, sans-serif) and one for body text.
+   - Ensure base font size is at least 16 px and line-height ≥ 1.5.
+
+4. **Whitespace & Layout**  
+   - Increase padding/margins between sections and within product cards.
+   - Use a grid layout for the “Our Products” section with image, title, short description, and a “Details” button.
+   - Add category filters or tabs (e.g., “Industrial”, “Facade”, “Architectural”) above the grid.
+
+5. **Hero Section Enhancement**  
+   - Replace static background with a full-width image slider or looping video showcasing aluminum profiles.
+   - Craft a clear headline and subheadline:  
+     “Premium Aluminum Profiles from Europe”  
+     “Own production • Fast lead times • Worldwide delivery”
+   - Include two buttons: primary “Get Price” and secondary “Learn More”.
+
+6. **Mobile Responsiveness**  
+   - Collapse the menu into a burger icon on narrow viewports.
+   - Ensure product grid switches to a single-column layout on mobile.
+   - Simplify the mobile header to logo + “Request Callback” button.
+
+7. **Performance Optimization**  
+   - Convert images to WebP and enable lazy-loading.
+   - Minify and bundle CSS/JS assets; remove unused scripts.
+
+8. **SEO & Social Sharing**  
+   - Add unique `<title>` and `<meta name="description">` tags for each page.
+   - Configure Open Graph tags (`og:title`, `og:description`, `og:image`) and Twitter Card metadata.
+
+9. **Contact & Conversion**  
+   - Implement a modal “Request Callback” form with name, phone, and message fields.
+   - After submission, show a “Thank you!” confirmation and link to download the price list.
+   - Integrate a live chat widget or WhatsApp button in the corner.
+
+10. **Accessibility Improvements**  
+    - Add `alt` attributes to all images.
+    - Verify text/background contrast meets WCAG 4.5:1.
+    - Ensure visible focus outlines for keyboard navigation.
+
+11. **Analytics & Monitoring**  
+    - Insert Google Analytics (or Yandex.Metrika) script in the `<head>`.
+    - Add an UptimeRobot (or similar) health-check endpoint to monitor site status.
+
+Please make these changes in the codebase, test on desktop and mobile breakpoints, and commit all updates. Thank you!

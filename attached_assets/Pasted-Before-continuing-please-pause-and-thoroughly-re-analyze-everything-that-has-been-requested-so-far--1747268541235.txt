@@ -1,0 +1,62 @@
+Before continuing, please pause and thoroughly re-analyze everything that has been requested so far.
+
+Some of the earlier instructions may have been skipped, implemented partially, or inconsistently.
+
+Please now do the following:
+
+---
+
+🔁 1. Instruction Revision
+
+- Go back and carefully review all previous prompts I’ve given, especially:
+  - Sidebar restructuring
+  - Notification bell
+  - Unified dark mode (admin only)
+  - Full audit of site functionality, language coverage, and visual behavior
+
+- Create a checklist with:
+  - ✅ Fully completed tasks
+  - ⚠️ Partially completed or skipped items
+  - ❌ Missing or misaligned features
+
+- Correct any gaps or unfinished steps, even minor styling issues or inconsistencies.
+
+---
+
+🎥 2. Simulated Visual/Behavioral Audit (Full QA Walkthrough)
+
+Please now perform a full audit of the entire system — both the public-facing site and the admin panel — as if you were doing a video walkthrough or interactive demo review.
+
+What to check:
+
+📄 **Public Website:**
+- Are all pages accessible? (/, /products, /projects, /contact)
+- Do all buttons and links work correctly? (e.g., “View Project”)
+- Is layout consistent across languages?
+- Are there any broken styles, unaligned components, or flickering on dark/light transitions?
+
+🌐 **Language Coverage:**
+- Are all languages (EN, RU, ET, LV, LT, PL) fully populated in hero, products, projects, buttons, etc.?
+- Are there fallback issues or untranslated blocks?
+- Does the language switcher correctly load the right data?
+
+🧭 **Admin Panel:**
+- Do all sections open, collapse, and function smoothly?
+- Is dark mode fully consistent and scoped only to admin?
+- Is the notification bell working as described?
+- Are CRM, Offers, and Projects editors all saving and reflecting correctly?
+
+🧾 **Visual Bugs or Console Errors:**
+- Check for layout glitches, overlapping elements, console warnings
+- Look for incomplete input validations, non-responsive buttons, or scroll issues
+
+---
+
+✅ Final Confirmation
+
+After completing both the instruction revision and full audit walkthrough:
+
+- Provide a categorized checklist of all findings
+- Fix anything missing or inconsistent
+- Confirm explicitly that all prior instructions — in both logic and UI/UX — are fully done and tested
+- Only proceed to new tasks once this is complete

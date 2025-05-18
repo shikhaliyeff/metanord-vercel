@@ -1,0 +1,45 @@
+This is a final request to **fully complete and fix** the Chinese (zh-CN) localization for the MetaNord website. Your last update did not solve several critical problems.
+
+Please complete all of the following items without skipping any of them:
+
+1. 🔴 PRODUCTS PAGE BROKEN IN CHINESE VERSION
+   - The `/products` page does not load when Chinese is selected.
+   - This is a critical error – inspect and fix whatever causes the crash.
+   - Make sure product names, descriptions, and buttons are **fully translated and rendered** properly in Chinese.
+
+2. 🌐 TRANSLATION AUDIT (ZH-CN) – CHECK EVERY SECTION
+   Carefully go through all pages listed below and ensure **every visible word is translated** into Simplified Chinese:
+   - Homepage (`/`)
+   - Products (`/products`)
+   - Services (`/services`)
+   - About (`/about`)
+   - Contact (`/contact`)
+   - Projects (`/projects`)
+   ❗**No English or untranslated i18n keys must remain.**
+   ❗Also check card descriptions, buttons, feature blocks, forms, filters, and tab titles.
+
+3. 🧾 HEADER SUBMENU FIX
+   - On hover, the submenu items (e.g., Solutions, Company) **must use the same styling as main links**.
+   - Apply the same underline effect (`border-b-2 text-primary`) or Tailwind transition to submenu items.
+
+4. 🖌️ HEADING FORMAT ISSUE (About section)
+   - Currently, "关于 MetaNord" is still displayed with raw HTML in Chinese preview (`<span class="text-primary">`).
+   - Render it properly: “关于” in black, “MetaNord” in blue (`text-primary`), exactly like English version.
+
+5. 🧠 TRANSLATION RENDERING RULES
+   - Never render raw HTML tags in translation strings. Use component-level styling instead.
+   - Review all translated strings and remove improper tags or escape sequences.
+
+6. ✅ FINAL VALIDATION
+   - Manually switch to Chinese (zh-CN) and visually inspect **each of the main pages**.
+   - Do not rely only on string files — verify real rendering in the browser.
+   - Confirm that **all page content and interface elements** are properly localized.
+
+7. 📘 FINAL REPORT (REQUIRED)
+   After implementing the fixes, please provide:
+   - A summary of each section updated
+   - A confirmation that `/products` now loads correctly
+   - A confirmation that no English text is left in zh-CN mode
+   - Any remaining limitations or technical reasons (if any part couldn’t be fixed)
+
+➡️ Please treat this as a full, final QA pass for zh-CN. Avoid breaking JSON structure or introducing rendering bugs.

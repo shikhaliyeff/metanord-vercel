@@ -1,0 +1,108 @@
+Please implement the following advanced upgrades to the MetaNord system — both in the admin panel and user-facing functionality — to improve page management, CRM depth, task tracking, filtering, and overall usability.
+
+---
+
+🎨 1. Visual Page Builder (Drag & Drop from Templates)
+
+Transform the "Templates" (formerly Themes) section into a real **Visual Page Builder**:
+
+- Admin can create a new custom page by:
+  - Selecting layout blocks from template library (e.g., Hero, Gallery, Features)
+  - Dragging blocks into the page canvas (sortable order)
+  - Editing each block’s text, images, buttons
+  - Previewing the page live
+  - Saving the page (writes to `content.json` or relevant file)
+
+- Blocks should follow MetaNord design styles
+- Each page must support multilingual content per block
+- Saved pages should be viewable in the Pages tab or public frontend if enabled
+
+---
+
+📂 2. Tagging & Filtering System (for Products and Projects)
+
+Add flexible tagging and filtering options to Products and Featured Projects:
+
+- Allow admin to define tags like:
+  - Industry (Construction, Energy, Infrastructure)
+  - Region (Baltic, Central Europe, Global)
+  - Material (Aluminum, Steel, Composite)
+
+- In the public site:
+  - Users can filter content by tags or use multi-select filters
+  - Filters should be responsive and intuitive (dropdowns or buttons)
+
+- In admin:
+  - Tags can be added/edited per item
+  - Filtering in tables/lists helps internal management too
+
+---
+
+🕓 3. Lead Timeline + CRM Archive
+
+In each CRM Lead profile, add a **timeline view** of interactions:
+
+- Show:
+  - Quote submitted
+  - Offer generated/sent
+  - Status changed
+  - Internal comment added
+  - Follow-up scheduled
+
+- Add "Archived" status for closed leads with full data preservation
+- Timeline should be editable (for notes) and automatically populated by actions
+
+---
+
+📝 4. Task Manager / To-Do System (per client or general)
+
+Add a lightweight task system inside the CRM:
+
+- Admin can add tasks related to a lead or offer:
+  - e.g., “Call client on May 22”, “Recalculate delivery for Latvia”
+- Fields:
+  - Task title
+  - Due date/time
+  - Assigned user (if multi-user)
+  - Status: Pending / Done
+- Show tasks in CRM dashboard or per lead
+- Optional: reminders or color-coded statuses
+
+---
+
+📊 5. Weekly Analytics & Reports (PDF/CSV)
+
+Enable automated report generation with stats from CRM and Offers:
+
+- Create a “Generate Weekly Report” button in Analytics or CRM tab
+- Reports include:
+  - Number of leads
+  - Number of offers sent
+  - Conversion rate
+  - Country distribution
+  - Top products / tags
+- Exportable as PDF and CSV
+- Optional: auto-send to predefined email addresses
+
+---
+
+✨ BONUS: Admin UX Onboarding & Tooltips
+
+Add subtle onboarding guidance for first-time users or empty states:
+
+- Show tooltips or hints:
+  - “Start by adding your first product”
+  - “No projects yet — use the + button to create one”
+- Add “Help” icon or hover tooltips on key features (e.g., PDF button, CRM status)
+- Use icons and soft animations to keep it friendly, not disruptive
+
+---
+
+✅ Final Notes:
+
+- All changes must follow MetaNord design and translation logic
+- Multilingual support must remain intact for all content types
+- Data should be persistent and exportable
+- Keep UI fast, mobile-responsive, and intuitive
+
+Let me know when all upgrades are complete and tested.

@@ -1,0 +1,65 @@
+/**
+ * Red Underline Removal CSS
+ * 
+ * This CSS specifically targets and removes the red underline that
+ * appears on dropdown menu hovers.
+ */
+
+/* Target all dropdown menu items to ensure no red underlines appear */
+.dropdown-content *,
+.dropdown-menu *,
+.navigation-menu-content *,
+.submenu *,
+[role="menuitem"],
+[data-radix-dropdown-menu-content] * {
+  text-decoration: none !important;
+  border-bottom: none !important;
+  outline: none !important;
+}
+
+/* Override any inline styles that might be adding red borders or underlines */
+[style*="border-color: red"],
+[style*="border-color:#ff0000"],
+[style*="border-color: #ff0000"],
+[style*="border-color:red"],
+[style*="outline-color: red"],
+[style*="outline-color:#ff0000"],
+[style*="outline-color: #ff0000"],
+[style*="outline-color:red"] {
+  border-color: transparent !important;
+  outline-color: transparent !important;
+}
+
+/* Forcefully remove any border-bottom styling from dropdown items */
+.dropdown-menu [role="menuitem"],
+.dropdown-menu a,
+[data-radix-dropdown-menu-content] [role="menuitem"],
+[data-radix-dropdown-menu-content] a,
+.submenu a,
+.submenu [role="menuitem"] {
+  border-bottom: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Override ::after pseudo-elements that might be creating the red underline */
+.dropdown-menu [role="menuitem"]::after,
+.dropdown-menu a::after,
+[data-radix-dropdown-menu-content] [role="menuitem"]::after,
+[data-radix-dropdown-menu-content] a::after,
+.submenu a::after,
+.submenu [role="menuitem"]::after {
+  background-image: linear-gradient(to right, #0959AB, #FE9158) !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
+  border: none !important;
+}
+
+/* Target any potential conflicting radix UI styling */
+[data-radix-dropdown-menu-content] *:hover,
+[data-radix-dropdown-menu-content] *:focus,
+[data-radix-dropdown-menu-content] *:active {
+  border-bottom: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}

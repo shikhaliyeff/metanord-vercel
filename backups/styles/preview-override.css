@@ -1,0 +1,107 @@
+/* Force light mode regardless of system preferences */
+:root {
+  --background: 0 0% 100% !important;
+  --foreground: 225 15% 16% !important;
+  --muted: 220 14% 96% !important;
+  --muted-foreground: 220 8% 46% !important;
+  --popover: 0 0% 100% !important;
+  --popover-foreground: 225 15% 16% !important;
+  --card: 0 0% 100% !important;
+  --card-foreground: 225 15% 16% !important;
+  --border: 220 13% 91% !important;
+  --input: 220 13% 91% !important;
+  --primary: 210 100% 36% !important;
+  --primary-foreground: 210 40% 98% !important;
+  --secondary: 220 9% 46% !important;
+  --secondary-foreground: 210 40% 98% !important;
+  --accent: 174 84% 43% !important;
+  --accent-foreground: 0 0% 100% !important;
+  --destructive: 0 84.2% 60.2% !important;
+  --destructive-foreground: 210 40% 98% !important;
+  --ring: 210 100% 36% !important;
+  
+  /* Chart colors */
+  --chart-1: 210 100% 36% !important;
+  --chart-2: 174 84% 43% !important;
+  --chart-3: 220 9% 46% !important;
+  --chart-4: 210 90% 54% !important;
+  --chart-5: 174 76% 60% !important;
+  
+  /* Sidebar */
+  --sidebar-background: 0 0% 100% !important;
+  --sidebar-foreground: 225 15% 16% !important;
+  --sidebar-primary: 210 100% 36% !important;
+  --sidebar-primary-foreground: 210 40% 98% !important;
+  --sidebar-accent: 174 84% 43% !important;
+  --sidebar-accent-foreground: 0 0% 100% !important;
+  --sidebar-border: 220 13% 91% !important;
+  --sidebar-ring: 210 100% 36% !important;
+}
+
+/* Force light theme and override any dark mode */
+html, html.dark {
+  color-scheme: light !important;
+}
+
+html.dark, body.dark, .dark {
+  --background: 0 0% 100% !important;
+  --foreground: 225 15% 16% !important;
+  --muted: 220 14% 96% !important;
+  --muted-foreground: 220 8% 46% !important;
+  --popover: 0 0% 100% !important;
+  --popover-foreground: 225 15% 16% !important;
+  --card: 0 0% 100% !important;
+  --card-foreground: 225 15% 16% !important;
+  --border: 220 13% 91% !important;
+  --input: 220 13% 91% !important;
+  --primary: 210 100% 36% !important;
+  --primary-foreground: 210 40% 98% !important;
+  --secondary: 220 9% 46% !important;
+  --secondary-foreground: 210 40% 98% !important;
+  --accent: 174 84% 43% !important;
+  --accent-foreground: 0 0% 100% !important;
+  --destructive: 0 84.2% 60.2% !important;
+  --destructive-foreground: 210 40% 98% !important;
+  --ring: 210 100% 36% !important;
+}
+
+/* Remove all dark mode specifics */
+.dark .glass-effect,
+.dark .glass-card,
+.dark .glass-card::before,
+.dark .glass-nav,
+.dark .neumorph,
+.dark .neumorph:hover,
+.dark .neumorph-inset,
+.dark .neumorph-btn,
+.dark .neumorph-btn:hover,
+.dark .neumorph-btn:active {
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12) !important;
+  background: rgba(255, 255, 255, 0.8) !important;
+  border-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+/* Force light mode colors for backgrounds */
+body, .bg-background {
+  background-color: white !important;
+  color: #1e293b !important;
+}
+
+/* Fix for buttons and other components */
+.bg-primary {
+  background-color: hsl(210 100% 36%) !important;
+  color: white !important;
+}
+
+/* Make sure all text is visible in light mode */
+.text-foreground, h1, h2, h3, h4, h5, h6, p, span, div, a {
+  color: #1e293b !important;
+}
+
+.text-primary {
+  color: hsl(210 100% 36%) !important;
+}
+
+.text-white {
+  color: white !important;
+}

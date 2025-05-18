@@ -1,0 +1,53 @@
+{
+  "homePage": {
+    "ourProducts": "我们的产品",
+    "productTitle": "产品规格",
+    "readyToStart": "准备开始您的项目？",
+    "contactUsToday": "立即联系我们，讨论您的基础设施需求，获得定制解决方案，满足您的特定要求。",
+    "expertConsultation": "项目需求专业咨询",
+    "competitivePricing": "有竞争力的价格和及时交付",
+    "highQualityProducts": "具有欧洲标准的高品质产品",
+    "getPersonalizedQuote": "获取个性化报价",
+    "connectWithTeam": "与我们的团队联系，讨论您的具体项目需求和时间线。",
+    "browseProductCatalog": "浏览产品目录",
+    "requestAQuote": "立即获取报价"
+  },
+  "common": {
+    "qualityInfrastructure": "品质基础设施",
+    "europeanStandard": "欧洲标准组件，持久的基础设施解决方案",
+    "browseProducts": "浏览产品",
+    "requestQuote": "请求报价",
+    "technicalConsulting": "技术咨询",
+    "customSolutions": "定制解决方案",
+    "ourStory": "我们的故事",
+    "submit": "提交",
+    "selectOption": "选择选项"
+  },
+  "products": {
+    "aluminum": "铝材",
+    "polyethylene": "聚乙烯",
+    "steel": "钢铁",
+    "castIron": "铸铁",
+    "allProducts": "所有产品"
+  },
+  "contactPage": {
+    "reachOut": "通过以下任一渠道与我们联系"
+  },
+  "readyToStart": {
+    "cta": "请求报价"
+  },
+  "button": {
+    "learnMore": "了解更多",
+    "browse": "浏览产品",
+    "quote": "请求报价",
+    "contact": "联系我们",
+    "submit": "提交",
+    "details": "查看详情",
+    "products": "浏览产品",
+    "requestQuote": "请求报价"
+  },
+  "company": {
+    "ourValues": "我们的价值观",
+    "committedTo": "在MetaNord，我们致力于提供由卓越服务支持的优质产品。我们的价值观指导着我们所做的一切："
+  }
+}

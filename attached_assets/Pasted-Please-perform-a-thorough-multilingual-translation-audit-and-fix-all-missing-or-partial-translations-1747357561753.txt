@@ -1,0 +1,25 @@
+Please perform a thorough multilingual translation audit and fix all missing or partial translations on the MetaNord website. This includes the header menu, footer menu, contact section, buttons, UI components, product filters, and all other visible elements across all languages.
+
+🔧 Scope of Fixes Required:
+1. Header menu items (e.g. Products, Solutions, Company, Contact) – must be translated on all languages, including Chinese, Lithuanian, Polish.
+2. Dropdown submenus in header – all categories and subcategories must be translated and not remain in English.
+3. Footer menu items – e.g., Resources, FAQ, Case Studies – still display in English or inconsistent keys. These must be fully localized.
+4. Contact page metadata and field labels – e.g. "Reach Out", "Your name", "Enter your email", etc., must be translated in Lithuanian, Polish, Chinese and all other enabled languages.
+5. Hero Section subtitles, buttons and slogans – verify and translate properly.
+6. Pages like /products, /contact, /documents, /projects – check headings and descriptive texts for missing keys or English content.
+7. Fallback issues – if any i18n keys are missing, they must not silently fallback to English. Detect and fix them.
+8. Visual Page Builder components – if any components display English text, translate them or mark them for editing.
+
+✅ Requirements:
+- Do not claim translations are complete until you’ve visually verified all headers, footers, buttons, and content blocks under each language.
+- Test every language manually: English, Estonian, Russian, Latvian, Lithuanian, Polish, Chinese.
+- Fix all untranslated keys (including raw i18n keys like contact.title) that may still appear.
+- Include Chinese (zh-CN) in all content files and navigation structures.
+- Ensure the language switcher does not break page layout and preserves styling for all languages.
+
+Once the audit is complete, provide a short report of:
+- ✅ What was translated
+- 🔧 What issues were fixed
+- 🚫 What was previously missed but now resolved
+
+Use the screenshots provided as visual reference for specific broken areas that need attention.

@@ -1,0 +1,51 @@
+/* 
+ * Direct fix for red underline in dropdown menus
+ * This CSS directly targets the elements causing the red underline issue
+ */
+
+/* Remove all borders and underlines from dropdown items */
+[data-radix-dropdown-menu-content] a,
+[data-radix-dropdown-menu-content] [role="menuitem"],
+.dropdown-menu a,
+.dropdown-menu [role="menuitem"],
+.submenu a,
+.submenu [role="menuitem"],
+.dropdown-item {
+  border-bottom-color: transparent !important;
+  border-bottom: none !important;
+  text-decoration: none !important;
+  box-shadow: none !important;
+}
+
+/* Force override any inline styles with !important */
+[data-radix-dropdown-menu-content] a:hover,
+[data-radix-dropdown-menu-content] [role="menuitem"]:hover,
+.dropdown-menu a:hover,
+.dropdown-menu [role="menuitem"]:hover,
+.submenu a:hover,
+.submenu [role="menuitem"]:hover,
+.dropdown-item:hover {
+  border-bottom-color: transparent !important;
+  border-bottom: none !important;
+  text-decoration: none !important;
+}
+
+/* Remove red color from any elements */
+[style*="color: red"],
+[style*="color:#ff0000"],
+[style*="color: #ff0000"],
+[style*="border-color: red"],
+[style*="border-color:#ff0000"],
+[style*="border-color: #ff0000"] {
+  color: inherit !important;
+  border-color: transparent !important;
+}
+
+/* Target pseudo-elements that might be causing red underlines */
+[data-radix-dropdown-menu-content] a::after,
+[data-radix-dropdown-menu-content] [role="menuitem"]::after,
+.dropdown-menu a::after,
+.dropdown-menu [role="menuitem"]::after {
+  background-image: linear-gradient(to right, #0959AB, #FE9158) !important;
+  border-color: transparent !important;
+}

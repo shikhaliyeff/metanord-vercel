@@ -1,0 +1,105 @@
+/**
+ * Language Switching Optimizations CSS
+ * 
+ * This file contains optimizations to improve language switching performance,
+ * prevent layout shifts, and create smoother transitions between languages.
+ */
+
+/* Prevent layout shifts during language switching */
+html.lang-transition * {
+  transition: none !important;
+  animation: none !important;
+}
+
+/* Add transition class for smoother language changes */
+body.lang-switching {
+  opacity: 0.98;
+  transition: opacity 0.15s ease-in-out;
+}
+
+body.lang-switching-complete {
+  opacity: 1;
+  transition: opacity 0.15s ease-in-out;
+}
+
+/* Preserve scroll position during language switch */
+html.preserve-scroll {
+  scroll-behavior: auto !important;
+}
+
+/* Ensure text doesn't overflow in narrow containers during language switch */
+.text-container {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+/* Fix Chinese font rendering */
+html[lang="zh-CN"] body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 0;
+}
+
+/* Ensure consistent heights for menu items in all languages */
+.nav-item,
+.dropdown-item,
+.menu-item {
+  min-height: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+
+/* Prevent jumping during page load */
+.main-content {
+  min-height: 70vh;
+}
+
+/* Ensure footer stays in place */
+.footer {
+  position: relative;
+  z-index: 10;
+}
+
+/* Ensure menu items have sufficient width for all languages */
+[data-radix-dropdown-menu-content] [role="menuitem"],
+.dropdown-menu-content [role="menuitem"],
+.dropdown-menu-item {
+  min-width: 120px;
+  white-space: nowrap;
+}
+
+/* Fix layout jumps during language switch for elements with changing width */
+.language-aware-container {
+  transition: width 0.3s ease-out;
+  overflow: hidden;
+}
+
+/* Prevent animation during language switch */
+html.lang-transition .animate-in,
+html.lang-transition .animate-out,
+html.lang-transition [data-animate="true"] {
+  animation-play-state: paused !important;
+  transition: none !important;
+}
+
+/* Ensure consistent button widths across languages */
+.language-sensitive-button {
+  min-width: 120px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* Fix Chinese specific font rendering issues */
+html[lang="zh-CN"] h1, 
+html[lang="zh-CN"] h2, 
+html[lang="zh-CN"] h3, 
+html[lang="zh-CN"] h4, 
+html[lang="zh-CN"] h5, 
+html[lang="zh-CN"] h6 {
+  letter-spacing: -0.02em;
+}
+
+html[lang="zh-CN"] button,
+html[lang="zh-CN"] a.btn,
+html[lang="zh-CN"] .btn {
+  letter-spacing: 0;
+}

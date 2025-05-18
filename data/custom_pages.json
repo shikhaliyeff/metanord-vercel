@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "title": "Test",
+    "description": "This is a test page",
+    "slug": "t",
+    "language": "en",
+    "content": {},
+    "metaTitle": "Test",
+    "metaDescription": "This is a test page",
+    "ogImage": null,
+    "status": "draft",
+    "templateId": null,
+    "author": 1,
+    "createdAt": "2025-05-15T20:35:51.446Z",
+    "updatedAt": "2025-05-15T20:35:51.446Z",
+    "publishedAt": null
+  }
+]

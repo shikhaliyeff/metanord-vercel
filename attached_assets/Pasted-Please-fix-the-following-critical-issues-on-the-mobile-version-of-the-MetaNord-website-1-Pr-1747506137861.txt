@@ -1,0 +1,26 @@
+Please fix the following **critical issues** on the mobile version of the MetaNord website:
+
+1. **Products page does not load** at all on mobile — in any language version.
+2. **Switching from Chinese to any other language** causes the entire mobile interface to freeze for a few seconds.
+3. **Some products appear broken or not at all** in mobile view, especially when switching categories or languages.
+4. **Quick View modal** appears misaligned or detached from the product card.
+5. **View Details pages open at the bottom of the screen (near footer)** instead of scrolling to the top.
+6. **Several translations are missing**, especially in Lithuanian, Polish, and Chinese.
+7. The **Chinese version of the Services page** was previously showing `{{object Object}}` or `[object Object]` — please ensure this and similar issues are resolved sitewide.
+8. The **FAQ page is broken on mobile** — layout glitches, cut-off content, unreadable elements.
+9. **FAQ page is not translated** into Chinese — it still shows English content under Chinese heading.
+10. **On mobile**, individual product detail pages show overlapping or broken elements (see screenshots).
+11. The **Contact and FAQ pages** have untranslated or misaligned content in several languages.
+12. Please **remove all icons next to submenu items** in dropdowns if they reappear (already fixed in desktop, double-check mobile).
+
+**CRITICAL PRIORITY:**  
+Fix the **Products page** on mobile **first**, as it is completely non-functional across all languages. Ensure products load reliably, translations apply, and UI is responsive.
+
+**Final Checklist:**
+- Fully test all fixes on **real mobile view (especially iPhone Safari/Chrome)**.
+- Test all language versions, categories, and product detail modals.
+- Eliminate all leftover placeholders like `{{services}}`, `{{object}}`, or `[object Object]`.
+- Validate proper scrolling behavior, modal alignment, and clean layout across all pages.
+- Ensure translations are fetched properly, especially for **product names, filters, and FAQs**.
+
+Please treat this as a complete pass for mobile optimization and multilingual QA. Let me know when it’s all fully resolved and tested.

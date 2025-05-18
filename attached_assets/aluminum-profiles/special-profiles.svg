@@ -1,0 +1,19 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f0f0f0"/>
+  
+  <!-- Complex Aluminum Profile Shapes -->
+  <path d="M120,80 L160,80 L170,90 L180,80 L220,80 L220,130 L190,150 L150,150 L120,130 Z" fill="#A9A9A9" stroke="#7A7A7A" stroke-width="1"/>
+  <path d="M130,90 L160,90 L165,95 L170,90 L210,90 L210,125 L185,140 L155,140 L130,125 Z" fill="#D3D3D3" stroke="#7A7A7A" stroke-width="0.5"/>
+  
+  <path d="M260,80 C260,80 270,90 280,80 C290,70 300,90 310,80 C320,70 330,90 340,80 L340,150 L260,150 Z" fill="#A9A9A9" stroke="#7A7A7A" stroke-width="1"/>
+  <path d="M270,90 C270,90 280,100 290,90 C300,80 310,100 320,90 C330,80 330,90 330,90 L330,140 L270,140 Z" fill="#D3D3D3" stroke="#7A7A7A" stroke-width="0.5"/>
+  
+  <!-- Custom Features -->
+  <circle cx="150" cy="115" r="5" fill="#626262"/>
+  <circle cx="190" cy="115" r="5" fill="#626262"/>
+  <circle cx="300" cy="115" r="5" fill="#626262"/>
+  
+  <text x="250" y="200" font-family="Arial" font-size="16" text-anchor="middle" fill="#444">Special Aluminum Profiles</text>
+  <text x="250" y="225" font-family="Arial" font-size="12" text-anchor="middle" fill="#777">Custom-engineered shapes for specific applications</text>
+  <text x="250" y="245" font-family="Arial" font-size="12" text-anchor="middle" fill="#777">Complex geometries with integrated features</text>
+</svg>

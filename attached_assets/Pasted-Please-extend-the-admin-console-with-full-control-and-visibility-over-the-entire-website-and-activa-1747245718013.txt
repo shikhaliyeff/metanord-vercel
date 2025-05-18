@@ -1,0 +1,58 @@
+Please extend the admin console with full control and visibility over the entire website, and activate the "Contact Inquiries" system.
+
+Here is what I need:
+
+---
+
+🧭 1. Pages Tab with Full Website Navigation
+
+Create a new tab in the admin dashboard called **"Pages"**.
+
+It should:
+
+- Display a list of all public-facing pages (index.html, about.html, contact.html, etc.)
+- For each page, show the related editable content sections pulled from content.json, hero.json, etc.
+- Allow switching between pages from a side menu or tab system
+
+---
+
+🖼 2. Live Preview Integration
+
+- When selecting any page from the "Pages" tab, show a live visual preview using an `<iframe>` (e.g. `<iframe src="/about.html">`)
+- Make the preview reflect dynamic content pulled from JSON (i.e., current live data as edited through admin)
+- Allow toggling between preview and edit modes for a smoother workflow
+
+---
+
+🌐 3. Dynamic JSON Integration (Frontend ↔ Admin)
+
+Ensure that all public site pages dynamically load their content from JSON using client-side JavaScript:
+
+- `hero.json` → homepage hero section
+- `products.json` → product listings
+- `content.json` → about, contact, certificates, footer, and other static blocks
+
+This way, all website content is updated live based on edits from the admin panel.
+
+---
+
+📬 4. Contact Inquiries — Functional Viewer + Email Notifications
+
+Activate and fully implement the **"Contact Inquiries"** system:
+
+- When a user submits the contact form on the website, save their inquiry (name, email, subject, message, timestamp)
+- Show a full list of submitted inquiries inside the "Contact Inquiries" tab in the admin console
+- Include details such as: sender name, email, date/time, and message body
+- Optional but helpful: ability to mark inquiries as “read” or “replied”
+
+➕ Additionally:
+- Set up email forwarding: when a contact form is submitted, send a copy of the inquiry to my email address (e.g. info@metanord.eu) using Replit-compatible email sending method (e.g. EmailJS, SMTP with nodemailer, or webhook to Zapier)
+
+---
+
+🔒 5. General Requirements
+
+- Keep authentication and styling consistent with the current admin layout
+- This expansion should give me complete centralized visibility and editing capabilities across all pages, all sections, and user inquiries
+
+Let me know if you need email configuration details or example message structure.

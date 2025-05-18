@@ -1,0 +1,748 @@
+{
+  "common": {
+    "close": "Zamknij"
+  },
+  "navigation": {
+    "home": "Strona główna",
+    "products": "Produkty",
+    "services": "Usługi",
+    "about": "O nas",
+    "contact": "Kontakt",
+    "language": "Język",
+    "search": "Szukaj",
+    "menu": "Menu"
+  },
+  "header": {
+    "home": "Strona główna",
+    "about": "O nas",
+    "products": "Produkty",
+    "services": "Usługi",
+    "contact": "Kontakt",
+    "requestQuote": "Zapytaj o cenę"
+  },
+  "language": {
+    "en": "Angielski",
+    "et": "Estoński",
+    "ru": "Rosyjski",
+    "lv": "Łotewski",
+    "lt": "Litewski",
+    "pl": "Polski"
+  },
+  "home": {
+    "metaTitle": "MetaNord - Wysokiej jakości profile aluminiowe i produkty infrastrukturalne dla rynków europejskich i międzynarodowych",
+    "metaDescription": "MetaNord OÜ specjalizuje się w profilach aluminiowych premium i produktach infrastrukturalnych dla rynków europejskich i międzynarodowych. Wysokiej jakości rozwiązania dla sektorów budowlanych, użyteczności publicznej i przemysłowych."
+  },
+  "hero": {
+    "title": "Wysokiej jakości produkty infrastrukturalne dla rynków europejskich",
+    "subtitle": "Specjalizacja w profilach aluminiowych i rozwiązaniach infrastrukturalnych",
+    "cta": "Przeglądaj produkty",
+    "globalShipping": "Dostępna wysyłka międzynarodowa",
+    "productTitle": "Produkty premium",
+    "productSubtitle": "Wysokiej jakości rozwiązania infrastrukturalne",
+    "tagline": "Doskonałość przemysłowa od 2023 roku"
+  },
+  "services": {
+    "title": "Nasze",
+    "titleHighlight": "Usługi",
+    "subtitle": "Kompleksowe rozwiązania dla potrzeb infrastrukturalnych i budowlanych",
+    "logistics": {
+      "title": "Logistyka i łańcuch dostaw",
+      "description": "Efektywne rozwiązania logistyczne dostosowane do wymagań Twojego projektu",
+      "features": [
+        "Bezpośrednia dostawa na place budowy",
+        "Zarządzanie zapasami i magazynowanie",
+        "Opcje dostaw just-in-time"
+      ]
+    },
+    "consulting": {
+      "title": "Doradztwo techniczne",
+      "description": "Ekspertowa porada w zakresie wyboru i wdrażania produktów",
+      "features": [
+        "Specyfikacje produktów i kompatybilność",
+        "Wskazówki dotyczące zgodności z przepisami",
+        "Strategie optymalizacji kosztów"
+      ]
+    },
+    "custom": {
+      "title": "Rozwiązania niestandardowe",
+      "description": "Produkty dostosowane do konkretnych wymagań Twojego projektu",
+      "features": [
+        "Niestandardowe wymiary i specyfikacje",
+        "Specjalne powłoki i obróbki",
+        "Integracja z istniejącymi systemami"
+      ]
+    }
+  },
+  "projects": {
+    "title": "Wyróżnione Projekty",
+    "subtitle": "Zobacz, jak nasze produkty zostały wykorzystane w udanych projektach w całej Europie",
+    "office": "Nowoczesny Kompleks Biurowy",
+    "officeDesc": "Premium profile aluminiowe i rozwiązania szklane dla zrównoważonego budynku komercyjnego w Tallinie",
+    "commercial": "Komercyjny",
+    "pipeline": "Sieć Wodociągowa",
+    "pipelineDesc": "Kompletne rozwiązanie infrastrukturalne obejmujące rury, studzienki i zawory dla systemu wodociągowego gminy",
+    "infrastructure": "Infrastruktura"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Jesteśmy tutaj, aby odpowiedzieć na Twoje pytania i zapewnić potrzebne rozwiązania",
+    "info": {
+      "title": "Informacje kontaktowe",
+      "subtitle": "Skontaktuj się z nami za pomocą dowolnego z tych kanałów",
+      "company": "MetaNord OÜ",
+      "registry": "Kod rejestracyjny: 17235227",
+      "address": "Tornimäe tn 5, 10145 Tallin, Estonia",
+      "phone": "+372 5771 3442",
+      "email": "info@metanord.eu",
+      "website": "www.metanord.eu"
+    },
+    "location": "Nasza lokalizacja",
+    "form": {
+      "submit": "Wyślij",
+      "name": "Twoje imię",
+      "email": "Adres e-mail",
+      "company": "Firma",
+      "subject": "Temat",
+      "selectOption": "Wybierz opcję",
+      "productInfo": "Informacje o produkcie",
+      "requestQuote": "Prośba o wycenę",
+      "technicalSupport": "Wsparcie techniczne",
+      "other": "Inne",
+      "message": "Twoja wiadomość"
+    }
+  },
+  "products.categories.aluminum": "Aluminium",
+  "products.categories.polyethylene": "Polietylen",
+  "products.categories.steel": "Stal",
+  "products.categories.castIron": "Żeliwo",
+  "products.categories.aluminum_products": "Produkty aluminiowe",
+  "products.categories.infrastructure_products": "Produkty infrastrukturalne",
+  
+  "products": {
+    "title": "Nasze",
+    "titleHighlight": "Katalog",
+    "categories": {
+      "aluminum_products": "Produkty aluminiowe",
+      "infrastructure_products": "Produkty infrastrukturalne"
+    },
+    "steel": {
+      "pilePipes": {
+        "title": "Rury Palowe",
+        "description": "Konstrukcyjne rury stalowe do głębokich fundamentów o dużej nośności i różnych konfiguracjach końcówek."
+      }
+    },
+    "castIron": {
+      "manholeCovers": {
+        "title": "Włazy Kanalizacyjne",
+        "description": "Wytrzymałe włazy żeliwne o dużej nośności do różnych zastosowań miejskich."
+      },
+      "rainwaterGrills": {
+        "title": "Kratki Ściekowe",
+        "description": "Wytrzymałe żeliwne kratki odwadniające o zoptymalizowanej przepustowości dla miejskich systemów drenażowych."
+      },
+      "fireHydrants": {
+        "title": "Hydranty Przeciwpożarowe",
+        "description": "Mrozoodporne żeliwne hydranty przeciwpożarowe z funkcją samoodwadniania do ochrony przeciwpożarowej miast."
+      },
+      "gateValves": {
+        "title": "Zasuwy",
+        "description": "Żeliwne zasuwy z elastycznym uszczelnieniem zapewniające pełny przepływ i niski spadek ciśnienia."
+      }
+    },
+    "categories": {
+    "aluminum": {
+      "structuralProfiles": {
+        "title": "Profile konstrukcyjne",
+        "description": "Wysokowytrzymałe profile aluminiowe do ram konstrukcyjnych, idealne do nowoczesnych projektów budowlanych."
+      },
+      "architecturalProfiles": {
+        "title": "Profile architektoniczne",
+        "description": "Estetyczne rozwiązania aluminiowe do fasad, okien i drzwi o doskonałej jakości wykończenia."
+      },
+      "industrialProfiles": {
+        "title": "Profile przemysłowe",
+        "description": "Wytrzymałe profile aluminiowe zaprojektowane do zastosowań przemysłowych, ram maszyn i urządzeń."
+      },
+      "customExtrusions": {
+        "title": "Ekstrudowanie na zamówienie",
+        "description": "Profile aluminiowe wykonane zgodnie z dokładnymi specyfikacjami do zastosowań specjalistycznych."
+      }
+    },
+    "polyethylene": {
+      "hdpePipes": {
+        "title": "Rury HDPE",
+        "description": "Rury z polietylenu o wysokiej gęstości o doskonałej odporności chemicznej do systemów wodnych, gazowych i kanalizacyjnych."
+      },
+      "doubleCorrugatedPipes": {
+        "title": "Rury dwuścienne karbowane",
+        "description": "Dwuścienne rury HDPE z gładkim wnętrzem i karbowaną powierzchnią zewnętrzną do systemów odwadniających i kanalizacyjnych."
+      },
+      "reinforcedPipes": {
+        "title": "Rury PE wzmocnione stalą",
+        "description": "Rury polietylenowe wzmocnione stalą do zastosowań przy ekstremalnych obciążeniach o doskonałej integralności strukturalnej."
+      },
+      "tripleWallPipes": {
+        "title": "Rury trójwarstwowe",
+        "description": "Zaawansowane trójwarstwowe rury polietylenowe zaprojektowane dla infrastruktury krytycznej o wyjątkowej wytrzymałości."
+      },
+      "elbowFittings": {
+        "title": "Kolanka",
+        "description": "Polietylenowe kolanka do zmiany kierunku w systemach rurociągów z precyzyjnym wykonaniem inżynieryjnym."
+      },
+      "teeFittings": {
+        "title": "Trójniki",
+        "description": "Polietylenowe trójniki do rozgałęzień z optymalną dystrybucją przepływu i minimalną stratą ciśnienia."
+      }
+    },
+    "steel": {
+      "hsawPipes": {
+        "title": "Rury stalowe HSAW",
+        "description": "Spiralnie spawane rury stalowe do przesyłu wody o doskonałej odporności na ciśnienie."
+      },
+      "oilGasPipes": {
+        "title": "Rury naftowo-gazowe",
+        "description": "Wysokiej jakości rury stalowe do transportu ropy i gazu ze specjalnymi powłokami i rygorystyczną kontrolą jakości."
+      },
+      "pilePipes": {
+        "title": "Rury palowe",
+        "description": "Konstrukcyjne rury stalowe do głębokich fundamentów o dużej nośności i różnych konfiguracjach końcówek."
+      }
+    },
+    "castIron": {
+      "manholeCovers": {
+        "title": "Włazy kanalizacyjne",
+        "description": "Wytrzymałe żeliwne włazy kanalizacyjne o dużej nośności do różnych zastosowań miejskich."
+      },
+      "rainwaterGrills": {
+        "title": "Kratki ściekowe",
+        "description": "Wytrzymałe żeliwne kratki ściekowe o zoptymalizowanej przepustowości dla miejskich systemów odwadniających."
+      },
+      "fireHydrants": {
+        "title": "Hydranty pożarowe",
+        "description": "Mrozoodporne żeliwne hydranty pożarowe z funkcją samoopróżniania do ochrony przeciwpożarowej w miastach."
+      },
+      "gateValves": {
+        "title": "Zasuwy",
+        "description": "Żeliwne zasuwy z elastycznym uszczelnieniem zapewniające pełen przepływ i niski spadek ciśnienia."
+      }
+    }
+  },
+  "footer": {
+    "products": "Produkty",
+    "quickLinks": "Szybkie Linki",
+    "newsletter": {
+      "title": "Newsletter",
+      "subtitle": "Zapisz się, aby otrzymywać informacje o nowych produktach i ofertach specjalnych.",
+      "placeholder": "Twój adres e-mail",
+      "button": "Zapisz się"
+    },
+    "home": "Strona główna",
+    "aboutUs": "O nas",
+    "services": "Usługi",
+    "contact": "Kontakt",
+    "privacyPolicy": "Polityka prywatności",
+    "termsOfService": "Warunki korzystania",
+    "shippingInfo": "Informacje o dostawie",
+    "allRightsReserved": "Wszelkie prawa zastrzeżone.",
+    "companyDescription": "MetaNord OÜ specjalizuje się w wysokiej jakości profilach aluminiowych i produktach infrastrukturalnych dla rynków europejskich i międzynarodowych."
+  },
+  "products": {
+    "title": "Nasze Produkty",
+    "description": "MetaNord OÜ oferuje szeroką gamę wysokiej jakości produktów infrastrukturalnych i przemysłowych pochodzących od europejskich producentów, spełniających najwyższe standardy branżowe.",
+    "viewDetails": "Zobacz szczegóły",
+    "features": "Główne cechy",
+    "applications": "Zastosowania",
+    "specifications": "Specyfikacje",
+    "description": "Opis produktu",
+    "categories": {
+      "aluminum_products": "Produkty aluminiowe",
+      "infrastructure_products": "Produkty infrastrukturalne",
+      "polyethylene": "Polietylen",
+      "steel": "Stal",
+      "castIron": "Żeliwo",
+      "cast_iron": "Żeliwo",
+      "aluminum": "Aluminium",
+      "valves": "Zawory",
+      "fire-protection": "Ochrona przeciwpożarowa",
+      "fire_protection": "Ochrona przeciwpożarowa",
+      "rainwater": "Kraty Deszczowe",
+      "elbows": "Złączki Rurowe",
+      "urbanInfrastructure": "Infrastruktura Miejska"
+    },
+    "polyethylene": {
+      "pipes": {
+        "title": "Rury HDPE",
+        "description": "Rury z polietylenu o wysokiej gęstości o doskonałej odporności chemicznej i długiej żywotności do różnych zastosowań."
+      },
+      "fittings": {
+        "title": "Kształtki HDPE",
+        "description": "Kształtki z polietylenu o wysokiej gęstości zapewniające niezawodne i szczelne połączenia w systemach wodnych i kanalizacyjnych."
+      },
+      "elbowFittings": {
+        "title": "Kolanka",
+        "description": "Kolanka polietylenowe do zmiany kierunku w instalacjach rurowych z precyzyjnym wykonaniem inżynieryjnym."
+      },
+      "teeFittings": {
+        "title": "Trójniki",
+        "description": "Trójniki polietylenowe do połączeń rozgałęzionych z optymalną dystrybucją przepływu i minimalną stratą ciśnienia."
+      }
+    },
+    "steel": {
+      "hsawPipes": {
+        "title": "Rury stalowe HSAW",
+        "description": "Spiralnie spawane rury stalowe do przesyłu wody o doskonałej wytrzymałości na ciśnienie."
+      },
+      "oilGasPipes": {
+        "title": "Rury do ropy i gazu",
+        "description": "Wysokiej jakości rury stalowe do transportu ropy i gazu ze specjalnymi powłokami i rygorystycznymi testami jakości."
+      },
+      "pilePipes": {
+        "title": "Rury palowe",
+        "description": "Konstrukcyjne rury stalowe do głębokich fundamentów o dużej nośności i różnych konfiguracjach końcówek."
+      }
+    },
+    "castIron": {
+      "manholeCovers": {
+        "title": "Włazy kanalizacyjne",
+        "description": "Wytrzymałe żeliwne włazy kanalizacyjne o dużej nośności do różnych zastosowań miejskich."
+      },
+      "rainwaterGrills": {
+        "title": "Kratki ściekowe",
+        "description": "Wytrzymałe żeliwne kratki ściekowe o zoptymalizowanej przepustowości dla miejskich systemów odwadniających."
+      },
+      "fireHydrants": {
+        "title": "Hydranty pożarowe",
+        "description": "Mrozoodporne żeliwne hydranty pożarowe z funkcją samoopróżniania do ochrony przeciwpożarowej w miastach."
+      },
+      "gateValves": {
+        "title": "Zasuwy",
+        "description": "Żeliwne zasuwy z elastycznym uszczelnieniem zapewniające pełen przepływ i niski spadek ciśnienia."
+      }
+    }
+  },
+
+  "header": {
+    "home": "Strona Główna",
+    "about": "O Nas",
+    "products": "Produkty",
+    "services": "Usługi",
+    "contact": "Kontakt",
+    "requestQuote": "Zapytaj o Cenę"
+  },
+  "projects": {
+    "title": "Wyróżnione Projekty",
+    "subtitle": "Dowiedz się, jak nasze produkty przyczyniły się do udanych projektów budowlanych i infrastrukturalnych w całej Europie i na rynkach międzynarodowych.",
+    "commercial": "Komercyjny",
+    "infrastructure": "Infrastruktura",
+    "office": "Kompleks Biurowy w Tallinie",
+    "officeDesc": "Dostawa aluminiowych profili fasadowych i systemów zarządzania wodą dla nowoczesnego kompleksu biurowego.",
+    "pipeline": "Sieć Wodociągowa Miejska",
+    "pipelineDesc": "Kompleksowe rozwiązanie infrastrukturalne do dystrybucji wody w rozwijającym się obszarze miejskim."
+  },
+  "cta": {
+    "title": "Gotowy Rozpocząć Swój Projekt?",
+    "subtitle": "Skontaktuj się z naszym zespołem już dziś, aby omówić swoje wymagania i dowiedzieć się, jak MetaNord może dostarczyć idealne rozwiązania aluminiowe i infrastrukturalne dla Twojego następnego projektu.",
+    "contact": "Skontaktuj Się z Naszym Zespołem",
+    "catalog": "Zobacz Katalog Produktów"
+  },
+  "hero": {
+    "title": "Wysokiej Jakości Produkty Infrastrukturalne dla Rynków Europejskich",
+    "subtitle": "Specjalizacja w profilach aluminiowych i rozwiązaniach infrastrukturalnych",
+    "cta": "Poznaj Produkty",
+    "globalShipping": "Dostępna Wysyłka Międzynarodowa",
+    "productTitle": "Produkty Premium",
+    "productSubtitle": "Wysokiej jakości rozwiązania infrastrukturalne",
+    "tagline": "Doskonałość Przemysłowa Od 2023 Roku"
+  },
+  "about": {
+    "metaTitle": "O Nas - MetaNord | Najwyższej jakości rozwiązania przemysłowe dla europejskich i międzynarodowych rynków",
+    "metaDescription": "Poznaj MetaNord OÜ, globalną firmę handlowo-dystrybucyjną z siedzibą w Estonii, specjalizującą się w profilach aluminiowych i produktach infrastrukturalnych dla rynków europejskich i międzynarodowych.",
+    "title": "O Nas",
+    "subtitle": "Twój Zaufany Partner dla Jakościowej Infrastruktury",
+    "description": "MetaNord OÜ to firma handlowo-dystrybucyjna z siedzibą w Estonii, specjalizująca się w profilach aluminiowych i produktach infrastrukturalnych dla rynków europejskich i międzynarodowych.",
+    "product1": "Profile Aluminiowe",
+    "product2": "Produkty Infrastrukturalne",
+    "imageAlt": "Magazyn MetaNord z profilami aluminiowymi i produktami infrastrukturalnymi",
+    "experience": {
+      "years": "10+ Lat",
+      "text": "doświadczenia"
+    },
+    "story": {
+      "title": "Nasza Historia",
+      "paragraph1": "Założona z wizją dostarczania wysokiej jakości produktów przemysłowych na rynki europejskie i międzynarodowe, MetaNord OÜ zyskała pozycję zaufanego partnera dla firm w różnych branżach. Mając siedzibę w Estonii, wykorzystujemy nasze strategiczne położenie, aby skutecznie obsługiwać klientów w całej Europie i poza nią.",
+      "paragraph2": "Nasz zespół łączy profesjonalistów z bogatym doświadczeniem w zakresie pozyskiwania produktów przemysłowych, kontroli jakości i logistyki międzynarodowej. To doświadczenie pozwala nam dostarczać produkty najwyższej jakości, które spełniają specyficzne potrzeby naszej zróżnicowanej bazy klientów.",
+      "paragraph3": "W miarę naszego rozwoju nasze zobowiązanie do jakości, konkurencyjnych cen i wyjątkowej obsługi pozostaje niezmienne. Stale rozszerzamy naszą ofertę produktów i usprawniamy nasze możliwości, aby lepiej służyć zmieniającym się potrzebom naszych klientów."
+    },
+    "mission": {
+      "title": "Nasza Misja i Wartości",
+      "subtitle": "W MetaNord jesteśmy zobowiązani do dostarczania produktów najwyższej jakości, wspieranych przez wyjątkową obsługę. Nasze wartości kierują wszystkim, co robimy:"
+    },
+    "values": {
+      "quality": {
+        "title": "Jakość na Pierwszym Miejscu",
+        "description": "Nigdy nie idziemy na kompromis w kwestii jakości naszych produktów. Wszystkie pozycje w naszym katalogu przechodzą rygorystyczną kontrolę jakości, aby zapewnić, że spełniają najwyższe standardy branżowe."
+      },
+      "customer": {
+        "title": "Podejście Zorientowane na Klienta",
+        "description": "Stawiamy naszych klientów w centrum wszystkiego, co robimy. Zrozumienie i spełnienie ich unikalnych wymagań jest naszym najwyższym priorytetem."
+      },
+      "sustainability": {
+        "title": "Zrównoważony Rozwój",
+        "description": "Jesteśmy zaangażowani w zrównoważone praktyki biznesowe i odpowiedzialne środowiskowo operacje w całym naszym łańcuchu dostaw."
+      }
+    },
+    "partners": {
+      "title": "Nasi Globalni Partnerzy",
+      "subtitle": "Współpracujemy z zaufanymi producentami i dostawcami z całego świata, aby oferować najlepsze produkty w konkurencyjnych cenach:",
+      "partner1": "Europejska Grupa Aluminiowa",
+      "partner2": "Globalne Rozwiązania Infrastrukturalne",
+      "partner3": "Nordyckie Systemy Przemysłowe"
+    }
+  },
+  "features": {
+    "title": "Dlaczego Warto Nas Wybrać",
+    "quality": {
+      "title": "Najwyższa Jakość",
+      "description": "Oferujemy wysokiej jakości produkty od renomowanych producentów, które przechodzą rygorystyczną kontrolę jakości."
+    },
+    "competitive": {
+      "title": "Konkurencyjne Ceny",
+      "description": "Nasze bezpośrednie relacje z producentami pozwalają nam oferować konkurencyjne ceny bez uszczerbku na jakości."
+    },
+    "reliability": {
+      "title": "Niezawodność",
+      "description": "Stabilny harmonogram dostaw i niezawodna dostępność produktów zapewniają terminową realizację Twoich projektów."
+    },
+    "expertise": {
+      "title": "Wiedza Techniczna",
+      "description": "Nasz zespół ekspertów pomoże Ci wybrać odpowiednie produkty do Twoich konkretnych potrzeb."
+    }
+  },
+  "products": {
+    "title": "Nasze Produkty",
+    "titleHighlight": "Kolekcja",
+    "subtitle": "Oferujemy szeroką gamę profili aluminiowych i produktów infrastrukturalnych, aby sprostać różnorodnym potrzebom naszych klientów.",
+    "description": "Oferujemy szeroką gamę profili aluminiowych i produktów infrastrukturalnych, aby sprostać różnorodnym potrzebom naszych klientów.",
+    "backToProducts": "Powrót do Produktów",
+    "aluminum": "Profile Aluminiowe",
+    "aluminumDescription": "Nasze profile aluminiowe pochodzą od wiodących producentów, zapewniając wyjątkową jakość, precyzyjną inżynierię i konkurencyjne ceny. Oferujemy szeroki asortyment standardowych profili, a także możliwości niestandardowej ekstruzji, aby spełnić specyficzne wymagania projektowe na rynkach europejskich i międzynarodowych.",
+    "infrastructure": "Produkty Infrastrukturalne",
+    "infrastructureDescription": "Nasze produkty infrastrukturalne zapewniają niezawodne, trwałe rozwiązania dla gospodarki wodnej, systemów rurociągowych i rozwoju infrastruktury miejskiej na całym świecie. Produkty te zostały zaprojektowane tak, aby wytrzymać trudne warunki środowiskowe, spełniając najwyższe międzynarodowe standardy jakości dla globalnych rynków.",
+    "polyethylene": "Systemy Polietylenowe",
+    "steel": "Stalowe Systemy Rurowe",
+    "castIron": "Wyroby Żeliwne",
+    "qualityAssurance": "Gwarancja Jakości",
+    "qualityText1": "W MetaNord zobowiązujemy się do dostarczania produktów, które spełniają najwyższe standardy jakości. Każdy element w naszym katalogu przechodzi rygorystyczny proces kontroli jakości, aby zapewnić niezawodność, trwałość i wydajność.",
+    "qualityText2": "Nasi dostawcy są starannie wybierani na podstawie ich doskonałości produkcyjnej, zgodności z międzynarodowymi standardami i zaangażowania w ciągłe doskonalenie.",
+    "qualityText3": "Regularnie przeprowadzamy audyty zakładów i inspekcje produktów, aby utrzymać wyjątkową jakość, której klienci oczekują od MetaNord.",
+    "qualityImageAlt": "Proces kontroli jakości",
+    "metaTitle": "Produkty - MetaNord | Profile aluminiowe i rozwiązania infrastrukturalne dla rynków europejskich i międzynarodowych",
+    "metaDescription": "Odkryj szeroką gamę profili aluminiowych i produktów infrastrukturalnych MetaNord do zastosowań budowlanych, użyteczności publicznej i przemysłowych w Europie i na rynkach międzynarodowych.",
+    "category": {
+      "aluminum": "aluminium",
+      "polyethylene": "polietylen",
+      "steel": "stal",
+      "castIron": "żeliwo"
+    },
+    "categories": {
+      "aluminum_products": "Produkty Aluminiowe",
+      "infrastructure_products": "Produkty Infrastrukturalne",
+      "steel": "Stal",
+      "aluminum": "Aluminium",
+      "polyethylene": "Polietylen",
+      "castIron": "Żeliwo"
+    },
+    "aluminum": {
+      "structuralProfiles": {
+        "title": "Profile Konstrukcyjne",
+        "description": "Wytrzymałe profile aluminiowe do ram konstrukcyjnych, idealne dla nowoczesnych projektów budowlanych."
+      },
+      "architecturalProfiles": {
+        "title": "Profile Architektoniczne",
+        "description": "Estetyczne rozwiązania aluminiowe do fasad, okien i drzwi o doskonałej jakości wykończenia."
+      },
+      "industrialProfiles": {
+        "title": "Profile Przemysłowe",
+        "description": "Wytrzymałe profile aluminiowe zaprojektowane do zastosowań przemysłowych, ram maszyn i urządzeń."
+      },
+      "customExtrusions": {
+        "title": "Wytłaczanie Na Zamówienie",
+        "description": "Profile aluminiowe wykonane zgodnie z dokładnymi specyfikacjami do zastosowań specjalistycznych."
+      }
+    },
+    "polyethylene": {
+      "hdpePipes": {
+        "title": "Rury HDPE (PE100)",
+        "description": "Rury z polietylenu o wysokiej gęstości o doskonałej odporności chemicznej do systemów wodnych, gazowych i ściekowych."
+      },
+      "doubleWallPipes": {
+        "title": "Rury Dwuścienne",
+        "description": "Dwuścienne rury karbowane do systemów drenażowych i kanalizacyjnych o wysokiej sztywności obwodowej."
+      },
+      "steelReinforcedPipes": {
+        "title": "Rury Wzmocnione Stalą",
+        "description": "Karbowane rury wzmocnione stalą do zastosowań o dużym obciążeniu w infrastrukturze drogowej i kolejowej."
+      },
+      "doubleCorrugatedPipes": {
+        "title": "Rury Dwuścienne Karbowane",
+        "description": "Dwuścienne rury HDPE z gładkim wnętrzem i karbowaną powierzchnią zewnętrzną do systemów odwadniających i kanalizacyjnych."
+      },
+      "reinforcedPipes": {
+        "title": "Rury PE Wzmocnione Stalą",
+        "description": "Rury polietylenowe wzmocnione stalą do zastosowań przy ekstremalnych obciążeniach o doskonałej integralności strukturalnej."
+      },
+      "tripleWallPipes": {
+        "title": "Rury Trójwarstwowe",
+        "description": "Zaawansowane trójwarstwowe rury polietylenowe zaprojektowane dla infrastruktury krytycznej o wyjątkowej wytrzymałości."
+      },
+      "elbowFittings": {
+        "title": "Kolanka",
+        "description": "Kształtki kolanowe z polietylenu do zmiany kierunków w systemach rurociągowych z precyzyjnym wykonaniem inżynieryjnym."
+      },
+      "teeFittings": {
+        "title": "Trójniki",
+        "description": "Kształtki trójnikowe z polietylenu do połączeń rozgałęziających z optymalną dystrybucją przepływu i minimalną stratą ciśnienia."
+      }
+    },
+    "steel": {
+      "hsawPipes": {
+        "title": "Rury Stalowe HSAW",
+        "description": "Spiralnie spawane rury stalowe do przesyłu wody o doskonałej odporności na ciśnienie."
+      },
+      "oilGasPipes": {
+        "title": "Rury Naftowo-Gazowe",
+        "description": "Wysokiej jakości rury stalowe do transportu ropy i gazu ze specjalnymi powłokami i rygorystyczną kontrolą jakości."
+      },
+      "pilePipes": {
+        "title": "Rury Palowe",
+        "description": "Konstrukcyjne rury stalowe do głębokich fundamentów o dużej nośności i różnych konfiguracjach końcówek."
+      }
+    },
+    "castIron": {
+      "manholeCovers": {
+        "title": "Włazy Kanalizacyjne",
+        "description": "Wytrzymałe włazy kanalizacyjne z żeliwa sferoidalnego o dużej nośności do różnych zastosowań miejskich."
+      },
+      "rainwaterGrills": {
+        "title": "Kratki Ściekowe",
+        "description": "Wytrzymałe żeliwne kratki odwadniające z zoptymalizowaną przepustowością wody dla miejskich systemów drenażowych."
+      },
+      "fireHydrants": {
+        "title": "Hydranty Przeciwpożarowe",
+        "description": "Odporne na mróz żeliwne hydranty przeciwpożarowe z funkcją samoodwadniania do ochrony przeciwpożarowej miast."
+      },
+      "gateValves": {
+        "title": "Zasuwy",
+        "description": "Żeliwne zasuwy z elastycznym siedziskiem zapewniające pełny przepływ i niski spadek ciśnienia."
+      }
+    },
+    "categories": {
+      "structural": "Profile Konstrukcyjne",
+      "architectural": "Profile Architektoniczne",
+      "industrial": "Profile Przemysłowe",
+      "custom": "Profile Na Zamówienie",
+      "hdpe": "Rury HDPE (PE100)",
+      "corrugated": "Dwuścienne Rury Karbowane",
+      "reinforced": "Rury Karbowane Wzmocnione Stalą",
+      "triple": "Trójwarstwowe Rury Karbowane",
+      "elbows": "Kształtki HDPE - Kolanka",
+      "tees": "Kształtki HDPE - Trójniki",
+      "hsaw": "Spiralnie Spawane Rury Stalowe",
+      "oil": "Systemy Rurociągów Naftowych i Gazowych",
+      "pile": "Stalowe Rury Palowe",
+      "manhole": "Włazy Kanalizacyjne i Ramy",
+      "rainwater": "Kratki Ściekowe",
+      "hydrants": "Hydranty Przeciwpożarowe",
+      "valves": "Zasuwy"
+    },
+    "downloadCatalog": "Pobierz Katalog Produktów",
+    "viewDetails": "Zobacz Szczegóły",
+    "quickPreview": "Szybki Podgląd",
+    "structuralDesc": "Wytrzymałe profile aluminiowe do konstrukcji budowlanych, idealne do nowoczesnych projektów budowlanych.",
+    "architecturalDesc": "Estetyczne rozwiązania aluminiowe do fasad, okien i drzwi o doskonałej jakości wykończenia.",
+    "industrialDesc": "Wytrzymałe profile aluminiowe zaprojektowane do zastosowań przemysłowych, ram maszyn i urządzeń.",
+    "customDesc": "Niestandardowe profile aluminiowe wykonane według dokładnych specyfikacji do specjalistycznych zastosowań.",
+    "descriptions": {
+      "hdpe": "Rury z polietylenu o wysokiej gęstości z doskonałą odpornością chemiczną do systemów wodnych, gazowych i ściekowych.",
+      "corrugated": "Dwuścienne rury karbowane do systemów drenażowych i kanalizacyjnych o wysokiej sztywności obwodowej.",
+      "reinforced": "Rury karbowane wzmocnione stalą do zastosowań o dużym obciążeniu w infrastrukturze drogowej i kolejowej.",
+      "triple": "Trójwarstwowe rury wzmocnione do zastosowań o dużym obciążeniu w infrastrukturze krytycznej i obszarach o dużym natężeniu ruchu.",
+      "elbows": "Kształtki polietylenowe do zmiany kierunku w systemach rurociągów wodnych, gazowych i kanalizacyjnych.",
+      "tees": "Wysokiej jakości trójniki dla systemów rurociągów HDPE o doskonałych właściwościach dyfuzyjnych.",
+      "hsaw": "Rury stalowe HSAW do transportu wody, palowania i zastosowań budowlanych o wysokiej odporności na ciśnienie.",
+      "oil": "Wysokociśnieniowe systemy rur stalowych do transportu ropy i gazu z powłokami ochronnymi antykorozyjnymi.",
+      "pile": "Konstrukcyjne rury stalowe używane do pali fundamentowych w mostach, konstrukcjach morskich i budynkach wysokościowych.",
+      "manhole": "Wytrzymałe żeliwne włazy kanalizacyjne i ramy dla infrastruktury miejskiej o różnych klasach obciążeniowych.",
+      "rainwater": "Żeliwne kratki ściekowe do zarządzania wodami opadowymi i miejskich systemów odwadniających.",
+      "hydrants": "Trwałe żeliwne hydranty przeciwpożarowe do infrastruktury przeciwpożarowej z łatwym dostępem i konserwacją.",
+      "valves": "Żeliwne zasuwy do kontroli przepływu wody w miejskich systemach wodociągowych i zastosowaniach przemysłowych."
+    }
+  },
+  "services": {
+    "metaTitle": "Usługi - MetaNord | Profesjonalne rozwiązania przemysłowe dla europejskich i międzynarodowych rynków",
+    "metaDescription": "MetaNord oferuje kompleksowe usługi, w tym doradztwo, zakupy, logistykę i wsparcie techniczne dla klientów w całej Europie i na rynkach międzynarodowych.",
+    "title": "Nasze Usługi",
+    "subtitle": "Kompleksowe rozwiązania dla Twojego biznesu",
+    "titleHighlight": "dla Ciebie",
+    "overview": {
+      "title": "Pełny zakres usług",
+      "description": "MetaNord oferuje pełen cykl usług — od profesjonalnego doradztwa po organizację dostaw w dowolne miejsce na świecie. Zapewniamy indywidualne podejście do każdego projektu."
+    },
+    "consulting": {
+      "title": "Doradztwo Specjalistyczne",
+      "description": "Fachowe wsparcie w wyborze optymalnych rozwiązań",
+      "features": [
+        "Analiza wymagań technicznych",
+        "Dobór optymalnych produktów",
+        "Wytyczne dotyczące zastosowania",
+        "Wsparcie w planowaniu projektów"
+      ]
+    },
+    "procurement": {
+      "title": "Rozwiązania Zakupowe",
+      "description": "Efektywna organizacja procesów zakupowych",
+      "features": [
+        "Współpraca ze sprawdzonymi dostawcami",
+        "Korzystne ceny",
+        "Kontrola jakości produktów",
+        "Zakupy kompleksowe"
+      ]
+    },
+    "logistics": {
+      "title": "Rozwiązania Logistyczne",
+      "description": "Organizacja dostaw na całym świecie",
+      "features": [
+        "Transport międzynarodowy",
+        "Obsługa formalności celnych",
+        "Usługi magazynowe",
+        "Terminowe dostawy"
+      ]
+    },
+    "technical": {
+      "title": "Wsparcie Techniczne",
+      "description": "Wszechstronna pomoc na każdym etapie współpracy",
+      "features": [
+        "Szczegółowe instrukcje montażu",
+        "Kompletna dokumentacja techniczna",
+        "Szybkie rozwiązywanie problemów",
+        "Szkolenia z obsługi produktów"
+      ]
+    },
+    "custom": {
+      "title": "Rozwiązania Niestandardowe",
+      "description": "Tworzenie rozwiązań dla specyficznych potrzeb",
+      "features": [
+        "Osobiste podejście do każdego projektu",
+        "Dostosowanie do konkretnych wymagań",
+        "Kompleksowe wsparcie techniczne"
+      ]
+    },
+    "process": {
+      "title": "Jak działamy",
+      "steps": [
+        {
+          "title": "Konsultacja wstępna",
+          "description": "Omówienie potrzeb dla optymalnego rozwiązania"
+        },
+        {
+          "title": "Ocena techniczna",
+          "description": "Analiza parametrów i dobór odpowiednich produktów"
+        },
+        {
+          "title": "Oferta handlowa",
+          "description": "Indywidualna oferta z optymalnymi cenami"
+        },
+        {
+          "title": "Dostawa i logistyka",
+          "description": "Efektywna dostawa na całym świecie"
+        },
+        {
+          "title": "Wsparcie techniczne",
+          "description": "Stałe wsparcie na wszystkich etapach współpracy"
+        }
+      ]
+    },
+    "additionalTitle": "Kompleksowe podejście do Twoich potrzeb",
+    "support": {
+      "title": "Obsługa klienta",
+      "description": "Nasz zespół jest zawsze gotowy odpowiedzieć na pytania i pomóc w rozwiązaniu wszelkich problemów",
+      "features": [
+        "Szybki kontakt telefoniczny i mailowy",
+        "Konsultacje techniczne dotyczące produktów",
+        "Pomoc w wyborze najlepszych rozwiązań"
+      ]
+    }
+  },
+  "contact": {
+    "title": "Skontaktuj Się z Nami",
+    "subtitle": "Masz pytania dotyczące naszych produktów lub usług? Skontaktuj się z naszym zespołem, aby uzyskać profesjonalną pomoc.",
+    "form": {
+      "name": "Twoje Imię",
+      "email": "Adres E-mail",
+      "phone": "Numer Telefonu",
+      "company": "Firma",
+      "subject": "Temat",
+      "message": "Wiadomość",
+      "submit": "Wyślij Wiadomość",
+      "sending": "Wysyłanie...",
+      "success": "Twoja wiadomość została wysłana pomyślnie!",
+      "error": "Wystąpił błąd podczas wysyłania wiadomości. Proszę spróbować ponownie.",
+      "selectOption": "Wybierz opcję",
+      "productInfo": "Informacje o produkcie",
+      "requestQuote": "Prośba o wycenę",
+      "technicalSupport": "Wsparcie techniczne",
+      "other": "Inne"
+    },
+    "info": {
+      "title": "Informacje Kontaktowe",
+      "subtitle": "Nasz zespół jest gotowy pomóc Ci w każdej sprawie dotyczącej naszych produktów i usług.",
+      "company": "Dane Firmy",
+      "registry": "Numer Rejestracyjny",
+      "address": "Adres",
+      "phone": "Telefon",
+      "email": "E-mail",
+      "website": "Strona internetowa",
+      "hours": "Godziny Pracy"
+    },
+    "location": "Nasza Lokalizacja",
+    "faq": {
+      "title": "Często Zadawane Pytania",
+      "subtitle": "Znajdź szybkie odpowiedzi na typowe pytania dotyczące naszych produktów i usług.",
+      "q1": {
+        "question": "Jaka jest minimalna ilość zamówienia?",
+        "answer": "Minimalne ilości zamówienia różnią się w zależności od produktu. W przypadku standardowych elementów często możemy realizować mniejsze zamówienia, podczas gdy profile niestandardowe mogą wymagać większych ilości minimalnych. Prosimy o kontakt z naszym zespołem sprzedaży w sprawie konkretnych zapytań o produkty."
+      },
+      "q2": {
+        "question": "Jakie są terminy dostawy?",
+        "answer": "Standardowe produkty są zwykle wysyłane w ciągu 1-2 tygodni, w zależności od ilości i dostępności. Rozwiązania niestandardowe mogą wymagać 4-8 tygodni od potwierdzenia zamówienia. Podajemy konkretne szacunki czasu dostawy przy każdej ofercie."
+      },
+      "q3": {
+        "question": "Czy zapewniacie wsparcie techniczne dla produktów?",
+        "answer": "Tak, nasz zespół techniczny jest dostępny, aby dostarczyć specyfikacje, wskazówki dotyczące instalacji i pomoc w rozwiązywaniu problemów dla wszystkich naszych produktów. Możemy również zorganizować konsultacje na miejscu dla bardziej złożonych projektów."
+      },
+      "q4": {
+        "question": "Jakie rynki obsługujecie?",
+        "answer": "Obsługujemy klientów na rynkach europejskich i międzynarodowych. Choć nasza firma ma siedzibę w Estonii, nasza globalna sieć logistyczna pozwala nam skutecznie dostarczać produkty na całym świecie, wspierając projekty o różnej skali na wielu kontynentach."
+      }
+    }
+  },
+
+  "language": {
+    "en": "Angielski",
+    "et": "Estoński",
+    "ru": "Rosyjski",
+    "lv": "Łotewski",
+    "lt": "Litewski",
+    "pl": "Polski"
+  },
+  "productDetail": {
+    "loading": "Ładowanie informacji o produkcie...",
+    "description": "Opis Produktu",
+    "features": "Główne Cechy",
+    "applications": "Zastosowania",
+    "specifications": "Specyfikacje Techniczne",
+    "interested": "Czy jesteś zainteresowany tym produktem?",
+    "interested": "Czy jesteś zainteresowany tym produktem?",
+    "contactMessage": "Skontaktuj się z naszym zespołem, aby omówić swoje specyficzne wymagania i dowiedzieć się, jak możemy dostarczyć ten produkt do Twojego projektu."
+  }
+}

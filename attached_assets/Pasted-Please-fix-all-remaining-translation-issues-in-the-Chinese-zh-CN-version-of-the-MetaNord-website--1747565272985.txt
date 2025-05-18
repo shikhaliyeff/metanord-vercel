@@ -1,0 +1,39 @@
+Please fix all remaining translation issues in the Chinese (zh-CN) version of the MetaNord website. Many sections are still untranslated or partially translated. This includes but is not limited to:
+
+1. HOMEPAGE
+- "Request a Quote Today", "Ready to Start Your Project?", and all surrounding paragraph texts are still in English.
+- The feature bullets (e.g. "Expert consultation", "Competitive pricing", etc.) are still in English.
+- Button texts like "Browse Product Catalog" are not translated.
+- Some call-to-action blocks (e.g. “Need assistance with your project?”) are partially translated.
+
+2. ABOUT PAGE
+- "Our Vision", "Our Story", and surrounding paragraph texts are still in English.
+- Section headings like "Industry Experience", "Sustainability", "Customer-Centric Approach" must be translated.
+- Numerical stats ("15+ European Countries", etc.) need their titles translated.
+
+3. PROJECTS PAGE
+- Headings such as "Featured Projects" and "Discover our past and ongoing..." must be translated.
+- Category filters (All Projects, Infrastructure, Commercial) are untranslated.
+- Empty state messages like “No projects found” and “Try a different filter category” are still in English.
+- Button “View All Projects” is untranslated.
+- Some project cards show translated categories but not titles or descriptions.
+
+4. CONTACT PAGE
+- Title "Reach Out" and section subtitles are untranslated.
+- Labels like "Company", "Registry Code", "Address", and "Phone" should be translated to Chinese (not just the values).
+
+5. SERVICES SECTION
+- Some cards show headings in English ("Technical Consulting") and inner text also in English (e.g. "Product specifications and compatibility", etc.)
+- Ensure all bullet points and CTA buttons are also translated.
+
+6. GENERAL REMINDER
+- Ensure translations are correctly pulled from zh-CN.json file and are not hardcoded.
+- Do not break or alter translations for other languages.
+- Do not change product or FAQ translations – these are already working well.
+
+7. SLIDER INDICATOR STYLING (Hero section)
+- On mobile, the slider still shows the old fat circular indicators (pagination dots).
+- This must be replaced with the updated slimmer, more modern indicators already used in the desktop version.
+- Make sure both desktop and mobile views use the same updated indicator styling.
+
+Please confirm that all of the above are implemented and working. Then, and only then, continue with the rest of the optimization work from the Instructions.md plan.

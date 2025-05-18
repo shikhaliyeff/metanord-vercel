@@ -1,0 +1,129 @@
+/**
+ * Dropdown menu hover consistency fixes
+ * Ensures submenu items have the same hover effect as main navigation
+ */
+
+/* Ensure dropdown menu items have same hover style as main navigation */
+.dropdown-menu a,
+.dropdown-menu-item,
+.nav-dropdown-menu a,
+.nav-dropdown-menu-item,
+[data-radix-dropdown-menu-content] a,
+[data-radix-dropdown-menu-content] [role="menuitem"],
+.dropdown-menu [role="menuitem"],
+[data-state="open"] .dropdown-submenu li,
+[data-state="open"] .submenu-item {
+  position: relative;
+  transition: color 0.25s ease;
+}
+
+/* Create underline animation effect */
+.dropdown-menu a::after,
+.dropdown-menu-item::after,
+.nav-dropdown-menu a::after,
+.nav-dropdown-menu-item::after,
+[data-radix-dropdown-menu-content] a::after,
+[data-radix-dropdown-menu-content] [role="menuitem"]::after,
+.dropdown-menu [role="menuitem"]::after,
+[data-state="open"] .dropdown-submenu li::after,
+[data-state="open"] .submenu-item::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: var(--color-primary);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+/* Active hover state */
+.dropdown-menu a:hover::after,
+.dropdown-menu-item:hover::after,
+.nav-dropdown-menu a:hover::after,
+.nav-dropdown-menu-item:hover::after,
+[data-radix-dropdown-menu-content] a:hover::after,
+[data-radix-dropdown-menu-content] [role="menuitem"]:hover::after,
+.dropdown-menu [role="menuitem"]:hover::after,
+[data-state="open"] .dropdown-submenu li:hover::after,
+[data-state="open"] .submenu-item:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* Add specific targeting for Radix submenu items */
+[data-radix-dropdown-menu-content] div[data-radix-dropdown-menu-item],
+.radix-dropdown-submenu-item,
+[data-radix-dropdown-menu-sub-content] div,
+[data-radix-dropdown-menu-sub-content] a,
+[data-radix-dropdown-menu-item] {
+  position: relative;
+  transition: color 0.25s ease;
+}
+
+[data-radix-dropdown-menu-content] div[data-radix-dropdown-menu-item]::after,
+.radix-dropdown-submenu-item::after,
+[data-radix-dropdown-menu-sub-content] div::after,
+[data-radix-dropdown-menu-sub-content] a::after,
+[data-radix-dropdown-menu-item]::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: var(--color-primary);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+[data-radix-dropdown-menu-content] div[data-radix-dropdown-menu-item]:hover::after,
+.radix-dropdown-submenu-item:hover::after,
+[data-radix-dropdown-menu-sub-content] div:hover::after,
+[data-radix-dropdown-menu-sub-content] a:hover::after,
+[data-radix-dropdown-menu-item]:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* Ensure dropdown triggerable items match style */
+[data-state="open"] > .dropdown-menu-trigger {
+  color: var(--color-primary);
+}
+
+/* Navbar dropdown menu consistency */
+.navbar .dropdown-menu-content {
+  border-radius: 0.375rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  padding: 0.5rem;
+  z-index: 50;
+}
+
+/* Mobile menu specific fixes */
+@media (max-width: 768px) {
+  .mobile-menu .dropdown-menu a::after,
+  .mobile-menu .dropdown-menu-item::after {
+    display: none; /* Disable underline effect on mobile */
+  }
+  
+  .mobile-menu .dropdown-menu a,
+  .mobile-menu .dropdown-menu-item {
+    padding: 0.75rem 1rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.2s ease;
+  }
+  
+  .mobile-menu .dropdown-menu a:hover,
+  .mobile-menu .dropdown-menu-item:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Larger size for company logo in mobile header */
+  .metanord-mobile-logo {
+    height: 28px !important;
+    width: auto !important;
+  }
+}

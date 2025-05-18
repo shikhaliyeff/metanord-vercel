@@ -1,0 +1,120 @@
+/**
+ * MetaNord - Tailwind CSS Source File
+ */
+
+/* Import Tailwind base */
+@import "tailwindcss/base";
+
+/* Import custom base styles */
+@import "./base/typography.css";
+@import "./base/forms.css";
+
+/* Import Tailwind components */
+@import "tailwindcss/components";
+
+/* Import custom components */
+@import "./components/buttons.css";
+@import "./components/cards.css";
+@import "./components/navigation.css";
+@import "./components/woocommerce.css";
+
+/* Import Tailwind utilities */
+@import "tailwindcss/utilities";
+
+/* Import custom utilities */
+@import "./utilities/animations.css";
+
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@300;400;500&display=swap');
+
+/* Base typography */
+@layer base {
+  html {
+    @apply text-neutral-dark;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply font-roboto text-base leading-relaxed antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-inter font-bold text-neutral-darkest leading-tight;
+  }
+  
+  h1 {
+    @apply text-4xl md:text-5xl;
+  }
+  
+  h2 {
+    @apply text-3xl md:text-4xl;
+  }
+  
+  h3 {
+    @apply text-2xl;
+  }
+  
+  h4 {
+    @apply text-xl;
+  }
+  
+  h5 {
+    @apply text-lg;
+  }
+  
+  h6 {
+    @apply text-base font-semibold;
+  }
+  
+  p {
+    @apply mb-4;
+  }
+  
+  a {
+    @apply text-primary transition-colors duration-200;
+  }
+  
+  a:hover {
+    @apply text-primary-dark;
+  }
+}
+
+/* Components */
+@layer components {
+  .container {
+    @apply px-4 mx-auto;
+    max-width: 1280px;
+  }
+  
+  .btn-primary {
+    @apply inline-block bg-primary hover:bg-primary-dark text-white font-bold py-3 px-6 rounded-md transition-colors duration-200;
+  }
+  
+  .btn-secondary {
+    @apply inline-block bg-transparent border-2 border-white text-white hover:bg-white hover:text-primary font-bold py-[10px] px-6 rounded-md transition-colors duration-200;
+  }
+  
+  .btn-accent {
+    @apply inline-block bg-accent hover:bg-accent-dark text-white font-bold py-3 px-6 rounded-md transition-colors duration-200;
+  }
+  
+  .btn-outline {
+    @apply inline-block bg-transparent border-2 border-primary text-primary hover:bg-primary hover:text-white font-bold py-[10px] px-6 rounded-md transition-colors duration-200;
+  }
+  
+  .card {
+    @apply bg-white rounded-lg shadow-md overflow-hidden;
+  }
+  
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+  
+  .form-input {
+    @apply w-full px-4 py-2 border border-neutral rounded-md focus:ring-2 focus:ring-primary focus:border-primary;
+  }
+  
+  .form-label {
+    @apply block text-neutral-dark font-medium mb-2;
+  }
+}

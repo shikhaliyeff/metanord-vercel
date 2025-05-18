@@ -1,0 +1,98 @@
+Please implement an internal CRM module directly into the current MetaNord admin console. This should allow full in-house client and lead management functionality — no external CRM platforms involved.
+
+Here’s what I need:
+
+---
+
+🧾 1. Contact & Client Profiles
+
+- Automatically create a client profile whenever a new Contact or Quote Inquiry is submitted.
+- Profiles should include:
+  - Name
+  - Email
+  - Phone (if available)
+  - Company
+  - Country
+  - Inquiry type (contact / quote)
+  - Products referenced (if any)
+  - Submission date
+  - Lead status (default: "New")
+- Enable filtering and search by name, company, country, or product.
+
+---
+
+🛠 2. CRM Pipeline (Kanban View)
+
+- Add a visual CRM pipeline page with stages:
+  - New
+  - In Progress
+  - Proposal Sent
+  - Awaiting Response
+  - Closed
+- Each client profile can be moved between stages (drag-and-drop or dropdown).
+- Display lead counts per stage and overall stats at the top.
+
+---
+
+🗒 3. Internal Notes & History
+
+- In each client profile, add:
+  - Internal note section (editable, multiline)
+  - Action log (timestamped events like stage change, message sent, etc.)
+  - Field for “next action” or follow-up
+
+---
+
+📧 4. Email from Admin (SendGrid integration)
+
+- Enable sending manual responses directly from client profiles
+- Use SendGrid or existing email setup to send:
+  - one-off messages
+  - saved templates (e.g., "Thank you", "Proposal sent", "Follow-up")
+- Store email log per client (date, subject, status)
+
+---
+
+📆 5. Follow-up Reminders
+
+- Let admin set follow-up reminders per client:
+  - “Follow up in 2 days”, “Call next week”, etc.
+- Create a “Today’s Tasks” section on the CRM Dashboard
+- Optional: send email reminders to admin or just list them in the panel
+
+---
+
+📤 6. Export / Import of Clients
+
+- Add CSV and JSON export for client list with all details
+- Allow admin to import new leads from file (optional)
+
+---
+
+📊 7. CRM Analytics
+
+- Display:
+  - Total leads
+  - Leads per stage
+  - Average lead lifetime per stage
+  - Top-requested products
+- Use simple charts (bar/pie/line)
+
+---
+
+🔒 8. Role Permissions
+
+- Only Admins can delete or export leads
+- Editors can edit profiles and send messages
+- Viewers have read-only access
+
+---
+
+🧩 Notes:
+
+- Store all client data in a structured file: `clients.json`
+- Make the interface match the current admin UI visually
+- Use tabs or a CRM section in the sidebar to access this module
+- Allow linking back to original inquiry (quote/contact)
+
+Please begin implementing these features in logical order. Let me know if you need a JSON schema for client profiles or UI suggestions for the CRM pipeline.

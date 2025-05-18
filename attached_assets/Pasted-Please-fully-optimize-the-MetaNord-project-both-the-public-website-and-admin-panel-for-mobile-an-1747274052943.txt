@@ -1,0 +1,54 @@
+Please fully optimize the MetaNord project — both the public website and admin panel — for mobile and tablet devices.
+
+This includes both layout, interaction, and responsiveness across screen sizes.
+
+---
+
+📱 1. Public Website (Frontend) — Mobile Optimization
+
+- Ensure all pages (`/`, `/products`, `/projects`, `/contact`) are fully responsive and work smoothly on mobile screens.
+- Implement responsive breakpoints (using Tailwind or CSS media queries) to handle:
+  - Hero section scaling (text and CTA buttons stack correctly)
+  - Product grid/cards: switch to 1-column or 2-column layouts on mobile
+  - Project cards, CTA buttons, contact form inputs
+  - Navbar: use hamburger menu on small screens with smooth toggle
+  - Footer elements stack vertically
+
+- Prevent horizontal scrolling or overflow on any page
+- Ensure tap targets (buttons, inputs, nav items) are large enough and spaced correctly
+- All embedded forms (quote request, contact) must be mobile-friendly
+- Optimize font sizes and padding/margins for small viewports
+
+---
+
+🧑‍💼 2. Admin Panel — Mobile Adaptation
+
+- Make the entire admin dashboard usable from smartphones and tablets:
+  - Responsive sidebar (can collapse or use bottom nav on mobile)
+  - Tabbed sections adapt to vertical space (accordion layout or tab drawer)
+  - Form inputs scale and wrap correctly
+  - Buttons and controls are large enough to use by touch
+  - Tables (e.g. product lists) become scrollable or stacked in mobile view
+  - Avoid modal overflow or fixed-width panels that don't shrink
+
+- Optimize touch interactions: dropdowns, toggles, previews
+- Keep Live Preview components readable and scrollable on mobile
+
+---
+
+🧪 3. Testing & Validation
+
+- Ensure full compatibility with breakpoints:
+  - Mobile (≤ 768px), Tablet (768–1024px), Desktop (≥ 1024px)
+- Use developer tools to test across simulated devices (iPhone, Android, iPad)
+- No scrollbars or layout bugs should appear in mobile view
+- Navigation and interaction must remain fully usable on touchscreens
+
+---
+
+✅ Final Deliverables:
+
+- Fully mobile-responsive public site
+- Fully mobile-optimized admin panel interface
+- No broken layouts, overflow, or hidden elements on any screen
+- Confirm visually and functionally that all components work as intended

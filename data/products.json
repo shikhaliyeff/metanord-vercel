@@ -1,0 +1,623 @@
+[
+  {
+    "productId": "standard-profiles",
+    "title": "Aluminum U-Profiles",
+    "description": "Versatile U-shaped aluminum extrusions ideal for framing, edge protection, and structural applications with excellent load-bearing characteristics.",
+    "image": "/attached_assets/Aluminum U-Profiles.jpg",
+    "category": "aluminum",
+    "status": "in stock",
+    "language": "en",
+    "features": [
+      "Uniform wall thickness",
+      "EN AW-6063/6060 T5/T6 high-grade alloy",
+      "Superior surface finish quality",
+      "Excellent strength-to-weight ratio",
+      "Multiple size options available"
+    ],
+    "applications": [
+      "Furniture manufacturing",
+      "Interior design elements",
+      "Display systems",
+      "General construction",
+      "Decorative elements"
+    ],
+    "specifications": {
+      "Material": "Aluminum alloy EN AW-6060, EN AW-6063",
+      "Alloy Temper": "T5, T6",
+      "Surface Finish": "Mill finish, anodized, powder-coated",
+      "Standard Length": "6000 mm (±10 mm)",
+      "Production Method": "Hot extrusion"
+    },
+    "id": 1
+  },
+  {
+    "productId": "machine-building-profiles",
+    "title": "Aluminum T-Profiles",
+    "description": "Precision T-shaped aluminum extrusions designed for structural applications, partitions, and support systems with excellent rigidity and load distribution.",
+    "image": "/attached_assets/Aluminum T-Profiles.jpg",
+    "category": "aluminum",
+    "status": "in stock",
+    "language": "en",
+    "features": [
+      "Precision T-shaped design",
+      "High structural integrity",
+      "Clean edges and precise dimensions",
+      "Easy to cut and fabricate",
+      "Available in multiple sizes"
+    ],
+    "applications": [
+      "Industrial automation",
+      "Manufacturing equipment",
+      "Protective enclosures",
+      "Robotic frameworks",
+      "Conveyor systems"
+    ],
+    "specifications": {
+      "Material": "Aluminum alloy EN AW-6060, EN AW-6063",
+      "Alloy Temper": "T5, T6",
+      "Surface Finish": "Natural, anodized 10μm",
+      "Standard Length": "6000 mm (±10 mm)",
+      "Special Features": "T-slot system, modular compatibility"
+    },
+    "id": 2
+  },
+  {
+    "productId": "led-profiles",
+    "title": "LED Aluminum Profiles",
+    "description": "Professional LED housing profiles with integrated diffusion lenses, optimized heat dissipation, and concealed mounting for architectural and commercial lighting.",
+    "image": "/attached_assets/Aluminum LED Profile.jpg",
+    "category": "aluminum",
+    "status": "in stock",
+    "language": "en",
+    "features": [
+      "Superior heat sink properties",
+      "Integrated diffuser lens options",
+      "Recessed and surface mounting",
+      "Anodized finish in multiple colors",
+      "Custom cut lengths available"
+    ],
+    "applications": [
+      "Interior lighting",
+      "Architectural illumination",
+      "Display showcase lighting",
+      "Retail environments",
+      "Hospitality lighting solutions"
+    ],
+    "specifications": {
+      "Material": "Aluminum alloy 6063-T5",
+      "Surface Finish": "Anodized (silver, black, white)",
+      "Standard Length": "2000mm/3000mm",
+      "Compatible with": "LED strips up to 12mm width",
+      "Diffuser Options": "Clear, frosted, opal",
+      "Mounting": "Surface, recessed, suspended, corner"
+    },
+    "id": 3
+  },
+  {
+    "productId": "special-profiles",
+    "title": "Special Aluminum Profiles",
+    "description": "Custom-engineered aluminum extrusions with complex geometries and specialized features for unique industrial applications and technical solutions.",
+    "image": "/attached_assets/Aluminum-Profile-Extrusion.jpg",
+    "category": "aluminum",
+    "status": "made to order",
+    "language": "en",
+    "features": [
+      "Complex cross-section designs",
+      "CNC machining capabilities",
+      "Custom-developed solutions",
+      "Integrated functional elements",
+      "High-performance alloys (6063-T5/T6)"
+    ],
+    "applications": [
+      "Transportation industry",
+      "Specialized building systems",
+      "Automotive components",
+      "Medical equipment",
+      "Defense and aerospace"
+    ],
+    "specifications": {
+      "Material": "Aluminum alloy EN AW-6060, EN AW-6063, EN AW-6082",
+      "Surface Finish": "Custom finishes available",
+      "Design Service": "Full technical support and consultation",
+      "Minimum Order": "Variable based on complexity",
+      "Special Features": "Custom geometries, complex cross-sections"
+    },
+    "id": 4
+  },
+  {
+    "productId": "hdpe-pipes",
+    "title": "HDPE Pipes",
+    "description": "High-Density Polyethylene pipes for water supply, sewage, and drainage applications. Our HDPE pipes offer excellent durability and resistance to chemicals.",
+    "image": "/attached_assets/HDPE pipes (PE pipes) .png",
+    "category": "polyethylene",
+    "status": "on request",
+    "language": "en",
+    "features": [
+      "High durability and long service life",
+      "Chemical and corrosion resistance",
+      "Flexible and impact resistant",
+      "Low maintenance",
+      "Environmentally friendly"
+    ],
+    "applications": [
+      "Potable water distribution",
+      "Sewage systems",
+      "Industrial applications",
+      "Irrigation systems",
+      "Gas distribution"
+    ],
+    "specifications": {
+      "Material": "PE100/PE80",
+      "Pressure Rating": "PN6.3/PN10/PN16",
+      "Diameter Range": "20mm-1200mm",
+      "Standard": "EN 12201, ISO 4427",
+      "Connection": "Butt fusion, electrofusion"
+    },
+    "id": 5
+  },
+  {
+    "productId": "double-corrugated-pipes",
+    "title": "Double-Wall Corrugated Pipes",
+    "description": "Double-wall corrugated polyethylene pipes designed for drainage and sewage systems. These pipes combine flexibility with high ring stiffness.",
+    "image": "/attached_assets/Double corrugated pipes .png",
+    "category": "polyethylene",
+    "status": "in stock",
+    "language": "en",
+    "features": [
+      "High ring stiffness",
+      "Lightweight and easy to install",
+      "Excellent hydraulic properties",
+      "Resistant to abrasion and chemicals",
+      "Long service life (50+ years)"
+    ],
+    "applications": [
+      "Storm water drainage",
+      "Highway drainage systems",
+      "Agricultural drainage",
+      "Culverts",
+      "Non-pressure sewage systems"
+    ],
+    "specifications": {
+      "Material": "High-density polyethylene",
+      "Ring Stiffness": "SN4, SN8, SN16",
+      "Diameter Range": "100mm-1000mm",
+      "Standard": "EN 13476",
+      "Connection": "Socket and spigot with rubber seal"
+    },
+    "id": 6
+  },
+  {
+    "productId": "reinforced-corrugated-pipes",
+    "title": "Steel-Reinforced Corrugated Pipes",
+    "description": "Steel-reinforced corrugated polyethylene pipes for high-load applications. These pipes combine the chemical resistance of PE with the strength of steel reinforcement.",
+    "image": "/attached_assets/Steel reinforced corrugated polyethilene pipe.png",
+    "category": "polyethylene",
+    "status": "in stock",
+    "language": "en",
+    "features": [
+      "Extremely high ring stiffness",
+      "Suitable for high traffic loads",
+      "Chemical and corrosion resistant",
+      "Excellent hydraulic performance",
+      "Fast installation"
+    ],
+    "applications": [
+      "Heavy traffic areas",
+      "Deep installation depths",
+      "Railway crossings",
+      "Industrial areas",
+      "Airports"
+    ],
+    "specifications": {
+      "Material": "HDPE with steel reinforcement",
+      "Ring Stiffness": "SN8 to SN16",
+      "Diameter Range": "300mm-2000mm",
+      "Load Class": "Up to E600",
+      "Connection": "Coupler with rubber seal"
+    },
+    "id": 7
+  },
+  {
+    "productId": "hsaw-pipes",
+    "title": "HSAW Steel Pipes",
+    "description": "Helical Submerged Arc Welded (HSAW) steel pipes for water transmission, piling, and structural applications. These pipes offer excellent strength and durability.",
+    "image": "/attached_assets/Helical Submerged Arc Welded (HSAW) Pipes For Water Purpose.png",
+    "category": "steel",
+    "status": "in stock",
+    "language": "en",
+    "features": [
+      "High strength-to-weight ratio",
+      "Excellent weld quality",
+      "Uniform wall thickness",
+      "Suitable for high-pressure applications",
+      "Various coating options available"
+    ],
+    "applications": [
+      "Water transmission lines",
+      "Oil and gas pipelines",
+      "Piling applications",
+      "Structural columns",
+      "Casing pipes"
+    ],
+    "specifications": {
+      "Material": "Carbon steel (S235JR to S355J2)",
+      "Diameter Range": "400mm-3000mm",
+      "Wall Thickness": "6mm-25mm",
+      "Standard": "EN 10219, API 5L",
+      "Coating": "FBE, 3LPE, cement mortar"
+    },
+    "id": 8
+  },
+  {
+    "productId": "oil-gas-pipes",
+    "title": "Oil and Gas Steel Pipes",
+    "description": "High-quality steel pipes specifically designed for oil and gas transportation. These pipes meet the strict requirements of the petroleum industry.",
+    "image": "/attached_assets/Steel Pipes For Oil and Gas Purpose .png",
+    "category": "steel",
+    "status": "in stock",
+    "language": "en",
+    "features": [
+      "High pressure rating",
+      "Excellent corrosion resistance",
+      "Sour service capability",
+      "Low temperature toughness",
+      "Precise dimensional control"
+    ],
+    "applications": [
+      "Oil transmission",
+      "Natural gas pipelines",
+      "Offshore platforms",
+      "Refinery piping",
+      "Gathering lines"
+    ],
+    "specifications": {
+      "Material": "API 5L X42-X70",
+      "Diameter Range": "114mm-1420mm",
+      "Wall Thickness": "6mm-40mm",
+      "Standard": "API 5L, ISO 3183",
+      "Connection": "Welded, flanged, threaded"
+    },
+    "id": 9
+  },
+  {
+    "productId": "manhole-covers",
+    "title": "Cast Iron Manhole Covers",
+    "description": "Durable cast iron manhole covers designed for various load requirements. Our manhole covers ensure safety, accessibility, and longevity in urban infrastructure.",
+    "image": "/attached_assets/Manhole cover D400(K) .png",
+    "category": "cast-iron",
+    "status": "in stock",
+    "language": "en",
+    "features": [
+      "High load bearing capacity",
+      "Durable and long-lasting",
+      "Anti-theft design options",
+      "Various patterns available",
+      "Noise reduction designs"
+    ],
+    "applications": [
+      "Road infrastructure",
+      "Pedestrian areas",
+      "Parking lots",
+      "Industrial areas",
+      "Telecommunication networks"
+    ],
+    "specifications": {
+      "Material": "Ductile cast iron EN-GJS-500-7",
+      "Load Classes": "A15, B125, C250, D400, E600, F900",
+      "Standard": "EN 124",
+      "Coating": "Black bituminous paint",
+      "Options": "Lockable, ventilated, custom markings"
+    },
+    "id": 10
+  },
+  {
+    "productId": "drainage-grates",
+    "title": "Cast Iron Drainage Grates",
+    "description": "High-quality cast iron drainage grates for effective water management in urban environments. Our grates provide optimal flow capacity while maintaining strength.",
+    "image": "/attached_assets/Drainage channel 5066 high-resistance spherical graphite cast iron, C250 EN 1433 .png",
+    "category": "cast-iron",
+    "status": "in stock",
+    "language": "en",
+    "features": [
+      "Optimized hydraulic flow",
+      "Anti-slip surface",
+      "High strength",
+      "Various designs available",
+      "Compatible with standard frames"
+    ],
+    "applications": [
+      "Street drainage",
+      "Highway drainage",
+      "Parking areas",
+      "Industrial facilities",
+      "Residential developments"
+    ],
+    "specifications": {
+      "Material": "Ductile cast iron EN-GJS-500-7",
+      "Load Classes": "C250, D400, E600",
+      "Standard": "EN 124",
+      "Coating": "Black bituminous paint",
+      "Inlet Area": "Optimized for maximum flow"
+    },
+    "id": 11
+  },
+  {
+    "productId": "gate-valve",
+    "title": "Gate Valve",
+    "description": "Cast iron gate valves for water supply systems. These valves provide reliable flow control and are easy to operate.",
+    "image": "/attached_assets/Gate valve cast iron DN50-500, PN10-16 .png",
+    "category": "urban-infrastructure",
+    "status": "in stock",
+    "language": "en",
+    "features": [
+      "Resilient seated design",
+      "Non-rising stem",
+      "Manual operation",
+      "Epoxy coated body",
+      "Corrosion resistant"
+    ],
+    "applications": [
+      "Water distribution networks",
+      "Treatment plants",
+      "Pumping stations",
+      "Industrial water systems",
+      "Irrigation networks"
+    ],
+    "specifications": {
+      "Material": "Ductile cast iron EN-GJS-500-7",
+      "Size Range": "DN50-DN500",
+      "Pressure Rating": "PN10/PN16",
+      "Standard": "EN 1074-1, EN 1074-2",
+      "Operation": "Handwheel operated"
+    },
+    "id": 12
+  },
+  {
+    "productId": "ground-fire-hydrant",
+    "title": "Ground Fire Hydrant",
+    "description": "Heavy-duty ground fire hydrants for urban fire protection. These hydrants provide reliable access to water for firefighting operations.",
+    "image": "/attached_assets/Ground fire hydrant .png",
+    "category": "urban-infrastructure",
+    "status": "in stock",
+    "language": "en",
+    "features": [
+      "Self-draining design",
+      "Frost resistant",
+      "Multiple outlet options",
+      "360° rotation",
+      "Service life over 50 years"
+    ],
+    "applications": [
+      "Urban fire protection",
+      "Industrial areas",
+      "Commercial districts",
+      "Residential neighborhoods",
+      "Water networks maintenance"
+    ],
+    "specifications": {
+      "Material": "Ductile cast iron EN-GJS-500-7",
+      "Outlet Connections": "2x B Storz coupling (75mm)",
+      "Main Valve Size": "DN80/DN100",
+      "Pressure Rating": "PN16",
+      "Standard": "EN 14384"
+    },
+    "id": 13
+  },
+  {
+    "productId": "elbow-fitting",
+    "title": "90° Elbow Fitting",
+    "description": "Injection molded 90° elbow fittings for polyethylene pipe systems. These fittings provide secure connections with excellent hydraulic properties.",
+    "image": "/attached_assets/Elbow 90° (Injection) fitting .png",
+    "category": "fittings",
+    "status": "in stock",
+    "language": "en",
+    "features": [
+      "Uniform wall thickness",
+      "High impact resistance",
+      "UV stabilized",
+      "Chemical resistant",
+      "Easy installation"
+    ],
+    "applications": [
+      "Water distribution",
+      "Sewage systems",
+      "Industrial piping",
+      "Agricultural irrigation",
+      "Drainage networks"
+    ],
+    "specifications": {
+      "Material": "HDPE PE100",
+      "Size Range": "DN20-DN400",
+      "Pressure Rating": "PN10/PN16",
+      "Standard": "EN 12201-3",
+      "Connection": "Butt fusion, electrofusion"
+    },
+    "id": 14
+  },
+  {
+    "productId": "elbow-45-fitting",
+    "title": "45° Elbow Fitting",
+    "description": "Injection molded 45° elbow fittings for polyethylene pipe systems. These fittings provide smooth flow transition with minimal pressure loss.",
+    "image": "/attached_assets/Elbow 45° (Injection) fitting .png",
+    "category": "fittings",
+    "status": "in stock",
+    "language": "en",
+    "features": [
+      "Optimized flow design",
+      "High pressure rating",
+      "Long service life",
+      "Temperature resistant",
+      "Standard compliance"
+    ],
+    "applications": [
+      "Potable water systems",
+      "Gas distribution",
+      "Mining applications",
+      "Chemical transport",
+      "Marine applications"
+    ],
+    "specifications": {
+      "Material": "HDPE PE100",
+      "Size Range": "DN20-DN315",
+      "Pressure Rating": "PN10/PN16",
+      "Standard": "EN 12201-3, ISO 4427-3",
+      "Connection": "Butt fusion, electrofusion"
+    },
+    "id": 15
+  },
+  {
+    "productId": "tee-fitting",
+    "title": "Equal Tee Fitting",
+    "description": "Injection molded equal tee fittings for HDPE pipe systems. These fittings allow for branch connections with high structural integrity.",
+    "image": "/attached_assets/Equal TEE 90° (Injection) fitting .png",
+    "category": "fittings",
+    "status": "in stock",
+    "language": "en",
+    "features": [
+      "Equal diameter branches",
+      "Reinforced junction",
+      "Leak-proof design",
+      "Corrosion resistant",
+      "Injection molded construction"
+    ],
+    "applications": [
+      "Municipal water networks",
+      "Industrial fluid transport",
+      "Landfill gas collection",
+      "Mining slurry lines",
+      "Geothermal systems"
+    ],
+    "specifications": {
+      "Material": "HDPE PE100",
+      "Size Range": "DN20-DN315",
+      "Pressure Rating": "PN10/PN16",
+      "Standard": "EN 12201-3, ISO 4427-3",
+      "Connection": "Butt fusion, electrofusion"
+    },
+    "id": 16
+  },
+  {
+    "productId": "flange-adapter",
+    "title": "Flange Adapter",
+    "description": "Long-type flange adapters for connecting polyethylene pipes to flanged components. These adapters provide a secure transition between different piping systems.",
+    "image": "/attached_assets/Flange adapter-long type 400-500 (Injection).png",
+    "category": "fittings",
+    "status": "in stock",
+    "language": "en",
+    "features": [
+      "Long design for increased stability",
+      "Full face flange connection",
+      "Metal backing ring",
+      "High pull-out resistance",
+      "Compatible with standard flanges"
+    ],
+    "applications": [
+      "Treatment plant connections",
+      "Pump stations",
+      "Valve installations",
+      "Tank connections",
+      "System transitions"
+    ],
+    "specifications": {
+      "Material": "HDPE PE100 with metal backing ring",
+      "Size Range": "DN20-DN500",
+      "Pressure Rating": "PN10/PN16/PN25",
+      "Flange Standard": "EN 1092-1",
+      "Connection": "Butt fusion to PE, flanged to equipment"
+    },
+    "id": 17
+  },
+  {
+    "productId": "rainwater-grill-d400",
+    "title": "Rainwater Grill D400",
+    "description": "Heavy-duty D400 class rainwater grill for road drainage systems. These grills provide optimal water intake while maintaining strength for vehicle traffic.",
+    "image": "/attached_assets/Rainwater grill D400 1 .png",
+    "category": "drainage",
+    "status": "in stock",
+    "language": "en",
+    "features": [
+      "D400 load class (40 tons)",
+      "High intake capacity",
+      "Anti-slip surface",
+      "Anti-theft locking",
+      "Noise dampening design"
+    ],
+    "applications": [
+      "Urban roads",
+      "Parking areas",
+      "Industrial zones",
+      "Loading docks",
+      "Ports and terminals"
+    ],
+    "specifications": {
+      "Material": "Ductile cast iron EN-GJS-500-7",
+      "Load Class": "D400 (400kN)",
+      "Standard": "EN 124",
+      "Installation": "Concrete frame",
+      "Surface Treatment": "Bituminous coating"
+    },
+    "id": 18
+  },
+  {
+    "productId": "pile-pipes",
+    "title": "HSAW Pile Pipes",
+    "description": "Helical Submerged Arc Welded (HSAW) steel pipes for piling applications. These pipes provide exceptional structural support for heavy construction projects.",
+    "image": "/attached_assets/Helical Submerged Arc Welded (HSAW) Pipes For Pile Purpose.png",
+    "category": "steel",
+    "status": "in stock",
+    "language": "en",
+    "features": [
+      "High structural integrity",
+      "Superior weld quality",
+      "Heavy wall thickness options",
+      "Custom length manufacturing",
+      "Corrosion protection options"
+    ],
+    "applications": [
+      "Bridge foundations",
+      "Marine structures",
+      "Building foundations",
+      "Retaining walls",
+      "Offshore platforms"
+    ],
+    "specifications": {
+      "Material": "Carbon steel S235JR to S355J2",
+      "Diameter Range": "406mm-2000mm",
+      "Wall Thickness": "8mm-40mm",
+      "Standard": "EN 10219, API 5L",
+      "Coating Options": "FBE, 3LPE, coal tar epoxy"
+    },
+    "id": 19
+  },
+  {
+    "productId": "waste-box",
+    "title": "Waste Box 30L",
+    "description": "High-quality 30-liter waste collection box for urban environments. These waste boxes combine durability with aesthetic design.",
+    "image": "/attached_assets/Waste box 30 l .png",
+    "category": "urban-infrastructure",
+    "status": "in stock",
+    "language": "en",
+    "features": [
+      "Durable steel construction",
+      "Weather resistant coating",
+      "Lockable with key",
+      "Easy emptying mechanism",
+      "Wall or post mounting options"
+    ],
+    "applications": [
+      "Parks and recreational areas",
+      "Pedestrian walkways",
+      "Urban streets",
+      "Residential areas",
+      "Commercial zones"
+    ],
+    "specifications": {
+      "Material": "Galvanized steel",
+      "Capacity": "30 liters",
+      "Dimensions": "450x300x650mm",
+      "Finish": "Powder coated",
+      "Options": "With or without ashtray"
+    },
+    "id": 20
+  }
+]

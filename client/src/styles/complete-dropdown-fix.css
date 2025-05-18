@@ -1,0 +1,125 @@
+/**
+ * Complete MetaNord Dropdown Menu Fix - FINAL VERSION
+ * 
+ * This CSS completely fixes the dropdown menu hover styles,
+ * removing all unwanted red underlines and ensuring consistent appearance
+ * across all menu items throughout the site.
+ */
+
+/* Reset ALL existing hover underlines to ensure consistency */
+.menu-item::after,
+.dropdown-menu-item::after,
+.submenu-item::after,
+.nav-dropdown-menu-item::after,
+[data-radix-dropdown-menu-content] *[role="menuitem"]::after,
+[data-radix-dropdown-menu-content] a::after,
+.dropdown-menu [role="menuitem"]::after,
+.dropdown-menu a::after,
+.dropdown-submenu-item::after,
+[data-state="open"] .dropdown-submenu a::after,
+.header-nav-item::after,
+.mobile-nav-item::after,
+.main-menu-item::after,
+.nav-item::after,
+.nav-link::after,
+.navbar-item::after,
+.navbar-link::after {
+  content: '' !important;
+  position: absolute !important;
+  width: 100% !important;
+  transform: scaleX(0) !important;
+  height: 2px !important;
+  bottom: -2px !important;
+  left: 0 !important;
+  background-image: linear-gradient(to right, #0959AB, #FE9158) !important;
+  transform-origin: bottom right !important;
+  transition: transform 0.25s ease-out !important;
+  pointer-events: none !important;
+  /* Ensure no additional styling is applied */
+  border: none !important;
+  outline: none !important;
+}
+
+/* Consistent hover state for all menu underlines */
+.menu-item:hover::after,
+.dropdown-menu-item:hover::after,
+.submenu-item:hover::after,
+.nav-dropdown-menu-item:hover::after,
+[data-radix-dropdown-menu-content] *[role="menuitem"]:hover::after,
+[data-radix-dropdown-menu-content] a:hover::after,
+.dropdown-menu [role="menuitem"]:hover::after,
+.dropdown-menu a:hover::after,
+.dropdown-submenu-item:hover::after,
+[data-state="open"] .dropdown-submenu a:hover::after,
+.header-nav-item:hover::after,
+.mobile-nav-item:hover::after,
+.main-menu-item:hover::after,
+.nav-item:hover::after,
+.nav-link:hover::after,
+.navbar-item:hover::after,
+.navbar-link:hover::after {
+  transform: scaleX(1) !important;
+  transform-origin: bottom left !important;
+  /* Ensure no additional styling is applied */
+  background-image: linear-gradient(to right, #0959AB, #FE9158) !important;
+  border: none !important;
+  outline: none !important;
+}
+
+/* Reset any other styling that might be causing red underlines */
+[data-radix-dropdown-menu-content] *[role="menuitem"],
+[data-radix-dropdown-menu-content] a,
+.dropdown-menu [role="menuitem"],
+.dropdown-menu a,
+.dropdown-submenu-item,
+[data-state="open"] .dropdown-submenu a {
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+/* Explicitly override any conflicting styles */
+.dropdown-menu [role="menuitem"]:hover,
+.dropdown-menu a:hover,
+[data-radix-dropdown-menu-content] *[role="menuitem"]:hover,
+[data-radix-dropdown-menu-content] a:hover {
+  border-bottom: none !important;
+  text-decoration: none !important;
+}
+
+/* Unified hover text color for all menu items */
+.menu-item:hover,
+.dropdown-menu-item:hover,
+.submenu-item:hover,
+.nav-dropdown-menu-item:hover,
+[data-radix-dropdown-menu-content] *[role="menuitem"]:hover,
+[data-radix-dropdown-menu-content] a:hover,
+.dropdown-menu [role="menuitem"]:hover,
+.dropdown-menu a:hover,
+.dropdown-submenu-item:hover,
+[data-state="open"] .dropdown-submenu a:hover,
+.header-nav-item:hover,
+.mobile-nav-item:hover,
+.main-menu-item:hover,
+.nav-item:hover,
+.nav-link:hover,
+.navbar-item:hover,
+.navbar-link:hover {
+  color: #FE9158 !important;
+}
+
+/* Override any red border or outline on hover */
+*:hover {
+  outline-color: transparent !important;
+  border-color: transparent !important;
+}
+
+/* Remove all red borders and outlines */
+[style*="border-color: red"],
+[style*="border-color:#ff0000"],
+[style*="border-color: #ff0000"],
+[style*="outline-color: red"],
+[style*="outline-color:#ff0000"],
+[style*="outline-color: #ff0000"] {
+  border-color: transparent !important;
+  outline-color: transparent !important;
+}

@@ -1,0 +1,218 @@
+{
+  "projects": [
+    {
+      "id": "watersupply-tallinn",
+      "title": {
+        "en": "Tallinn Water Supply Network",
+        "et": "Tallinna veevarustuse võrgustik",
+        "ru": "Сеть водоснабжения Таллинна",
+        "lv": "Tallinas ūdensapgādes tīkls",
+        "lt": "Talino vandens tiekimo tinklas",
+        "pl": "Sieć wodociągowa w Tallinie"
+      },
+      "shortDescription": {
+        "en": "Complete infrastructure solution including pipes, manholes, and valves for a municipal water system",
+        "et": "Täielik infrastruktuurilahendus, mis sisaldab torusid, kanalisatsioonikaeve ja klappe kohaliku veevarustussüsteemi jaoks",
+        "ru": "Комплексное инфраструктурное решение, включающее трубы, люки и клапаны для муниципальной системы водоснабжения",
+        "lv": "Pilnīgs infrastruktūras risinājums, kas ietver caurules, akas un vārstus pašvaldības ūdensapgādes sistēmai",
+        "lt": "Išsamus infrastruktūros sprendimas, apimantis vamzdžius, šulinius ir vožtuvus savivaldybės vandens sistemai",
+        "pl": "Kompletne rozwiązanie infrastrukturalne obejmujące rury, studzienki i zawory dla miejskiego systemu wodociągowego"
+      },
+      "description": {
+        "en": "A comprehensive project designed to modernize Tallinn's water supply infrastructure. Our team supplied a range of high-quality infrastructure components, including polyethylene pipes, cast iron manholes, and specialized valves. The system was designed for long-term durability with minimal maintenance requirements and optimal flow capacity.\n\nThe project involved close collaboration with municipal engineers and environmental consultants to ensure all installations met the highest standards of quality and environmental protection. Our components were specifically selected to withstand the Nordic climate conditions and provide reliable service for decades to come.",
+        "et": "Terviklik projekt, mis on mõeldud Tallinna veevarustuse infrastruktuuri kaasajastamiseks. Meie meeskond tarnis mitmesuguseid kvaliteetseid infrastruktuuri komponente, sealhulgas polüetüleentorusid, malmist kanalisatsioonikaeve ja spetsiaalseid klappe. Süsteem oli kavandatud pikaajalise vastupidavuse jaoks minimaalse hoolduse nõuetega ja optimaalse läbilaskevõimega.\n\nProjekt hõlmas tihedat koostööd kohalike inseneride ja keskkonnakonsultantidega, et tagada kõigi paigaldiste vastavus kõrgeimate kvaliteedi- ja keskkonnakaitsestandarditega. Meie komponendid valiti spetsiaalselt, et need taluksid Põhjamaise kliima tingimusi ja pakuksid usaldusväärset teenust aastakümnete jooksul.",
+        "ru": "Комплексный проект, разработанный для модернизации инфраструктуры водоснабжения Таллинна. Наша команда поставила ряд высококачественных компонентов инфраструктуры, включая полиэтиленовые трубы, чугунные люки и специализированные клапаны. Система была спроектирована для долговременной надежности с минимальными требованиями к обслуживанию и оптимальной пропускной способностью.\n\nПроект предусматривал тесное сотрудничество с муниципальными инженерами и экологическими консультантами, чтобы обеспечить соответствие всех установок высочайшим стандартам качества и защиты окружающей среды. Наши компоненты были специально подобраны, чтобы выдерживать условия северного климата и обеспечивать надежную службу на десятилетия вперед.",
+        "lv": "Visaptverošs projekts, kas izstrādāts, lai modernizētu Tallinas ūdensapgādes infrastruktūru. Mūsu komanda piegādāja virkni augstas kvalitātes infrastruktūras komponentu, tostarp polietilēna caurules, čuguna akas un specializētus vārstus. Sistēma bija paredzēta ilgtermiņa izturībai ar minimālām uzturēšanas prasībām un optimālu plūsmas jaudu.\n\nProjekts ietvēra ciešu sadarbību ar pašvaldību inženieriem un vides konsultantiem, lai nodrošinātu, ka visas iekārtas atbilst augstākajiem kvalitātes un vides aizsardzības standartiem. Mūsu komponenti tika speciāli atlasīti, lai izturētu Ziemeļvalstu klimata apstākļus un sniegtu uzticamu pakalpojumu turpmākajās desmitgadēs.",
+        "lt": "Išsamus projektas, skirtas modernizuoti Talino vandens tiekimo infrastruktūrą. Mūsų komanda tiekė aukštos kokybės infrastruktūros komponentus, įskaitant polietileno vamzdžius, ketaus šulinius ir specializuotus vožtuvus. Sistema buvo suprojektuota ilgalaikiam patvarumui su minimaliais priežiūros reikalavimais ir optimaliu srautu.\n\nProjektas apėmė glaudų bendradarbiavimą su savivaldybės inžinieriais ir aplinkosaugos konsultantais, siekiant užtikrinti, kad visi įrenginiai atitiktų aukščiausius kokybės ir aplinkos apsaugos standartus. Mūsų komponentai buvo specialiai parinkti, kad atlaikytų Šiaurės klimato sąlygas ir patikimai tarnautų ateinančius dešimtmečius.",
+        "pl": "Kompleksowy projekt zaprojektowany w celu modernizacji infrastruktury wodociągowej Tallina. Nasz zespół dostarczył szereg wysokiej jakości komponentów infrastruktury, w tym rury polietylenowe, żeliwne studzienki i specjalistyczne zawory. System został zaprojektowany z myślą o długotrwałej trwałości przy minimalnych wymaganiach konserwacyjnych i optymalnej przepustowości.\n\nProjekt obejmował ścisłą współpracę z inżynierami miejskimi i konsultantami środowiskowymi, aby zapewnić, że wszystkie instalacje spełniają najwyższe standardy jakości i ochrony środowiska. Nasze komponenty zostały specjalnie dobrane, aby wytrzymać warunki klimatyczne krajów nordyckich i zapewnić niezawodną pracę przez najbliższe dekady."
+      },
+      "category": "infrastructure",
+      "featuredImage": "/assets/projects/water-supply-network.jpg",
+      "images": [
+        "/assets/projects/water-supply-network.jpg",
+        "/assets/products/HDPE pipes (PE pipes) .png",
+        "/assets/products/Manhole cover D400(K) .png",
+        "/assets/products/Gate valve cast iron DN50-500, PN10-16 .png"
+      ],
+      "year": 2023,
+      "location": {
+        "en": "Tallinn, Estonia",
+        "et": "Tallinn, Eesti",
+        "ru": "Таллинн, Эстония",
+        "lv": "Tallina, Igaunija",
+        "lt": "Talinas, Estija",
+        "pl": "Tallin, Estonia"
+      },
+      "tags": {
+        "en": ["Water Infrastructure", "Urban Development", "Polyethylene Pipes", "Manhole Covers", "Valves"],
+        "et": ["Veetaristu", "Linnaarendus", "Polüetüleentorud", "Kaevukaaned", "Klapid"],
+        "ru": ["Водная инфраструктура", "Городское развитие", "Полиэтиленовые трубы", "Люки", "Клапаны"],
+        "lv": ["Ūdens infrastruktūra", "Pilsētas attīstība", "Polietilēna caurules", "Akas vāki", "Vārsti"],
+        "lt": ["Vandens infrastruktūra", "Miesto plėtra", "Polietileno vamzdžiai", "Šulinių dangčiai", "Vožtuvai"],
+        "pl": ["Infrastruktura wodna", "Rozwój miejski", "Rury polietylenowe", "Pokrywy włazów", "Zawory"]
+      },
+      "relatedProducts": ["hdpe-pipes", "manhole-covers", "valves"],
+      "brochureUrl": "/documents/tallinn-water-project.pdf"
+    },
+    {
+      "id": "office-complex-riga",
+      "title": {
+        "en": "Modern Office Complex in Riga",
+        "et": "Kaasaegne bürookompleks Riias",
+        "ru": "Современный офисный комплекс в Риге",
+        "lv": "Mūsdienīgs biroju komplekss Rīgā",
+        "lt": "Modernus biurų kompleksas Rygoje",
+        "pl": "Nowoczesny kompleks biurowy w Rydze"
+      },
+      "shortDescription": {
+        "en": "Premium aluminum profiles and glass solutions for a sustainable commercial building",
+        "et": "Kvaliteetsed alumiiniumprofiilid ja klaaslahenduded jätkusuutliku ärihoone jaoks",
+        "ru": "Премиальные алюминиевые профили и стеклянные решения для экологичного коммерческого здания",
+        "lv": "Augstas kvalitātes alumīnija profili un stikla risinājumi ilgtspējīgai komerciālai ēkai",
+        "lt": "Aukščiausios kokybės aliuminio profiliai ir stiklo sprendimai tvariam komerciniam pastatui",
+        "pl": "Wysokiej jakości profile aluminiowe i rozwiązania szklane dla zrównoważonego budynku komercyjnego"
+      },
+      "description": {
+        "en": "The Riga Business Center represents a landmark commercial development in Latvia's capital. MetaNord supplied various aluminum profile systems for the building's facade, interior partitions, and specialized architectural elements. The project's design emphasized sustainability, energy efficiency, and modern aesthetics.\n\nWorking closely with the architectural team, we provided custom aluminum solutions that met exacting specifications for thermal performance and structural integrity. The building features a distinctive glass and aluminum facade that maximizes natural light while minimizing energy consumption through advanced insulation properties of our profile systems.",
+        "et": "Riia ärikeskus on märkimisväärne äriprojekt Läti pealinnas. MetaNord tarnis mitmesuguseid alumiiniumprofiilisüsteeme hoone fassaadi, siseruumide vaheseinte ja spetsiaalsete arhitektuurielementide jaoks. Projekti disain rõhutas jätkusuutlikkust, energiatõhusust ja kaasaegset esteetikat.\n\nTihedas koostöös arhitektuurimeeskonnaga pakkusime kohandatud alumiiniumlahendusi, mis vastasid täpsetele spetsifikatsioonidele termilise jõudluse ja konstruktsiooni terviklikkuse osas. Hoone silmapaistev klaas- ja alumiiniumfassaad maksimeerib loodusliku valguse, vähendades samal ajal energiatarbimist meie profiilisüsteemide kaugelearenenud isolatsiooniomaduste kaudu.",
+        "ru": "Бизнес-центр в Риге представляет собой знаковый коммерческий проект в столице Латвии. MetaNord поставила различные системы алюминиевых профилей для фасада здания, внутренних перегородок и специализированных архитектурных элементов. В дизайне проекта особое внимание уделялось устойчивому развитию, энергоэффективности и современной эстетике.\n\nРаботая в тесном сотрудничестве с архитектурной командой, мы предоставили индивидуальные алюминиевые решения, которые соответствовали точным спецификациям по тепловым характеристикам и конструктивной целостности. Здание отличается характерным стеклянным и алюминиевым фасадом, который максимизирует естественное освещение, минимизируя при этом потребление энергии благодаря передовым изоляционным свойствам наших профильных систем.",
+        "lv": "Rīgas Biznesa centrs ir ievērojams komerciālais objekts Latvijas galvaspilsētā. MetaNord piegādāja dažādas alumīnija profilu sistēmas ēkas fasādei, iekšējām starpsienām un specializētiem arhitektūras elementiem. Projekta dizains uzsvēra ilgtspēju, energoefektivitāti un mūsdienīgu estētiku.\n\nCieši sadarbojoties ar arhitektu komandu, mēs nodrošinājām pielāgotus alumīnija risinājumus, kas atbilda precīzām specifikācijām attiecībā uz termisko veiktspēju un strukturālo integritāti. Ēkai ir atšķirīga stikla un alumīnija fasāde, kas maksimizē dabisko gaismu, vienlaikus samazinot enerģijas patēriņu, izmantojot mūsu profilu sistēmu uzlabotās izolācijas īpašības.",
+        "lt": "Rygos verslo centras yra žymus komercinis projektas Latvijos sostinėje. MetaNord tiekė įvairias aliuminio profilių sistemas pastato fasadui, vidaus pertvaroms ir specializuotiems architektūriniams elementams. Projekto dizainas akcentavo tvarumą, energijos efektyvumą ir šiuolaikinę estetiką.\n\nGlaudžiai bendradarbiaudami su architektų komanda, teikėme pritaikytus aliuminio sprendimus, kurie atitiko tikslius šiluminių savybių ir struktūrinio vientisumo reikalavimus. Pastatas pasižymi išskirtiniu stiklo ir aliuminio fasadu, kuris maksimaliai išnaudoja natūralią šviesą, tuo pačiu metu minimizuoja energijos suvartojimą dėl pažangių mūsų profilių sistemų izoliacinių savybių.",
+        "pl": "Centrum Biznesowe w Rydze to znaczący projekt komercyjny w stolicy Łotwy. MetaNord dostarczył różne systemy profili aluminiowych do elewacji budynku, ścianek działowych wewnętrznych i specjalistycznych elementów architektonicznych. Projekt kładł nacisk na zrównoważony rozwój, efektywność energetyczną i nowoczesną estetykę.\n\nŚciśle współpracując z zespołem architektów, dostarczyliśmy niestandardowe rozwiązania aluminiowe, które spełniały dokładne specyfikacje dotyczące parametrów termicznych i integralności konstrukcyjnej. Budynek wyróżnia się charakterystyczną szklaną i aluminiową elewacją, która maksymalizuje naturalne światło, minimalizując jednocześnie zużycie energii dzięki zaawansowanym właściwościom izolacyjnym naszych systemów profilowych."
+      },
+      "category": "commercial",
+      "featuredImage": "/assets/aluminum-profiles/office-building.jpg",
+      "images": [
+        "/assets/aluminum-profiles/office-building.jpg",
+        "/assets/products/Aluminum U-Profiles.jpg",
+        "/assets/products/Aluminum LED Profile.jpg",
+        "/assets/aluminum-profiles/interior-partition.jpg"
+      ],
+      "year": 2022,
+      "location": {
+        "en": "Riga, Latvia",
+        "et": "Riia, Läti",
+        "ru": "Рига, Латвия",
+        "lv": "Rīga, Latvija",
+        "lt": "Ryga, Latvija",
+        "pl": "Ryga, Łotwa"
+      },
+      "tags": {
+        "en": ["Commercial Building", "Aluminum Facade", "Sustainable Design", "Glass Solutions", "Energy Efficient"],
+        "et": ["Ärihoone", "Alumiiniumfasaad", "Jätkusuutlik disain", "Klaaslahendused", "Energiatõhus"],
+        "ru": ["Коммерческое здание", "Алюминиевый фасад", "Экологичный дизайн", "Стеклянные решения", "Энергоэффективность"],
+        "lv": ["Komerciāla ēka", "Alumīnija fasāde", "Ilgtspējīgs dizains", "Stikla risinājumi", "Energoefektīvs"],
+        "lt": ["Komercinis pastatas", "Aliuminio fasadas", "Tvarus dizainas", "Stiklo sprendimai", "Energijos vartojimo efektyvumas"],
+        "pl": ["Budynek komercyjny", "Fasada aluminiowa", "Zrównoważony projekt", "Rozwiązania szklane", "Efektywność energetyczna"]
+      },
+      "relatedProducts": ["standard-profiles", "led-profiles", "special-profiles"]
+    },
+    {
+      "id": "industrial-facility-vilnius",
+      "title": {
+        "en": "Industrial Manufacturing Facility in Vilnius",
+        "et": "Tööstuslik tootmisrajatis Vilniuses",
+        "ru": "Промышленный производственный объект в Вильнюсе",
+        "lv": "Rūpniecības ražošanas iekārta Viļņā",
+        "lt": "Pramonės gamybos įrenginys Vilniuje",
+        "pl": "Przemysłowy zakład produkcyjny w Wilnie"
+      },
+      "shortDescription": {
+        "en": "Complete steel and aluminum infrastructure for a modern manufacturing complex",
+        "et": "Täielik teras- ja alumiiniuminfrastruktuur kaasaegsele tootmiskompleksile",
+        "ru": "Полная стальная и алюминиевая инфраструктура для современного производственного комплекса",
+        "lv": "Pilnīga tērauda un alumīnija infrastruktūra mūsdienīgam ražošanas kompleksam",
+        "lt": "Pilna plieno ir aliuminio infrastruktūra šiuolaikiniam gamybos kompleksui",
+        "pl": "Kompletna infrastruktura stalowa i aluminiowa dla nowoczesnego kompleksu produkcyjnego"
+      },
+      "description": {
+        "en": "The Vilnius Industrial Park project involved the development of a state-of-the-art manufacturing facility requiring specialized infrastructure components. MetaNord supplied a comprehensive range of industrial-grade products, including HSAW pipes, aluminum profiles designed for machine-building applications, and cast iron drainage systems.\n\nThe facility's design prioritized operational efficiency, durability, and compliance with stringent industrial standards. Our engineering team worked alongside the facility planners to select materials that would withstand the demanding manufacturing environment while providing optimal functionality and long-term reliability.",
+        "et": "Vilniuse tööstuspargi projekt hõlmas kaasaegse tootmisrajatise arendamist, mis vajas spetsialiseeritud infrastruktuuri komponente. MetaNord tarnis laialdase valiku tööstusliku kvaliteediga tooteid, sealhulgas HSAW torusid, masinaehituse rakenduste jaoks mõeldud alumiiniumprofiile ja malmist äravoolusüsteeme.\n\nRajatise disain prioriseeris operatiivset tõhusust, vastupidavust ja rangete tööstuslike standardite järgimist. Meie insenerimeeskond töötas koos rajatise planeerijatega, et valida materjalid, mis peaksid vastu nõudlikus tootmiskeskkonnas, pakkudes samal ajal optimaalset funktsionaalsust ja pikaajalist usaldusväärsust.",
+        "ru": "Проект промышленного парка в Вильнюсе включал разработку современного производственного объекта, требующего специализированных инфраструктурных компонентов. MetaNord поставила широкий спектр продукции промышленного класса, включая трубы HSAW, алюминиевые профили, предназначенные для машиностроительных применений, и чугунные дренажные системы.\n\nПри проектировании объекта приоритет отдавался операционной эффективности, долговечности и соответствию строгим промышленным стандартам. Наша инженерная команда работала вместе с планировщиками объекта для выбора материалов, которые выдержали бы требовательную производственную среду, обеспечивая при этом оптимальную функциональность и долгосрочную надежность.",
+        "lv": "Viļņas industriālā parka projektā tika iekļauta mūsdienīgas ražošanas iekārtas izstrāde, kam nepieciešami specializēti infrastruktūras komponenti. MetaNord piegādāja plašu rūpniecības klases produktu klāstu, tostarp HSAW caurules, mašīnbūvei paredzētus alumīnija profilus un čuguna drenāžas sistēmas.\n\nIekārtas dizainā prioritāte tika piešķirta darbības efektivitātei, izturībai un atbilstībai stingriem rūpniecības standartiem. Mūsu inženieru komanda strādāja kopā ar iekārtas plānotājiem, lai izvēlētos materiālus, kas izturētu prasīgo ražošanas vidi, vienlaikus nodrošinot optimālu funkcionalitāti un ilgtermiņa uzticamību.",
+        "lt": "Vilniaus pramoninio parko projektas apėmė šiuolaikinio gamybos įrenginio, reikalaujančio specializuotų infrastruktūros komponentų, vystymą. MetaNord tiekė platų pramoninės klasės produktų asortimentą, įskaitant HSAW vamzdžius, aliuminio profilius, skirtus mašinų gamybos pritaikymams, ir ketaus drenažo sistemas.\n\nĮrenginio projektas prioritetą teikė veiklos efektyvumui, patvarumui ir atitikimui griežtiems pramoniniams standartams. Mūsų inžinerijos komanda dirbo kartu su įrenginio planuotojais, kad parinktų medžiagas, kurios atlaikytų reiklią gamybos aplinką, kartu užtikrindamos optimalų funkcionalumą ir ilgalaikį patikimumą.",
+        "pl": "Projekt Parku Przemysłowego w Wilnie obejmował budowę nowoczesnego zakładu produkcyjnego wymagającego specjalistycznych komponentów infrastruktury. MetaNord dostarczył szeroki zakres produktów klasy przemysłowej, w tym rury HSAW, profile aluminiowe zaprojektowane do zastosowań w budowie maszyn oraz żeliwne systemy odwadniające.\n\nW projekcie obiektu priorytetem była efektywność operacyjna, trwałość i zgodność z rygorystycznymi normami przemysłowymi. Nasz zespół inżynierów współpracował z planistami obiektu w celu wyboru materiałów, które wytrzymałyby wymagające środowisko produkcyjne, zapewniając jednocześnie optymalną funkcjonalność i długoterminową niezawodność."
+      },
+      "category": "industrial",
+      "featuredImage": "/assets/projects/industrial-facility.jpg",
+      "images": [
+        "/assets/projects/industrial-facility.jpg",
+        "/assets/products/Helical Submerged Arc Welded (HSAW) Pipes For Pile Purpose.png",
+        "/assets/products/Aluminum-Profile-Extrusion.jpg",
+        "/assets/products/Rainwater grill D400 1 .png"
+      ],
+      "year": 2022,
+      "location": {
+        "en": "Vilnius, Lithuania",
+        "et": "Vilnius, Leedu",
+        "ru": "Вильнюс, Литва",
+        "lv": "Viļņa, Lietuva",
+        "lt": "Vilnius, Lietuva",
+        "pl": "Wilno, Litwa"
+      },
+      "tags": {
+        "en": ["Industrial Facility", "Manufacturing", "HSAW Pipes", "Machine Building", "Drainage Systems"],
+        "et": ["Tööstusrajatis", "Tootmine", "HSAW torud", "Masinaehitus", "Drenaaži süsteemid"],
+        "ru": ["Промышленный объект", "Производство", "Трубы HSAW", "Машиностроение", "Дренажные системы"],
+        "lv": ["Rūpniecības objekts", "Ražošana", "HSAW caurules", "Mašīnbūve", "Drenāžas sistēmas"],
+        "lt": ["Pramoninis objektas", "Gamyba", "HSAW vamzdžiai", "Mašinų gamyba", "Drenažo sistemos"],
+        "pl": ["Obiekt przemysłowy", "Produkcja", "Rury HSAW", "Budowa maszyn", "Systemy odwadniające"]
+      },
+      "relatedProducts": ["hsaw-pipes", "machine-building-profiles", "drainage-grates"]
+    },
+    {
+      "id": "residential-complex-warsaw",
+      "title": {
+        "en": "Modern Residential Complex in Warsaw",
+        "et": "Kaasaegne elamurajoon Varssavis",
+        "ru": "Современный жилой комплекс в Варшаве",
+        "lv": "Mūsdienīgs dzīvojamais komplekss Varšavā",
+        "lt": "Modernus gyvenamasis kompleksas Varšuvoje",
+        "pl": "Nowoczesny kompleks mieszkaniowy w Warszawie"
+      },
+      "shortDescription": {
+        "en": "Premium aluminum and steel infrastructure for a luxury residential development",
+        "et": "Kvaliteetsed alumiinium- ja terasinfrastruktuur luksuslikule elamuarendusele",
+        "ru": "Премиальная алюминиевая и стальная инфраструктура для элитной жилой застройки",
+        "lv": "Augstas kvalitātes alumīnija un tērauda infrastruktūra luksusa dzīvojamā kompleksa attīstīšanai",
+        "lt": "Aukščiausios kokybės aliuminio ir plieno infrastruktūra prabangiam gyvenamajam projektui",
+        "pl": "Wysokiej jakości infrastruktura aluminiowa i stalowa dla luksusowego osiedla mieszkaniowego"
+      },
+      "description": {
+        "en": "The Warsaw Residence project is a premier residential development featuring luxury apartments and comprehensive amenities. MetaNord supplied a range of high-quality components including aluminum balcony profiles, drainage systems, and specialized architectural elements.\n\nOur involvement focused on providing aesthetic yet functional infrastructure solutions that complemented the development's upscale design while ensuring longevity and minimal maintenance. The project featured our premium aluminum facade systems and architectural profiles, which offered both structural integrity and visual appeal. Additionally, we supplied complete water management systems including our cast iron drainage products designed for optimal performance in residential applications.",
+        "et": "Varssavi Residence projekt on esilinnas elamuarendus, kus on luksuslikud korterid ja terviklikud mugavused. MetaNord tarnis mitmesuguseid kvaliteetseid komponente, sealhulgas alumiiniumist rõduprofiilid, äravoolusüsteemid ja spetsiaalsed arhitektuurielemendid.\n\nMeie osalus keskendus esteetiliste, kuid funktsionaalsete infrastruktuurilahenduste pakkumisele, mis täiendasid arenduse kõrgetasemelist disaini, tagades samas pikaealisuse ja minimaalse hoolduse. Projektis kasutati meie kvaliteetseid alumiiniumist fassaadisüsteeme ja arhitektuuriprofiile, mis pakkusid nii struktuurilist terviklikkust kui ka visuaalset atraktiivsust. Lisaks tarnisime täielikke veehaldussüsteeme, sealhulgas meie malmist veeäravoolusüsteeme, mis on loodud optimaalseks toimimiseks elamurakenduses.",
+        "ru": "Проект Warsaw Residence - это элитный жилой комплекс с роскошными апартаментами и полным набором удобств. MetaNord поставила ряд высококачественных компонентов, включая алюминиевые профили для балконов, дренажные системы и специализированные архитектурные элементы.\n\nНаше участие было сосредоточено на предоставлении эстетичных, но функциональных инфраструктурных решений, которые дополняли изысканный дизайн комплекса, обеспечивая при этом долговечность и минимальное обслуживание. В проекте использовались наши премиальные алюминиевые фасадные системы и архитектурные профили, которые обеспечивали как конструктивную целостность, так и визуальную привлекательность. Кроме того, мы поставили полные системы управления водными ресурсами, включая наши чугунные дренажные изделия, разработанные для оптимальной работы в жилых помещениях.",
+        "lv": "Varšavas Residence projekts ir augstākās klases dzīvojamais attīstības projekts ar luksusa dzīvokļiem un visaptverošām ērtībām. MetaNord piegādāja virkni augstas kvalitātes komponentu, tostarp alumīnija balkona profilus, drenāžas sistēmas un specializētus arhitektūras elementus.\n\nMūsu iesaistīšanās koncentrējās uz estētisku, bet funkcionālu infrastruktūras risinājumu nodrošināšanu, kas papildināja attīstības augstākās klases dizainu, vienlaikus nodrošinot ilgmūžību un minimālu uzturēšanu. Projektā tika izmantota mūsu augstākās klases alumīnija fasādes sistēmas un arhitektūras profili, kas piedāvāja gan strukturālo integritāti, gan vizuālo pievilcību. Papildus mēs piegādājām pilnīgas ūdens pārvaldības sistēmas, tostarp mūsu čuguna drenāžas produktus, kas paredzēti optimālai darbībai dzīvojamās ēkās.",
+        "lt": "Warsaw Residence projektas yra aukščiausios klasės gyvenamasis kompleksas su prabangiais butais ir visapusiškomis patogumo priemonėmis. MetaNord tiekė įvairius aukštos kokybės komponentus, įskaitant aliuminio balkono profilius, drenažo sistemas ir specializuotus architektūrinius elementus.\n\nMūsų dalyvavimas buvo sutelktas į estetiškų, bet funkcionalių infrastruktūros sprendimų teikimą, kurie papildytų komplekso aukštos klasės dizainą, kartu užtikrinant ilgaamžiškumą ir minimalią priežiūrą. Projekte buvo naudojamos mūsų aukščiausios kokybės aliuminio fasado sistemos ir architektūriniai profiliai, kurie užtikrino tiek struktūrinį vientisumą, tiek vizualinį patrauklumą. Be to, tiekėme išsamias vandens valdymo sistemas, įskaitant mūsų ketaus drenažo produktus, sukurtus optimaliam veikimui gyvenamosiose patalpose.",
+        "pl": "Projekt Warsaw Residence to prestiżowe osiedle mieszkaniowe z luksusowymi apartamentami i kompleksowymi udogodnieniami. MetaNord dostarczył szereg wysokiej jakości komponentów, w tym aluminiowe profile balkonowe, systemy odwadniające i specjalistyczne elementy architektoniczne.\n\nNasze zaangażowanie koncentrowało się na dostarczaniu estetycznych, ale funkcjonalnych rozwiązań infrastrukturalnych, które uzupełniały ekskluzywny design inwestycji, zapewniając jednocześnie długowieczność i minimalną konserwację. W projekcie wykorzystano nasze najwyższej jakości aluminiowe systemy elewacyjne i profile architektoniczne, które oferowały zarówno integralność konstrukcyjną, jak i atrakcyjność wizualną. Ponadto dostarczyliśmy kompletne systemy zarządzania wodą, w tym nasze żeliwne produkty odwadniające zaprojektowane do optymalnego działania w zastosowaniach mieszkaniowych."
+      },
+      "category": "residential",
+      "featuredImage": "/assets/projects/residential-complex.jpg",
+      "images": [
+        "/assets/projects/residential-complex.jpg",
+        "/assets/products/Aluminum T-Profiles.jpg",
+        "/assets/products/Rainwater grill C250 .png",
+        "/assets/products/Rainwater grill 5067 high-resistance spherical graphite cast iron, C250 EN 1433 .png"
+      ],
+      "year": 2021,
+      "location": {
+        "en": "Warsaw, Poland",
+        "et": "Varssavi, Poola",
+        "ru": "Варшава, Польша",
+        "lv": "Varšava, Polija",
+        "lt": "Varšuva, Lenkija",
+        "pl": "Warszawa, Polska"
+      },
+      "tags": {
+        "en": ["Residential Complex", "Luxury Apartments", "Aluminum Profiles", "Drainage Systems", "Architectural Solutions"],
+        "et": ["Elamurajoon", "Luksuskorterid", "Alumiiniumprofiilid", "Äravoolusüsteemid", "Arhitektuursed lahendused"],
+        "ru": ["Жилой комплекс", "Элитные апартаменты", "Алюминиевые профили", "Дренажные системы", "Архитектурные решения"],
+        "lv": ["Dzīvojamais komplekss", "Luksusa dzīvokļi", "Alumīnija profili", "Drenāžas sistēmas", "Arhitektūras risinājumi"],
+        "lt": ["Gyvenamasis kompleksas", "Prabangūs butai", "Aliuminio profiliai", "Drenažo sistemos", "Architektūriniai sprendimai"],
+        "pl": ["Kompleks mieszkalny", "Luksusowe apartamenty", "Profile aluminiowe", "Systemy odwadniające", "Rozwiązania architektoniczne"]
+      },
+      "relatedProducts": ["standard-profiles", "special-profiles", "drainage-grates"],
+      "brochureUrl": "/documents/warsaw-residence-brochure.pdf"
+    }
+  ]
+}

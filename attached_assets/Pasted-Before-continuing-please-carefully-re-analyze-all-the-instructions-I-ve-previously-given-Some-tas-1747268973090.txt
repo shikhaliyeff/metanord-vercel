@@ -1,0 +1,85 @@
+Before continuing, please carefully re-analyze all the instructions I’ve previously given.
+
+Some tasks may have been skipped, partially implemented, or misaligned.
+
+---
+
+🔁 1. Instruction Revision (FULL LIST)
+
+Please review all the following and confirm that each is 100% completed and functional:
+
+1. Sidebar Restructuring:
+   - Collapsible sections: Dashboard, Content, CRM, System
+   - Content: Pages, Products, Projects
+   - CRM: Leads, CRM, Offers, Notifications, Analytics, Audit Logs
+
+2. Global Notification Bell:
+   - Top-right icon with unread count
+   - Dropdown showing messages + timestamps
+   - Mark as read / dismiss buttons
+   - Sources: CRM-related events
+
+3. Unified Dark Mode:
+   - Clean dark-gray theme (gray-800/900), no pure black
+   - Applies only to admin panel, not public site
+   - Stored in localStorage
+
+4. Featured Projects:
+   - Managed in Site Content tab
+   - Public `/projects` page
+   - Cards with “View Project” linking to full page
+   - Auto-filled demo content
+   - Fully localized
+
+5. Multilingual Support:
+   - 6 languages: EN, RU, ET, LV, LT, PL
+   - Hero, content, products, projects must all be translated
+   - Language switcher working on both site and admin
+
+6. Admin Panel Functionalities:
+   - Working editors: Hero, Products, Projects, CRM, Offers
+   - Drag-and-drop image upload
+   - Product import/export
+   - PDF offer generation
+   - Content versioning (if implemented)
+
+7. Contact Inquiry Email:
+   - SendGrid integration working
+   - Form sends to correct email
+   - Auto-reply sent to user (thank you)
+
+8. CRM Features:
+   - Client cards with full details
+   - Lead status pipeline (New, In Progress, etc.)
+   - Internal comments, tasks, next steps
+   - Audit log of actions
+   - Follow-up reminders
+
+9. CRM Analytics:
+   - Lead statistics
+   - Offer tracking
+   - Conversion metrics
+   - Filter by country/product
+
+---
+
+🎥 2. Simulated QA Walkthrough
+
+Please now do a full interface audit, as if recording a walkthrough:
+
+- Public site: links, buttons, flow
+- Language: coverage, switches, fallbacks
+- Admin panel: dark mode behavior, editor behavior
+- Console errors, layout bugs, responsiveness
+
+---
+
+✅ Final Step
+
+- Create a full checklist of:
+  - ✅ Complete
+  - ⚠️ Partially complete
+  - ❌ Missing
+- Fix all gaps
+- Confirm that every instruction from this and all previous prompts has been implemented correctly
+- Only proceed after this full review is complete

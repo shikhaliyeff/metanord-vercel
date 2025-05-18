@@ -1,0 +1,61 @@
+/**
+ * Complete underline removal for dropdown menus
+ * This CSS removes ALL underlines from dropdown menu items
+ */
+
+/* Target all dropdown menu items and links */
+.dropdown-menu *,
+[data-radix-dropdown-menu-content] *,
+.dropdown-content *,
+.navigation-menu-content *,
+[role="menuitem"],
+[role="menu"] * {
+  /* Remove any underlines, borders, or outlines */
+  text-decoration: none !important;
+  border-bottom: none !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Completely disable all ::after pseudo elements that create underlines */
+.dropdown-menu *::after,
+[data-radix-dropdown-menu-content] *::after,
+.dropdown-content *::after,
+.navigation-menu-content *::after,
+[role="menuitem"]::after,
+[role="menu"] *::after {
+  display: none !important;
+  content: none !important;
+  height: 0 !important;
+  width: 0 !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+}
+
+/* Force override any hover effects that might create underlines */
+.dropdown-menu *:hover,
+[data-radix-dropdown-menu-content] *:hover,
+.dropdown-content *:hover,
+.navigation-menu-content *:hover,
+[role="menuitem"]:hover,
+[role="menu"] *:hover {
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+/* Reset any special styles that might be applied */
+*[class*="dropdown"],
+*[class*="menu-item"],
+*[class*="submenu"] {
+  border-bottom: none !important;
+}
+
+/* Ensure text color changes on hover but no underlines appear */
+.dropdown-menu *:hover,
+[data-radix-dropdown-menu-content] *:hover,
+[role="menuitem"]:hover {
+  color: #FE9158 !important;
+  text-decoration: none !important;
+}

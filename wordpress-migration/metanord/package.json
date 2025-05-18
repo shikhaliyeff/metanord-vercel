@@ -1,0 +1,31 @@
+{
+  "name": "metanord-wordpress-theme",
+  "version": "1.0.0",
+  "description": "WordPress theme for MetaNord OÜ",
+  "author": "MetaNord",
+  "license": "GPL-2.0-or-later",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development postcss assets/css/tailwind.css -o assets/css/main.css --watch",
+    "build": "cross-env NODE_ENV=production postcss assets/css/tailwind.css -o assets/css/main.css",
+    "lint": "eslint assets/js",
+    "bundle": "mkdir -p dist && zip -r dist/metanord.zip ./ -x *.git* node_modules/\\* .vscode/\\* dist/\\* .DS_Store package-lock.json"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/typography": "^0.5.8",
+    "autoprefixer": "^10.4.13",
+    "cross-env": "^7.0.3",
+    "cssnano": "^5.1.14",
+    "eslint": "^8.28.0",
+    "eslint-config-prettier": "^8.5.0",
+    "postcss": "^8.4.19",
+    "postcss-cli": "^10.0.0",
+    "postcss-import": "^15.0.0",
+    "postcss-nested": "^6.0.0",
+    "prettier": "^2.8.0",
+    "tailwindcss": "^3.2.4"
+  }
+}

@@ -1,0 +1,71 @@
+Please enhance the MetaNord admin console with the following advanced functionality:
+
+---
+
+📄 1. PDF Offer Generator (Commercial Quotation)
+
+Add a feature that allows admins to generate a downloadable PDF offer directly from a client profile or quote request.
+
+Functionality:
+
+- Add a button labeled **"Generate Offer PDF"** in client detail views
+- When clicked:
+  - Pull client name, company, contact info
+  - Include product(s), quantity, and custom notes
+  - Auto-generate a unique offer number (e.g. OFF-2025-001)
+  - Insert date, MetaNord logo, and contact footer
+  - Format content with a clear table: Product Name, Specs, Quantity, Price, Total
+- Use jsPDF, html2pdf, or similar browser-compatible solution
+- Allow download and (optional) email-sending from the same interface
+- Save offer files to an `/offers/` directory or log them per client profile
+
+---
+
+🔔 2. In-App Notifications System
+
+Add a unified in-app notification mechanism to inform users of key events:
+
+- Types of notifications:
+  - New inquiry received
+  - Offer PDF generated
+  - Client status changed
+  - Upcoming follow-up task
+- Display as:
+  - 🔔 Notification bell icon in the top-right
+  - Badge count of unread notifications
+  - Click to open a dropdown list of recent messages
+- Also support:
+  - Temporary toasts (e.g., “Offer successfully generated”)
+  - Dismiss or mark-as-read actions
+
+---
+
+📊 3. Audit Trail / Action Log
+
+Track and display admin activity across the platform.
+
+Required features:
+
+- Log actions such as:
+  - Editing content
+  - Creating offers
+  - Sending emails
+  - Changing client statuses
+  - Adding notes or tasks
+- Store each log with:
+  - Timestamp
+  - Username / role
+  - Action type and brief description
+- Add a new tab called **"Activity Log"** or **"Audit Trail"** in the admin panel
+- Allow filtering by user, action type, or date range
+
+---
+
+🧩 Notes:
+
+- Keep all UI elements consistent with current design
+- Use existing authentication/role logic for permissions (e.g. Viewers can't generate offers or view logs)
+- Store logs in a structured `audit.json` or similar file
+- All notifications and logs should persist on reload
+
+Let me know if you need offer layout examples, email templates, or notification icons.

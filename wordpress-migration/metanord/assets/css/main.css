@@ -1,0 +1,434 @@
+/**
+ * MetaNord Theme Main Stylesheet
+ * 
+ * This file contains styles compiled from Tailwind CSS
+ * with custom additions for the MetaNord theme
+ */
+
+/* Base styles from Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@300;400;500&display=swap');
+
+/* Base typography */
+@layer base {
+  html {
+    @apply text-neutral-dark;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply font-roboto text-base leading-relaxed antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-inter font-bold text-neutral-darkest leading-tight;
+  }
+  
+  h1 {
+    @apply text-4xl md:text-5xl;
+  }
+  
+  h2 {
+    @apply text-3xl md:text-4xl;
+  }
+  
+  h3 {
+    @apply text-2xl;
+  }
+  
+  h4 {
+    @apply text-xl;
+  }
+  
+  h5 {
+    @apply text-lg;
+  }
+  
+  h6 {
+    @apply text-base font-semibold;
+  }
+  
+  p {
+    @apply mb-4;
+  }
+  
+  a {
+    @apply text-primary transition-colors duration-200;
+  }
+  
+  a:hover {
+    @apply text-primary-dark;
+  }
+}
+
+/* Color variables */
+:root {
+  --color-primary: #0066b3;
+  --color-primary-dark: #00508a;
+  --color-primary-darker: #003b66;
+  --color-primary-light: #4d94cd;
+  --color-primary-lightest: #e6f0f9;
+  
+  --color-accent: #ff6b35;
+  --color-accent-dark: #e54b13;
+  
+  --color-neutral-lightest: #f7f9fc;
+  --color-neutral-light: #e5e9f0;
+  --color-neutral: #c4c9d4;
+  --color-neutral-dark: #6e7a94;
+  --color-neutral-darkest: #2e3440;
+}
+
+/* Components */
+@layer components {
+  .container {
+    @apply px-4 mx-auto;
+    max-width: 1280px;
+  }
+  
+  .btn-primary {
+    @apply inline-block bg-primary hover:bg-primary-dark text-white font-bold py-3 px-6 rounded-md transition-colors duration-200;
+  }
+  
+  .btn-secondary {
+    @apply inline-block bg-transparent border-2 border-white text-white hover:bg-white hover:text-primary font-bold py-[10px] px-6 rounded-md transition-colors duration-200;
+  }
+  
+  .btn-accent {
+    @apply inline-block bg-accent hover:bg-accent-dark text-white font-bold py-3 px-6 rounded-md transition-colors duration-200;
+  }
+  
+  .btn-outline {
+    @apply inline-block bg-transparent border-2 border-primary text-primary hover:bg-primary hover:text-white font-bold py-[10px] px-6 rounded-md transition-colors duration-200;
+  }
+  
+  .card {
+    @apply bg-white rounded-lg shadow-md overflow-hidden;
+  }
+  
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+  
+  .form-input {
+    @apply w-full px-4 py-2 border border-neutral rounded-md focus:ring-2 focus:ring-primary focus:border-primary;
+  }
+  
+  .form-label {
+    @apply block text-neutral-dark font-medium mb-2;
+  }
+}
+
+/* Animation classes */
+[data-animation="fade-in"] {
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+[data-animation="fade-in-up"] {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.7s ease-in-out forwards;
+}
+
+[data-animation-delay="0.1"] {
+  animation-delay: 0.1s;
+}
+
+[data-animation-delay="0.2"] {
+  animation-delay: 0.2s;
+}
+
+[data-animation-delay="0.3"] {
+  animation-delay: 0.3s;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Header styles */
+.site-header {
+  @apply bg-white shadow-sm sticky top-0 z-50;
+}
+
+.admin-bar .site-header {
+  top: 32px;
+}
+
+@media screen and (max-width: 782px) {
+  .admin-bar .site-header {
+    top: 46px;
+  }
+}
+
+.site-title a {
+  @apply text-primary font-bold;
+}
+
+.main-navigation ul {
+  @apply flex items-center;
+}
+
+.main-navigation li {
+  @apply mr-6 relative;
+}
+
+.main-navigation a {
+  @apply text-neutral-darkest hover:text-primary font-medium;
+}
+
+.main-navigation .current-menu-item > a,
+.main-navigation .current-menu-ancestor > a {
+  @apply text-primary;
+}
+
+.menu-toggle {
+  @apply hidden;
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    @apply block w-8 h-6 relative focus:outline-none;
+  }
+  
+  .menu-toggle span {
+    @apply block absolute h-0.5 w-full bg-neutral-darkest rounded-sm transition-all;
+  }
+  
+  .menu-toggle span:nth-child(1) {
+    top: 0;
+  }
+  
+  .menu-toggle span:nth-child(2) {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .menu-toggle span:nth-child(3) {
+    bottom: 0;
+  }
+  
+  .menu-toggle.active span:nth-child(1) {
+    transform: rotate(45deg);
+    top: 50%;
+  }
+  
+  .menu-toggle.active span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .menu-toggle.active span:nth-child(3) {
+    transform: rotate(-45deg);
+    bottom: 50%;
+  }
+  
+  .primary-menu-container {
+    @apply hidden absolute left-0 right-0 top-full bg-white shadow-md p-4;
+  }
+  
+  .primary-menu-container.active {
+    @apply block;
+  }
+  
+  .main-navigation ul {
+    @apply flex-col items-start;
+  }
+  
+  .main-navigation li {
+    @apply w-full mb-4 mr-0;
+  }
+}
+
+/* Footer styles */
+.site-footer {
+  @apply bg-primary-dark text-white py-16;
+}
+
+.footer-column {
+  @apply mb-8;
+}
+
+.footer-menu {
+  @apply list-none m-0 p-0;
+}
+
+.footer-menu li {
+  @apply mb-2;
+}
+
+.footer-menu a,
+.footer-links a {
+  @apply text-white hover:text-accent transition-colors;
+}
+
+.menu-item-icon {
+  @apply mr-2 inline-block;
+  content: "→";
+}
+
+/* WooCommerce overrides */
+.woocommerce ul.products li.product,
+.woocommerce-page ul.products li.product {
+  @apply bg-white rounded-lg shadow-sm overflow-hidden transition-transform hover:scale-[1.02];
+}
+
+.woocommerce ul.products li.product a img {
+  @apply mb-0;
+}
+
+.woocommerce ul.products li.product .woocommerce-loop-product__title {
+  @apply px-4 pt-4 text-lg font-inter font-semibold;
+}
+
+.woocommerce ul.products li.product .price {
+  @apply px-4 text-primary font-bold;
+}
+
+.woocommerce ul.products li.product .button {
+  @apply m-4 bg-primary text-white font-bold text-center py-2 px-4 rounded-md hover:bg-primary-dark transition-colors;
+}
+
+.woocommerce div.product div.images .woocommerce-product-gallery__wrapper {
+  @apply rounded-lg overflow-hidden;
+}
+
+.woocommerce div.product p.price,
+.woocommerce div.product span.price {
+  @apply text-primary text-2xl font-bold;
+}
+
+.woocommerce div.product form.cart .button {
+  @apply bg-primary text-white font-bold py-2 px-6 rounded-md hover:bg-primary-dark transition-colors;
+}
+
+.woocommerce-tabs ul.tabs li.active {
+  @apply bg-white border-primary-light;
+}
+
+.woocommerce-tabs ul.tabs li.active a {
+  @apply text-primary;
+}
+
+/* Product specifications table */
+.specifications-table {
+  @apply w-full border-collapse;
+}
+
+.specifications-table th {
+  @apply text-left p-2 bg-neutral-lightest text-neutral-darkest font-semibold;
+  width: 40%;
+}
+
+.specifications-table td {
+  @apply p-2 border-b border-neutral-light;
+}
+
+/* WordPress native styles */
+.wp-block-image img {
+  @apply rounded-lg;
+}
+
+.wp-block-quote {
+  @apply border-l-4 border-primary pl-4 py-2 my-4;
+}
+
+.wp-block-button__link {
+  @apply bg-primary hover:bg-primary-dark text-white font-bold py-3 px-6 rounded-md transition-colors;
+}
+
+/* Responsive image handling */
+img.aligncenter {
+  @apply mx-auto block;
+}
+
+img.alignleft {
+  @apply float-left mr-4 mb-4;
+}
+
+img.alignright {
+  @apply float-right ml-4 mb-4;
+}
+
+/* Language switcher */
+.language-switcher-wrapper {
+  @apply ml-4;
+}
+
+.language-switcher {
+  @apply flex items-center space-x-2;
+}
+
+.language-switcher a {
+  @apply text-neutral-dark hover:text-primary px-2 py-1 rounded-md;
+}
+
+.language-switcher a.active {
+  @apply bg-primary-lightest text-primary font-medium;
+}
+
+/* Animation when scrolling */
+.scroll-down-arrow {
+  @apply inline-block text-white hover:text-neutral-light transition-colors;
+}
+
+/* Responsive layout helpers */
+@media (max-width: 640px) {
+  .hidden-sm {
+    @apply hidden;
+  }
+}
+
+@media (max-width: 768px) {
+  .hidden-md {
+    @apply hidden;
+  }
+}
+
+@media (max-width: 1024px) {
+  .hidden-lg {
+    @apply hidden;
+  }
+}
+
+/* Custom animation for page transitions */
+.page-transition-enter {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.page-transition-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.page-transition-exit {
+  opacity: 1;
+}
+
+.page-transition-exit-active {
+  opacity: 0;
+  transition: opacity 300ms;
+}

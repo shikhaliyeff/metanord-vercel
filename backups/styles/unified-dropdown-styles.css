@@ -1,0 +1,168 @@
+/**
+ * Unified Dropdown Menu Hover Styling
+ * 
+ * This CSS unifies the styling for all dropdown menu items 
+ * to ensure consistent underline effects across all components.
+ */
+ 
+/* Universal base styles for all menu items */
+.menu-item,
+.dropdown-menu-item,
+.submenu-item,
+.nav-dropdown-menu-item,
+[data-radix-dropdown-menu-content] *[role="menuitem"],
+[data-radix-dropdown-menu-content] a,
+.dropdown-menu [role="menuitem"],
+.dropdown-menu a,
+.dropdown-submenu-item,
+[data-state="open"] .dropdown-submenu a {
+  position: relative !important;
+  transition: color 0.25s ease !important;
+  text-decoration: none !important;
+}
+
+/* Consistent underline base style */
+.menu-item::after,
+.dropdown-menu-item::after,
+.submenu-item::after,
+.nav-dropdown-menu-item::after,
+[data-radix-dropdown-menu-content] *[role="menuitem"]::after,
+[data-radix-dropdown-menu-content] a::after,
+.dropdown-menu [role="menuitem"]::after,
+.dropdown-menu a::after,
+.dropdown-submenu-item::after,
+[data-state="open"] .dropdown-submenu a::after {
+  content: '' !important;
+  position: absolute !important;
+  width: 100% !important;
+  transform: scaleX(0) !important;
+  height: 2px !important;
+  bottom: -2px !important;
+  left: 0 !important;
+  background-image: linear-gradient(to right, var(--color-primary, #3b82f6), var(--color-accent, #ec4899)) !important;
+  transform-origin: bottom right !important;
+  transition: transform 0.25s ease-out !important;
+  pointer-events: none !important;
+}
+
+/* Unified hover state for underlines */
+.menu-item:hover::after,
+.dropdown-menu-item:hover::after,
+.submenu-item:hover::after,
+.nav-dropdown-menu-item:hover::after,
+[data-radix-dropdown-menu-content] *[role="menuitem"]:hover::after,
+[data-radix-dropdown-menu-content] a:hover::after,
+.dropdown-menu [role="menuitem"]:hover::after,
+.dropdown-menu a:hover::after,
+.dropdown-submenu-item:hover::after,
+[data-state="open"] .dropdown-submenu a:hover::after {
+  transform: scaleX(1) !important;
+  transform-origin: bottom left !important;
+}
+
+/* Unified hover text color */
+.menu-item:hover,
+.dropdown-menu-item:hover,
+.submenu-item:hover,
+.nav-dropdown-menu-item:hover,
+[data-radix-dropdown-menu-content] *[role="menuitem"]:hover,
+[data-radix-dropdown-menu-content] a:hover,
+.dropdown-menu [role="menuitem"]:hover,
+.dropdown-menu a:hover,
+.dropdown-submenu-item:hover,
+[data-state="open"] .dropdown-submenu a:hover {
+  color: var(--color-accent, #ec4899) !important;
+}
+
+/* Disable standard text-decoration underlines */
+[data-radix-dropdown-menu-content] [data-radix-menu-item]:hover,
+[data-radix-dropdown-menu-sub-content] [data-radix-menu-item]:hover,
+.dropdown-item:hover,
+.dropdown-content button:hover,
+.dropdown-menu-content [data-radix-menu-item]:hover,
+.dropdown-menu [role="menuitem"]:hover,
+.dropdown-menu [role="menuitem"]:hover span,
+.dropdown-menu a:hover,
+.dropdown-menu button:hover,
+.navigation-dropdown-content div:hover,
+[data-state="open"] li:hover,
+.dropdown-content li:hover,
+[data-radix-menu-content] div:hover,
+[data-radix-menu-content] a:hover,
+.radix-dropdown-content-item:hover {
+  text-decoration: none !important;
+}
+
+/* Active state styling */
+.menu-item[data-active="true"],
+.dropdown-menu-item[data-active="true"],
+.submenu-item[data-active="true"],
+.dropdown-menu [role="menuitem"][data-active="true"] {
+  color: var(--color-accent, #ec4899) !important;
+}
+
+.menu-item[data-active="true"]::after,
+.dropdown-menu-item[data-active="true"]::after,
+.submenu-item[data-active="true"]::after,
+.dropdown-menu [role="menuitem"][data-active="true"]::after {
+  transform: scaleX(1) !important;
+  transform-origin: bottom left !important;
+}
+
+/* Special handling for header nav items */
+.header-nav-item {
+  position: relative !important;
+}
+
+.header-nav-item::after {
+  content: '' !important;
+  position: absolute !important;
+  width: 100% !important;
+  transform: scaleX(0) !important;
+  height: 2px !important;
+  bottom: -2px !important;
+  left: 0 !important;
+  background-image: linear-gradient(to right, var(--color-primary, #3b82f6), var(--color-accent, #ec4899)) !important;
+  transform-origin: bottom right !important;
+  transition: transform 0.25s ease-out !important;
+  pointer-events: none !important;
+}
+
+.header-nav-item:hover::after {
+  transform: scaleX(1) !important;
+  transform-origin: bottom left !important;
+}
+
+/* Mobile menu specific styles */
+.mobile-nav-item {
+  position: relative !important;
+}
+
+.mobile-nav-item::after {
+  content: '' !important;
+  position: absolute !important;
+  width: 50px !important; /* Shorter underline for mobile */
+  transform: scaleX(0) !important;
+  height: 2px !important;
+  bottom: -2px !important;
+  left: 0 !important;
+  background-image: linear-gradient(to right, var(--color-primary, #3b82f6), var(--color-accent, #ec4899)) !important;
+  transform-origin: bottom right !important;
+  transition: transform 0.25s ease-out !important;
+  pointer-events: none !important;
+}
+
+.mobile-nav-item:hover::after {
+  transform: scaleX(1) !important;
+  transform-origin: bottom left !important;
+}
+
+/* Fix for nested dropdowns */
+.nested-dropdown .dropdown-menu-item::after {
+  bottom: -1px !important;
+}
+
+/* Ensure dropdown content has proper z-index */
+.dropdown-content {
+  z-index: 50 !important;
+}
