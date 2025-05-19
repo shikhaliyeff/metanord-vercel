@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ProductCard } from "@/components/ui/product-card";
 import { AnimatedSection } from "@/components/ui/animated-section";
+import OptimizedProductGrid from "@/components/products/OptimizedProductGrid";
 import { registerProductImages, translateCategory } from "@/lib/consolidated-product-loader";
 import { optimizeProductImages } from "@/lib/performance-optimizations";
 
