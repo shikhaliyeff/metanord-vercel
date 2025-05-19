@@ -16,7 +16,7 @@ from = "/*"
 to = "/index.html"
 
 [workflows]
-runButton = "Project"
+runButton = "Start Dev Server"
 
 [[workflows.workflow]]
 name = "Project"
