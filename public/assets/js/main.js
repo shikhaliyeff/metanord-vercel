@@ -290,3 +290,10 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+// Force light theme globally — no matter what system or browser prefers
+document.documentElement.removeAttribute('data-theme');
+document.documentElement.classList.remove('dark');
+document.body.classList.remove('dark-mode');
+localStorage.setItem('theme', 'light');
+
+});
