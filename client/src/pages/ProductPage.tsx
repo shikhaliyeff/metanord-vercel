@@ -2,7 +2,8 @@ import React from 'react';
 import { useTranslation } from "react-i18next";
 import { Helmet } from "react-helmet";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import OptimizedProductGrid from "@/components/products/OptimizedProductGrid";
+import { ProductCard } from "@/components/ui/product-card";
+import { AnimatedSection } from "@/components/ui/animated-section";
 import { registerProductImages, translateCategory } from "@/lib/consolidated-product-loader";
 import { optimizeProductImages } from "@/lib/performance-optimizations";
 
@@ -44,12 +45,18 @@ const allProductIds = [...aluminumIds, ...polyethyleneIds, ...steelIds, ...castI
 const productCategories = ['aluminum', 'polyethylene', 'steel', 'cast-iron'];
 
 export default function ProductPage() {
-  const { t, i18n } = useTranslation();
+  const { t, i18n } = useTranslation("products", { keyPrefix: "products" });
   const [activeCategory, setActiveCategory] = React.useState("all");
 
   React.useEffect(() => {
-    registerProductImages(productImagesMap);
-    optimizeProductImages(allProductIds, productImagesMap);
+    // Force component refresh on mount
+    const forceRefresh = () => {
+      registerProductImages(productImagesMap);
+      optimizeProductImages(allProductIds, productImagesMap);
+      window.dispatchEvent(new Event('forceProductRefresh'));
+    };
+    
+    forceRefresh();
 
     productCategories.forEach(category => {
       translateCategory(category, i18n.language);
