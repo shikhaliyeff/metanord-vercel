@@ -2,7 +2,7 @@
  * Admin Theme Management
  * This file contains utilities for managing the admin panel theme
  */
-
+```typescript
 /**
  * Load the admin CSS stylesheet if it's not already loaded
  */
@@ -17,7 +17,7 @@ export const loadAdminCSS = () => {
     document.head.appendChild(link);
   }
 };
-
+```typescript
 /**
  * Unload the admin CSS stylesheet if it's loaded
  */
@@ -27,7 +27,7 @@ export const unloadAdminCSS = () => {
     document.head.removeChild(link);
   }
 };
-
+```typescript
 /**
  * Configuration for admin theme root CSS variables
  */
@@ -44,19 +44,6 @@ export const adminThemeConfig = {
     '--admin-card-bg': '#ffffff',
     '--admin-highlight': 'rgba(59, 130, 246, 0.05)',
     '--admin-panel-shadow': '0 1px 3px rgba(0, 0, 0, 0.1)',
-  },
-  dark: {
-    '--admin-bg': '#111827',
-    '--admin-text': '#f9fafb',
-    '--admin-text-muted': '#9ca3af',
-    '--admin-border': '#1f2937',
-    '--admin-header-bg': '#1f2937',
-    '--admin-sidebar-bg': '#1f2937',
-    '--admin-sidebar-hover': '#374151',
-    '--admin-sidebar-active': '#4b5563',
-    '--admin-card-bg': '#1f2937',
-    '--admin-highlight': 'rgba(59, 130, 246, 0.1)',
-    '--admin-panel-shadow': '0 1px 3px rgba(0, 0, 0, 0.3)',
   }
 };
 
@@ -66,10 +53,10 @@ export const adminThemeConfig = {
  */
 export const applyAdminTheme = (isDark: boolean) => {
   // Set data-theme attribute on html element
-  document.documentElement.setAttribute('data-admin-theme', isDark ? 'dark' : 'light');
+  document.documentElement.setAttribute('data-admin-theme', 'light');
   
   // Apply CSS variables
-  const theme = isDark ? adminThemeConfig.dark : adminThemeConfig.light;
+  const theme = adminThemeConfig.light;
   Object.entries(theme).forEach(([key, value]) => {
     document.documentElement.style.setProperty(key, value);
   });
